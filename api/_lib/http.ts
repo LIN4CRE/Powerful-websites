@@ -2,7 +2,7 @@
  * Outbound HTTP for the serverless scanner: manual redirect hops (each one
  * re-validated), hard timeouts, a response-size cap and robots.txt awareness.
  */
-import { assertPublicResolution, assertSafeHttpUrl, UnsafeUrlError } from '../../scripts/lib/safety';
+import { assertPublicResolution, assertSafeHttpUrl, UnsafeUrlError } from '../../scripts/lib/safety.js';
 
 export interface SafeFetchResult {
   ok: boolean;

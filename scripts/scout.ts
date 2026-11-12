@@ -8,11 +8,11 @@
  *    cached, GitHub API calls use the provided token and stay well under rate
  *    limits, and every source has an item cap.
  */
-import type { Candidate, DiscoverySource, SourceHealthEntry } from '../src/lib/types';
-import { inferCategory, descriptionFromLinkText, deriveTags, idFor } from './lib/classify';
-import { extractFeedEntries, extractHtmlLinks, extractMarkdownLinks, type ExtractedLink } from './lib/extract';
-import { fetchWithTimeout, isAllowedByRobots } from './lib/http';
-import { loadCandidates, loadSites, loadSources, saveCandidates } from './lib/state';
+import type { Candidate, DiscoverySource, SourceHealthEntry } from '../src/lib/types.js';
+import { inferCategory, descriptionFromLinkText, deriveTags, idFor } from './lib/classify.js';
+import { extractFeedEntries, extractHtmlLinks, extractMarkdownLinks, type ExtractedLink } from './lib/extract.js';
+import { fetchWithTimeout, isAllowedByRobots } from './lib/http.js';
+import { loadCandidates, loadSites, loadSources, saveCandidates } from './lib/state.js';
 import {
   domainOf,
   isUsefulExternalUrl,
@@ -23,7 +23,7 @@ import {
   truncate,
   writeJson,
   CACHE_DIR,
-} from './lib/util';
+} from './lib/util.js';
 import path from 'node:path';
 import { pathToFileURL } from 'node:url';
 

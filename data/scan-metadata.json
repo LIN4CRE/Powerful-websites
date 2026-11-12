@@ -34,7 +34,7 @@
     },
     "verifier": {
       "state": "degraded",
-      "summary": "32 listings were checked by rendered-document review because GitHub Actions is blocked on the owner's account (billing lock). Headless browser re-verification is queued.",
+      "summary": "32 listings were checked by the scheduled serverless document review (HTTP + DOM). Browser verification is not available in this runtime, so no record claims browser evidence.",
       "lastRunAt": "2026-11-12T20:43:43Z",
       "metrics": {
         "verified": 32,

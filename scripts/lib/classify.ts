@@ -1,4 +1,4 @@
-import { slugify, truncate } from './util';
+import { slugify, truncate } from './util.js';
 
 interface Rule {
   category: string;

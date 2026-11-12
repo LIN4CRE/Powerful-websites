@@ -1,7 +1,7 @@
 import * as cheerio from 'cheerio';
 import { XMLParser } from 'fast-xml-parser';
-import { descriptionFromLinkText } from './classify';
-import { isUsefulExternalUrl, normalizeUrl, stripHtml, truncate } from './util';
+import { descriptionFromLinkText } from './classify.js';
+import { isUsefulExternalUrl, normalizeUrl, stripHtml, truncate } from './util.js';
 
 export interface ExtractedLink {
   name: string;

@@ -12,8 +12,8 @@ import {
   decideOutcome,
   detectSuspiciousRedirect,
   type PageSnapshot,
-} from '../../scripts/lib/verify-core';
-import { safeFetch } from './http';
+} from '../../scripts/lib/verify-core.js';
+import { safeFetch } from './http.js';
 
 export interface DocumentCheck {
   status: 'verified' | 'pending' | 'rejected';

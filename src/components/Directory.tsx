@@ -76,8 +76,8 @@ export function Directory({
               {totalVerified.toLocaleString()} websites worth your time.
             </h2>
             <p className="mt-3 max-w-2xl text-[0.88rem] leading-relaxed text-[var(--muted)]">
-              Every entry below was opened in a clean browser and confirmed usable without an
-              account. Click any card to go straight to the official site.
+              Every entry below was reviewed against its live page and confirmed usable
+              without an account. Click any card to go straight to the official site.
             </p>
           </div>
 
@@ -242,7 +242,7 @@ export function Directory({
             </h3>
             <p className="mt-2 max-w-md text-[0.82rem] leading-relaxed text-[var(--muted)]">
               {totalVerified === 0
-                ? 'Candidates are queued. This directory only publishes a site after the verifier has opened it in a clean browser and confirmed it works without an account.'
+                ? 'Candidates are queued. This directory only publishes a site after the verifier has reviewed it and confirmed it works without an account.'
                 : 'Try a broader search term, pick another category, or clear the filters to see the whole directory.'}
             </p>
             <div className="mt-5 flex flex-wrap items-center justify-center gap-2">

@@ -7,10 +7,10 @@ import { promises as fs } from 'node:fs';
 import path from 'node:path';
 import * as cheerio from 'cheerio';
 import sharp from 'sharp';
-import type { Site } from '../src/lib/types';
-import { fetchWithTimeout } from './lib/http';
-import { loadSites, saveSites } from './lib/state';
-import { ensureDir, mapLimit, ROOT } from './lib/util';
+import type { Site } from '../src/lib/types.js';
+import { fetchWithTimeout } from './lib/http.js';
+import { loadSites, saveSites } from './lib/state.js';
+import { ensureDir, mapLimit, ROOT } from './lib/util.js';
 import { pathToFileURL } from 'node:url';
 
 const LOGO_DIR = path.join(ROOT, 'public', 'logos');

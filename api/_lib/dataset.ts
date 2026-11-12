@@ -7,8 +7,8 @@ import candidatesFile from '../../data/candidates.json';
 import categoriesFile from '../../data/categories.json';
 import sourcesFile from '../../data/sources.json';
 import metadataFile from '../../data/scan-metadata.json';
-import type { Candidate, Category, DiscoverySource, ScanMetadata, Site } from '../../src/lib/types';
-import { DATA_BRANCH, readRepoJson, type DataFileName } from './repo';
+import type { Candidate, Category, DiscoverySource, ScanMetadata, Site } from '../../src/lib/types.js';
+import { DATA_BRANCH, readRepoJson, type DataFileName } from './repo.js';
 
 export interface Dataset {
   sites: Site[];

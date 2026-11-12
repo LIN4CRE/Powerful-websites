@@ -6,7 +6,7 @@
  * 7/22/37/52; each invocation is a bounded slice of SCOUT → VERIFIER → CURATOR.
  */
 import { handleSchedule } from '@vercel/schedules';
-import { runTick } from '../_lib/tick';
+import { runTick } from '../_lib/tick.js';
 
 export const maxDuration = 300;
 

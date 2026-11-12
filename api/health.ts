@@ -1,8 +1,8 @@
 /**
  * Small, secret-free health probe used by the UI status panel and uptime checks.
  */
-import { loadDataset } from './_lib/dataset';
-import { canPersist } from './_lib/repo';
+import { loadDataset } from './_lib/dataset.js';
+import { canPersist } from './_lib/repo.js';
 
 export async function GET(): Promise<Response> {
   const dataset = await loadDataset();

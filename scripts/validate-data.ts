@@ -11,15 +11,15 @@ import {
   scanMetadataSchema,
   sitesFileSchema,
   sourcesFileSchema,
-} from '../src/lib/schema';
+} from '../src/lib/schema.js';
 import {
   candidatesPath,
   categoriesPath,
   metadataPath,
   sitesPath,
   sourcesPath,
-} from './lib/state';
-import { readJson, ROOT } from './lib/util';
+} from './lib/state.js';
+import { readJson, ROOT } from './lib/util.js';
 import { pathToFileURL } from 'node:url';
 
 export interface ValidationIssue {

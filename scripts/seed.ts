@@ -5,11 +5,11 @@
  * are never overwritten, and nothing seeded here is published until the verifier
  * has tested it in a fresh browser context.
  */
-import type { Candidate } from '../src/lib/types';
-import { SEED_CANDIDATES } from './seed-sites';
-import { idFor } from './lib/classify';
-import { loadCandidates, loadSites, saveCandidates } from './lib/state';
-import { domainOf, normalizeUrl, nowIso, slugify } from './lib/util';
+import type { Candidate } from '../src/lib/types.js';
+import { SEED_CANDIDATES } from './seed-sites.js';
+import { idFor } from './lib/classify.js';
+import { loadCandidates, loadSites, saveCandidates } from './lib/state.js';
+import { domainOf, normalizeUrl, nowIso, slugify } from './lib/util.js';
 import { pathToFileURL } from 'node:url';
 
 async function seed(): Promise<{ added: number; skipped: number }> {

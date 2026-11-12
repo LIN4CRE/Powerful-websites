@@ -5,12 +5,12 @@
  * storage, no auth) plus an HTTP preflight. Only sites that pass are published.
  * A login link in a header does not disqualify a site; a mandatory barrier does.
  */
-import type { Candidate, Site } from '../src/lib/types';
-import { loadCandidates, loadCategories, loadSites, saveCandidates, saveSites } from './lib/state';
-import { closeBrowser, verifyUrl } from './lib/verify-browser';
-import { mapLimit, nowIso, truncate } from './lib/util';
-import { detectSuspiciousRedirect } from './lib/verify-core';
-import { inferCategory } from './lib/classify';
+import type { Candidate, Site } from '../src/lib/types.js';
+import { loadCandidates, loadCategories, loadSites, saveCandidates, saveSites } from './lib/state.js';
+import { closeBrowser, verifyUrl } from './lib/verify-browser.js';
+import { mapLimit, nowIso, truncate } from './lib/util.js';
+import { detectSuspiciousRedirect } from './lib/verify-core.js';
+import { inferCategory } from './lib/classify.js';
 import { pathToFileURL } from 'node:url';
 
 export interface VerifyReport {
