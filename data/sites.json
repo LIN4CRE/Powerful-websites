@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-01-01T00:00:00.000Z",
+  "updatedAt": "2026-11-12T23:44:45.263Z",
   "sites": [
     {
       "id": "arxiv",
@@ -1407,6 +1407,92 @@
         "httpStatus": 200,
         "finalUrl": "https://wordcounter.net/",
         "checkedAt": "2026-11-12T20:43:43Z",
+        "attempts": 1
+      },
+      "availability": "online",
+      "icon": null,
+      "featured": false,
+      "consecutiveFailures": 0
+    },
+    {
+      "id": "remove-bg",
+      "name": "Remove.bg",
+      "url": "https://www.remove.bg",
+      "domain": "remove.bg",
+      "description": "Cuts the background out of any photo automatically and lets you download a transparent PNG.",
+      "category": "ai",
+      "tags": [
+        "background-removal",
+        "photos",
+        "png"
+      ],
+      "free": true,
+      "accountRequired": false,
+      "apiKeyRequired": false,
+      "openSource": false,
+      "sourceRepo": null,
+      "license": null,
+      "discoverySource": "editorial-research",
+      "dateDiscovered": "2026-11-12T20:09:58.316Z",
+      "addedAt": "2026-11-12T23:44:46.095Z",
+      "lastVerifiedAt": "2026-11-12T23:44:46.095Z",
+      "verification": {
+        "status": "verified",
+        "method": "reader",
+        "checks": {
+          "http": true,
+          "browser": false,
+          "noLoginWall": true,
+          "noApiKey": true,
+          "coreUiReachable": true
+        },
+        "evidence": "Server-side document review (HTTP 200); final URL https://www.remove.bg/; 0 tool signals; no login wall detected; no API key required.",
+        "httpStatus": 200,
+        "finalUrl": "https://www.remove.bg/",
+        "checkedAt": "2026-11-12T23:44:46.095Z",
+        "attempts": 1
+      },
+      "availability": "online",
+      "icon": null,
+      "featured": false,
+      "consecutiveFailures": 0
+    },
+    {
+      "id": "cleanup-pictures",
+      "name": "Cleanup.pictures",
+      "url": "https://cleanup.pictures",
+      "domain": "cleanup.pictures",
+      "description": "Paints over unwanted objects, people or text in a photo and reconstructs what was behind them.",
+      "category": "ai",
+      "tags": [
+        "photo-editing",
+        "inpainting",
+        "retouch"
+      ],
+      "free": true,
+      "accountRequired": false,
+      "apiKeyRequired": false,
+      "openSource": false,
+      "sourceRepo": null,
+      "license": null,
+      "discoverySource": "editorial-research",
+      "dateDiscovered": "2026-11-12T20:09:58.316Z",
+      "addedAt": "2026-11-12T23:44:46.199Z",
+      "lastVerifiedAt": "2026-11-12T23:44:46.199Z",
+      "verification": {
+        "status": "verified",
+        "method": "reader",
+        "checks": {
+          "http": true,
+          "browser": false,
+          "noLoginWall": true,
+          "noApiKey": true,
+          "coreUiReachable": true
+        },
+        "evidence": "Server-side document review (HTTP 200); final URL https://cleanup.pictures/; 0 tool signals; no login wall detected; no API key required.",
+        "httpStatus": 200,
+        "finalUrl": "https://cleanup.pictures/",
+        "checkedAt": "2026-11-12T23:44:46.199Z",
         "attempts": 1
       },
       "availability": "online",
