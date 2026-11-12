@@ -1,11 +1,25 @@
 /**
  * Small, secret-free health probe used by the UI status panel and uptime checks.
  */
-import { loadDataset } from './_lib/dataset';
-import { canPersist } from './_lib/repo';
+import { loadDataset } from './_lib/dataset.js';
+import { canPersist } from './_lib/repo.js';
 
 export async function GET(): Promise<Response> {
-  const dataset = await loadDataset();
+  let dataset;
+  try {
+    dataset = await loadDataset();
+  } catch (error) {
+    // Never leak stack traces or filesystem paths to the public; the error code
+    // is enough to identify a broken deployment from the outside.
+    const code =
+      typeof error === 'object' && error && 'code' in error
+        ? String((error as { code?: unknown }).code)
+        : (error as Error)?.name ?? 'Error';
+    return new Response(JSON.stringify({ ok: false, error: code }), {
+      status: 503,
+      headers: { 'content-type': 'application/json; charset=utf-8', 'cache-control': 'no-store' },
+    });
+  }
   const metadata = dataset.metadata;
 
   return new Response(

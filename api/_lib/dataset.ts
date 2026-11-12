@@ -2,13 +2,16 @@
  * Loads the directory dataset for API responses and scheduled ticks.
  * Prefers the live data branch, falls back to the JSON bundled at build time.
  */
-import sitesFile from '../../data/sites.json';
-import candidatesFile from '../../data/candidates.json';
-import categoriesFile from '../../data/categories.json';
-import sourcesFile from '../../data/sources.json';
-import metadataFile from '../../data/scan-metadata.json';
-import type { Candidate, Category, DiscoverySource, ScanMetadata, Site } from '../../src/lib/types';
-import { DATA_BRANCH, readRepoJson, type DataFileName } from './repo';
+import { createRequire } from 'node:module';
+import type { Candidate, Category, DiscoverySource, ScanMetadata, Site } from '../../src/lib/types.js';
+import { DATA_BRANCH, readRepoJson, type DataFileName } from './repo.js';
+
+// Node's ESM loader refuses JSON modules without an import attribute, and Vercel
+// transpiles each function file individually, so the bundled JSON is read through
+// createRequire instead. The literal paths are what makes nft trace data/*.json
+// into the function bundle.
+const require = createRequire(import.meta.url);
+
 
 export interface Dataset {
   sites: Site[];
@@ -30,11 +33,11 @@ interface RawFiles {
 
 function bundled(): RawFiles {
   return {
-    sites: sitesFile as unknown as RawFiles['sites'],
-    candidates: candidatesFile as unknown as RawFiles['candidates'],
-    categories: categoriesFile as unknown as RawFiles['categories'],
-    sources: sourcesFile as unknown as RawFiles['sources'],
-    metadata: metadataFile as unknown as ScanMetadata,
+    sites: require('../../data/sites.json') as RawFiles['sites'],
+    candidates: require('../../data/candidates.json') as RawFiles['candidates'],
+    categories: require('../../data/categories.json') as RawFiles['categories'],
+    sources: require('../../data/sources.json') as RawFiles['sources'],
+    metadata: require('../../data/scan-metadata.json') as ScanMetadata,
   };
 }
 

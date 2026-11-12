@@ -5,8 +5,8 @@
  * stale records for rechecking, drop anything that violates publish invariants,
  * and ensure every category referenced by a site exists.
  */
-import type { Candidate, Category, Site } from '../src/lib/types';
-import { BASE_CATEGORIES } from '../src/lib/categories';
+import type { Candidate, Category, Site } from '../src/lib/types.js';
+import { BASE_CATEGORIES } from '../src/lib/categories.js';
 import {
   loadCandidates,
   loadCategories,
@@ -14,9 +14,9 @@ import {
   saveCandidates,
   saveCategories,
   saveSites,
-} from './lib/state';
-import { inferCategory } from './lib/classify';
-import { isPublishableDescription } from './verify';
+} from './lib/state.js';
+import { inferCategory } from './lib/classify.js';
+import { isPublishableDescription } from './verify.js';
 import { pathToFileURL } from 'node:url';
 
 export interface CurateReport {

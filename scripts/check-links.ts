@@ -2,9 +2,9 @@
  * Link checker for published listings. Unlike the verifier it only performs HTTP
  * requests; it is used as an audit and in the scheduled quality workflow.
  */
-import { loadSites } from './lib/state';
-import { fetchWithTimeout } from './lib/http';
-import { mapLimit } from './lib/util';
+import { loadSites } from './lib/state.js';
+import { fetchWithTimeout } from './lib/http.js';
+import { mapLimit } from './lib/util.js';
 import { pathToFileURL } from 'node:url';
 
 export interface LinkResult {

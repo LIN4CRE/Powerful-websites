@@ -5,13 +5,13 @@
  * file records exactly what happened, including partial runs, so the website can
  * show the truth rather than an assumed schedule.
  */
-import type { RobotRunInfo, ScanMetadata, SourceHealthEntry } from '../src/lib/types';
-import { runScout } from './scout';
-import { runVerification } from './verify';
-import { runCuration } from './curate';
-import { fetchIcons } from './fetch-icons';
-import { loadCandidates, loadMetadata, loadSites, saveMetadata } from './lib/state';
-import { nowIso, truncate } from './lib/util';
+import type { RobotRunInfo, ScanMetadata, SourceHealthEntry } from '../src/lib/types.js';
+import { runScout } from './scout.js';
+import { runVerification } from './verify.js';
+import { runCuration } from './curate.js';
+import { fetchIcons } from './fetch-icons.js';
+import { loadCandidates, loadMetadata, loadSites, saveMetadata } from './lib/state.js';
+import { nowIso, truncate } from './lib/util.js';
 
 const REPOSITORY_URL = 'https://github.com/LIN4CRE/Powerful-websites';
 const WORKFLOW_HISTORY_URL = `${REPOSITORY_URL}/actions/workflows/scan.yml`;

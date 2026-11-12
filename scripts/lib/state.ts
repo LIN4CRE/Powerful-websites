@@ -4,9 +4,9 @@ import type {
   DiscoverySource,
   ScanMetadata,
   Site,
-} from '../../src/lib/types';
-import { BASE_CATEGORIES } from '../../src/lib/categories';
-import { dataPath, nowIso, readJson, writeJson } from './util';
+} from '../../src/lib/types.js';
+import { BASE_CATEGORIES } from '../../src/lib/categories.js';
+import { dataPath, nowIso, readJson, writeJson } from './util.js';
 
 interface SitesFile {
   schemaVersion: number;

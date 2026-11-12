@@ -1,6 +1,6 @@
 import { promises as fs } from 'node:fs';
 import path from 'node:path';
-import { CACHE_DIR, ensureDir, sleep } from './util';
+import { CACHE_DIR, ensureDir, sleep } from './util.js';
 
 export const USER_AGENT =
   'PowerfulWebsitesBot/1.0 (+https://github.com/LIN4CRE/Powerful-websites; directory verification; contact via GitHub issues)';

@@ -71,10 +71,10 @@ export function LiveStrip({ metadata, isStale, verifiedCount, pendingCount }: Li
 
         {verifiedCount > 0 && !metadata.lastSuccessfulScanAt && (
           <div className="mt-3 rounded-xl border border-[color-mix(in_oklab,var(--warning)_28%,transparent)] bg-[color-mix(in_oklab,var(--warning)_8%,transparent)] px-3 py-2 text-[0.7rem] leading-relaxed text-[var(--text-soft)]">
-            <strong className="font-medium text-[var(--warning)]">Automation paused.</strong>{' '}
-            The scheduled workflow has not completed yet. Current listings were checked with a
-            rendered-document review; headless browser verification runs automatically once the
-            workflow is enabled.
+            <strong className="font-medium text-[var(--warning)]">Awaiting first scheduled tick.</strong>{' '}
+            The Vercel schedule has not completed a run yet. Current listings come from a
+            rendered-document review; browser verification is a separate, optional job and is not
+            claimed for these records.
           </div>
         )}
 

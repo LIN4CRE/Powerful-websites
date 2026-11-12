@@ -5,7 +5,7 @@
 A continuously updated, machine-verified directory of genuinely useful websites —
 each one usable **without creating an account, logging in or supplying an API key**.
 
-**Live site:** <https://powerful-websites.vercel.app/> — installable as an app on
+**Live site:** <https://powerful-websites-app.vercel.app/> — installable as an app on
 Android, Windows, macOS, Linux and iPadOS/iPhone (Add to Home Screen).
 
 ---

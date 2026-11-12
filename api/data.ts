@@ -5,7 +5,7 @@
  * shared-cache headers, so scheduled scans reach visitors without rebuilding or
  * redeploying the application.
  */
-import { loadDataset } from './_lib/dataset';
+import { loadDataset } from './_lib/dataset.js';
 
 export const config = { maxDuration: 30 };
 

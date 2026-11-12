@@ -11,14 +11,14 @@ import type {
   Site,
   SourceHealthEntry,
   VerificationRecord,
-} from '../../src/lib/types';
-import { deriveTags, descriptionFromLinkText, idFor, inferCategory } from '../../scripts/lib/classify';
-import { extractFeedEntries, extractHtmlLinks, extractMarkdownLinks } from '../../scripts/lib/extract';
-import { assertSafeHttpUrl } from '../../scripts/lib/safety';
-import { loadRawFiles } from './dataset';
-import { isAllowedByRobots, safeFetch } from './http';
-import { canPersist, writeRepoJson } from './repo';
-import { documentVerify } from './verify-document';
+} from '../../src/lib/types.js';
+import { deriveTags, descriptionFromLinkText, idFor, inferCategory } from '../../scripts/lib/classify.js';
+import { extractFeedEntries, extractHtmlLinks, extractMarkdownLinks } from '../../scripts/lib/extract.js';
+import { assertSafeHttpUrl } from '../../scripts/lib/safety.js';
+import { loadRawFiles } from './dataset.js';
+import { isAllowedByRobots, safeFetch } from './http.js';
+import { canPersist, writeRepoJson } from './repo.js';
+import { documentVerify } from './verify-document.js';
 
 const REPOSITORY_URL = 'https://github.com/LIN4CRE/Powerful-websites';
 const VERIFY_BUDGET_MS = 210_000;

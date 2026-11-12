@@ -1,8 +1,8 @@
 import { chromium, type Browser } from 'playwright';
-import type { VerificationRecord } from '../../src/lib/types';
-import { fetchWithTimeout } from './http';
-import { analyseSnapshot, decideOutcome, type PageSnapshot } from './verify-core';
-import { sleep } from './util';
+import type { VerificationRecord } from '../../src/lib/types.js';
+import { fetchWithTimeout } from './http.js';
+import { analyseSnapshot, decideOutcome, type PageSnapshot } from './verify-core.js';
+import { sleep } from './util.js';
 
 let sharedBrowser: Browser | null = null;
 
