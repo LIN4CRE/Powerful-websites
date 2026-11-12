@@ -1,13 +1,9 @@
-name: Deploy to GitHub Pages
+name: Deploy to GitHub Pages (optional fallback)
 
+# Vercel is the primary platform and deploys from `main` through its native Git
+# integration. This workflow is kept only as a manual fallback for the optional
+# /docs build and is intentionally not triggered by pushes.
 on:
-  push:
-    branches: [main]
-  # Deploy after a completed scan even when the scan produced no data commit,
-  # so the live site always receives the latest scan metadata.
-  workflow_run:
-    workflows: ['Scan & Verify']
-    types: [completed]
   workflow_dispatch:
 
 permissions:

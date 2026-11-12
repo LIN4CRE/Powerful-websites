@@ -88,3 +88,29 @@ All files are validated with Zod (`src/lib/schema.ts`) and cross-referenced by
 `workflow_run` as well as `push` — that guarantees the build always receives the
 latest metadata even when no site was added. The build validates data, runs
 `vite build` with the repository base path, and publishes with `actions/deploy-pages`.
+
+## Vercel layer
+
+```
+api/
+├── data.ts              # public, cached directory feed (live branch → bundled JSON)
+├── health.ts            # secret-free status probe
+├── schedule/scan.ts     # private scheduled tick (schedule/v1beta + handleSchedule)
+└── _lib/
+    ├── dataset.ts       # GitHub branch → bundled fallback
+    ├── http.ts          # safeFetch (manual redirects, SSRF guards, robots.txt)
+    ├── repo.ts          # GitHub Contents API reads/writes and branch creation
+    ├── tick.ts          # bounded SCOUT → VERIFIER → CURATOR
+    └── verify-document.ts
+```
+
+Data flow at runtime:
+
+1. The client paints from the JSON bundled at build time.
+2. `useDirectory()` loads the last cached payload from `localStorage`.
+3. `/api/data` (Vercel) serves the freshest revision, `s-maxage=300`.
+4. The scheduled tick writes to `data/live`; the next `/api/data` request picks it up
+   without touching the application build.
+
+Nothing in the client can write data, and no endpoint accepts a request body from
+visitors.

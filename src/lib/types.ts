@@ -150,6 +150,8 @@ export interface RobotRunInfo {
 export interface ScanMetadata {
   version: number;
   status: 'success' | 'partial' | 'failed' | 'running';
+  /** Platform that runs the schedule. Vercel Schedules is the primary one. */
+  scheduleProvider?: 'vercel-schedules' | 'github-actions' | 'manual' | 'none';
   schedule: string;
   scheduleIntervalMinutes: number;
   scheduleNote: string;
@@ -158,6 +160,8 @@ export interface ScanMetadata {
   lastCompletedScanAt: string | null;
   lastVerificationRunAt: string | null;
   lastAdditionAt: string | null;
+  /** Next expected run, when the platform exposes it. Never guessed. */
+  nextScheduledRunAt?: string | null;
   durationMs: number | null;
   counts: {
     sourcesChecked: number;
@@ -187,6 +191,8 @@ export interface ScanMetadata {
     event: string;
     commit: string | null;
   };
+  /** Public dashboard for the hosting/scheduling platform, when available. */
+  dashboardUrl?: string | null;
   /** Set by the scan script when the run finished with recoverable errors. */
   notes?: string[];
 }
