@@ -35,7 +35,15 @@ describe('repository data', () => {
       expect(site.accountRequired).toBe(false);
       expect(site.apiKeyRequired).toBe(false);
       expect(site.verification.checks.noLoginWall).toBe(true);
-      expect(site.verification.checks.browser).toBe(true);
+      expect(site.verification.checks.coreUiReachable).toBe(true);
+      // Browser checks are the automated standard; while runners are blocked a
+      // rendered-document review is recorded instead and must say so.
+      if (site.verification.method === 'http+browser') {
+        expect(site.verification.checks.browser).toBe(true);
+      } else {
+        expect(site.verification.method).toBe('reader');
+        expect(site.verification.checks.browser).toBe(false);
+      }
     }
   });
 

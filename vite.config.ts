@@ -34,6 +34,9 @@ export default defineConfig(({ command }) => ({
     target: 'es2022',
     cssCodeSplit: true,
     sourcemap: false,
+    // The pre-built site can be committed to docs/ for branch-based GitHub Pages
+    // deployments when Actions runners are unavailable.
+    outDir: process.env.BUILD_OUT_DIR ?? 'dist',
   },
   test: {
     environment: 'jsdom',

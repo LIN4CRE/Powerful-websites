@@ -75,7 +75,10 @@ describe('keyboard and search', () => {
     render(<App />);
     const input = screen.getByLabelText('Filter the directory');
     await user.type(input, 'zzzzzz');
-    expect(await screen.findByText(/no websites match these filters|nothing matches those filters/i)).toBeInTheDocument();
+    const emptyStates = await screen.findAllByText(
+      /no websites match these filters|nothing matches those filters/i,
+    );
+    expect(emptyStates.length).toBeGreaterThan(0);
   });
 });
 

@@ -1,32 +1,55 @@
 {
   "version": 1,
-  "status": "success",
+  "status": "partial",
   "schedule": "7,22,37,52 * * * *",
   "scheduleIntervalMinutes": 15,
   "scheduleNote": "Approximately every 15 minutes. GitHub Actions schedules are best-effort and may be delayed at peak times.",
-  "lastScanAttemptAt": null,
+  "lastScanAttemptAt": "2026-11-12T20:43:43Z",
   "lastSuccessfulScanAt": null,
-  "lastCompletedScanAt": null,
-  "lastVerificationRunAt": null,
-  "lastAdditionAt": null,
+  "lastCompletedScanAt": "2026-11-12T20:43:43Z",
+  "lastVerificationRunAt": "2026-11-12T20:43:43Z",
+  "lastAdditionAt": "2026-11-12T20:43:43Z",
   "durationMs": null,
   "counts": {
     "sourcesChecked": 0,
     "sourcesFailed": 0,
     "discovered": 0,
-    "pending": 0,
-    "verified": 0,
-    "rejected": 0,
+    "pending": 163,
+    "verified": 32,
+    "rejected": 1,
     "rechecked": 0,
     "removed": 0,
     "duplicatesRemoved": 0,
-    "totalSites": 0,
-    "addedThisRun": 0
+    "totalSites": 32,
+    "addedThisRun": 32
   },
   "robots": {
-    "scout": { "state": "idle", "summary": "Waiting for the first automated run.", "lastRunAt": null, "metrics": {} },
-    "verifier": { "state": "idle", "summary": "Waiting for the first automated run.", "lastRunAt": null, "metrics": {} },
-    "curator": { "state": "idle", "summary": "Waiting for the first automated run.", "lastRunAt": null, "metrics": {} }
+    "scout": {
+      "state": "idle",
+      "summary": "No automated discovery run has completed yet; the 195 seeded candidates came from editorial research.",
+      "lastRunAt": null,
+      "metrics": {
+        "candidates": 195
+      }
+    },
+    "verifier": {
+      "state": "degraded",
+      "summary": "32 listings were checked by rendered-document review because GitHub Actions is blocked on the owner's account (billing lock). Headless browser re-verification is queued.",
+      "lastRunAt": "2026-11-12T20:43:43Z",
+      "metrics": {
+        "verified": 32,
+        "reader": 32,
+        "browser": 0
+      }
+    },
+    "curator": {
+      "state": "idle",
+      "summary": "Category, duplicate and URL invariants are enforced by scripts/curate.ts and the data validator.",
+      "lastRunAt": "2026-11-12T20:43:43Z",
+      "metrics": {
+        "published": 32
+      }
+    }
   },
   "sourceHealth": [],
   "workflow": {
@@ -37,5 +60,8 @@
     "historyUrl": "https://github.com/LIN4CRE/Powerful-websites/actions/workflows/scan.yml",
     "event": "none",
     "commit": null
-  }
+  },
+  "notes": [
+    "GitHub Actions jobs fail to start: 'The job was not started because your account is locked due to a billing issue.' Automated scanning, browser verification and workflow-based deployment are blocked until the owner resolves it."
+  ]
 }

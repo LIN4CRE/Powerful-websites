@@ -7,8 +7,6 @@ each one usable **without creating an account, logging in or supplying an API ke
 
 **Live site:** <https://lin4cre.github.io/Powerful-websites/>
 
-![Powerful Websites — desktop](docs/screenshots/home-desktop.png)
-
 ---
 
 ## What this is
@@ -54,9 +52,8 @@ Dark-first, premium interface with deep navy surfaces, cyan and blue accents,
 bundled variable fonts, subtle gradients, controlled glow, reduced-motion support,
 a light theme and responsive layouts from 320 px phones to wide desktops.
 
-<p align="center">
-  <img src="docs/screenshots/home-mobile.png" alt="Powerful Websites on a phone" width="320" />
-</p>
+Screenshots are produced by the Playwright suite on every CI run and uploaded as
+build artifacts. The live site is the reference.
 
 ## The robots
 
@@ -86,7 +83,7 @@ For each site the verifier:
    pretending they passed;
 7. stores evidence (status, final URL, detected elements, duration, timestamp).
 
-Only `verified` records enter `data/sites.json`. See [docs/VERIFICATION.md](docs/VERIFICATION.md)
+Only `verified` records enter `data/sites.json`. See [documentation/VERIFICATION.md](documentation/VERIFICATION.md)
 for the full method and its honest limitations.
 
 ## Automation schedule
@@ -200,7 +197,7 @@ It runs on:
 - manual dispatch.
 
 One-time setup: **Settings → Pages → Source: GitHub Actions**. Full runbook:
-[docs/OPERATIONS.md](docs/OPERATIONS.md).
+[documentation/OPERATIONS.md](documentation/OPERATIONS.md).
 
 ## Quality
 
@@ -223,7 +220,7 @@ automation. The verifier itself is the authority on additions and removals.
 Verification proves an interface is reachable without an account at a specific
 moment; it cannot exercise every feature or predict future quotas. Heavily
 bot-protected sites stay `pending` rather than being guessed at. Details and the
-full list of limitations live in [docs/VERIFICATION.md](docs/VERIFICATION.md).
+full list of limitations live in [documentation/VERIFICATION.md](documentation/VERIFICATION.md).
 
 ## Privacy
 

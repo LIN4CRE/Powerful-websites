@@ -41,7 +41,7 @@ export const verificationChecksSchema = z.object({
 
 export const verificationRecordSchema = z.object({
   status: z.enum(['verified', 'pending', 'rejected']),
-  method: z.enum(['http+browser', 'http', 'editorial']),
+  method: z.enum(['http+browser', 'reader', 'http', 'editorial']),
   checks: verificationChecksSchema,
   evidence: z.string().min(1),
   httpStatus: z.number().int().min(0).max(599),

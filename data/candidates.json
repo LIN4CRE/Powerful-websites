@@ -3,31 +3,6 @@
   "updatedAt": "2026-11-12T20:09:58.319Z",
   "candidates": [
     {
-      "id": "duckduckgo-ai-chat",
-      "name": "DuckDuckGo AI Chat",
-      "url": "https://duck.ai",
-      "domain": "duck.ai",
-      "description": "Chat with several leading AI models anonymously, with no account and no chat history stored.",
-      "category": "ai",
-      "tags": [
-        "chatbot",
-        "privacy",
-        "anonymous"
-      ],
-      "suggestedBy": "Editorial research",
-      "discoverySource": "editorial-research",
-      "dateDiscovered": "2026-11-12T20:09:58.316Z",
-      "status": "pending",
-      "attempts": 0,
-      "lastAttemptAt": null,
-      "verification": null,
-      "rejectionReason": null,
-      "openSource": false,
-      "sourceRepo": null,
-      "license": null,
-      "free": true
-    },
-    {
       "id": "pollinations",
       "name": "Pollinations",
       "url": "https://pollinations.ai",
@@ -153,31 +128,6 @@
       "free": true
     },
     {
-      "id": "excalidraw",
-      "name": "Excalidraw",
-      "url": "https://excalidraw.com",
-      "domain": "excalidraw.com",
-      "description": "A hand-drawn-style whiteboard for sketching diagrams that saves locally and shares by link.",
-      "category": "productivity",
-      "tags": [
-        "whiteboard",
-        "diagrams",
-        "collaboration"
-      ],
-      "suggestedBy": "Editorial research",
-      "discoverySource": "github-topics",
-      "dateDiscovered": "2026-11-12T20:09:58.316Z",
-      "status": "pending",
-      "attempts": 0,
-      "lastAttemptAt": null,
-      "verification": null,
-      "rejectionReason": null,
-      "openSource": true,
-      "sourceRepo": "https://github.com/excalidraw/excalidraw",
-      "license": "MIT",
-      "free": true
-    },
-    {
       "id": "tldraw",
       "name": "tldraw",
       "url": "https://www.tldraw.com",
@@ -203,31 +153,6 @@
       "free": true
     },
     {
-      "id": "pomofocus",
-      "name": "Pomofocus",
-      "url": "https://pomofocus.io",
-      "domain": "pomofocus.io",
-      "description": "A Pomodoro timer with task tracking that keeps running in the tab without an account.",
-      "category": "productivity",
-      "tags": [
-        "pomodoro",
-        "timer",
-        "focus"
-      ],
-      "suggestedBy": "Editorial research",
-      "discoverySource": "editorial-research",
-      "dateDiscovered": "2026-11-12T20:09:58.316Z",
-      "status": "pending",
-      "attempts": 0,
-      "lastAttemptAt": null,
-      "verification": null,
-      "rejectionReason": null,
-      "openSource": false,
-      "sourceRepo": null,
-      "license": null,
-      "free": true
-    },
-    {
       "id": "witeboard",
       "name": "Witeboard",
       "url": "https://witeboard.com",
@@ -238,31 +163,6 @@
         "whiteboard",
         "sharing",
         "real-time"
-      ],
-      "suggestedBy": "Editorial research",
-      "discoverySource": "editorial-research",
-      "dateDiscovered": "2026-11-12T20:09:58.316Z",
-      "status": "pending",
-      "attempts": 0,
-      "lastAttemptAt": null,
-      "verification": null,
-      "rejectionReason": null,
-      "openSource": false,
-      "sourceRepo": null,
-      "license": null,
-      "free": true
-    },
-    {
-      "id": "goblin-tools",
-      "name": "Goblin Tools",
-      "url": "https://goblin.tools",
-      "domain": "goblin.tools",
-      "description": "Free AI helpers that break overwhelming tasks into small steps and adjust the tone of a message.",
-      "category": "productivity",
-      "tags": [
-        "tasks",
-        "ai",
-        "neurodivergent"
       ],
       "suggestedBy": "Editorial research",
       "discoverySource": "editorial-research",
@@ -428,31 +328,6 @@
       "free": true
     },
     {
-      "id": "json-crack",
-      "name": "JSON Crack",
-      "url": "https://jsoncrack.com",
-      "domain": "jsoncrack.com",
-      "description": "Turns JSON, YAML and CSV into an explorable node graph you can search and export.",
-      "category": "developer",
-      "tags": [
-        "json",
-        "visualisation",
-        "diagram"
-      ],
-      "suggestedBy": "Editorial research",
-      "discoverySource": "editorial-research",
-      "dateDiscovered": "2026-11-12T20:09:58.316Z",
-      "status": "pending",
-      "attempts": 0,
-      "lastAttemptAt": null,
-      "verification": null,
-      "rejectionReason": null,
-      "openSource": false,
-      "sourceRepo": null,
-      "license": null,
-      "free": true
-    },
-    {
       "id": "transform-tools",
       "name": "Transform Tools",
       "url": "https://transform.tools",
@@ -467,11 +342,11 @@
       "suggestedBy": "Editorial research",
       "discoverySource": "editorial-research",
       "dateDiscovered": "2026-11-12T20:09:58.316Z",
-      "status": "pending",
-      "attempts": 0,
-      "lastAttemptAt": null,
+      "status": "rejected",
+      "attempts": 1,
+      "lastAttemptAt": "2026-11-12T20:43:43Z",
       "verification": null,
-      "rejectionReason": null,
+      "rejectionReason": "Deployment paused (HTTP 402 Payment Required) on 2026-11-12; nothing usable is served.",
       "openSource": false,
       "sourceRepo": null,
       "license": null,
@@ -553,31 +428,6 @@
       "free": true
     },
     {
-      "id": "crontab-guru",
-      "name": "Crontab Guru",
-      "url": "https://crontab.guru",
-      "domain": "crontab.guru",
-      "description": "Explains cron expressions in plain English and shows the next run times.",
-      "category": "developer",
-      "tags": [
-        "cron",
-        "schedule",
-        "reference"
-      ],
-      "suggestedBy": "Editorial research",
-      "discoverySource": "editorial-research",
-      "dateDiscovered": "2026-11-12T20:09:58.316Z",
-      "status": "pending",
-      "attempts": 0,
-      "lastAttemptAt": null,
-      "verification": null,
-      "rejectionReason": null,
-      "openSource": false,
-      "sourceRepo": null,
-      "license": null,
-      "free": true
-    },
-    {
       "id": "explainshell",
       "name": "ExplainShell",
       "url": "https://explainshell.com",
@@ -600,31 +450,6 @@
       "openSource": false,
       "sourceRepo": null,
       "license": null,
-      "free": true
-    },
-    {
-      "id": "it-tools",
-      "name": "IT Tools",
-      "url": "https://it-tools.tech",
-      "domain": "it-tools.tech",
-      "description": "A large collection of developer utilities, from hashing and JWTs to UUIDs and cron parsing.",
-      "category": "developer",
-      "tags": [
-        "utilities",
-        "hash",
-        "jwt"
-      ],
-      "suggestedBy": "Editorial research",
-      "discoverySource": "github-topics",
-      "dateDiscovered": "2026-11-12T20:09:58.316Z",
-      "status": "pending",
-      "attempts": 0,
-      "lastAttemptAt": null,
-      "verification": null,
-      "rejectionReason": null,
-      "openSource": true,
-      "sourceRepo": "https://github.com/CorentinTh/it-tools",
-      "license": "GPL-3.0",
       "free": true
     },
     {
@@ -828,31 +653,6 @@
       "free": true
     },
     {
-      "id": "compiler-explorer",
-      "name": "Compiler Explorer",
-      "url": "https://godbolt.org",
-      "domain": "godbolt.org",
-      "description": "Compiles source code and shows the generated assembly side by side for dozens of languages.",
-      "category": "programming",
-      "tags": [
-        "compilers",
-        "assembly",
-        "c++"
-      ],
-      "suggestedBy": "Editorial research",
-      "discoverySource": "editorial-research",
-      "dateDiscovered": "2026-11-12T20:09:58.316Z",
-      "status": "pending",
-      "attempts": 0,
-      "lastAttemptAt": null,
-      "verification": null,
-      "rejectionReason": null,
-      "openSource": false,
-      "sourceRepo": null,
-      "license": null,
-      "free": true
-    },
-    {
       "id": "stackblitz",
       "name": "StackBlitz",
       "url": "https://stackblitz.com",
@@ -863,31 +663,6 @@
         "sandbox",
         "frontend",
         "node"
-      ],
-      "suggestedBy": "Editorial research",
-      "discoverySource": "editorial-research",
-      "dateDiscovered": "2026-11-12T20:09:58.316Z",
-      "status": "pending",
-      "attempts": 0,
-      "lastAttemptAt": null,
-      "verification": null,
-      "rejectionReason": null,
-      "openSource": false,
-      "sourceRepo": null,
-      "license": null,
-      "free": true
-    },
-    {
-      "id": "jsfiddle",
-      "name": "JSFiddle",
-      "url": "https://jsfiddle.net",
-      "domain": "jsfiddle.net",
-      "description": "A quick playground for HTML, CSS and JavaScript with instant preview and shareable links.",
-      "category": "programming",
-      "tags": [
-        "playground",
-        "html",
-        "javascript"
       ],
       "suggestedBy": "Editorial research",
       "discoverySource": "editorial-research",
@@ -1028,31 +803,6 @@
       "free": true
     },
     {
-      "id": "coolors",
-      "name": "Coolors",
-      "url": "https://coolors.co",
-      "domain": "coolors.co",
-      "description": "Generates colour palettes with a spacebar, then lets you adjust, check contrast and export.",
-      "category": "design",
-      "tags": [
-        "colours",
-        "palettes",
-        "accessibility"
-      ],
-      "suggestedBy": "Editorial research",
-      "discoverySource": "editorial-research",
-      "dateDiscovered": "2026-11-12T20:09:58.316Z",
-      "status": "pending",
-      "attempts": 0,
-      "lastAttemptAt": null,
-      "verification": null,
-      "rejectionReason": null,
-      "openSource": false,
-      "sourceRepo": null,
-      "license": null,
-      "free": true
-    },
-    {
       "id": "css-gradient",
       "name": "CSS Gradient",
       "url": "https://cssgradient.io",
@@ -1113,31 +863,6 @@
         "fonts",
         "typography",
         "open-source"
-      ],
-      "suggestedBy": "Editorial research",
-      "discoverySource": "editorial-research",
-      "dateDiscovered": "2026-11-12T20:09:58.316Z",
-      "status": "pending",
-      "attempts": 0,
-      "lastAttemptAt": null,
-      "verification": null,
-      "rejectionReason": null,
-      "openSource": false,
-      "sourceRepo": null,
-      "license": null,
-      "free": true
-    },
-    {
-      "id": "undraw",
-      "name": "unDraw",
-      "url": "https://undraw.co",
-      "domain": "undraw.co",
-      "description": "A library of open illustrations whose accent colour you can change before downloading the SVG.",
-      "category": "design",
-      "tags": [
-        "illustrations",
-        "svg",
-        "free-assets"
       ],
       "suggestedBy": "Editorial research",
       "discoverySource": "editorial-research",
@@ -1288,56 +1013,6 @@
         "colours",
         "palettes",
         "inspiration"
-      ],
-      "suggestedBy": "Editorial research",
-      "discoverySource": "editorial-research",
-      "dateDiscovered": "2026-11-12T20:09:58.316Z",
-      "status": "pending",
-      "attempts": 0,
-      "lastAttemptAt": null,
-      "verification": null,
-      "rejectionReason": null,
-      "openSource": false,
-      "sourceRepo": null,
-      "license": null,
-      "free": true
-    },
-    {
-      "id": "squoosh",
-      "name": "Squoosh",
-      "url": "https://squoosh.app",
-      "domain": "squoosh.app",
-      "description": "Compresses and converts images in a local browser tab using advanced codecs with a live quality preview.",
-      "category": "image",
-      "tags": [
-        "compression",
-        "webp",
-        "avif"
-      ],
-      "suggestedBy": "Editorial research",
-      "discoverySource": "github-topics",
-      "dateDiscovered": "2026-11-12T20:09:58.316Z",
-      "status": "pending",
-      "attempts": 0,
-      "lastAttemptAt": null,
-      "verification": null,
-      "rejectionReason": null,
-      "openSource": true,
-      "sourceRepo": "https://github.com/GoogleChromeLabs/squoosh",
-      "license": "Apache-2.0",
-      "free": true
-    },
-    {
-      "id": "tinypng",
-      "name": "TinyPNG",
-      "url": "https://tinypng.com",
-      "domain": "tinypng.com",
-      "description": "Shrinks PNG, JPEG and WebP files with smart lossy compression and a visual before/after slider.",
-      "category": "image",
-      "tags": [
-        "compression",
-        "png",
-        "optimisation"
       ],
       "suggestedBy": "Editorial research",
       "discoverySource": "editorial-research",
@@ -1625,31 +1300,6 @@
       "openSource": true,
       "sourceRepo": "https://github.com/tjoen/wavacity",
       "license": "GPL-2.0",
-      "free": true
-    },
-    {
-      "id": "vocaroo",
-      "name": "Vocaroo",
-      "url": "https://vocaroo.com",
-      "domain": "vocaroo.com",
-      "description": "Records a voice message in the browser and produces a link or download with no account.",
-      "category": "video-audio",
-      "tags": [
-        "voice-recording",
-        "sharing",
-        "audio"
-      ],
-      "suggestedBy": "Editorial research",
-      "discoverySource": "editorial-research",
-      "dateDiscovered": "2026-11-12T20:09:58.316Z",
-      "status": "pending",
-      "attempts": 0,
-      "lastAttemptAt": null,
-      "verification": null,
-      "rejectionReason": null,
-      "openSource": false,
-      "sourceRepo": null,
-      "license": null,
       "free": true
     },
     {
@@ -1953,31 +1603,6 @@
       "free": true
     },
     {
-      "id": "wordcounter",
-      "name": "WordCounter",
-      "url": "https://wordcounter.net",
-      "domain": "wordcounter.net",
-      "description": "Counts words, characters and reading time while flagging overused words and phrases.",
-      "category": "writing",
-      "tags": [
-        "word-count",
-        "readability",
-        "editing"
-      ],
-      "suggestedBy": "Editorial research",
-      "discoverySource": "editorial-research",
-      "dateDiscovered": "2026-11-12T20:09:58.316Z",
-      "status": "pending",
-      "attempts": 0,
-      "lastAttemptAt": null,
-      "verification": null,
-      "rejectionReason": null,
-      "openSource": false,
-      "sourceRepo": null,
-      "license": null,
-      "free": true
-    },
-    {
       "id": "slick-write",
       "name": "Slick Write",
       "url": "https://www.slickwrite.com",
@@ -2028,31 +1653,6 @@
       "free": true
     },
     {
-      "id": "ilovepdf",
-      "name": "iLovePDF",
-      "url": "https://www.ilovepdf.com",
-      "domain": "ilovepdf.com",
-      "description": "Merges, splits, compresses, converts and signs PDF files without creating an account.",
-      "category": "pdf-files",
-      "tags": [
-        "pdf",
-        "merge",
-        "compress"
-      ],
-      "suggestedBy": "Editorial research",
-      "discoverySource": "editorial-research",
-      "dateDiscovered": "2026-11-12T20:09:58.316Z",
-      "status": "pending",
-      "attempts": 0,
-      "lastAttemptAt": null,
-      "verification": null,
-      "rejectionReason": null,
-      "openSource": false,
-      "sourceRepo": null,
-      "license": null,
-      "free": true
-    },
-    {
       "id": "smallpdf",
       "name": "Smallpdf",
       "url": "https://smallpdf.com",
@@ -2063,31 +1663,6 @@
         "pdf",
         "convert",
         "sign"
-      ],
-      "suggestedBy": "Editorial research",
-      "discoverySource": "editorial-research",
-      "dateDiscovered": "2026-11-12T20:09:58.316Z",
-      "status": "pending",
-      "attempts": 0,
-      "lastAttemptAt": null,
-      "verification": null,
-      "rejectionReason": null,
-      "openSource": false,
-      "sourceRepo": null,
-      "license": null,
-      "free": true
-    },
-    {
-      "id": "pdf24-tools",
-      "name": "PDF24 Tools",
-      "url": "https://tools.pdf24.org",
-      "domain": "tools.pdf24.org",
-      "description": "Free PDF utilities including merge, split, OCR, compress and convert, with no registration.",
-      "category": "pdf-files",
-      "tags": [
-        "pdf",
-        "ocr",
-        "utilities"
       ],
       "suggestedBy": "Editorial research",
       "discoverySource": "editorial-research",
@@ -2253,31 +1828,6 @@
       "free": true
     },
     {
-      "id": "have-i-been-pwned",
-      "name": "Have I Been Pwned",
-      "url": "https://haveibeenpwned.com",
-      "domain": "haveibeenpwned.com",
-      "description": "Checks whether an email address or password has appeared in a known data breach.",
-      "category": "privacy",
-      "tags": [
-        "breaches",
-        "passwords",
-        "email"
-      ],
-      "suggestedBy": "Editorial research",
-      "discoverySource": "editorial-research",
-      "dateDiscovered": "2026-11-12T20:09:58.316Z",
-      "status": "pending",
-      "attempts": 0,
-      "lastAttemptAt": null,
-      "verification": null,
-      "rejectionReason": null,
-      "openSource": false,
-      "sourceRepo": null,
-      "license": null,
-      "free": true
-    },
-    {
       "id": "virustotal",
       "name": "VirusTotal",
       "url": "https://www.virustotal.com",
@@ -2288,31 +1838,6 @@
         "malware",
         "scanner",
         "files"
-      ],
-      "suggestedBy": "Editorial research",
-      "discoverySource": "editorial-research",
-      "dateDiscovered": "2026-11-12T20:09:58.316Z",
-      "status": "pending",
-      "attempts": 0,
-      "lastAttemptAt": null,
-      "verification": null,
-      "rejectionReason": null,
-      "openSource": false,
-      "sourceRepo": null,
-      "license": null,
-      "free": true
-    },
-    {
-      "id": "browserleaks",
-      "name": "BrowserLeaks",
-      "url": "https://browserleaks.com",
-      "domain": "browserleaks.com",
-      "description": "Shows exactly what your browser reveals about you through canvas, WebGL, fonts and IP.",
-      "category": "privacy",
-      "tags": [
-        "fingerprinting",
-        "browser",
-        "tests"
       ],
       "suggestedBy": "Editorial research",
       "discoverySource": "editorial-research",
@@ -2538,31 +2063,6 @@
         "archive",
         "history",
         "web"
-      ],
-      "suggestedBy": "Editorial research",
-      "discoverySource": "editorial-research",
-      "dateDiscovered": "2026-11-12T20:09:58.316Z",
-      "status": "pending",
-      "attempts": 0,
-      "lastAttemptAt": null,
-      "verification": null,
-      "rejectionReason": null,
-      "openSource": false,
-      "sourceRepo": null,
-      "license": null,
-      "free": true
-    },
-    {
-      "id": "arxiv",
-      "name": "arXiv",
-      "url": "https://arxiv.org",
-      "domain": "arxiv.org",
-      "description": "An open-access archive of preprints in physics, mathematics, computer science and biology.",
-      "category": "research",
-      "tags": [
-        "papers",
-        "preprints",
-        "science"
       ],
       "suggestedBy": "Editorial research",
       "discoverySource": "editorial-research",
@@ -2853,31 +2353,6 @@
       "free": true
     },
     {
-      "id": "project-gutenberg",
-      "name": "Project Gutenberg",
-      "url": "https://www.gutenberg.org",
-      "domain": "gutenberg.org",
-      "description": "Over 70,000 free public-domain ebooks in EPUB, Kindle and plain-text formats.",
-      "category": "education",
-      "tags": [
-        "ebooks",
-        "public-domain",
-        "literature"
-      ],
-      "suggestedBy": "Editorial research",
-      "discoverySource": "editorial-research",
-      "dateDiscovered": "2026-11-12T20:09:58.316Z",
-      "status": "pending",
-      "attempts": 0,
-      "lastAttemptAt": null,
-      "verification": null,
-      "rejectionReason": null,
-      "openSource": false,
-      "sourceRepo": null,
-      "license": null,
-      "free": true
-    },
-    {
       "id": "standard-ebooks",
       "name": "Standard Ebooks",
       "url": "https://standardebooks.org",
@@ -2888,31 +2363,6 @@
         "ebooks",
         "typography",
         "public-domain"
-      ],
-      "suggestedBy": "Editorial research",
-      "discoverySource": "editorial-research",
-      "dateDiscovered": "2026-11-12T20:09:58.316Z",
-      "status": "pending",
-      "attempts": 0,
-      "lastAttemptAt": null,
-      "verification": null,
-      "rejectionReason": null,
-      "openSource": false,
-      "sourceRepo": null,
-      "license": null,
-      "free": true
-    },
-    {
-      "id": "wikipedia",
-      "name": "Wikipedia",
-      "url": "https://www.wikipedia.org",
-      "domain": "wikipedia.org",
-      "description": "The free encyclopedia, with millions of articles in over 300 languages, readable without an account.",
-      "category": "education",
-      "tags": [
-        "encyclopedia",
-        "reference",
-        "community"
       ],
       "suggestedBy": "Editorial research",
       "discoverySource": "editorial-research",
@@ -3253,31 +2703,6 @@
       "free": true
     },
     {
-      "id": "periodic-table",
-      "name": "Periodic Table",
-      "url": "https://ptable.com",
-      "domain": "ptable.com",
-      "description": "A detailed interactive periodic table with element properties, orbitals and isotopes.",
-      "category": "science",
-      "tags": [
-        "chemistry",
-        "elements",
-        "reference"
-      ],
-      "suggestedBy": "Editorial research",
-      "discoverySource": "editorial-research",
-      "dateDiscovered": "2026-11-12T20:09:58.316Z",
-      "status": "pending",
-      "attempts": 0,
-      "lastAttemptAt": null,
-      "verification": null,
-      "rejectionReason": null,
-      "openSource": false,
-      "sourceRepo": null,
-      "license": null,
-      "free": true
-    },
-    {
       "id": "solar-system-scope",
       "name": "Solar System Scope",
       "url": "https://www.solarsystemscope.com",
@@ -3453,31 +2878,6 @@
       "free": true
     },
     {
-      "id": "sankeymatic",
-      "name": "SankeyMATIC",
-      "url": "https://sankeymatic.com",
-      "domain": "sankeymatic.com",
-      "description": "Builds Sankey diagrams by typing a simple list of flows and downloads the result as SVG.",
-      "category": "data",
-      "tags": [
-        "sankey",
-        "flow",
-        "diagrams"
-      ],
-      "suggestedBy": "Editorial research",
-      "discoverySource": "editorial-research",
-      "dateDiscovered": "2026-11-12T20:09:58.316Z",
-      "status": "pending",
-      "attempts": 0,
-      "lastAttemptAt": null,
-      "verification": null,
-      "rejectionReason": null,
-      "openSource": false,
-      "sourceRepo": null,
-      "license": null,
-      "free": true
-    },
-    {
       "id": "vega-editor",
       "name": "Vega Editor",
       "url": "https://vega.github.io/editor",
@@ -3538,31 +2938,6 @@
         "statistics",
         "knowledge-graph",
         "explorer"
-      ],
-      "suggestedBy": "Editorial research",
-      "discoverySource": "editorial-research",
-      "dateDiscovered": "2026-11-12T20:09:58.316Z",
-      "status": "pending",
-      "attempts": 0,
-      "lastAttemptAt": null,
-      "verification": null,
-      "rejectionReason": null,
-      "openSource": false,
-      "sourceRepo": null,
-      "license": null,
-      "free": true
-    },
-    {
-      "id": "openstreetmap",
-      "name": "OpenStreetMap",
-      "url": "https://www.openstreetmap.org",
-      "domain": "openstreetmap.org",
-      "description": "The open world map built by volunteers, with layers, routing and raw map data.",
-      "category": "maps",
-      "tags": [
-        "open-data",
-        "mapping",
-        "community"
       ],
       "suggestedBy": "Editorial research",
       "discoverySource": "editorial-research",
@@ -3778,31 +3153,6 @@
       "free": true
     },
     {
-      "id": "dns-checker",
-      "name": "DNS Checker",
-      "url": "https://dnschecker.org",
-      "domain": "dnschecker.org",
-      "description": "Checks how a domain resolves from DNS servers around the world and verifies records.",
-      "category": "internet",
-      "tags": [
-        "dns",
-        "propagation",
-        "records"
-      ],
-      "suggestedBy": "Editorial research",
-      "discoverySource": "editorial-research",
-      "dateDiscovered": "2026-11-12T20:09:58.316Z",
-      "status": "pending",
-      "attempts": 0,
-      "lastAttemptAt": null,
-      "verification": null,
-      "rejectionReason": null,
-      "openSource": false,
-      "sourceRepo": null,
-      "license": null,
-      "free": true
-    },
-    {
       "id": "mxtoolbox",
       "name": "MXToolbox",
       "url": "https://mxtoolbox.com",
@@ -3878,31 +3228,6 @@
       "free": true
     },
     {
-      "id": "down-for-everyone-or-just-me",
-      "name": "Down For Everyone Or Just Me",
-      "url": "https://downforeveryoneorjustme.com",
-      "domain": "downforeveryoneorjustme.com",
-      "description": "Tells you whether a site is down for everybody or only unreachable from your connection.",
-      "category": "internet",
-      "tags": [
-        "uptime",
-        "outage",
-        "checks"
-      ],
-      "suggestedBy": "Editorial research",
-      "discoverySource": "editorial-research",
-      "dateDiscovered": "2026-11-12T20:09:58.316Z",
-      "status": "pending",
-      "attempts": 0,
-      "lastAttemptAt": null,
-      "verification": null,
-      "rejectionReason": null,
-      "openSource": false,
-      "sourceRepo": null,
-      "license": null,
-      "free": true
-    },
-    {
       "id": "ipinfo",
       "name": "IPinfo",
       "url": "https://ipinfo.io",
@@ -3963,31 +3288,6 @@
         "ipv6",
         "connectivity",
         "diagnostics"
-      ],
-      "suggestedBy": "Editorial research",
-      "discoverySource": "editorial-research",
-      "dateDiscovered": "2026-11-12T20:09:58.316Z",
-      "status": "pending",
-      "attempts": 0,
-      "lastAttemptAt": null,
-      "verification": null,
-      "rejectionReason": null,
-      "openSource": false,
-      "sourceRepo": null,
-      "license": null,
-      "free": true
-    },
-    {
-      "id": "omni-calculator",
-      "name": "Omni Calculator",
-      "url": "https://www.omnicalculator.com",
-      "domain": "omnicalculator.com",
-      "description": "Thousands of focused calculators for finance, health, science, construction and daily life.",
-      "category": "calculators",
-      "tags": [
-        "calculators",
-        "finance",
-        "health"
       ],
       "suggestedBy": "Editorial research",
       "discoverySource": "editorial-research",
@@ -4203,31 +3503,6 @@
       "free": true
     },
     {
-      "id": "js-paint",
-      "name": "JS Paint",
-      "url": "https://jspaint.app",
-      "domain": "jspaint.app",
-      "description": "A faithful browser recreation of MS Paint with working tools, palettes and file saving.",
-      "category": "browser-apps",
-      "tags": [
-        "paint",
-        "nostalgia",
-        "drawing"
-      ],
-      "suggestedBy": "Editorial research",
-      "discoverySource": "github-topics",
-      "dateDiscovered": "2026-11-12T20:09:58.316Z",
-      "status": "pending",
-      "attempts": 0,
-      "lastAttemptAt": null,
-      "verification": null,
-      "rejectionReason": null,
-      "openSource": true,
-      "sourceRepo": "https://github.com/1j01/jspaint",
-      "license": "MIT",
-      "free": true
-    },
-    {
       "id": "beepbox",
       "name": "BeepBox",
       "url": "https://www.beepbox.co",
@@ -4403,31 +3678,6 @@
       "free": true
     },
     {
-      "id": "finviz",
-      "name": "Finviz",
-      "url": "https://finviz.com",
-      "domain": "finviz.com",
-      "description": "A stock screener, heatmap and news feed for filtering US equities by financial metrics.",
-      "category": "business",
-      "tags": [
-        "screener",
-        "stocks",
-        "heatmap"
-      ],
-      "suggestedBy": "Editorial research",
-      "discoverySource": "editorial-research",
-      "dateDiscovered": "2026-11-12T20:09:58.316Z",
-      "status": "pending",
-      "attempts": 0,
-      "lastAttemptAt": null,
-      "verification": null,
-      "rejectionReason": null,
-      "openSource": false,
-      "sourceRepo": null,
-      "license": null,
-      "free": true
-    },
-    {
       "id": "sec-edgar-search",
       "name": "SEC EDGAR Search",
       "url": "https://www.sec.gov/edgar/search",
@@ -4563,56 +3813,6 @@
         "investing",
         "backtesting",
         "portfolio"
-      ],
-      "suggestedBy": "Editorial research",
-      "discoverySource": "editorial-research",
-      "dateDiscovered": "2026-11-12T20:09:58.316Z",
-      "status": "pending",
-      "attempts": 0,
-      "lastAttemptAt": null,
-      "verification": null,
-      "rejectionReason": null,
-      "openSource": false,
-      "sourceRepo": null,
-      "license": null,
-      "free": true
-    },
-    {
-      "id": "radio-garden",
-      "name": "Radio Garden",
-      "url": "https://radio.garden",
-      "domain": "radio.garden",
-      "description": "Spin a globe and tune into live radio stations from cities and villages worldwide.",
-      "category": "unusual",
-      "tags": [
-        "radio",
-        "music",
-        "world"
-      ],
-      "suggestedBy": "Editorial research",
-      "discoverySource": "editorial-research",
-      "dateDiscovered": "2026-11-12T20:09:58.316Z",
-      "status": "pending",
-      "attempts": 0,
-      "lastAttemptAt": null,
-      "verification": null,
-      "rejectionReason": null,
-      "openSource": false,
-      "sourceRepo": null,
-      "license": null,
-      "free": true
-    },
-    {
-      "id": "neal-fun",
-      "name": "Neal.fun",
-      "url": "https://neal.fun",
-      "domain": "neal.fun",
-      "description": "Playful interactive experiments such as the deep sea, size of space and draw a perfect circle.",
-      "category": "unusual",
-      "tags": [
-        "interactive",
-        "experiments",
-        "play"
       ],
       "suggestedBy": "Editorial research",
       "discoverySource": "editorial-research",

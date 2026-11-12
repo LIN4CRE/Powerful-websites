@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en" class="dark" data-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <meta name="color-scheme" content="dark light" />
+    <title>Powerful Websites — Discover the power of the open web</title>
+    <meta
+      name="description"
+      content="A continuously verified directory of powerful websites you can use immediately — no accounts, no sign-ups, no barriers."
+    />
+    <meta name="theme-color" content="#05070c" />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://lin4cre.github.io/Powerful-websites/" />
+    <link
+      rel="icon"
+      type="image/svg+xml"
+      href="/Powerful-websites/favicon.svg"
+    />
+    <link rel="apple-touch-icon" href="/Powerful-websites/favicon.svg" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Powerful Websites" />
+    <meta property="og:title" content="Powerful Websites — Discover the power of the open web" />
+    <meta
+      property="og:description"
+      content="An ever-growing, machine-verified collection of powerful websites. No accounts. No unnecessary barriers. Just useful things."
+    />
+    <meta property="og:url" content="https://lin4cre.github.io/Powerful-websites/" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Powerful Websites" />
+    <meta
+      name="twitter:description"
+      content="Discover websites you didn't know existed — every listing verified to work without an account."
+    />
+    <script>
+      // Apply the stored theme before paint to avoid a flash of the wrong palette.
+      (function () {
+        try {
+          var stored = localStorage.getItem('pw:theme');
+          var theme = stored === 'light' || stored === 'dark' ? stored : 'dark';
+          document.documentElement.dataset.theme = theme;
+          document.documentElement.classList.toggle('dark', theme === 'dark');
+          document.documentElement.style.colorScheme = theme;
+        } catch (error) {
+          /* storage disabled — dark is the default */
+        }
+      })();
+    </script>
+    <script type="module" crossorigin src="/Powerful-websites/assets/index-gizr2NnX.js"></script>
+    <link rel="stylesheet" crossorigin href="/Powerful-websites/assets/index-B3vLZ2Hi.css">
+  </head>
+  <body>
+    <div id="root"></div>
+    <noscript>
+      <div style="padding: 2rem; font-family: system-ui, sans-serif; color: #e6edf7; background: #05070c">
+        <h1>Powerful Websites</h1>
+        <p>
+          This directory is a client-side application and needs JavaScript to search and filter the
+          collection. Every listing links directly to the official website, and the raw data is
+          available at
+          <a style="color: #38e8ff" href="https://github.com/LIN4CRE/Powerful-websites/blob/main/data/sites.json"
+            >data/sites.json</a
+          >.
+        </p>
+      </div>
+    </noscript>
+  </body>
+</html>

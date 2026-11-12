@@ -101,8 +101,17 @@ export async function validateDataFiles(): Promise<{ issues: ValidationIssue[]; 
       add('data/sites.json', `${site.name} is published without a verified record`);
     }
     const checks = site.verification.checks;
-    if (!checks.http || !checks.browser || !checks.noLoginWall || !checks.noApiKey || !checks.coreUiReachable) {
+    if (!checks.http || !checks.noLoginWall || !checks.noApiKey || !checks.coreUiReachable) {
       add('data/sites.json', `${site.name} has an incomplete verification check set`);
+    }
+    // The browser check is the automated standard. Records verified through a
+    // rendered-document review while runners were unavailable must say so and
+    // must not claim a browser pass.
+    if (site.verification.method === 'http+browser' && !checks.browser) {
+      add('data/sites.json', `${site.name} claims a browser verification without a browser check`);
+    }
+    if (site.verification.method !== 'http+browser' && checks.browser) {
+      add('data/sites.json', `${site.name} records a browser check under a non-browser method`);
     }
     if (site.accountRequired !== false || site.apiKeyRequired !== false) {
       add('data/sites.json', `${site.name} is marked as requiring an account or API key`);

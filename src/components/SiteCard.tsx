@@ -149,7 +149,14 @@ export function SiteCard({ site, category, saved, onToggleSave, query }: SiteCar
 
       <div className="mt-auto flex flex-wrap items-center justify-between gap-2 border-t border-[var(--border)] pt-3">
         <div className="flex flex-wrap items-center gap-1.5">
-          <span className="badge badge--success" title="Verified: no account or login needed">
+          <span
+            className="badge badge--success"
+            title={
+              site.verification.method === 'http+browser'
+                ? 'Verified in a clean headless browser: the advertised tool works without an account.'
+                : 'Checked through a rendered-document review: no login wall was found. Automated browser re-verification is queued.'
+            }
+          >
             <Icon name="ShieldCheck" size={10} />
             No login required
           </span>
@@ -165,7 +172,8 @@ export function SiteCard({ site, category, saved, onToggleSave, query }: SiteCar
           title={`Last verified ${formatAbsoluteTime(site.lastVerifiedAt)}`}
           className="mono text-[0.58rem] text-[var(--faint)]"
         >
-          Verified {formatRelativeTime(site.lastVerifiedAt)}
+          {site.verification.method === 'http+browser' ? 'Verified' : 'Checked'}{' '}
+          {formatRelativeTime(site.lastVerifiedAt)}
         </time>
       </div>
     </article>
