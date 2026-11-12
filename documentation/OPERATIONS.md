@@ -179,3 +179,19 @@ never appears in API responses.
 ```bash
 npm run build:pages   # VITE_BASE=/Powerful-websites/ -> docs/
 ```
+
+## Node 26 runtime gotchas (learned in production)
+
+- **JSON imports need `createRequire`.** Vercel transpiles each function file and
+  runs it on Node 26, where `import data from './x.json'` without an import attribute
+  throws `ERR_IMPORT_ATTRIBUTE_MISSING`. `api/_lib/dataset.ts` therefore loads
+  `data/*.json` through `createRequire(import.meta.url)`, which also keeps the literal
+  paths that nft uses to trace the JSON into the function bundle.
+- **Relative imports need extensions.** The package is `"type": "module"` and files
+  are compiled individually, so every relative import in `api/` and `scripts/` carries
+  an explicit `.js` extension.
+- **`cheerio` is a runtime dependency**, not a dev dependency, because the scheduled
+  verifier imports it.
+- **Diagnose from outside.** `/api/health` returns `503 {"ok":false,"error":"<code>"}`
+  when the data layer throws; the code alone identifies a broken deployment without
+  exposing paths or stack traces.
