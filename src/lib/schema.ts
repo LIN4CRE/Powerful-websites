@@ -110,6 +110,7 @@ export const robotSchema = z.object({
 export const scanMetadataSchema = z.object({
   version: z.number().int(),
   status: z.enum(['success', 'partial', 'failed', 'running']),
+  scheduleProvider: z.enum(['vercel-schedules', 'github-actions', 'manual', 'none']).optional(),
   schedule: z.string().min(1),
   scheduleIntervalMinutes: z.number().int().positive(),
   scheduleNote: z.string().min(1),
@@ -118,6 +119,7 @@ export const scanMetadataSchema = z.object({
   lastCompletedScanAt: isoDateTime.nullable(),
   lastVerificationRunAt: isoDateTime.nullable(),
   lastAdditionAt: isoDateTime.nullable(),
+  nextScheduledRunAt: isoDateTime.nullable().optional(),
   durationMs: z.number().nonnegative().nullable(),
   counts: z.object({
     sourcesChecked: z.number().int().nonnegative(),
@@ -157,6 +159,7 @@ export const scanMetadataSchema = z.object({
     event: z.string(),
     commit: z.string().nullable(),
   }),
+  dashboardUrl: z.string().url().nullable().optional(),
   notes: z.array(z.string()).optional(),
 });
 

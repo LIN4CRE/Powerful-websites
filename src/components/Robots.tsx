@@ -1,9 +1,11 @@
 import { Icon } from './Icon';
 import { formatRelativeTime } from '../lib/format';
-import type { RobotRunInfo, ScanMetadata } from '../lib/types';
+import type { Candidate, RobotRunInfo, ScanMetadata } from '../lib/types';
 
 interface RobotsProps {
   metadata: ScanMetadata;
+  pendingCount?: number;
+  candidates?: readonly Candidate[];
 }
 
 const ROBOTS: {
@@ -59,7 +61,19 @@ const STATE_LABEL: Record<RobotRunInfo['state'], string> = {
   idle: 'Awaiting first run',
 };
 
-export function Robots({ metadata }: RobotsProps) {
+const PROVIDER_LABEL: Record<string, string> = {
+  'vercel-schedules': 'Vercel Schedules',
+  'github-actions': 'GitHub Actions',
+  manual: 'Manual run',
+  none: 'Not configured',
+};
+
+export function Robots({ metadata, pendingCount = 0, candidates = [] }: RobotsProps) {
+  const provider = metadata.scheduleProvider ?? 'github-actions';
+  const providerLabel = PROVIDER_LABEL[provider] ?? provider;
+  const isVercel = provider === 'vercel-schedules';
+  const rejected = candidates.filter((candidate) => candidate.status === 'rejected').length;
+
   return (
     <section id="automation" className="scroll-mt-24 border-t border-[var(--border)] py-16">
       <div className="shell">
@@ -70,7 +84,7 @@ export function Robots({ metadata }: RobotsProps) {
               Three robots. <span className="text-[var(--muted)]">Real work, every 15 minutes.</span>
             </h2>
             <p className="mt-3 max-w-2xl text-[0.88rem] leading-relaxed text-[var(--muted)]">
-              These statuses are written by the scheduled GitHub Actions workflow after each run.
+              These statuses are written by the scheduled {providerLabel} invocation after each run.
               Nothing on this page is simulated — if a robot fails, it says so.
             </p>
           </div>
@@ -80,13 +94,39 @@ export function Robots({ metadata }: RobotsProps) {
             rel="noopener noreferrer"
             className="control self-start sm:self-auto"
           >
-            <Icon name="Github" size={15} />
-            Workflow history
+            <Icon name={isVercel ? 'Activity' : 'Github'} size={15} />
+            {isVercel ? 'Schedule history' : 'Workflow history'}
             <Icon name="ArrowUpRight" size={13} />
           </a>
         </div>
 
-        <div className="stagger mt-9 grid gap-4 md:grid-cols-3">
+        <div className="mt-6 grid gap-3 sm:grid-cols-3">
+          <div className="panel px-4 py-3">
+            <p className="eyebrow text-[0.55rem]">Automation provider</p>
+            <p className="mt-1.5 text-[0.86rem] text-[var(--text)]">{providerLabel}</p>
+            <p className="mt-0.5 text-[0.66rem] text-[var(--faint)]">
+              {metadata.nextScheduledRunAt
+                ? `Next run ${formatRelativeTime(metadata.nextScheduledRunAt)}`
+                : metadata.scheduleNote}
+            </p>
+          </div>
+          <div className="panel px-4 py-3">
+            <p className="eyebrow text-[0.55rem]">Pending candidates</p>
+            <p className="mono mt-1.5 text-[1.05rem] leading-none text-[var(--text)]">
+              {pendingCount.toLocaleString()}
+            </p>
+            <p className="mt-0.5 text-[0.66rem] text-[var(--faint)]">Queued for verification</p>
+          </div>
+          <div className="panel px-4 py-3">
+            <p className="eyebrow text-[0.55rem]">Rejected candidates</p>
+            <p className="mono mt-1.5 text-[1.05rem] leading-none text-[var(--text)]">
+              {rejected.toLocaleString()}
+            </p>
+            <p className="mt-0.5 text-[0.66rem] text-[var(--faint)]">Failed the no-account checks</p>
+          </div>
+        </div>
+
+        <div className="stagger mt-4 grid gap-4 md:grid-cols-3">
           {ROBOTS.map((robot) => {
             const info = metadata.robots[robot.key];
             return (

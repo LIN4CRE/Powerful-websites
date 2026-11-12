@@ -3,7 +3,7 @@
   "status": "partial",
   "schedule": "7,22,37,52 * * * *",
   "scheduleIntervalMinutes": 15,
-  "scheduleNote": "Approximately every 15 minutes. GitHub Actions schedules are best-effort and may be delayed at peak times.",
+  "scheduleNote": "Vercel Schedules runs the job at minutes 7, 22, 37 and 52 — about 2,880 invocations a month, within the Hobby allowance of 5,000 schedule runs.",
   "lastScanAttemptAt": "2026-11-12T20:43:43Z",
   "lastSuccessfulScanAt": null,
   "lastCompletedScanAt": "2026-11-12T20:43:43Z",
@@ -53,15 +53,18 @@
   },
   "sourceHealth": [],
   "workflow": {
-    "provider": "GitHub Actions",
+    "provider": "Vercel Schedules",
     "runId": null,
     "runUrl": null,
     "repositoryUrl": "https://github.com/LIN4CRE/Powerful-websites",
-    "historyUrl": "https://github.com/LIN4CRE/Powerful-websites/actions/workflows/scan.yml",
+    "historyUrl": "https://vercel.com/dashboard",
     "event": "none",
     "commit": null
   },
   "notes": [
     "GitHub Actions jobs fail to start: 'The job was not started because your account is locked due to a billing issue.' Automated scanning, browser verification and workflow-based deployment are blocked until the owner resolves it."
-  ]
+  ],
+  "scheduleProvider": "vercel-schedules",
+  "nextScheduledRunAt": null,
+  "dashboardUrl": "https://vercel.com/dashboard"
 }

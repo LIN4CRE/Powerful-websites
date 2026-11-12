@@ -8,10 +8,17 @@ import { Directory } from './components/Directory';
 import { Method } from './components/Method';
 import { Footer } from './components/Footer';
 import { CommandPalette } from './components/CommandPalette';
-import { data, stats } from './lib/data';
+import { InstallCard } from './components/InstallCard';
+import { ConnectionBanner, DataFreshness } from './components/ConnectionBanner';
+import { UpdateToast } from './components/UpdateToast';
+import { BackToTop } from './components/BackToTop';
 import { buildIndex, categoryCounts, filterSites, type SortKey } from './lib/search';
 import { useTheme } from './hooks/useTheme';
 import { useSavedSites } from './hooks/useSavedSites';
+import { useDirectory } from './hooks/useDirectory';
+
+const SITE_URL =
+  typeof window === 'undefined' ? 'https://powerful-websites.vercel.app/' : window.location.origin + '/';
 
 export default function App() {
   const [query, setQuery] = useState('');
@@ -25,9 +32,11 @@ export default function App() {
   const deferredQuery = useDeferredValue(query);
   const { theme, toggle: toggleTheme } = useTheme();
   const { saved, toggle: toggleSave, count: savedCount } = useSavedSites();
+  const { directory, stats, origin, generatedAt, cachedAt, online } = useDirectory();
+  const { sites: allSites, categories, metadata, sources, candidates } = directory;
 
-  const index = useMemo(() => buildIndex(data.sites), []);
-  const counts = useMemo(() => categoryCounts(data.sites), []);
+  const index = useMemo(() => buildIndex(allSites), [allSites]);
+  const counts = useMemo(() => categoryCounts(allSites), [allSites]);
   const sites = useMemo(
     () =>
       filterSites(index, {
@@ -91,13 +100,13 @@ export default function App() {
       '@context': 'https://schema.org',
       '@type': 'WebSite',
       name: 'Powerful Websites',
-      url: 'https://lin4cre.github.io/Powerful-websites/',
+      url: SITE_URL,
       description:
         'A continuously verified directory of websites that work without an account or login.',
       mainEntity: {
         '@type': 'ItemList',
-        numberOfItems: data.sites.length,
-        itemListElement: data.sites.slice(0, 25).map((site, position) => ({
+        numberOfItems: allSites.length,
+        itemListElement: allSites.slice(0, 25).map((site, position) => ({
           '@type': 'ListItem',
           position: position + 1,
           name: site.name,
@@ -106,7 +115,7 @@ export default function App() {
         })),
       },
     }),
-    [],
+    [allSites],
   );
 
   return (
@@ -119,34 +128,44 @@ export default function App() {
         onOpenSearch={() => setPaletteOpen(true)}
         theme={theme}
         onToggleTheme={toggleTheme}
-        metadata={data.metadata}
+        metadata={metadata}
         isStale={stats.isStale}
       />
+
+      <ConnectionBanner online={online} generatedAt={generatedAt} cachedAt={cachedAt} />
 
       <main id="main">
         <Hero
           query={query}
           onQueryChange={setQuery}
           onQuickFilter={selectCategory}
-          total={data.sites.length}
+          total={allSites.length}
           inputRef={heroInputRef}
         />
 
         <LiveStrip
-          metadata={data.metadata}
+          metadata={metadata}
           isStale={stats.isStale}
           verifiedCount={stats.verifiedSites}
           pendingCount={stats.pendingCandidates}
         />
 
-        <Stats stats={stats} metadata={data.metadata} sourceCount={data.sources.filter((s) => s.enabled).length} />
+        <div className="shell -mt-2">
+          <DataFreshness origin={origin} generatedAt={generatedAt} />
+        </div>
 
-        <Robots metadata={data.metadata} />
+        <Stats
+          stats={stats}
+          metadata={metadata}
+          sourceCount={sources.filter((s) => s.enabled).length}
+        />
+
+        <Robots metadata={metadata} pendingCount={stats.pendingCandidates} candidates={candidates} />
 
         <Directory
           sites={sites}
-          totalSites={data.sites.length}
-          categories={data.categories}
+          totalSites={allSites.length}
+          categories={categories}
           counts={counts}
           query={query}
           onQueryChange={setQuery}
@@ -162,23 +181,30 @@ export default function App() {
           saved={saved}
           onToggleSave={toggleSave}
           onResetFilters={resetFilters}
-          totalVerified={data.sites.length}
+          totalVerified={allSites.length}
         />
 
         <Method />
       </main>
 
-      <Footer metadata={data.metadata} siteCount={data.sites.length} categoryCount={stats.categoriesInUse} />
+      <Footer metadata={metadata} siteCount={allSites.length} categoryCount={stats.categoriesInUse} />
 
       <CommandPalette
         open={paletteOpen}
         onClose={() => setPaletteOpen(false)}
-        sites={data.sites}
-        categories={data.categories}
+        sites={allSites}
+        categories={categories}
         onSelectCategory={selectCategory}
       />
 
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }} />
+      <InstallCard />
+      <UpdateToast />
+      <BackToTop />
+
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
+      />
     </div>
   );
 }

@@ -26,6 +26,7 @@
     "types": ["node", "vite/client", "vitest/globals"]
   },
   "include": [
+    "api",
     "src",
     "scripts",
     "tests",

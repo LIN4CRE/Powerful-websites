@@ -5,31 +5,27 @@
 A continuously updated, machine-verified directory of genuinely useful websites —
 each one usable **without creating an account, logging in or supplying an API key**.
 
-**Live site:** <https://lin4cre.github.io/Powerful-websites/> (enable Pages once — see
-[Deployment](#deployment)).
+**Live site:** <https://powerful-websites.vercel.app/> — installable as an app on
+Android, Windows, macOS, Linux and iPadOS/iPhone (Add to Home Screen).
 
 ---
 
 ## Current status (12 November 2026)
 
-This repository is complete and every gate that can run here passes, but two
-external facts shape what is published:
-
 | Item | State |
 | --- | --- |
+| Hosting | **Vercel**, production branch `main`, automatic Git deployments + PR previews |
+| Installability | Web app manifest, generated service worker, offline shell, install prompt |
 | Published listings | **32**, each with a recorded evidence string and timestamp |
-| Method used for them | `reader` — a server-rendered document review, because no browser could run |
-| Queued candidates | **163** seeded from public sources, awaiting automated verification |
-| GitHub Actions | **Blocked by the account's billing lock.** Jobs fail in ~2 s with *"The job was not started because your account is locked due to a billing issue."* |
-| GitHub Pages | Not yet enabled; the Pages API is not reachable with this token |
+| Verification method | `reader` — server-side HTTP + DOM review (no browser available on the free runner) |
+| Queued candidates | **163** waiting for the scheduled verifier |
+| Scheduled scanning | **Vercel Schedules**, `7,22,37,52 * * * *`, private `api/schedule/scan.ts` |
+| Persistent writes | Pending one manual step: add `GITHUB_DATA_TOKEN` (see below) |
+| GitHub Actions | Still billing-blocked; workflows are manual-only now, Vercel no longer depends on them |
 
-Nothing here is simulated. The scheduled robots, the browser verifier and the
-workflow-based deploy are implemented and tested; they start producing
-`http+browser` evidence the moment a runner is allowed to start. Until then the
-site labels every listing "Checked …" rather than "Verified …" and shows a
-banner explaining that automation is paused.
-
----
+Nothing on the site is simulated. Until `GITHUB_DATA_TOKEN` is configured the
+scheduled tick runs read-only and says so in its log; the UI keeps showing the last
+real timestamps instead of inventing new ones.
 
 ## What this is
 
@@ -77,6 +73,24 @@ a light theme and responsive layouts from 320 px phones to wide desktops.
 Screenshots are produced by the Playwright suite on every CI run and uploaded as
 build artifacts. The live site is the reference.
 
+### Installable app (PWA)
+
+- **Manifest:** name, short name, description, `start_url`/`scope` `/`, standalone
+  display, theme/background colours and 192/512/maskable icons generated from the
+  project's own logo (`npm run icons:generate`).
+- **Service worker:** Workbox precaches the shell, JS, CSS, fonts, icons and logo
+  assets; `/api/data` is `NetworkFirst` (4 s timeout) so the directory works offline;
+  logos are `CacheFirst`.
+- **Install prompt:** a dismissible card listens for `beforeinstallprompt`, offers
+  *Install app* / *Not now*, never opens the browser dialog by itself, hides when the
+  app is already installed and snoozes for 14 days after *Not now*.
+- **iOS/iPadOS:** no `beforeinstallprompt` exists there, so the card switches to the
+  Share → *Add to Home Screen* instructions.
+- **Updates:** nothing reloads silently. A waiting service worker raises a small
+  “A new version is available” toast with a Refresh button.
+- **Offline:** an explicit offline banner shows when the device is disconnected and
+  states that website links need a connection; search and filters keep working.
+
 ## The robots
 
 | Robot | Job | Where |
@@ -122,19 +136,38 @@ automated method under a weaker mode.
 Only `verified` records enter `data/sites.json`. See [documentation/VERIFICATION.md](documentation/VERIFICATION.md)
 for the full method and its honest limitations.
 
-## Automation schedule
+## Automation (Vercel Schedules)
 
-- **Cron:** `7,22,37,52 * * * *` — approximately every 15 minutes, staggered on purpose.
-- **Manual:** Actions → **Scan & Verify** → *Run workflow* (optionally on a branch).
-- **Best effort:** GitHub Actions scheduling can be delayed; the site shows the
-  actual completion time, never the expected one.
-- **Resilience:** each source is isolated. One failing source never blocks the others.
-- **No secrets required:** only the automatic `GITHUB_TOKEN`, with `contents: write`
-  for the scan job and `pages: write`/`id-token: write` for deployment.
+The robots run on **Vercel Schedules**, not GitHub Actions.
 
-A run is capped by `VERIFY_MAX` and `RECHECK_MAX` so the cadence stays healthy;
-set them higher for a one-off catch-up via the workflow inputs. Older listings are
-re-checked on a rolling basis, so the whole directory is re-verified continuously.
+```json
+"schedules": {
+  "directory-scan": {
+    "schedule": "7,22,37,52 * * * *",
+    "function": "api/schedule/scan.ts",
+    "timezone": "UTC"
+  }
+}
+```
+
+- **Private function:** `api/schedule/scan.ts` is registered with
+  `experimentalTriggers: [{ "type": "schedule/v1beta" }]` and `handleSchedule` from
+  `@vercel/schedules`. It has no public URL, so visitors cannot trigger scans.
+- **Cadence:** minutes 7/22/37/52 — 96 runs a day, ≈2,880 a month, inside the Hobby
+  allowance of 5,000 schedule runs. No paid features are used.
+- **Bounded work:** each tick does one discovery source, up to three verifications
+  and one curation pass inside a 210 s budget (Hobby functions cap at 300 s).
+- **Persistent progress:** results are committed to the `data/live` branch through
+  the GitHub Contents API, so a tick resumes where the last one stopped. Because
+  `data/live` is not the production branch, directory updates never rebuild the app.
+- **Fresh data without rebuilds:** `/api/data` serves the live branch with
+  `s-maxage=300`, so the UI picks up new records within five minutes.
+- **Failure handling:** a failing source is recorded and the tick continues; the
+  last successful timestamps are preserved and the UI shows the warning.
+
+Optional fallback: `.github/workflows/scan.yml` still contains the Playwright
+browser verifier for whoever restores Actions billing. It is `workflow_dispatch`
+only and is not required by the site.
 
 ## Technology
 
@@ -143,9 +176,10 @@ re-checked on a rolling basis, so the whole directory is re-verified continuousl
 | UI | React 19, TypeScript, Vite 6, Tailwind CSS 4 |
 | Icons & type | Lucide, bundled Inter Variable and JetBrains Mono Variable |
 | Data | JSON files validated with Zod |
-| Verification | Playwright (Chromium) + `fetch` |
+| Verification | Playwright (Chromium, optional) + serverless HTTP/DOM review |
 | Scraping helpers | Cheerio, fast-xml-parser, Sharp (logo normalisation) |
-| Automation | GitHub Actions (cron + manual), GitHub Pages |
+| Automation | Vercel Schedules + `@vercel/schedules`, GitHub Contents API |
+| Hosting | Vercel (framework preset Vite, SPA) |
 | Tests | Vitest + Testing Library, Playwright, axe-core |
 
 No database, backend, paid API, external AI service or hosted queue is involved.
@@ -223,37 +257,41 @@ discovery and verification timestamps, verification evidence and availability.
 Types: `github-awesome`, `github-search`, `no-signup-list`, `rss`, `atom`,
 `html-links`. See [CONTRIBUTING.md](CONTRIBUTING.md) for details.
 
-## Deployment
+## Deployment (Vercel)
 
-`deploy.yml` builds with `VITE_BASE=/Powerful-websites/` and publishes to GitHub Pages.
-It runs on:
+| Setting | Value |
+| --- | --- |
+| Framework | Vite |
+| Root directory | repository root |
+| Install command | `npm ci` |
+| Build command | `npm run build` |
+| Output directory | `dist` |
+| Production branch | `main` |
 
-- pushes to `main`;
-- completion of a **Scan & Verify** run (so even a no-change scan ships fresh metadata);
-- manual dispatch.
+`vercel.json` carries the Vite preset, SPA rewrite, security headers, cache rules,
+function durations and the schedule definition. `base` is `/` for Vercel; only the
+optional Pages build overrides it.
 
-### Publishing without Actions
+### Environment variables
 
-Because Actions cannot start on the current account, the production build is also
-committed to `docs/` (`npm run build:pages`) so the site can be served directly
-from the branch. Both paths are documented in
-[documentation/OPERATIONS.md](documentation/OPERATIONS.md).
+Set these in **Vercel → Project → Settings → Environment Variables** (see
+`.env.example`). Nothing is required to serve the site.
 
-**Option A — branch deployment (works today, no Actions):**
+| Name | Required | Purpose |
+| --- | --- | --- |
+| `GITHUB_DATA_TOKEN` | for automation | Fine-grained token, **Contents: read and write** on this repository only. Lets the scheduled tick commit to `data/live`. |
+| `DATA_BRANCH` | no | Commit target, default `data/live`. |
+| `VERCEL_PROJECT_DASHBOARD_URL` | no | Public dashboard link used by the “Schedule history” button. |
 
-1. **Settings → Pages**
-2. Source: **Deploy from a branch**
-3. Branch: `arena/bef4f689-powerful-websites` (or `main` once merged), folder `/docs`
-4. **Save**, then wait for the first build. URL: <https://lin4cre.github.io/Powerful-websites/>
+The token is read only inside serverless functions, never bundled into the client
+and never returned by an API response.
 
-**Option B — workflow deployment (after the billing lock is cleared):**
+### Fallback hosting
 
-1. Resolve the account billing issue so runners can start.
-2. **Settings → Pages → Source: GitHub Actions**.
-3. Merge this branch into `main`; `deploy.yml` publishes on every relevant change.
-
-When you re-run `npm run scan` or change the app, refresh the committed build with
-`npm run build:pages`.
+GitHub Pages remains possible without complicating the Vercel path:
+`npm run build:pages` writes a `VITE_BASE=/Powerful-websites/` build to `docs/`,
+which can be served from the branch (Settings → Pages → Deploy from a branch → `/docs`).
+It is documented in [documentation/OPERATIONS.md](documentation/OPERATIONS.md).
 
 ## Quality
 
@@ -275,8 +313,17 @@ automation. The verifier itself is the authority on additions and removals.
 
 Verification proves an interface is reachable without an account at a specific
 moment; it cannot exercise every feature or predict future quotas. Heavily
-bot-protected sites stay `pending` rather than being guessed at. Details and the
-full list of limitations live in [documentation/VERIFICATION.md](documentation/VERIFICATION.md).
+bot-protected sites stay `pending` rather than being guessed at.
+
+Two honest caveats for the current deployment:
+
+1. Scheduled verification is a **server-side HTTP + DOM review**, not a browser
+   test. Records say `method: "reader"` and the UI labels them “Checked”. Browser
+   verification still requires the Playwright workflow on a machine that can run it.
+2. Until `GITHUB_DATA_TOKEN` is added, scheduled ticks cannot persist results, so
+   the catalogue stays at the 32 manually reviewed entries.
+
+Full detail lives in [documentation/VERIFICATION.md](documentation/VERIFICATION.md).
 
 ## Privacy
 

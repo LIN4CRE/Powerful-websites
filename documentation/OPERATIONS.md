@@ -115,3 +115,67 @@ gh api repos/LIN4CRE/Powerful-websites/actions/runs/<run-id>/jobs
 Do not "fix" the YAML in response. Once billing is resolved, dispatch the scan
 manually (`gh workflow run scan.yml`) to populate `data/sites.json` with browser
 evidence and to let `deploy.yml` publish.
+
+## Vercel is the primary platform
+
+Production runs on Vercel with the native GitHub integration:
+
+| Setting | Value |
+| --- | --- |
+| Framework preset | Vite |
+| Root directory | repository root |
+| Install command | `npm ci` |
+| Build command | `npm run build` |
+| Output directory | `dist` |
+| Production branch | `main` |
+| Preview deployments | every other branch and pull request |
+
+`vercel.json` adds the SPA rewrite, security headers, immutable asset caching,
+function durations and the `directory-scan` schedule. The Vite `base` is `/`; the
+Pages build is the only place that overrides it.
+
+### Scheduled scanning
+
+```json
+"schedules": {
+  "directory-scan": {
+    "schedule": "7,22,37,52 * * * *",
+    "function": "api/schedule/scan.ts",
+    "timezone": "UTC"
+  }
+}
+```
+
+`api/schedule/scan.ts` sets `experimentalTriggers: [{ "type": "schedule/v1beta" }]`,
+which removes its public URL — only Vercel's scheduler can invoke it. The handler
+wraps `runTick()` in `handleSchedule` from `@vercel/schedules`.
+
+Each invocation is bounded: one source, up to three verifications, a 210-second
+budget. Results are committed to `DATA_BRANCH` (`data/live` by default) so
+production builds never restart because of a data update.
+
+**Check the schedule is live:** Vercel dashboard → Project → *Schedules* (or
+*Cron Jobs* on older dashboards). Confirm `directory-scan` shows the four-minute
+stagger and a recent execution. Function logs contain one JSON line per tick:
+`{"event":"scan-tick","mode":"persisted"|"read-only",...}`.
+
+**Hobby allowance:** 5,000 schedule runs/month; a 15-minute cadence uses ≈2,880.
+
+### Enabling persistent writes
+
+1. GitHub → Settings → Developer settings → Fine-grained tokens → *Generate new token*.
+2. Repository access: only `LIN4CRE/Powerful-websites`.
+3. Permissions: **Contents → Read and write**. Nothing else.
+4. Vercel → Project → Settings → Environment Variables → add `GITHUB_DATA_TOKEN`
+   for Production (and Preview if desired), type **Sensitive**.
+5. Redeploy (or wait for the next deployment). `/api/health` will report
+   `"persistedWrites": true`.
+
+The token is used only by `api/_lib/repo.ts`; it is never sent to the browser and
+never appears in API responses.
+
+### Refreshing the optional Pages build
+
+```bash
+npm run build:pages   # VITE_BASE=/Powerful-websites/ -> docs/
+```

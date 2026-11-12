@@ -82,3 +82,28 @@ Consequences, stated plainly:
 When the billing lock is lifted, the existing `scan.yml` workflow re-verifies the
 catalogue, upgrades `reader` records to `http+browser` and continues discovery
 without any data migration.
+
+## Serverless verification (Vercel Schedules)
+
+The scheduled Vercel function cannot ship a Chromium binary within the free
+function limits, so it runs `api/_lib/verify-document.ts`: an HTTP fetch (manual
+redirects, each hop re-validated, 12 s timeout, 2.5 MB cap) followed by a Cheerio
+DOM review.
+
+It reuses the same decision core as the Playwright verifier
+(`analyseSnapshot` → `decideOutcome`), but passes `browserLoaded: false`. As a
+result:
+
+- approved records carry `method: "reader"` and the UI shows **Checked**;
+- the validator rejects any record that claims `http+browser` without
+  `checks.browser === true`;
+- the robots panel reports `browserChecks: 0` until a real browser run happens.
+
+What the document review can catch: login walls, "create an account" gates, API-key
+requirements, empty marketing shells with no interactive element, bot challenges,
+unreachable hosts, cross-domain or parking redirects. What it cannot catch:
+JavaScript-rendered interfaces, canvas/WASM failures, and interactions that need a
+click.
+
+To regain full browser evidence, run the optional `Scan & Verify` workflow on a
+runner that can execute Playwright, or run `npm run verify` locally.

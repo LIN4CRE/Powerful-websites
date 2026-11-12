@@ -1,10 +1,12 @@
 name: Scan & Verify
 
-# Runs the three robots every 15 minutes (staggered so runs do not pile up on
-# the hour) and can be triggered by hand from the Actions tab.
+# OPTIONAL browser-verification path.
+#
+# The production robots now run on Vercel Schedules (api/schedule/scan.ts), so
+# this workflow is manual-only: it exists to produce full Playwright evidence on
+# repositories whose Actions runners can start. The schedule was removed because
+# the account is billing-locked and every scheduled run failed before step one.
 on:
-  schedule:
-    - cron: '7,22,37,52 * * * *'
   workflow_dispatch:
     inputs:
       max_new_candidates:

@@ -1,3 +1,4 @@
+import { useState } from 'react';
 import { Icon } from './Icon';
 import { LogoMark, Wordmark } from './Logo';
 import { useClock } from '../hooks/useClock';
@@ -30,6 +31,7 @@ function statusLabel(metadata: ScanMetadata, isStale: boolean): { text: string; 
 export function Header({ onOpenSearch, theme, onToggleTheme, metadata, isStale }: HeaderProps) {
   const now = useClock();
   const status = statusLabel(metadata, isStale);
+  const [menuOpen, setMenuOpen] = useState(false);
 
   return (
     <header
@@ -101,8 +103,47 @@ export function Header({ onOpenSearch, theme, onToggleTheme, metadata, isStale }
           >
             <Icon name={theme === 'dark' ? 'Sun' : 'Moon'} size={15} />
           </button>
+
+          <button
+            type="button"
+            className="control w-10 px-0 md:hidden"
+            aria-expanded={menuOpen}
+            aria-controls="mobile-nav"
+            aria-label={menuOpen ? 'Close navigation menu' : 'Open navigation menu'}
+            onClick={() => setMenuOpen((value) => !value)}
+          >
+            <Icon name={menuOpen ? 'X' : 'Menu'} size={16} />
+          </button>
         </div>
       </div>
+
+      {menuOpen && (
+        <nav
+          id="mobile-nav"
+          aria-label="Mobile"
+          className="border-t border-[var(--border)] bg-[var(--bg-soft)] md:hidden"
+        >
+          <div className="shell flex flex-col py-2">
+            {NAV.map((item) => (
+              <a
+                key={item.href}
+                href={item.href}
+                onClick={() => setMenuOpen(false)}
+                className="rounded-lg px-2 py-2.5 text-[0.86rem] text-[var(--text-soft)] transition-colors hover:bg-white/[0.04] hover:text-[var(--text)]"
+              >
+                {item.label}
+              </a>
+            ))}
+            <a
+              href="#live-status"
+              onClick={() => setMenuOpen(false)}
+              className="rounded-lg px-2 py-2.5 text-[0.86rem] text-[var(--text-soft)] transition-colors hover:bg-white/[0.04] hover:text-[var(--text)]"
+            >
+              Live status
+            </a>
+          </div>
+        </nav>
+      )}
     </header>
   );
 }

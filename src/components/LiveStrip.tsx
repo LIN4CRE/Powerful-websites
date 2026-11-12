@@ -61,7 +61,10 @@ export function LiveStrip({ metadata, isStale, verifiedCount, pendingCount }: Li
               ≈ every 15 min
             </p>
             <p className="mt-1.5 text-[0.7rem] text-[var(--muted)]">
-              Best-effort GitHub Actions schedule · {verifiedCount} verified · {pendingCount} queued
+              {metadata.scheduleProvider === 'vercel-schedules'
+                ? 'Best-effort Vercel schedule'
+                : 'Best-effort scheduled scans'}{' '}
+              · {verifiedCount} checked · {pendingCount} queued
             </p>
           </div>
         </div>

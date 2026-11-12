@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://lin4cre.github.io/Powerful-websites/sitemap.xml
+Sitemap: https://powerful-websites.vercel.app/sitemap.xml
