@@ -5,7 +5,29 @@
 A continuously updated, machine-verified directory of genuinely useful websites —
 each one usable **without creating an account, logging in or supplying an API key**.
 
-**Live site:** <https://lin4cre.github.io/Powerful-websites/>
+**Live site:** <https://lin4cre.github.io/Powerful-websites/> (enable Pages once — see
+[Deployment](#deployment)).
+
+---
+
+## Current status (12 November 2026)
+
+This repository is complete and every gate that can run here passes, but two
+external facts shape what is published:
+
+| Item | State |
+| --- | --- |
+| Published listings | **32**, each with a recorded evidence string and timestamp |
+| Method used for them | `reader` — a server-rendered document review, because no browser could run |
+| Queued candidates | **163** seeded from public sources, awaiting automated verification |
+| GitHub Actions | **Blocked by the account's billing lock.** Jobs fail in ~2 s with *"The job was not started because your account is locked due to a billing issue."* |
+| GitHub Pages | Not yet enabled; the Pages API is not reachable with this token |
+
+Nothing here is simulated. The scheduled robots, the browser verifier and the
+workflow-based deploy are implemented and tested; they start producing
+`http+browser` evidence the moment a runner is allowed to start. Until then the
+site labels every listing "Checked …" rather than "Verified …" and shows a
+banner explaining that automation is paused.
 
 ---
 
@@ -82,6 +104,20 @@ For each site the verifier:
 6. retries transient errors, and leaves unverifiable sites `pending` instead of
    pretending they passed;
 7. stores evidence (status, final URL, detected elements, duration, timestamp).
+
+### Verification methods
+
+| `method` | What it proves |
+| --- | --- |
+| `http+browser` | The automated standard: Chromium in a clean profile reached the tool without an account. |
+| `reader` | A server-rendered document review reached the tool interface, with no login wall in the rendered document. Used only while runners are unavailable. |
+| `http` | Reachability only. Never published. |
+| `editorial` | Human review without a machine check. Never published. |
+
+The UI is explicit about this: browser-verified cards read **Verified**, reader
+records read **Checked**, and the status strip explains why. The data validator
+refuses a record that claims a browser pass without one, or that claims the
+automated method under a weaker mode.
 
 Only `verified` records enter `data/sites.json`. See [documentation/VERIFICATION.md](documentation/VERIFICATION.md)
 for the full method and its honest limitations.
@@ -196,15 +232,35 @@ It runs on:
 - completion of a **Scan & Verify** run (so even a no-change scan ships fresh metadata);
 - manual dispatch.
 
-One-time setup: **Settings → Pages → Source: GitHub Actions**. Full runbook:
+### Publishing without Actions
+
+Because Actions cannot start on the current account, the production build is also
+committed to `docs/` (`npm run build:pages`) so the site can be served directly
+from the branch. Both paths are documented in
 [documentation/OPERATIONS.md](documentation/OPERATIONS.md).
+
+**Option A — branch deployment (works today, no Actions):**
+
+1. **Settings → Pages**
+2. Source: **Deploy from a branch**
+3. Branch: `arena/bef4f689-powerful-websites` (or `main` once merged), folder `/docs`
+4. **Save**, then wait for the first build. URL: <https://lin4cre.github.io/Powerful-websites/>
+
+**Option B — workflow deployment (after the billing lock is cleared):**
+
+1. Resolve the account billing issue so runners can start.
+2. **Settings → Pages → Source: GitHub Actions**.
+3. Merge this branch into `main`; `deploy.yml` publishes on every relevant change.
+
+When you re-run `npm run scan` or change the app, refresh the committed build with
+`npm run build:pages`.
 
 ## Quality
 
 CI (`.github/workflows/ci.yml`) runs on every push and pull request:
 
 - ESLint and strict TypeScript
-- 80+ unit, component and data-integrity tests
+- 88 unit, component and data-integrity tests
 - Schema and cross-reference validation of the JSON
 - Production build and build-output checks
 - Playwright suites on desktop and mobile viewports, including axe accessibility

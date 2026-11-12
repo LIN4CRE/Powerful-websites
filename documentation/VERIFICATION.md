@@ -57,3 +57,28 @@ VERIFY_MAX=1 RECHECK_MAX=0 npx tsx scripts/verify.ts
 
 The verifier writes the same evidence to `data/` that the scheduled workflow
 uses. Add `DEBUG_VERIFY=1` to log page titles while investigating a candidate.
+
+## Verification methods and the current catalogue
+
+Each published record carries `verification.method`. The automated standard is
+`http+browser`: Playwright launches Chromium with a fresh, cookie-less profile and
+inspects the advertised tool. `reader` records a server-rendered document review
+performed when GitHub Actions could not start (the account behind this repository
+is under a billing lock, so every job fails before its first step).
+
+Consequences, stated plainly:
+
+- `reader` records prove the rendered document served the tool interface with no
+  login wall. They do **not** prove that a canvas, WASM bundle or drag-and-drop
+  handler executes correctly in a real browser.
+- Every `reader` listing is therefore labelled **Checked** in the UI rather than
+  **Verified**, and the status strip carries an "Automation paused" notice.
+- `scripts/validate-data.ts` and the unit suite reject a record that claims
+  `http+browser` without `checks.browser === true`, or claims a browser pass while
+  recording a weaker method.
+- The 163 remaining candidates stay `pending` until a runner can verify them. No
+  entry was published to reach a count.
+
+When the billing lock is lifted, the existing `scan.yml` workflow re-verifies the
+catalogue, upgrades `reader` records to `http+browser` and continues discovery
+without any data migration.

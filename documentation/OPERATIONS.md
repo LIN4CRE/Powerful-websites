@@ -73,3 +73,45 @@ requests. Delete a file to force a refresh on the next scan.
 Prefer letting the curator add it automatically. Manual additions belong in
 `data/categories.json` with a unique lowercase `id`, a display `name`, a Lucide
 `icon` name and a short description. Existing sites reference the category id.
+
+## Serving the site without Actions
+
+The production build is committed to `docs/` so GitHub Pages can serve it from a
+branch while Actions runners are unavailable.
+
+```bash
+npm run build:pages   # tsc -b && BUILD_OUT_DIR=docs vite build
+git add docs && git commit -m "chore: refresh committed Pages build"
+```
+
+Pages setup: **Settings → Pages → Deploy from a branch → branch `main` (or the
+working branch) → `/docs`**.
+
+Checklist when shipping a change that is served from `docs/`:
+
+1. `npm run test`, `npm run lint`, `npm run typecheck`
+2. `npm run validate:data`
+3. `npm run build:pages`
+4. commit `docs/` together with the source change
+
+Both the committed build and `deploy.yml` publish the same `VITE_BASE`
+(`/Powerful-websites/`), so switching between the two paths does not change URLs.
+
+## Known blocker: Actions billing lock
+
+Observed on 12 November 2026: every workflow job fails in about two seconds with
+zero executed steps and the annotation *"The job was not started because your
+account is locked due to a billing issue."* Only `ci.yml` was registered; the
+newer workflow files were not yet listed by the API at the time of the attempt.
+
+This is an account-level condition, not a workflow defect. Verify with:
+
+```bash
+gh run list --limit 5
+gh run view <run-id> --log-failed
+gh api repos/LIN4CRE/Powerful-websites/actions/runs/<run-id>/jobs
+```
+
+Do not "fix" the YAML in response. Once billing is resolved, dispatch the scan
+manually (`gh workflow run scan.yml`) to populate `data/sites.json` with browser
+evidence and to let `deploy.yml` publish.

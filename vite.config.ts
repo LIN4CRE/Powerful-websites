@@ -26,6 +26,11 @@ export default defineConfig(({ command }) => ({
     host: '0.0.0.0',
     port: 5173,
     strictPort: false,
+    // Optional host allowlist for proxied preview environments
+    // (e.g. DEV_ALLOWED_HOSTS=.e2b.app). Unset means Vite's localhost default.
+    allowedHosts: process.env.DEV_ALLOWED_HOSTS
+      ? process.env.DEV_ALLOWED_HOSTS.split(',')
+      : undefined,
   },
   preview: {
     host: '0.0.0.0',
