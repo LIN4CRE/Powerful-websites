@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "status": "success",
+  "schedule": "7,22,37,52 * * * *",
+  "scheduleIntervalMinutes": 15,
+  "scheduleNote": "Approximately every 15 minutes. GitHub Actions schedules are best-effort and may be delayed at peak times.",
+  "lastScanAttemptAt": null,
+  "lastSuccessfulScanAt": null,
+  "lastCompletedScanAt": null,
+  "lastVerificationRunAt": null,
+  "lastAdditionAt": null,
+  "durationMs": null,
+  "counts": {
+    "sourcesChecked": 0,
+    "sourcesFailed": 0,
+    "discovered": 0,
+    "pending": 0,
+    "verified": 0,
+    "rejected": 0,
+    "rechecked": 0,
+    "removed": 0,
+    "duplicatesRemoved": 0,
+    "totalSites": 0,
+    "addedThisRun": 0
+  },
+  "robots": {
+    "scout": { "state": "idle", "summary": "Waiting for the first automated run.", "lastRunAt": null, "metrics": {} },
+    "verifier": { "state": "idle", "summary": "Waiting for the first automated run.", "lastRunAt": null, "metrics": {} },
+    "curator": { "state": "idle", "summary": "Waiting for the first automated run.", "lastRunAt": null, "metrics": {} }
+  },
+  "sourceHealth": [],
+  "workflow": {
+    "provider": "GitHub Actions",
+    "runId": null,
+    "runUrl": null,
+    "repositoryUrl": "https://github.com/LIN4CRE/Powerful-websites",
+    "historyUrl": "https://github.com/LIN4CRE/Powerful-websites/actions/workflows/scan.yml",
+    "event": "none",
+    "commit": null
+  }
+}

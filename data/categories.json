@@ -1,0 +1,125 @@
+{
+  "schemaVersion": 1,
+  "categories": [
+    {
+      "id": "ai",
+      "name": "AI & Artificial Intelligence",
+      "icon": "Sparkles",
+      "description": "Generative models, AI utilities and machine-learning playgrounds."
+    },
+    {
+      "id": "productivity",
+      "name": "Productivity",
+      "icon": "ListChecks",
+      "description": "Planning, note-taking, timers and focus tools."
+    },
+    {
+      "id": "developer",
+      "name": "Developer Tools",
+      "icon": "Terminal",
+      "description": "Debuggers, formatters, encoders and API utilities."
+    },
+    {
+      "id": "programming",
+      "name": "Programming & Coding",
+      "icon": "Code2",
+      "description": "Compilers, sandboxes and code practice environments."
+    },
+    {
+      "id": "design",
+      "name": "Design & Graphics",
+      "icon": "Palette",
+      "description": "Colour, typography, illustration and vector tools."
+    },
+    {
+      "id": "image",
+      "name": "Image & Photography",
+      "icon": "Image",
+      "description": "Editing, compression, conversion and stock imagery."
+    },
+    {
+      "id": "video-audio",
+      "name": "Video & Audio",
+      "icon": "Clapperboard",
+      "description": "Media conversion, trimming, recording and sound design."
+    },
+    {
+      "id": "writing",
+      "name": "Writing & Documents",
+      "icon": "PenLine",
+      "description": "Editing, grammar, translation and document creation."
+    },
+    {
+      "id": "pdf-files",
+      "name": "PDF & File Tools",
+      "icon": "FileText",
+      "description": "Merge, split, convert, compress and share files."
+    },
+    {
+      "id": "privacy",
+      "name": "Privacy & Security",
+      "icon": "ShieldCheck",
+      "description": "Leak tests, breach checks and private communication."
+    },
+    {
+      "id": "research",
+      "name": "Research & Investigation",
+      "icon": "Telescope",
+      "description": "Archives, scholarly search and open-source intelligence."
+    },
+    {
+      "id": "education",
+      "name": "Education & Learning",
+      "icon": "GraduationCap",
+      "description": "Courses, textbooks and interactive learning."
+    },
+    {
+      "id": "science",
+      "name": "Science & Technology",
+      "icon": "FlaskConical",
+      "description": "Earth, space, chemistry and physics resources."
+    },
+    {
+      "id": "data",
+      "name": "Data & Analytics",
+      "icon": "BarChart3",
+      "description": "Datasets, visualisation and chart building."
+    },
+    {
+      "id": "maps",
+      "name": "Maps & Geography",
+      "icon": "Map",
+      "description": "Mapping, geospatial tools and location references."
+    },
+    {
+      "id": "internet",
+      "name": "Internet & Networking",
+      "icon": "Network",
+      "description": "DNS, TLS, speed and connectivity diagnostics."
+    },
+    {
+      "id": "calculators",
+      "name": "Calculators & Converters",
+      "icon": "Calculator",
+      "description": "Everyday maths, units, dates and currency."
+    },
+    {
+      "id": "browser-apps",
+      "name": "Browser Applications",
+      "icon": "AppWindow",
+      "description": "Full applications that run entirely in your browser."
+    },
+    {
+      "id": "business",
+      "name": "Business & Finance",
+      "icon": "Briefcase",
+      "description": "Markets, company data and financial reference."
+    },
+    {
+      "id": "unusual",
+      "name": "Interesting & Unusual",
+      "icon": "Compass",
+      "description": "Playful, surprising and delightful corners of the web."
+    }
+  ]
+}

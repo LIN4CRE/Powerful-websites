@@ -1,0 +1,42 @@
+name: Directory quality audit
+
+# Weekly audit of the published links plus a staleness check on the automation.
+# The verifier in scan.yml is the authority; this is an extra safety net.
+on:
+  schedule:
+    - cron: '41 5 * * 1'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci --no-audit --no-fund
+      - name: Validate data
+        run: npm run validate:data
+      - name: Check that every published link responds
+        continue-on-error: true
+        run: npm run check:links
+      - name: Report scan freshness
+        run: |
+          node - <<'NODE'
+          const meta = require('./data/scan-metadata.json');
+          const sites = require('./data/sites.json').sites;
+          const hours = meta.lastSuccessfulScanAt
+            ? (Date.now() - Date.parse(meta.lastSuccessfulScanAt)) / 3_600_000
+            : Infinity;
+          console.log(`Published sites: ${sites.length}`);
+          console.log(`Last successful scan: ${meta.lastSuccessfulScanAt ?? 'never'} (${hours.toFixed(1)}h ago)`);
+          if (hours > 6) {
+            console.log('::warning title=Scan is stale::No successful scan in over six hours. Check the Scan & Verify workflow.');
+          }
+          NODE
