@@ -1,0 +1,131 @@
+name: Scan & Verify
+
+# Runs the three robots every 15 minutes (staggered so runs do not pile up on
+# the hour) and can be triggered by hand from the Actions tab.
+on:
+  schedule:
+    - cron: '7,22,37,52 * * * *'
+  workflow_dispatch:
+    inputs:
+      max_new_candidates:
+        description: 'Maximum new candidates discovered this run'
+        required: false
+        default: '24'
+      max_verifications:
+        description: 'Maximum candidates verified this run'
+        required: false
+        default: '26'
+      max_rechecks:
+        description: 'Existing listings to re-check this run'
+        required: false
+        default: '10'
+
+permissions:
+  contents: write
+  actions: read
+
+concurrency:
+  group: scan
+  cancel-in-progress: false
+
+jobs:
+  scan:
+    name: Scout · Verify · Curate
+    runs-on: ubuntu-latest
+    timeout-minutes: 50
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          # Scheduled runs always operate on the default branch. Manual runs can
+          # target a branch so the pipeline can be tested before merging.
+          ref: ${{ github.ref }}
+          fetch-depth: 0
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci --no-audit --no-fund
+
+      - name: Cache Playwright browsers
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/ms-playwright
+          key: playwright-${{ runner.os }}-${{ hashFiles('package-lock.json') }}
+          restore-keys: |
+            playwright-${{ runner.os }}-
+
+      - name: Install Chromium
+        run: npx playwright install --with-deps chromium
+
+      - name: Run the scan
+        id: scan
+        continue-on-error: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          SCOUT_MAX_NEW: ${{ github.event.inputs.max_new_candidates || '24' }}
+          VERIFY_MAX: ${{ github.event.inputs.max_verifications || '26' }}
+          RECHECK_MAX: ${{ github.event.inputs.max_rechecks || '10' }}
+          VERIFY_CONCURRENCY: '4'
+          ICON_MAX: '20'
+        run: npm run scan
+
+      - name: Validate data files
+        id: validate
+        if: always()
+        run: npm run validate:data
+
+      - name: Commit updated data
+        if: always() && steps.validate.outcome == 'success'
+        run: |
+          git config user.name "powerful-websites-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data public/logos
+          if git diff --cached --quiet; then
+            echo "No data changes this run — nothing to commit."
+          else
+            SUMMARY=$(node -e "const m=require('./data/scan-metadata.json');console.log(m.counts.totalSites+' sites, '+m.counts.discovered+' discovered, '+m.counts.verified+' approved')")
+            git commit -m "chore(scan): ${SUMMARY} [skip ci]"
+            git push origin HEAD
+            echo "Committed: ${SUMMARY}"
+          fi
+
+      - name: Publish run summary
+        if: always()
+        run: |
+          node - <<'NODE' >> "$GITHUB_STEP_SUMMARY"
+          const fs = require('fs');
+          const meta = JSON.parse(fs.readFileSync('data/scan-metadata.json', 'utf8'));
+          const sites = JSON.parse(fs.readFileSync('data/sites.json', 'utf8')).sites;
+          const candidates = JSON.parse(fs.readFileSync('data/candidates.json', 'utf8')).candidates;
+          const row = (label, value) => `| ${label} | ${value} |`;
+          console.log('## Scan summary\n');
+          console.log(row('Status', `\`${meta.status}\``));
+          console.log(row('Completed', meta.lastCompletedScanAt ?? '—'));
+          console.log(row('Published websites', sites.length));
+          console.log(row('Pending candidates', candidates.filter((c) => c.status === 'pending').length));
+          console.log(row('Rejected candidates', candidates.filter((c) => c.status === 'rejected').length));
+          console.log(row('Sources OK', `${meta.counts.sourcesChecked - meta.counts.sourcesFailed}/${meta.counts.sourcesChecked}`));
+          console.log(row('Discovered this run', meta.counts.discovered));
+          console.log(row('Approved this run', meta.counts.verified));
+          if (meta.notes?.length) {
+            console.log('\n### Notes\n');
+            for (const note of meta.notes) console.log(`- ${note}`);
+          }
+          const failed = meta.sourceHealth.filter((source) => source.status === 'failed');
+          if (failed.length) {
+            console.log('\n### Failed sources\n');
+            for (const source of failed) console.log(`- **${source.name}** — ${source.error ?? 'unknown error'}`);
+          }
+          NODE
+
+      - name: Fail the job if the scan failed
+        if: steps.scan.outcome == 'failure'
+        run: |
+          echo "The scan failed. Metadata has been recorded honestly and unchanged data was not committed."
+          exit 1

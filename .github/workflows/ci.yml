@@ -1,0 +1,82 @@
+name: CI
+
+on:
+  push:
+    branches: ['**']
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  quality:
+    name: Lint · Types · Unit tests · Data · Build
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci --no-audit --no-fund
+      - name: Lint
+        run: npm run lint
+      - name: TypeScript
+        run: npm run typecheck
+      - name: Unit and data tests
+        run: npm test
+      - name: Validate JSON data
+        run: npm run validate:data
+      - name: Production build
+        env:
+          VITE_BASE: /Powerful-websites/
+        run: npm run build
+      - name: Verify build output
+        run: |
+          test -f dist/index.html
+          test -f dist/favicon.svg
+          grep -q "Powerful Websites" dist/index.html
+
+  e2e:
+    name: Browser tests (${{ matrix.project }})
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    strategy:
+      fail-fast: false
+      matrix:
+        project: [desktop, mobile]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci --no-audit --no-fund
+      - name: Cache Playwright browsers
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/ms-playwright
+          key: playwright-${{ runner.os }}-${{ hashFiles('package-lock.json') }}
+          restore-keys: |
+            playwright-${{ runner.os }}-
+      - run: npx playwright install --with-deps chromium
+      - name: Build and run browser tests
+        env:
+          CI: 'true'
+        run: npx playwright test --project ${{ matrix.project }}
+      - name: Upload screenshots and report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: playwright-${{ matrix.project }}
+          path: |
+            test-results/screenshots
+            playwright-report
+          retention-days: 14
+          if-no-files-found: warn

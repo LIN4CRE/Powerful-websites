@@ -1,0 +1,25 @@
+name: Report a problem
+description: Something is broken on the website, or a listing is wrong
+title: 'Bug: '
+labels: ['bug']
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: Include the page, the listing name and what you expected instead.
+    validations:
+      required: true
+  - type: input
+    id: device
+    attributes:
+      label: Device and browser
+      placeholder: iPhone 14 / Safari 18, or Windows 11 / Chrome 131
+  - type: checkboxes
+    id: listing
+    attributes:
+      label: If this is about a listing
+      options:
+        - label: The site now requires an account or no longer works
+        - label: The link points somewhere other than the official website
+        - label: The description or category is wrong

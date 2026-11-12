@@ -1,0 +1,61 @@
+name: Suggest a website
+description: Propose a powerful website that works without an account
+title: 'Site suggestion: '
+labels: ['site-suggestion']
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Website name
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: Official URL
+      placeholder: https://example.com
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: What does it do, and what can you do without an account?
+      description: The verifier will re-test the site; please note anything it should check.
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: Suggested category
+      options:
+        - AI & Artificial Intelligence
+        - Productivity
+        - Developer Tools
+        - Programming & Coding
+        - Design & Graphics
+        - Image & Photography
+        - Video & Audio
+        - Writing & Documents
+        - PDF & File Tools
+        - Privacy & Security
+        - Research & Investigation
+        - Education & Learning
+        - Science & Technology
+        - Data & Analytics
+        - Maps & Geography
+        - Internet & Networking
+        - Calculators & Converters
+        - Browser Applications
+        - Business & Finance Tools
+        - Interesting & Unusual Websites
+    validations:
+      required: false
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Confirmation
+      options:
+        - label: The core feature works without creating an account or logging in.
+          required: true
+        - label: I have checked that this is the official website.
+          required: true

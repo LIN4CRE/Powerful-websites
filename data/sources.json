@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 1,
+  "sources": [
+    {
+      "id": "toolcommons",
+      "name": "Tool Commons",
+      "type": "html-links",
+      "url": "https://toolcommons.org/",
+      "enabled": true,
+      "maxItems": 8,
+      "notes": "Curated directory of tools that do not require an account. robots.txt is respected before fetching."
+    },
+    {
+      "id": "nosignups",
+      "name": "NoSignups (GitHub)",
+      "type": "github-awesome",
+      "url": "https://github.com/BraveOPotato/NoSignups",
+      "enabled": true,
+      "maxItems": 10,
+      "notes": "Public GitHub list of no-registration services. README links are extracted through the GitHub API."
+    },
+    {
+      "id": "awesome-selfhosted",
+      "name": "Awesome Selfhosted",
+      "type": "github-awesome",
+      "url": "https://github.com/awesome-selfhosted/awesome-selfhosted",
+      "enabled": true,
+      "category": "browser-apps",
+      "maxItems": 4,
+      "notes": "Large curated list; only entries with a live hosted demo can pass verification."
+    },
+    {
+      "id": "awesome-stock-resources",
+      "name": "Awesome Stock Resources",
+      "type": "github-awesome",
+      "url": "https://github.com/neutraltone/awesome-stock-resources",
+      "enabled": true,
+      "category": "image",
+      "tags": ["free-assets"],
+      "maxItems": 8,
+      "notes": "Free photography, video and illustration resources with clear licensing."
+    },
+    {
+      "id": "awesome-dataviz",
+      "name": "Awesome Dataviz",
+      "type": "github-awesome",
+      "url": "https://github.com/toolleeo/awesome-dataviz",
+      "enabled": true,
+      "category": "data",
+      "maxItems": 8,
+      "notes": "Data-visualisation libraries and browser tools."
+    },
+    {
+      "id": "awesome-public-datasets",
+      "name": "Awesome Public Datasets",
+      "type": "github-awesome",
+      "url": "https://github.com/awesomedata/awesome-public-datasets",
+      "enabled": true,
+      "category": "data",
+      "maxItems": 4,
+      "notes": "Open dataset collections."
+    },
+    {
+      "id": "github-web-tools",
+      "name": "GitHub search · browser tools",
+      "type": "github-search",
+      "url": "https://api.github.com/search/repositories",
+      "enabled": true,
+      "maxItems": 8,
+      "query": {
+        "q": "topic:webapp topic:tools stars:>500"
+      },
+      "notes": "Repository search for hosted browser applications with traction. Uses the workflow GITHUB_TOKEN."
+    },
+    {
+      "id": "github-awesome-tools",
+      "name": "GitHub search · awesome tool lists",
+      "type": "github-search",
+      "url": "https://api.github.com/search/repositories",
+      "enabled": true,
+      "maxItems": 6,
+      "query": {
+        "q": "awesome online tools in:name,description stars:>1000"
+      },
+      "notes": "Finds maintained awesome-lists that specialise in online tools."
+    },
+    {
+      "id": "hn-show",
+      "name": "Hacker News · Show HN",
+      "type": "rss",
+      "url": "https://hnrss.org/show",
+      "enabled": true,
+      "maxItems": 8,
+      "notes": "Public RSS feed of newly launched projects. Every link is treated as an unverified candidate."
+    },
+    {
+      "id": "lobsters",
+      "name": "Lobsters",
+      "type": "rss",
+      "url": "https://lobste.rs/rss",
+      "enabled": true,
+      "maxItems": 6,
+      "notes": "Computing-focused community feed; useful for discovering new hosted tools."
+    }
+  ]
+}
