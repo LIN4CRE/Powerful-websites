@@ -57,7 +57,7 @@
     "runId": null,
     "runUrl": null,
     "repositoryUrl": "https://github.com/LIN4CRE/Powerful-websites",
-    "historyUrl": "https://vercel.com/dashboard",
+    "historyUrl": "https://vercel.com/linacres-projects/powerful-websites",
     "event": "none",
     "commit": null
   },
@@ -66,5 +66,5 @@
   ],
   "scheduleProvider": "vercel-schedules",
   "nextScheduledRunAt": null,
-  "dashboardUrl": "https://vercel.com/dashboard"
+  "dashboardUrl": "https://vercel.com/linacres-projects/powerful-websites"
 }
