@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-13T13:29:46.024Z",
+  "updatedAt": "2026-11-13T13:44:45.932Z",
   "sites": [
     {
       "id": "arxiv",
@@ -6008,6 +6008,93 @@
         "httpStatus": 200,
         "finalUrl": "https://d8a.tech/",
         "checkedAt": "2026-11-13T13:29:47.442Z",
+        "attempts": 1
+      },
+      "availability": "online",
+      "icon": null,
+      "featured": false,
+      "consecutiveFailures": 0
+    },
+    {
+      "id": "dreeve",
+      "name": "Dreeve",
+      "url": "https://dreeve.app",
+      "domain": "dreeve.app",
+      "description": "Statistics dashboard generated from Strava data. (, [Source….",
+      "category": "browser-apps",
+      "tags": [
+        "statistics",
+        "dashboard",
+        "generated"
+      ],
+      "free": true,
+      "accountRequired": false,
+      "apiKeyRequired": false,
+      "openSource": false,
+      "sourceRepo": null,
+      "license": null,
+      "discoverySource": "awesome-selfhosted",
+      "dateDiscovered": "2026-11-13T00:14:46.130Z",
+      "addedAt": "2026-11-13T13:44:46.534Z",
+      "lastVerifiedAt": "2026-11-13T13:44:46.533Z",
+      "verification": {
+        "status": "verified",
+        "method": "reader",
+        "checks": {
+          "http": true,
+          "browser": false,
+          "noLoginWall": true,
+          "noApiKey": true,
+          "coreUiReachable": true
+        },
+        "evidence": "Server-side document review (HTTP 200); final URL https://dreeve.app/; 0 tool signals; no login wall detected; no API key required.",
+        "httpStatus": 200,
+        "finalUrl": "https://dreeve.app/",
+        "checkedAt": "2026-11-13T13:44:46.533Z",
+        "attempts": 1
+      },
+      "availability": "online",
+      "icon": null,
+      "featured": false,
+      "consecutiveFailures": 0
+    },
+    {
+      "id": "altphotos",
+      "name": "Altphotos",
+      "url": "https://altphotos.com",
+      "domain": "altphotos.com",
+      "description": "Handpicked free high-resolution photos added daily.",
+      "category": "image",
+      "tags": [
+        "free-assets",
+        "high-resolution",
+        "handpicked",
+        "altphotos"
+      ],
+      "free": true,
+      "accountRequired": false,
+      "apiKeyRequired": false,
+      "openSource": false,
+      "sourceRepo": null,
+      "license": null,
+      "discoverySource": "awesome-stock-resources",
+      "dateDiscovered": "2026-11-13T00:29:46.041Z",
+      "addedAt": "2026-11-13T13:44:46.666Z",
+      "lastVerifiedAt": "2026-11-13T13:44:46.666Z",
+      "verification": {
+        "status": "verified",
+        "method": "reader",
+        "checks": {
+          "http": true,
+          "browser": false,
+          "noLoginWall": true,
+          "noApiKey": true,
+          "coreUiReachable": true
+        },
+        "evidence": "Server-side document review (HTTP 200); final URL https://altphotos.com/; 1 tool signal; no login wall detected; no API key required.",
+        "httpStatus": 200,
+        "finalUrl": "https://altphotos.com/",
+        "checkedAt": "2026-11-13T13:44:46.666Z",
         "attempts": 1
       },
       "availability": "online",
