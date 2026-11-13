@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-13T01:29:45.991Z",
+  "updatedAt": "2026-11-13T01:44:46.048Z",
   "sites": [
     {
       "id": "arxiv",
@@ -2052,6 +2052,92 @@
         "httpStatus": 200,
         "finalUrl": "https://www.mockaroo.com/",
         "checkedAt": "2026-11-13T01:29:46.635Z",
+        "attempts": 1
+      },
+      "availability": "online",
+      "icon": null,
+      "featured": false,
+      "consecutiveFailures": 0
+    },
+    {
+      "id": "diffchecker",
+      "name": "Diffchecker",
+      "url": "https://www.diffchecker.com",
+      "domain": "diffchecker.com",
+      "description": "Compares two texts, documents or images and highlights the differences line by line.",
+      "category": "developer",
+      "tags": [
+        "diff",
+        "compare",
+        "text"
+      ],
+      "free": true,
+      "accountRequired": false,
+      "apiKeyRequired": false,
+      "openSource": false,
+      "sourceRepo": null,
+      "license": null,
+      "discoverySource": "editorial-research",
+      "dateDiscovered": "2026-11-12T20:09:58.316Z",
+      "addedAt": "2026-11-13T01:44:50.609Z",
+      "lastVerifiedAt": "2026-11-13T01:44:50.609Z",
+      "verification": {
+        "status": "verified",
+        "method": "reader",
+        "checks": {
+          "http": true,
+          "browser": false,
+          "noLoginWall": true,
+          "noApiKey": true,
+          "coreUiReachable": true
+        },
+        "evidence": "Server-side document review (HTTP 200); final URL https://www.diffchecker.com/; 2 tool signals; no login wall detected; no API key required.",
+        "httpStatus": 200,
+        "finalUrl": "https://www.diffchecker.com/",
+        "checkedAt": "2026-11-13T01:44:50.609Z",
+        "attempts": 1
+      },
+      "availability": "online",
+      "icon": null,
+      "featured": false,
+      "consecutiveFailures": 0
+    },
+    {
+      "id": "stackblitz",
+      "name": "StackBlitz",
+      "url": "https://stackblitz.com",
+      "domain": "stackblitz.com",
+      "description": "Runs full-stack JavaScript and TypeScript projects in the browser without installing anything.",
+      "category": "programming",
+      "tags": [
+        "sandbox",
+        "frontend",
+        "node"
+      ],
+      "free": true,
+      "accountRequired": false,
+      "apiKeyRequired": false,
+      "openSource": false,
+      "sourceRepo": null,
+      "license": null,
+      "discoverySource": "editorial-research",
+      "dateDiscovered": "2026-11-12T20:09:58.316Z",
+      "addedAt": "2026-11-13T01:44:51.020Z",
+      "lastVerifiedAt": "2026-11-13T01:44:51.020Z",
+      "verification": {
+        "status": "verified",
+        "method": "reader",
+        "checks": {
+          "http": true,
+          "browser": false,
+          "noLoginWall": true,
+          "noApiKey": true,
+          "coreUiReachable": true
+        },
+        "evidence": "Server-side document review (HTTP 200); final URL https://stackblitz.com/; 0 tool signals; no login wall detected; no API key required.",
+        "httpStatus": 200,
+        "finalUrl": "https://stackblitz.com/",
+        "checkedAt": "2026-11-13T01:44:51.020Z",
         "attempts": 1
       },
       "availability": "online",
