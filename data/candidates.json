@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-13T05:44:46.111Z",
+  "updatedAt": "2026-11-13T05:59:46.228Z",
   "candidates": [
     {
       "id": "pollinations",
@@ -988,31 +988,6 @@
       "free": true
     },
     {
-      "id": "ssl-labs",
-      "name": "SSL Labs",
-      "url": "https://www.ssllabs.com/ssltest",
-      "domain": "ssllabs.com",
-      "description": "Deeply analyses a site’s TLS configuration and grades its certificate and protocol setup.",
-      "category": "privacy",
-      "tags": [
-        "tls",
-        "certificates",
-        "audit"
-      ],
-      "suggestedBy": "Editorial research",
-      "discoverySource": "editorial-research",
-      "dateDiscovered": "2026-11-12T20:09:58.316Z",
-      "status": "pending",
-      "attempts": 0,
-      "lastAttemptAt": null,
-      "verification": null,
-      "rejectionReason": null,
-      "openSource": false,
-      "sourceRepo": null,
-      "license": null,
-      "free": true
-    },
-    {
       "id": "dns-leak-test",
       "name": "DNS Leak Test",
       "url": "https://www.dnsleaktest.com",
@@ -1027,11 +1002,26 @@
       "suggestedBy": "Editorial research",
       "discoverySource": "editorial-research",
       "dateDiscovered": "2026-11-12T20:09:58.316Z",
-      "status": "pending",
-      "attempts": 0,
-      "lastAttemptAt": null,
-      "verification": null,
-      "rejectionReason": null,
+      "status": "rejected",
+      "attempts": 1,
+      "lastAttemptAt": "2026-11-13T05:59:46.821Z",
+      "verification": {
+        "status": "rejected",
+        "method": "reader",
+        "checks": {
+          "http": true,
+          "browser": false,
+          "noLoginWall": true,
+          "noApiKey": true,
+          "coreUiReachable": false
+        },
+        "evidence": "Server-side document review (HTTP 200); final URL https://www.dnsleaktest.com/; 0 tool signals; no login wall detected; no API key required.",
+        "httpStatus": 200,
+        "finalUrl": "https://www.dnsleaktest.com/",
+        "checkedAt": "2026-11-13T05:59:46.821Z",
+        "attempts": 1
+      },
+      "rejectionReason": "No usable interface or substantial content was reachable without an account; the page looks like a marketing shell.",
       "openSource": false,
       "sourceRepo": null,
       "license": null,
@@ -1052,11 +1042,26 @@
       "suggestedBy": "Editorial research",
       "discoverySource": "editorial-research",
       "dateDiscovered": "2026-11-12T20:09:58.316Z",
-      "status": "pending",
-      "attempts": 0,
-      "lastAttemptAt": null,
-      "verification": null,
-      "rejectionReason": null,
+      "status": "rejected",
+      "attempts": 1,
+      "lastAttemptAt": "2026-11-13T05:59:47.278Z",
+      "verification": {
+        "status": "rejected",
+        "method": "reader",
+        "checks": {
+          "http": true,
+          "browser": false,
+          "noLoginWall": true,
+          "noApiKey": true,
+          "coreUiReachable": false
+        },
+        "evidence": "Server-side document review (HTTP 200); final URL https://cryptpad.fr/; 0 tool signals; no login wall detected; no API key required.",
+        "httpStatus": 200,
+        "finalUrl": "https://cryptpad.fr/",
+        "checkedAt": "2026-11-13T05:59:47.278Z",
+        "attempts": 1
+      },
+      "rejectionReason": "No usable interface or substantial content was reachable without an account; the page looks like a marketing shell.",
       "openSource": true,
       "sourceRepo": "https://github.com/cryptpad/cryptpad",
       "license": "AGPL-3.0",
