@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-13T20:29:46.055Z",
+  "updatedAt": "2026-11-13T20:44:46.054Z",
   "candidates": [
     {
       "id": "pollinations",
@@ -3151,81 +3151,6 @@
         "checkedAt": "2026-11-13T20:29:46.516Z",
         "attempts": 1
       },
-      "rejectionReason": null,
-      "openSource": false,
-      "sourceRepo": null,
-      "license": null,
-      "free": true
-    },
-    {
-      "id": "ssa-from-bytecode-imperative-pearl",
-      "name": "SSA from bytecode: imperative pearl",
-      "url": "https://bernsteinbear.com/blog/ssa-bytecode/",
-      "domain": "bernsteinbear.com",
-      "description": "SSA from bytecode: imperative pearl.",
-      "category": "unusual",
-      "tags": [
-        "imperative",
-        "bytecode",
-        "pearl"
-      ],
-      "suggestedBy": "Lobsters",
-      "discoverySource": "lobsters",
-      "dateDiscovered": "2026-11-13T09:29:45.904Z",
-      "status": "pending",
-      "attempts": 0,
-      "lastAttemptAt": null,
-      "verification": null,
-      "rejectionReason": null,
-      "openSource": false,
-      "sourceRepo": null,
-      "license": null,
-      "free": true
-    },
-    {
-      "id": "how-not-to-build-a-music-player",
-      "name": "How Not to Build a Music Player",
-      "url": "https://alichraghi.github.io/blog/how-not-to-build-a-music-player",
-      "domain": "alichraghi.github.io",
-      "description": "How Not to Build a Music Player.",
-      "category": "video-audio",
-      "tags": [
-        "player",
-        "build",
-        "music"
-      ],
-      "suggestedBy": "Lobsters",
-      "discoverySource": "lobsters",
-      "dateDiscovered": "2026-11-13T09:29:45.904Z",
-      "status": "pending",
-      "attempts": 0,
-      "lastAttemptAt": null,
-      "verification": null,
-      "rejectionReason": null,
-      "openSource": false,
-      "sourceRepo": null,
-      "license": null,
-      "free": true
-    },
-    {
-      "id": "steadfast-update-i",
-      "name": "Steadfast Update I",
-      "url": "https://noteflakes.com/articles/2026-11-13-steadfast-update-1",
-      "domain": "noteflakes.com",
-      "description": "The Baseline.",
-      "category": "unusual",
-      "tags": [
-        "steadfast",
-        "baseline",
-        "update"
-      ],
-      "suggestedBy": "Lobsters",
-      "discoverySource": "lobsters",
-      "dateDiscovered": "2026-11-13T09:29:45.904Z",
-      "status": "pending",
-      "attempts": 0,
-      "lastAttemptAt": null,
-      "verification": null,
       "rejectionReason": null,
       "openSource": false,
       "sourceRepo": null,
