@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-13T19:29:46.047Z",
+  "updatedAt": "2026-11-13T19:44:46.089Z",
   "sites": [
     {
       "id": "arxiv",
@@ -8507,6 +8507,50 @@
         "httpStatus": 200,
         "finalUrl": "https://taleshape.com/shaper/docs/",
         "checkedAt": "2026-11-13T19:29:47.646Z",
+        "attempts": 1
+      },
+      "availability": "online",
+      "icon": null,
+      "featured": false,
+      "consecutiveFailures": 0
+    },
+    {
+      "id": "realistic-shots",
+      "name": "Realistic Shots",
+      "url": "https://realisticshots.com",
+      "domain": "realisticshots.com",
+      "description": "7 new photos added every week.",
+      "category": "image",
+      "tags": [
+        "free-assets",
+        "realistic",
+        "photos",
+        "shots"
+      ],
+      "free": true,
+      "accountRequired": false,
+      "apiKeyRequired": false,
+      "openSource": false,
+      "sourceRepo": null,
+      "license": null,
+      "discoverySource": "awesome-stock-resources",
+      "dateDiscovered": "2026-11-13T07:59:46.051Z",
+      "addedAt": "2026-11-13T19:44:48.143Z",
+      "lastVerifiedAt": "2026-11-13T19:44:48.143Z",
+      "verification": {
+        "status": "verified",
+        "method": "reader",
+        "checks": {
+          "http": true,
+          "browser": false,
+          "noLoginWall": true,
+          "noApiKey": true,
+          "coreUiReachable": true
+        },
+        "evidence": "Server-side document review (HTTP 200); final URL https://realisticshots.com/; 2 tool signals; no login wall detected; no API key required.",
+        "httpStatus": 200,
+        "finalUrl": "https://realisticshots.com/",
+        "checkedAt": "2026-11-13T19:44:48.143Z",
         "attempts": 1
       },
       "availability": "online",
