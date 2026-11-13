@@ -4,41 +4,41 @@
   "schedule": "7,22,37,52 * * * *",
   "scheduleIntervalMinutes": 15,
   "scheduleNote": "Vercel Schedules runs the job at minutes 7, 22, 37 and 52 — about 2,880 invocations a month, within the Hobby allowance of 5,000 schedule runs.",
-  "lastScanAttemptAt": "2026-11-13T07:14:46.125Z",
-  "lastSuccessfulScanAt": "2026-11-13T07:14:46.125Z",
-  "lastCompletedScanAt": "2026-11-13T07:14:46.125Z",
-  "lastVerificationRunAt": "2026-11-13T07:14:46.125Z",
-  "lastAdditionAt": "2026-11-13T07:14:46.125Z",
+  "lastScanAttemptAt": "2026-11-13T07:29:45.994Z",
+  "lastSuccessfulScanAt": "2026-11-13T07:29:45.994Z",
+  "lastCompletedScanAt": "2026-11-13T07:29:45.994Z",
+  "lastVerificationRunAt": "2026-11-13T07:29:45.994Z",
+  "lastAdditionAt": "2026-11-13T07:29:45.994Z",
   "durationMs": null,
   "counts": {
     "sourcesChecked": 1,
     "sourcesFailed": 0,
     "discovered": 0,
-    "pending": 151,
-    "verified": 94,
-    "rejected": 22,
+    "pending": 148,
+    "verified": 95,
+    "rejected": 24,
     "rechecked": 3,
     "removed": 0,
     "duplicatesRemoved": 0,
-    "totalSites": 94,
+    "totalSites": 95,
     "addedThisRun": 1
   },
   "robots": {
     "scout": {
       "state": "ok",
-      "summary": "Read Tool Commons; 0 new candidates.",
-      "lastRunAt": "2026-11-13T07:14:46.125Z",
+      "summary": "Read NoSignups (GitHub); 0 new candidates.",
+      "lastRunAt": "2026-11-13T07:29:45.994Z",
       "metrics": {
         "sources": 1,
         "failures": 0,
         "discovered": 0,
-        "cursor": 1
+        "cursor": 2
       }
     },
     "verifier": {
       "state": "ok",
       "summary": "Reviewed 3 candidates with a server-side document check (HTTP + DOM, no browser).",
-      "lastRunAt": "2026-11-13T07:14:46.125Z",
+      "lastRunAt": "2026-11-13T07:29:45.994Z",
       "metrics": {
         "total": 3,
         "verified": 1,
@@ -49,10 +49,10 @@
     },
     "curator": {
       "state": "ok",
-      "summary": "Published 94 listings; removed 0 duplicates.",
-      "lastRunAt": "2026-11-13T07:14:46.125Z",
+      "summary": "Published 95 listings; removed 0 duplicates.",
+      "lastRunAt": "2026-11-13T07:29:45.994Z",
       "metrics": {
-        "published": 94,
+        "published": 95,
         "duplicatesRemoved": 0,
         "stale": 0
       }
@@ -60,12 +60,12 @@
   },
   "sourceHealth": [
     {
-      "id": "toolcommons",
-      "name": "Tool Commons",
-      "type": "html-links",
+      "id": "nosignups",
+      "name": "NoSignups (GitHub)",
+      "type": "github-awesome",
       "status": "ok",
       "items": 0,
-      "durationMs": 131
+      "durationMs": 105
     }
   ],
   "workflow": {
