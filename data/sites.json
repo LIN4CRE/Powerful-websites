@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-13T01:44:46.048Z",
+  "updatedAt": "2026-11-13T01:59:46.009Z",
   "sites": [
     {
       "id": "arxiv",
@@ -2138,6 +2138,92 @@
         "httpStatus": 200,
         "finalUrl": "https://stackblitz.com/",
         "checkedAt": "2026-11-13T01:44:51.020Z",
+        "attempts": 1
+      },
+      "availability": "online",
+      "icon": null,
+      "featured": false,
+      "consecutiveFailures": 0
+    },
+    {
+      "id": "sqlite-online",
+      "name": "SQLite Online",
+      "url": "https://sqliteonline.com",
+      "domain": "sqliteonline.com",
+      "description": "Runs SQL queries against SQLite, MySQL and PostgreSQL sandboxes directly in the browser.",
+      "category": "programming",
+      "tags": [
+        "sql",
+        "database",
+        "playground"
+      ],
+      "free": true,
+      "accountRequired": false,
+      "apiKeyRequired": false,
+      "openSource": false,
+      "sourceRepo": null,
+      "license": null,
+      "discoverySource": "editorial-research",
+      "dateDiscovered": "2026-11-12T20:09:58.316Z",
+      "addedAt": "2026-11-13T01:59:46.820Z",
+      "lastVerifiedAt": "2026-11-13T01:59:46.820Z",
+      "verification": {
+        "status": "verified",
+        "method": "reader",
+        "checks": {
+          "http": true,
+          "browser": false,
+          "noLoginWall": true,
+          "noApiKey": true,
+          "coreUiReachable": true
+        },
+        "evidence": "Server-side document review (HTTP 200); final URL https://sqliteonline.com/; 3 tool signals; no login wall detected; no API key required.",
+        "httpStatus": 200,
+        "finalUrl": "https://sqliteonline.com/",
+        "checkedAt": "2026-11-13T01:59:46.820Z",
+        "attempts": 1
+      },
+      "availability": "online",
+      "icon": null,
+      "featured": false,
+      "consecutiveFailures": 0
+    },
+    {
+      "id": "python-tutor",
+      "name": "Python Tutor",
+      "url": "https://pythontutor.com",
+      "domain": "pythontutor.com",
+      "description": "Visualises Python, JavaScript, C and Java execution step by step with memory diagrams.",
+      "category": "programming",
+      "tags": [
+        "python",
+        "learning",
+        "visualisation"
+      ],
+      "free": true,
+      "accountRequired": false,
+      "apiKeyRequired": false,
+      "openSource": true,
+      "sourceRepo": "https://github.com/pgbovine/OnlinePythonTutor",
+      "license": "BSD-3-Clause",
+      "discoverySource": "github-topics",
+      "dateDiscovered": "2026-11-12T20:09:58.316Z",
+      "addedAt": "2026-11-13T01:59:47.410Z",
+      "lastVerifiedAt": "2026-11-13T01:59:47.410Z",
+      "verification": {
+        "status": "verified",
+        "method": "reader",
+        "checks": {
+          "http": true,
+          "browser": false,
+          "noLoginWall": true,
+          "noApiKey": true,
+          "coreUiReachable": true
+        },
+        "evidence": "Server-side document review (HTTP 200); final URL https://pythontutor.com/; 0 tool signals; no login wall detected; no API key required.",
+        "httpStatus": 200,
+        "finalUrl": "https://pythontutor.com/",
+        "checkedAt": "2026-11-13T01:59:47.410Z",
         "attempts": 1
       },
       "availability": "online",
