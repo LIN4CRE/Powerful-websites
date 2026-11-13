@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-13T11:59:45.942Z",
+  "updatedAt": "2026-11-13T12:14:46.269Z",
   "candidates": [
     {
       "id": "pollinations",
@@ -2068,56 +2068,6 @@
       "free": true
     },
     {
-      "id": "wise-currency-converter",
-      "name": "Wise Currency Converter",
-      "url": "https://wise.com/gb/currency-converter",
-      "domain": "wise.com",
-      "description": "Converts currencies using the mid-market rate and shows the real cost of transfers.",
-      "category": "business",
-      "tags": [
-        "currency",
-        "exchange-rates",
-        "transfers"
-      ],
-      "suggestedBy": "Editorial research",
-      "discoverySource": "editorial-research",
-      "dateDiscovered": "2026-11-12T20:09:58.316Z",
-      "status": "pending",
-      "attempts": 0,
-      "lastAttemptAt": null,
-      "verification": null,
-      "rejectionReason": null,
-      "openSource": false,
-      "sourceRepo": null,
-      "license": null,
-      "free": true
-    },
-    {
-      "id": "portfolio-visualizer",
-      "name": "Portfolio Visualizer",
-      "url": "https://www.portfoliovisualizer.com",
-      "domain": "portfoliovisualizer.com",
-      "description": "Backtests portfolios and analyses asset allocation and risk with historical market data.",
-      "category": "business",
-      "tags": [
-        "investing",
-        "backtesting",
-        "portfolio"
-      ],
-      "suggestedBy": "Editorial research",
-      "discoverySource": "editorial-research",
-      "dateDiscovered": "2026-11-12T20:09:58.316Z",
-      "status": "pending",
-      "attempts": 0,
-      "lastAttemptAt": null,
-      "verification": null,
-      "rejectionReason": null,
-      "openSource": false,
-      "sourceRepo": null,
-      "license": null,
-      "free": true
-    },
-    {
       "id": "windows-93",
       "name": "Windows 93",
       "url": "https://www.windows93.net",
@@ -2132,11 +2082,26 @@
       "suggestedBy": "Editorial research",
       "discoverySource": "editorial-research",
       "dateDiscovered": "2026-11-12T20:09:58.316Z",
-      "status": "pending",
-      "attempts": 0,
-      "lastAttemptAt": null,
-      "verification": null,
-      "rejectionReason": null,
+      "status": "rejected",
+      "attempts": 1,
+      "lastAttemptAt": "2026-11-13T12:14:47.807Z",
+      "verification": {
+        "status": "rejected",
+        "method": "reader",
+        "checks": {
+          "http": true,
+          "browser": false,
+          "noLoginWall": true,
+          "noApiKey": true,
+          "coreUiReachable": false
+        },
+        "evidence": "Server-side document review (HTTP 200); final URL https://www.windows93.net/; 0 tool signals; no login wall detected; no API key required.",
+        "httpStatus": 200,
+        "finalUrl": "https://www.windows93.net/",
+        "checkedAt": "2026-11-13T12:14:47.807Z",
+        "attempts": 1
+      },
+      "rejectionReason": "No usable interface or substantial content was reachable without an account; the page looks like a marketing shell.",
       "openSource": false,
       "sourceRepo": null,
       "license": null,
