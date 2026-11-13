@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-13T00:59:46.016Z",
+  "updatedAt": "2026-11-13T01:14:46.118Z",
   "sites": [
     {
       "id": "arxiv",
@@ -1880,6 +1880,92 @@
         "httpStatus": 200,
         "finalUrl": "https://explainshell.com/",
         "checkedAt": "2026-11-13T00:59:46.584Z",
+        "attempts": 1
+      },
+      "availability": "online",
+      "icon": null,
+      "featured": false,
+      "consecutiveFailures": 0
+    },
+    {
+      "id": "webhook-site",
+      "name": "webhook.site",
+      "url": "https://webhook.site",
+      "domain": "webhook.site",
+      "description": "Gives you a unique URL that records incoming HTTP requests and webhooks for inspection.",
+      "category": "developer",
+      "tags": [
+        "webhooks",
+        "http",
+        "testing"
+      ],
+      "free": true,
+      "accountRequired": false,
+      "apiKeyRequired": false,
+      "openSource": false,
+      "sourceRepo": null,
+      "license": null,
+      "discoverySource": "editorial-research",
+      "dateDiscovered": "2026-11-12T20:09:58.316Z",
+      "addedAt": "2026-11-13T01:14:47.145Z",
+      "lastVerifiedAt": "2026-11-13T01:14:47.145Z",
+      "verification": {
+        "status": "verified",
+        "method": "reader",
+        "checks": {
+          "http": true,
+          "browser": false,
+          "noLoginWall": true,
+          "noApiKey": true,
+          "coreUiReachable": true
+        },
+        "evidence": "Server-side document review (HTTP 200); final URL https://webhook.site/; 1 tool signal; no login wall detected; no API key required.",
+        "httpStatus": 200,
+        "finalUrl": "https://webhook.site/",
+        "checkedAt": "2026-11-13T01:14:47.145Z",
+        "attempts": 1
+      },
+      "availability": "online",
+      "icon": null,
+      "featured": false,
+      "consecutiveFailures": 0
+    },
+    {
+      "id": "can-i-use",
+      "name": "Can I Use",
+      "url": "https://caniuse.com",
+      "domain": "caniuse.com",
+      "description": "Shows browser support tables for modern web platform features across desktop and mobile.",
+      "category": "developer",
+      "tags": [
+        "browser-support",
+        "css",
+        "reference"
+      ],
+      "free": true,
+      "accountRequired": false,
+      "apiKeyRequired": false,
+      "openSource": false,
+      "sourceRepo": null,
+      "license": null,
+      "discoverySource": "editorial-research",
+      "dateDiscovered": "2026-11-12T20:09:58.316Z",
+      "addedAt": "2026-11-13T01:14:47.559Z",
+      "lastVerifiedAt": "2026-11-13T01:14:47.559Z",
+      "verification": {
+        "status": "verified",
+        "method": "reader",
+        "checks": {
+          "http": true,
+          "browser": false,
+          "noLoginWall": true,
+          "noApiKey": true,
+          "coreUiReachable": true
+        },
+        "evidence": "Server-side document review (HTTP 200); final URL https://caniuse.com/; 1 tool signal; no login wall detected; no API key required.",
+        "httpStatus": 200,
+        "finalUrl": "https://caniuse.com/",
+        "checkedAt": "2026-11-13T01:14:47.559Z",
         "attempts": 1
       },
       "availability": "online",
