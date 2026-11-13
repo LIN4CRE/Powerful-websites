@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-13T21:14:45.939Z",
+  "updatedAt": "2026-11-13T21:29:46.056Z",
   "sites": [
     {
       "id": "arxiv",
@@ -9283,6 +9283,136 @@
         "httpStatus": 200,
         "finalUrl": "https://archivebox.io/",
         "checkedAt": "2026-11-13T21:14:47.600Z",
+        "attempts": 1
+      },
+      "availability": "online",
+      "icon": null,
+      "featured": false,
+      "consecutiveFailures": 0
+    },
+    {
+      "id": "archivesspace",
+      "name": "ArchivesSpace",
+      "url": "https://archivesspace.org",
+      "domain": "archivesspace.org",
+      "description": "Archives information management application for managing and providing Web access to archives, manuscripts and digital objects.….",
+      "category": "browser-apps",
+      "tags": [
+        "archives",
+        "archivesspace",
+        "information"
+      ],
+      "free": true,
+      "accountRequired": false,
+      "apiKeyRequired": false,
+      "openSource": false,
+      "sourceRepo": null,
+      "license": null,
+      "discoverySource": "awesome-selfhosted",
+      "dateDiscovered": "2026-11-13T10:14:46.120Z",
+      "addedAt": "2026-11-13T21:29:46.622Z",
+      "lastVerifiedAt": "2026-11-13T21:29:46.622Z",
+      "verification": {
+        "status": "verified",
+        "method": "reader",
+        "checks": {
+          "http": true,
+          "browser": false,
+          "noLoginWall": true,
+          "noApiKey": true,
+          "coreUiReachable": true
+        },
+        "evidence": "Server-side document review (HTTP 200); final URL https://archivesspace.org/; 1 tool signal; no login wall detected; no API key required.",
+        "httpStatus": 200,
+        "finalUrl": "https://archivesspace.org/",
+        "checkedAt": "2026-11-13T21:29:46.622Z",
+        "attempts": 1
+      },
+      "availability": "online",
+      "icon": null,
+      "featured": false,
+      "consecutiveFailures": 0
+    },
+    {
+      "id": "bitmagnet",
+      "name": "bitmagnet",
+      "url": "https://bitmagnet.io",
+      "domain": "bitmagnet.io",
+      "description": "BitTorrent indexer, DHT crawler, content classifier and torrent search engine with web UI, GraphQL API and Servarr stack integration. ([Source….",
+      "category": "browser-apps",
+      "tags": [
+        "integration",
+        "bittorrent",
+        "classifier"
+      ],
+      "free": true,
+      "accountRequired": false,
+      "apiKeyRequired": false,
+      "openSource": false,
+      "sourceRepo": null,
+      "license": null,
+      "discoverySource": "awesome-selfhosted",
+      "dateDiscovered": "2026-11-13T10:14:46.120Z",
+      "addedAt": "2026-11-13T21:29:46.788Z",
+      "lastVerifiedAt": "2026-11-13T21:29:46.788Z",
+      "verification": {
+        "status": "verified",
+        "method": "reader",
+        "checks": {
+          "http": true,
+          "browser": false,
+          "noLoginWall": true,
+          "noApiKey": true,
+          "coreUiReachable": true
+        },
+        "evidence": "Server-side document review (HTTP 200); final URL https://bitmagnet.io/; 1 tool signal; no login wall detected; no API key required.",
+        "httpStatus": 200,
+        "finalUrl": "https://bitmagnet.io/",
+        "checkedAt": "2026-11-13T21:29:46.788Z",
+        "attempts": 1
+      },
+      "availability": "online",
+      "icon": null,
+      "featured": false,
+      "consecutiveFailures": 0
+    },
+    {
+      "id": "splashbase",
+      "name": "Splashbase",
+      "url": "https://www.splashbase.co",
+      "domain": "splashbase.co",
+      "description": "Search & discover free, hi-resolution photos & videos.",
+      "category": "image",
+      "tags": [
+        "free-assets",
+        "hi-resolution",
+        "splashbase",
+        "discover"
+      ],
+      "free": true,
+      "accountRequired": false,
+      "apiKeyRequired": false,
+      "openSource": false,
+      "sourceRepo": null,
+      "license": null,
+      "discoverySource": "awesome-stock-resources",
+      "dateDiscovered": "2026-11-13T10:29:46.016Z",
+      "addedAt": "2026-11-13T21:29:47.378Z",
+      "lastVerifiedAt": "2026-11-13T21:29:47.378Z",
+      "verification": {
+        "status": "verified",
+        "method": "reader",
+        "checks": {
+          "http": true,
+          "browser": false,
+          "noLoginWall": true,
+          "noApiKey": true,
+          "coreUiReachable": true
+        },
+        "evidence": "Server-side document review (HTTP 200); final URL https://www.splashbase.co/; 1 tool signal; no login wall detected; no API key required.",
+        "httpStatus": 200,
+        "finalUrl": "https://www.splashbase.co/",
+        "checkedAt": "2026-11-13T21:29:47.378Z",
         "attempts": 1
       },
       "availability": "online",
