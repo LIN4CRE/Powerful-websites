@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-13T12:14:46.269Z",
+  "updatedAt": "2026-11-13T12:29:45.965Z",
   "sites": [
     {
       "id": "arxiv",
@@ -5750,6 +5750,49 @@
         "httpStatus": 200,
         "finalUrl": "https://www.portfoliovisualizer.com/",
         "checkedAt": "2026-11-13T12:14:47.471Z",
+        "attempts": 1
+      },
+      "availability": "online",
+      "icon": null,
+      "featured": false,
+      "consecutiveFailures": 0
+    },
+    {
+      "id": "patatap",
+      "name": "Patatap",
+      "url": "https://www.patatap.com",
+      "domain": "patatap.com",
+      "description": "Press any key to trigger animated shapes and sounds in a tiny audiovisual instrument.",
+      "category": "unusual",
+      "tags": [
+        "sound",
+        "animation",
+        "play"
+      ],
+      "free": true,
+      "accountRequired": false,
+      "apiKeyRequired": false,
+      "openSource": false,
+      "sourceRepo": null,
+      "license": null,
+      "discoverySource": "editorial-research",
+      "dateDiscovered": "2026-11-12T20:09:58.316Z",
+      "addedAt": "2026-11-13T12:29:46.647Z",
+      "lastVerifiedAt": "2026-11-13T12:29:46.647Z",
+      "verification": {
+        "status": "verified",
+        "method": "reader",
+        "checks": {
+          "http": true,
+          "browser": false,
+          "noLoginWall": true,
+          "noApiKey": true,
+          "coreUiReachable": true
+        },
+        "evidence": "Server-side document review (HTTP 200); final URL https://www.patatap.com/; 1 tool signal; no login wall detected; no API key required.",
+        "httpStatus": 200,
+        "finalUrl": "https://www.patatap.com/",
+        "checkedAt": "2026-11-13T12:29:46.647Z",
         "attempts": 1
       },
       "availability": "online",
