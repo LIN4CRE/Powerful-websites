@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-13T06:59:46.164Z",
+  "updatedAt": "2026-11-13T07:14:46.125Z",
   "sites": [
     {
       "id": "arxiv",
@@ -4030,6 +4030,49 @@
         "httpStatus": 200,
         "finalUrl": "https://osintframework.com/",
         "checkedAt": "2026-11-13T06:59:47.110Z",
+        "attempts": 1
+      },
+      "availability": "online",
+      "icon": null,
+      "featured": false,
+      "consecutiveFailures": 0
+    },
+    {
+      "id": "mit-opencourseware",
+      "name": "MIT OpenCourseWare",
+      "url": "https://ocw.mit.edu",
+      "domain": "ocw.mit.edu",
+      "description": "Lecture notes, exams and videos from thousands of MIT courses, published freely.",
+      "category": "education",
+      "tags": [
+        "university",
+        "courses",
+        "videos"
+      ],
+      "free": true,
+      "accountRequired": false,
+      "apiKeyRequired": false,
+      "openSource": false,
+      "sourceRepo": null,
+      "license": null,
+      "discoverySource": "editorial-research",
+      "dateDiscovered": "2026-11-12T20:09:58.316Z",
+      "addedAt": "2026-11-13T07:14:46.970Z",
+      "lastVerifiedAt": "2026-11-13T07:14:46.970Z",
+      "verification": {
+        "status": "verified",
+        "method": "reader",
+        "checks": {
+          "http": true,
+          "browser": false,
+          "noLoginWall": true,
+          "noApiKey": true,
+          "coreUiReachable": true
+        },
+        "evidence": "Server-side document review (HTTP 200); final URL https://ocw.mit.edu/; 1 tool signal; no login wall detected; no API key required.",
+        "httpStatus": 200,
+        "finalUrl": "https://ocw.mit.edu/",
+        "checkedAt": "2026-11-13T07:14:46.970Z",
         "attempts": 1
       },
       "availability": "online",
