@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-13T02:59:45.929Z",
+  "updatedAt": "2026-11-13T03:14:46.038Z",
   "sites": [
     {
       "id": "arxiv",
@@ -2611,6 +2611,49 @@
         "httpStatus": 200,
         "finalUrl": "https://www.iloveimg.com/",
         "checkedAt": "2026-11-13T02:59:46.569Z",
+        "attempts": 1
+      },
+      "availability": "online",
+      "icon": null,
+      "featured": false,
+      "consecutiveFailures": 0
+    },
+    {
+      "id": "image-resizer",
+      "name": "Image Resizer",
+      "url": "https://imageresizer.com",
+      "domain": "imageresizer.com",
+      "description": "Resizes and crops images to exact pixel dimensions straight from the browser.",
+      "category": "image",
+      "tags": [
+        "resize",
+        "crop",
+        "dimensions"
+      ],
+      "free": true,
+      "accountRequired": false,
+      "apiKeyRequired": false,
+      "openSource": false,
+      "sourceRepo": null,
+      "license": null,
+      "discoverySource": "editorial-research",
+      "dateDiscovered": "2026-11-12T20:09:58.316Z",
+      "addedAt": "2026-11-13T03:14:46.420Z",
+      "lastVerifiedAt": "2026-11-13T03:14:46.420Z",
+      "verification": {
+        "status": "verified",
+        "method": "reader",
+        "checks": {
+          "http": true,
+          "browser": false,
+          "noLoginWall": true,
+          "noApiKey": true,
+          "coreUiReachable": true
+        },
+        "evidence": "Server-side document review (HTTP 200); final URL https://imageresizer.com/; 0 tool signals; no login wall detected; no API key required.",
+        "httpStatus": 200,
+        "finalUrl": "https://imageresizer.com/",
+        "checkedAt": "2026-11-13T03:14:46.420Z",
         "attempts": 1
       },
       "availability": "online",
