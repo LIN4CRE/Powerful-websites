@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-13T15:44:46.117Z",
+  "updatedAt": "2026-11-13T15:59:46.130Z",
   "sites": [
     {
       "id": "arxiv",
@@ -6784,6 +6784,50 @@
         "httpStatus": 200,
         "finalUrl": "https://freenaturestock.com/",
         "checkedAt": "2026-11-13T15:44:47.515Z",
+        "attempts": 1
+      },
+      "availability": "online",
+      "icon": null,
+      "featured": false,
+      "consecutiveFailures": 0
+    },
+    {
+      "id": "gratisography",
+      "name": "Gratisography",
+      "url": "https://gratisography.com",
+      "domain": "gratisography.com",
+      "description": "Free high-resolution pictures you can use on your personal and commercial projects. New pictures added weekly.",
+      "category": "image",
+      "tags": [
+        "free-assets",
+        "pictures",
+        "high-resolution",
+        "gratisography"
+      ],
+      "free": true,
+      "accountRequired": false,
+      "apiKeyRequired": false,
+      "openSource": false,
+      "sourceRepo": null,
+      "license": null,
+      "discoverySource": "awesome-stock-resources",
+      "dateDiscovered": "2026-11-13T02:59:45.929Z",
+      "addedAt": "2026-11-13T15:59:47.093Z",
+      "lastVerifiedAt": "2026-11-13T15:59:47.093Z",
+      "verification": {
+        "status": "verified",
+        "method": "reader",
+        "checks": {
+          "http": true,
+          "browser": false,
+          "noLoginWall": true,
+          "noApiKey": true,
+          "coreUiReachable": true
+        },
+        "evidence": "Server-side document review (HTTP 200); final URL https://gratisography.com/; 2 tool signals; no login wall detected; no API key required.",
+        "httpStatus": 200,
+        "finalUrl": "https://gratisography.com/",
+        "checkedAt": "2026-11-13T15:59:47.093Z",
         "attempts": 1
       },
       "availability": "online",
