@@ -4,55 +4,55 @@
   "schedule": "7,22,37,52 * * * *",
   "scheduleIntervalMinutes": 15,
   "scheduleNote": "Vercel Schedules runs the job at minutes 7, 22, 37 and 52 — about 2,880 invocations a month, within the Hobby allowance of 5,000 schedule runs.",
-  "lastScanAttemptAt": "2026-11-13T14:29:46.072Z",
-  "lastSuccessfulScanAt": "2026-11-13T14:29:46.072Z",
-  "lastCompletedScanAt": "2026-11-13T14:29:46.072Z",
-  "lastVerificationRunAt": "2026-11-13T14:29:46.072Z",
-  "lastAdditionAt": "2026-11-13T14:29:46.072Z",
+  "lastScanAttemptAt": "2026-11-13T14:44:46.398Z",
+  "lastSuccessfulScanAt": "2026-11-13T14:44:46.398Z",
+  "lastCompletedScanAt": "2026-11-13T14:44:46.398Z",
+  "lastVerificationRunAt": "2026-11-13T14:44:46.398Z",
+  "lastAdditionAt": "2026-11-13T14:44:46.398Z",
   "durationMs": null,
   "counts": {
     "sourcesChecked": 1,
     "sourcesFailed": 0,
-    "discovered": 2,
-    "pending": 137,
-    "verified": 144,
+    "discovered": 0,
+    "pending": 135,
+    "verified": 146,
     "rejected": 49,
     "rechecked": 3,
     "removed": 0,
     "duplicatesRemoved": 0,
-    "totalSites": 144,
-    "addedThisRun": 1
+    "totalSites": 146,
+    "addedThisRun": 2
   },
   "robots": {
     "scout": {
       "state": "ok",
-      "summary": "Read Lobsters; 2 new candidates.",
-      "lastRunAt": "2026-11-13T14:29:46.072Z",
+      "summary": "Read Tool Commons; 0 new candidates.",
+      "lastRunAt": "2026-11-13T14:44:46.398Z",
       "metrics": {
         "sources": 1,
         "failures": 0,
-        "discovered": 2,
-        "cursor": 0
+        "discovered": 0,
+        "cursor": 1
       }
     },
     "verifier": {
       "state": "ok",
       "summary": "Reviewed 3 candidates with a server-side document check (HTTP + DOM, no browser).",
-      "lastRunAt": "2026-11-13T14:29:46.072Z",
+      "lastRunAt": "2026-11-13T14:44:46.398Z",
       "metrics": {
         "total": 3,
-        "verified": 1,
-        "rejected": 2,
-        "pending": 0,
+        "verified": 2,
+        "rejected": 0,
+        "pending": 1,
         "browserChecks": 0
       }
     },
     "curator": {
       "state": "ok",
-      "summary": "Published 144 listings; removed 0 duplicates.",
-      "lastRunAt": "2026-11-13T14:29:46.072Z",
+      "summary": "Published 146 listings; removed 0 duplicates.",
+      "lastRunAt": "2026-11-13T14:44:46.398Z",
       "metrics": {
-        "published": 144,
+        "published": 146,
         "duplicatesRemoved": 0,
         "stale": 0
       }
@@ -60,12 +60,12 @@
   },
   "sourceHealth": [
     {
-      "id": "lobsters",
-      "name": "Lobsters",
-      "type": "rss",
+      "id": "toolcommons",
+      "name": "Tool Commons",
+      "type": "html-links",
       "status": "ok",
-      "items": 2,
-      "durationMs": 176
+      "items": 0,
+      "durationMs": 189
     }
   ],
   "workflow": {
