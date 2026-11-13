@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-13T09:29:45.904Z",
+  "updatedAt": "2026-11-13T09:44:46.251Z",
   "candidates": [
     {
       "id": "pollinations",
@@ -1803,59 +1803,24 @@
       "discoverySource": "editorial-research",
       "dateDiscovered": "2026-11-12T20:09:58.316Z",
       "status": "pending",
-      "attempts": 0,
-      "lastAttemptAt": null,
-      "verification": null,
-      "rejectionReason": null,
-      "openSource": false,
-      "sourceRepo": null,
-      "license": null,
-      "free": true
-    },
-    {
-      "id": "openrailwaymap",
-      "name": "OpenRailwayMap",
-      "url": "https://www.openrailwaymap.org",
-      "domain": "openrailwaymap.org",
-      "description": "A detailed map of railway infrastructure, track types, signals and operating speeds.",
-      "category": "maps",
-      "tags": [
-        "railways",
-        "infrastructure",
-        "map"
-      ],
-      "suggestedBy": "Editorial research",
-      "discoverySource": "editorial-research",
-      "dateDiscovered": "2026-11-12T20:09:58.316Z",
-      "status": "pending",
-      "attempts": 0,
-      "lastAttemptAt": null,
-      "verification": null,
-      "rejectionReason": null,
-      "openSource": false,
-      "sourceRepo": null,
-      "license": null,
-      "free": true
-    },
-    {
-      "id": "peakfinder",
-      "name": "PeakFinder",
-      "url": "https://www.peakfinder.com",
-      "domain": "peakfinder.com",
-      "description": "Labels every mountain peak visible from any point on Earth with a 360-degree panorama.",
-      "category": "maps",
-      "tags": [
-        "mountains",
-        "panorama",
-        "outdoors"
-      ],
-      "suggestedBy": "Editorial research",
-      "discoverySource": "editorial-research",
-      "dateDiscovered": "2026-11-12T20:09:58.316Z",
-      "status": "pending",
-      "attempts": 0,
-      "lastAttemptAt": null,
-      "verification": null,
+      "attempts": 1,
+      "lastAttemptAt": "2026-11-13T09:44:46.994Z",
+      "verification": {
+        "status": "pending",
+        "method": "reader",
+        "checks": {
+          "http": false,
+          "browser": false,
+          "noLoginWall": true,
+          "noApiKey": true,
+          "coreUiReachable": false
+        },
+        "evidence": "Server-side document review (HTTP 403); final URL https://what3words.com/clip.apples.leap?redirect=true; 0 tool signals; no login wall detected; no API key required.",
+        "httpStatus": 403,
+        "finalUrl": "https://what3words.com/clip.apples.leap?redirect=true",
+        "checkedAt": "2026-11-13T09:44:46.994Z",
+        "attempts": 1
+      },
       "rejectionReason": null,
       "openSource": false,
       "sourceRepo": null,
