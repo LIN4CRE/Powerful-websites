@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-13T08:44:46.107Z",
+  "updatedAt": "2026-11-13T08:59:46.115Z",
   "candidates": [
     {
       "id": "pollinations",
@@ -1628,31 +1628,6 @@
       "free": true
     },
     {
-      "id": "google-trends",
-      "name": "Google Trends",
-      "url": "https://trends.google.com",
-      "domain": "trends.google.com",
-      "description": "Explores how often terms are searched over time and by region, with comparison charts.",
-      "category": "data",
-      "tags": [
-        "trends",
-        "search",
-        "analysis"
-      ],
-      "suggestedBy": "Editorial research",
-      "discoverySource": "editorial-research",
-      "dateDiscovered": "2026-11-12T20:09:58.316Z",
-      "status": "pending",
-      "attempts": 0,
-      "lastAttemptAt": null,
-      "verification": null,
-      "rejectionReason": null,
-      "openSource": false,
-      "sourceRepo": null,
-      "license": null,
-      "free": true
-    },
-    {
       "id": "gapminder-tools",
       "name": "Gapminder Tools",
       "url": "https://www.gapminder.org/tools",
@@ -1667,39 +1642,29 @@
       "suggestedBy": "Editorial research",
       "discoverySource": "editorial-research",
       "dateDiscovered": "2026-11-12T20:09:58.316Z",
-      "status": "pending",
-      "attempts": 0,
-      "lastAttemptAt": null,
-      "verification": null,
-      "rejectionReason": null,
+      "status": "rejected",
+      "attempts": 1,
+      "lastAttemptAt": "2026-11-13T08:59:46.898Z",
+      "verification": {
+        "status": "rejected",
+        "method": "reader",
+        "checks": {
+          "http": true,
+          "browser": false,
+          "noLoginWall": true,
+          "noApiKey": true,
+          "coreUiReachable": false
+        },
+        "evidence": "Server-side document review (HTTP 200); final URL https://www.gapminder.org/tools/; 0 tool signals; no login wall detected; no API key required.",
+        "httpStatus": 200,
+        "finalUrl": "https://www.gapminder.org/tools/",
+        "checkedAt": "2026-11-13T08:59:46.898Z",
+        "attempts": 1
+      },
+      "rejectionReason": "No usable interface or substantial content was reachable without an account; the page looks like a marketing shell.",
       "openSource": false,
       "sourceRepo": null,
       "license": null,
-      "free": true
-    },
-    {
-      "id": "rawgraphs",
-      "name": "RawGraphs",
-      "url": "https://www.rawgraphs.io",
-      "domain": "rawgraphs.io",
-      "description": "Creates unusual data visualisations from spreadsheets and exports them as SVG or images.",
-      "category": "data",
-      "tags": [
-        "charts",
-        "visualisation",
-        "csv"
-      ],
-      "suggestedBy": "Editorial research",
-      "discoverySource": "github-topics",
-      "dateDiscovered": "2026-11-12T20:09:58.316Z",
-      "status": "pending",
-      "attempts": 0,
-      "lastAttemptAt": null,
-      "verification": null,
-      "rejectionReason": null,
-      "openSource": true,
-      "sourceRepo": "https://github.com/rawgraphs/rawgraphs-app",
-      "license": "Apache-2.0",
       "free": true
     },
     {
