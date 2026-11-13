@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-13T14:44:46.398Z",
+  "updatedAt": "2026-11-13T14:59:46.016Z",
   "sites": [
     {
       "id": "arxiv",
@@ -6311,6 +6311,135 @@
         "httpStatus": 200,
         "finalUrl": "https://blog.rust-lang.org/2026/11/12/Rust-1.100.0/",
         "checkedAt": "2026-11-13T14:44:47.256Z",
+        "attempts": 1
+      },
+      "availability": "online",
+      "icon": null,
+      "featured": false,
+      "consecutiveFailures": 0
+    },
+    {
+      "id": "how-i-accidentally-became-a-millionaire",
+      "name": "How I accidentally became a millionaire",
+      "url": "https://lyra.horse/blog/2026/11/disinformation-machine/",
+      "domain": "lyra.horse",
+      "description": "How I accidentally became a millionaire.",
+      "category": "unusual",
+      "tags": [
+        "accidentally",
+        "millionaire",
+        "became"
+      ],
+      "free": true,
+      "accountRequired": false,
+      "apiKeyRequired": false,
+      "openSource": false,
+      "sourceRepo": null,
+      "license": null,
+      "discoverySource": "lobsters",
+      "dateDiscovered": "2026-11-13T01:59:46.009Z",
+      "addedAt": "2026-11-13T14:59:46.907Z",
+      "lastVerifiedAt": "2026-11-13T14:59:46.906Z",
+      "verification": {
+        "status": "verified",
+        "method": "reader",
+        "checks": {
+          "http": true,
+          "browser": false,
+          "noLoginWall": true,
+          "noApiKey": true,
+          "coreUiReachable": true
+        },
+        "evidence": "Server-side document review (HTTP 200); final URL https://lyra.horse/blog/2026/11/disinformation-machine/; 0 tool signals; no login wall detected; no API key required.",
+        "httpStatus": 200,
+        "finalUrl": "https://lyra.horse/blog/2026/11/disinformation-machine/",
+        "checkedAt": "2026-11-13T14:59:46.906Z",
+        "attempts": 1
+      },
+      "availability": "online",
+      "icon": null,
+      "featured": false,
+      "consecutiveFailures": 0
+    },
+    {
+      "id": "the-entirety-of-let-over-lambda-is-now-freely-av",
+      "name": "The entirety of \"Let Over Lambda\" is now freely available on",
+      "url": "https://letoverlambda.com",
+      "domain": "letoverlambda.com",
+      "description": "The entirety of \"Let Over Lambda\" is now freely available online.",
+      "category": "unusual",
+      "tags": [
+        "available",
+        "entirety",
+        "lambda"
+      ],
+      "free": true,
+      "accountRequired": false,
+      "apiKeyRequired": false,
+      "openSource": false,
+      "sourceRepo": null,
+      "license": null,
+      "discoverySource": "lobsters",
+      "dateDiscovered": "2026-11-13T01:59:46.009Z",
+      "addedAt": "2026-11-13T14:59:47.082Z",
+      "lastVerifiedAt": "2026-11-13T14:59:47.082Z",
+      "verification": {
+        "status": "verified",
+        "method": "reader",
+        "checks": {
+          "http": true,
+          "browser": false,
+          "noLoginWall": true,
+          "noApiKey": true,
+          "coreUiReachable": true
+        },
+        "evidence": "Server-side document review (HTTP 200); final URL https://letoverlambda.com/; 0 tool signals; no login wall detected; no API key required.",
+        "httpStatus": 200,
+        "finalUrl": "https://letoverlambda.com/",
+        "checkedAt": "2026-11-13T14:59:47.082Z",
+        "attempts": 1
+      },
+      "availability": "online",
+      "icon": null,
+      "featured": false,
+      "consecutiveFailures": 0
+    },
+    {
+      "id": "the-anti",
+      "name": "The anti",
+      "url": "https://ploum.net/2026-11-12-anti-marketing-gemini.html",
+      "domain": "ploum.net",
+      "description": "marketing aspect of the Gemini network.",
+      "category": "internet",
+      "tags": [
+        "marketing",
+        "network",
+        "aspect"
+      ],
+      "free": true,
+      "accountRequired": false,
+      "apiKeyRequired": false,
+      "openSource": false,
+      "sourceRepo": null,
+      "license": null,
+      "discoverySource": "lobsters",
+      "dateDiscovered": "2026-11-13T01:59:46.009Z",
+      "addedAt": "2026-11-13T14:59:47.443Z",
+      "lastVerifiedAt": "2026-11-13T14:59:47.443Z",
+      "verification": {
+        "status": "verified",
+        "method": "reader",
+        "checks": {
+          "http": true,
+          "browser": false,
+          "noLoginWall": true,
+          "noApiKey": true,
+          "coreUiReachable": true
+        },
+        "evidence": "Server-side document review (HTTP 200); final URL https://ploum.net/2026-11-12-anti-marketing-gemini.html; 0 tool signals; no login wall detected; no API key required.",
+        "httpStatus": 200,
+        "finalUrl": "https://ploum.net/2026-11-12-anti-marketing-gemini.html",
+        "checkedAt": "2026-11-13T14:59:47.443Z",
         "attempts": 1
       },
       "availability": "online",
