@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-13T07:29:45.994Z",
+  "updatedAt": "2026-11-13T07:44:46.101Z",
   "sites": [
     {
       "id": "arxiv",
@@ -4116,6 +4116,135 @@
         "httpStatus": 200,
         "finalUrl": "https://standardebooks.org/",
         "checkedAt": "2026-11-13T07:29:46.432Z",
+        "attempts": 1
+      },
+      "availability": "online",
+      "icon": null,
+      "featured": false,
+      "consecutiveFailures": 0
+    },
+    {
+      "id": "phet-simulations",
+      "name": "PhET Simulations",
+      "url": "https://phet.colorado.edu",
+      "domain": "phet.colorado.edu",
+      "description": "Interactive science and maths simulations from the University of Colorado Boulder.",
+      "category": "education",
+      "tags": [
+        "simulations",
+        "physics",
+        "science"
+      ],
+      "free": true,
+      "accountRequired": false,
+      "apiKeyRequired": false,
+      "openSource": false,
+      "sourceRepo": null,
+      "license": null,
+      "discoverySource": "editorial-research",
+      "dateDiscovered": "2026-11-12T20:09:58.316Z",
+      "addedAt": "2026-11-13T07:44:46.555Z",
+      "lastVerifiedAt": "2026-11-13T07:44:46.555Z",
+      "verification": {
+        "status": "verified",
+        "method": "reader",
+        "checks": {
+          "http": true,
+          "browser": false,
+          "noLoginWall": true,
+          "noApiKey": true,
+          "coreUiReachable": true
+        },
+        "evidence": "Server-side document review (HTTP 200); final URL https://phet.colorado.edu/; 1 tool signal; no login wall detected; no API key required.",
+        "httpStatus": 200,
+        "finalUrl": "https://phet.colorado.edu/",
+        "checkedAt": "2026-11-13T07:44:46.555Z",
+        "attempts": 1
+      },
+      "availability": "online",
+      "icon": null,
+      "featured": false,
+      "consecutiveFailures": 0
+    },
+    {
+      "id": "mathigon",
+      "name": "Mathigon",
+      "url": "https://mathigon.org",
+      "domain": "mathigon.org",
+      "description": "An interactive, visual mathematics textbook with explorable explanations and puzzles.",
+      "category": "education",
+      "tags": [
+        "maths",
+        "interactive",
+        "textbook"
+      ],
+      "free": true,
+      "accountRequired": false,
+      "apiKeyRequired": false,
+      "openSource": false,
+      "sourceRepo": null,
+      "license": null,
+      "discoverySource": "editorial-research",
+      "dateDiscovered": "2026-11-12T20:09:58.316Z",
+      "addedAt": "2026-11-13T07:44:46.915Z",
+      "lastVerifiedAt": "2026-11-13T07:44:46.915Z",
+      "verification": {
+        "status": "verified",
+        "method": "reader",
+        "checks": {
+          "http": true,
+          "browser": false,
+          "noLoginWall": true,
+          "noApiKey": true,
+          "coreUiReachable": true
+        },
+        "evidence": "Server-side document review (HTTP 200); final URL https://mathigon.org/; 1 tool signal; no login wall detected; no API key required.",
+        "httpStatus": 200,
+        "finalUrl": "https://mathigon.org/",
+        "checkedAt": "2026-11-13T07:44:46.915Z",
+        "attempts": 1
+      },
+      "availability": "online",
+      "icon": null,
+      "featured": false,
+      "consecutiveFailures": 0
+    },
+    {
+      "id": "open-culture",
+      "name": "Open Culture",
+      "url": "https://www.openculture.com",
+      "domain": "openculture.com",
+      "description": "Curates free courses, audiobooks, films, language lessons and cultural archives from across the web.",
+      "category": "education",
+      "tags": [
+        "courses",
+        "culture",
+        "free-resources"
+      ],
+      "free": true,
+      "accountRequired": false,
+      "apiKeyRequired": false,
+      "openSource": false,
+      "sourceRepo": null,
+      "license": null,
+      "discoverySource": "editorial-research",
+      "dateDiscovered": "2026-11-12T20:09:58.316Z",
+      "addedAt": "2026-11-13T07:44:47.214Z",
+      "lastVerifiedAt": "2026-11-13T07:44:47.214Z",
+      "verification": {
+        "status": "verified",
+        "method": "reader",
+        "checks": {
+          "http": true,
+          "browser": false,
+          "noLoginWall": true,
+          "noApiKey": true,
+          "coreUiReachable": true
+        },
+        "evidence": "Server-side document review (HTTP 200); final URL https://www.openculture.com/; 2 tool signals; no login wall detected; no API key required.",
+        "httpStatus": 200,
+        "finalUrl": "https://www.openculture.com/",
+        "checkedAt": "2026-11-13T07:44:47.214Z",
         "attempts": 1
       },
       "availability": "online",
