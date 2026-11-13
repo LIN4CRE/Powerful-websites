@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-13T12:44:46.081Z",
+  "updatedAt": "2026-11-13T12:59:45.917Z",
   "sites": [
     {
       "id": "arxiv",
@@ -5793,6 +5793,49 @@
         "httpStatus": 200,
         "finalUrl": "https://www.patatap.com/",
         "checkedAt": "2026-11-13T12:29:46.647Z",
+        "attempts": 1
+      },
+      "availability": "online",
+      "icon": null,
+      "featured": false,
+      "consecutiveFailures": 0
+    },
+    {
+      "id": "zoomquilt",
+      "name": "Zoomquilt",
+      "url": "https://zoomquilt.org",
+      "domain": "zoomquilt.org",
+      "description": "An infinite zoom through a surreal painting that loops forever as you watch.",
+      "category": "unusual",
+      "tags": [
+        "art",
+        "animation",
+        "infinite"
+      ],
+      "free": true,
+      "accountRequired": false,
+      "apiKeyRequired": false,
+      "openSource": false,
+      "sourceRepo": null,
+      "license": null,
+      "discoverySource": "editorial-research",
+      "dateDiscovered": "2026-11-12T20:09:58.316Z",
+      "addedAt": "2026-11-13T12:59:46.459Z",
+      "lastVerifiedAt": "2026-11-13T12:59:46.459Z",
+      "verification": {
+        "status": "verified",
+        "method": "reader",
+        "checks": {
+          "http": true,
+          "browser": false,
+          "noLoginWall": true,
+          "noApiKey": true,
+          "coreUiReachable": true
+        },
+        "evidence": "Server-side document review (HTTP 200); final URL https://zoomquilt.org/; 1 tool signal; no login wall detected; no API key required.",
+        "httpStatus": 200,
+        "finalUrl": "https://zoomquilt.org/",
+        "checkedAt": "2026-11-13T12:59:46.459Z",
         "attempts": 1
       },
       "availability": "online",
