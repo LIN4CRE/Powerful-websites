@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-13T20:59:46.024Z",
+  "updatedAt": "2026-11-13T21:14:45.939Z",
   "sites": [
     {
       "id": "arxiv",
@@ -9154,6 +9154,135 @@
         "httpStatus": 200,
         "finalUrl": "https://superset.apache.org/",
         "checkedAt": "2026-11-13T20:59:46.790Z",
+        "attempts": 1
+      },
+      "availability": "online",
+      "icon": null,
+      "featured": false,
+      "consecutiveFailures": 0
+    },
+    {
+      "id": "swetrix",
+      "name": "Swetrix",
+      "url": "https://swetrix.com",
+      "domain": "swetrix.com",
+      "description": "Web analytics which track your site's traffic, monitor your site's speed, analyse user sessions and pageflows, see the user flows and more….",
+      "category": "browser-apps",
+      "tags": [
+        "site",
+        "user",
+        "analytics"
+      ],
+      "free": true,
+      "accountRequired": false,
+      "apiKeyRequired": false,
+      "openSource": false,
+      "sourceRepo": null,
+      "license": null,
+      "discoverySource": "awesome-selfhosted",
+      "dateDiscovered": "2026-11-13T10:14:46.120Z",
+      "addedAt": "2026-11-13T21:14:47.159Z",
+      "lastVerifiedAt": "2026-11-13T21:14:47.159Z",
+      "verification": {
+        "status": "verified",
+        "method": "reader",
+        "checks": {
+          "http": true,
+          "browser": false,
+          "noLoginWall": true,
+          "noApiKey": true,
+          "coreUiReachable": true
+        },
+        "evidence": "Server-side document review (HTTP 200); final URL https://swetrix.com/; 1 tool signal; no login wall detected; no API key required.",
+        "httpStatus": 200,
+        "finalUrl": "https://swetrix.com/",
+        "checkedAt": "2026-11-13T21:14:47.159Z",
+        "attempts": 1
+      },
+      "availability": "online",
+      "icon": null,
+      "featured": false,
+      "consecutiveFailures": 0
+    },
+    {
+      "id": "umami",
+      "name": "Umami",
+      "url": "https://umami.is",
+      "domain": "umami.is",
+      "description": "Simple, fast, privacy-focused (alternative to Google Analytics). (, [Source….",
+      "category": "browser-apps",
+      "tags": [
+        "privacy-focused",
+        "alternative",
+        "analytics"
+      ],
+      "free": true,
+      "accountRequired": false,
+      "apiKeyRequired": false,
+      "openSource": false,
+      "sourceRepo": null,
+      "license": null,
+      "discoverySource": "awesome-selfhosted",
+      "dateDiscovered": "2026-11-13T10:14:46.120Z",
+      "addedAt": "2026-11-13T21:14:47.426Z",
+      "lastVerifiedAt": "2026-11-13T21:14:47.426Z",
+      "verification": {
+        "status": "verified",
+        "method": "reader",
+        "checks": {
+          "http": true,
+          "browser": false,
+          "noLoginWall": true,
+          "noApiKey": true,
+          "coreUiReachable": true
+        },
+        "evidence": "Server-side document review (HTTP 200); final URL https://umami.is/; 0 tool signals; no login wall detected; no API key required.",
+        "httpStatus": 200,
+        "finalUrl": "https://umami.is/",
+        "checkedAt": "2026-11-13T21:14:47.426Z",
+        "attempts": 1
+      },
+      "availability": "online",
+      "icon": null,
+      "featured": false,
+      "consecutiveFailures": 0
+    },
+    {
+      "id": "archivebox",
+      "name": "ArchiveBox",
+      "url": "https://archivebox.io",
+      "domain": "archivebox.io",
+      "description": "Create HTML & screenshot archives of sites from your bookmarks, browsing history, RSS feeds, or other sources (alternative to Wayback Machine).….",
+      "category": "browser-apps",
+      "tags": [
+        "alternative",
+        "archivebox",
+        "screenshot"
+      ],
+      "free": true,
+      "accountRequired": false,
+      "apiKeyRequired": false,
+      "openSource": false,
+      "sourceRepo": null,
+      "license": null,
+      "discoverySource": "awesome-selfhosted",
+      "dateDiscovered": "2026-11-13T10:14:46.120Z",
+      "addedAt": "2026-11-13T21:14:47.601Z",
+      "lastVerifiedAt": "2026-11-13T21:14:47.600Z",
+      "verification": {
+        "status": "verified",
+        "method": "reader",
+        "checks": {
+          "http": true,
+          "browser": false,
+          "noLoginWall": true,
+          "noApiKey": true,
+          "coreUiReachable": true
+        },
+        "evidence": "Server-side document review (HTTP 200); final URL https://archivebox.io/; 0 tool signals; no login wall detected; no API key required.",
+        "httpStatus": 200,
+        "finalUrl": "https://archivebox.io/",
+        "checkedAt": "2026-11-13T21:14:47.600Z",
         "attempts": 1
       },
       "availability": "online",
