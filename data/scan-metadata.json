@@ -4,41 +4,41 @@
   "schedule": "7,22,37,52 * * * *",
   "scheduleIntervalMinutes": 15,
   "scheduleNote": "Vercel Schedules runs the job at minutes 7, 22, 37 and 52 — about 2,880 invocations a month, within the Hobby allowance of 5,000 schedule runs.",
-  "lastScanAttemptAt": "2026-11-13T16:44:46.044Z",
-  "lastSuccessfulScanAt": "2026-11-13T16:44:46.044Z",
-  "lastCompletedScanAt": "2026-11-13T16:44:46.044Z",
-  "lastVerificationRunAt": "2026-11-13T16:44:46.044Z",
-  "lastAdditionAt": "2026-11-13T16:44:46.044Z",
+  "lastScanAttemptAt": "2026-11-13T16:59:46.186Z",
+  "lastSuccessfulScanAt": "2026-11-13T16:59:46.186Z",
+  "lastCompletedScanAt": "2026-11-13T16:59:46.186Z",
+  "lastVerificationRunAt": "2026-11-13T16:59:46.186Z",
+  "lastAdditionAt": "2026-11-13T16:59:46.186Z",
   "durationMs": null,
   "counts": {
     "sourcesChecked": 1,
     "sourcesFailed": 0,
-    "discovered": 6,
+    "discovered": 3,
     "pending": 130,
-    "verified": 166,
+    "verified": 169,
     "rejected": 52,
     "rechecked": 3,
     "removed": 0,
     "duplicatesRemoved": 0,
-    "totalSites": 166,
+    "totalSites": 169,
     "addedThisRun": 3
   },
   "robots": {
     "scout": {
       "state": "ok",
-      "summary": "Read Hacker News · Show HN; 6 new candidates.",
-      "lastRunAt": "2026-11-13T16:44:46.044Z",
+      "summary": "Read Lobsters; 3 new candidates.",
+      "lastRunAt": "2026-11-13T16:59:46.186Z",
       "metrics": {
         "sources": 1,
         "failures": 0,
-        "discovered": 6,
-        "cursor": 9
+        "discovered": 3,
+        "cursor": 0
       }
     },
     "verifier": {
       "state": "ok",
       "summary": "Reviewed 3 candidates with a server-side document check (HTTP + DOM, no browser).",
-      "lastRunAt": "2026-11-13T16:44:46.044Z",
+      "lastRunAt": "2026-11-13T16:59:46.186Z",
       "metrics": {
         "total": 3,
         "verified": 3,
@@ -49,10 +49,10 @@
     },
     "curator": {
       "state": "ok",
-      "summary": "Published 166 listings; removed 0 duplicates.",
-      "lastRunAt": "2026-11-13T16:44:46.044Z",
+      "summary": "Published 169 listings; removed 0 duplicates.",
+      "lastRunAt": "2026-11-13T16:59:46.186Z",
       "metrics": {
-        "published": 166,
+        "published": 169,
         "duplicatesRemoved": 0,
         "stale": 0
       }
@@ -60,12 +60,12 @@
   },
   "sourceHealth": [
     {
-      "id": "hn-show",
-      "name": "Hacker News · Show HN",
+      "id": "lobsters",
+      "name": "Lobsters",
       "type": "rss",
       "status": "ok",
-      "items": 6,
-      "durationMs": 91
+      "items": 3,
+      "durationMs": 280
     }
   ],
   "workflow": {
