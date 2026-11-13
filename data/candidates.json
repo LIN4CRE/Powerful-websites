@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-13T02:14:46.005Z",
+  "updatedAt": "2026-11-13T02:29:46.032Z",
   "candidates": [
     {
       "id": "pollinations",
@@ -482,64 +482,29 @@
       "suggestedBy": "Editorial research",
       "discoverySource": "editorial-research",
       "dateDiscovered": "2026-11-12T20:09:58.316Z",
-      "status": "pending",
-      "attempts": 0,
-      "lastAttemptAt": null,
-      "verification": null,
-      "rejectionReason": null,
+      "status": "rejected",
+      "attempts": 1,
+      "lastAttemptAt": "2026-11-13T02:29:46.701Z",
+      "verification": {
+        "status": "rejected",
+        "method": "reader",
+        "checks": {
+          "http": true,
+          "browser": false,
+          "noLoginWall": true,
+          "noApiKey": true,
+          "coreUiReachable": false
+        },
+        "evidence": "Server-side document review (HTTP 200); final URL https://fonts.google.com/; 0 tool signals; no login wall detected; no API key required.",
+        "httpStatus": 200,
+        "finalUrl": "https://fonts.google.com/",
+        "checkedAt": "2026-11-13T02:29:46.701Z",
+        "attempts": 1
+      },
+      "rejectionReason": "No usable interface or substantial content was reachable without an account; the page looks like a marketing shell.",
       "openSource": false,
       "sourceRepo": null,
       "license": null,
-      "free": true
-    },
-    {
-      "id": "lucide",
-      "name": "Lucide",
-      "url": "https://lucide.dev",
-      "domain": "lucide.dev",
-      "description": "A consistent open-source icon set you can customise and copy as SVG or framework components.",
-      "category": "design",
-      "tags": [
-        "icons",
-        "svg",
-        "open-source"
-      ],
-      "suggestedBy": "Editorial research",
-      "discoverySource": "github-topics",
-      "dateDiscovered": "2026-11-12T20:09:58.316Z",
-      "status": "pending",
-      "attempts": 0,
-      "lastAttemptAt": null,
-      "verification": null,
-      "rejectionReason": null,
-      "openSource": true,
-      "sourceRepo": "https://github.com/lucide-icons/lucide",
-      "license": "ISC",
-      "free": true
-    },
-    {
-      "id": "iconify",
-      "name": "Iconify",
-      "url": "https://icon-sets.iconify.design",
-      "domain": "icon-sets.iconify.design",
-      "description": "Searches more than 200,000 open-source icons across icon sets and exports them as SVG.",
-      "category": "design",
-      "tags": [
-        "icons",
-        "search",
-        "svg"
-      ],
-      "suggestedBy": "Editorial research",
-      "discoverySource": "github-topics",
-      "dateDiscovered": "2026-11-12T20:09:58.316Z",
-      "status": "pending",
-      "attempts": 0,
-      "lastAttemptAt": null,
-      "verification": null,
-      "rejectionReason": null,
-      "openSource": true,
-      "sourceRepo": "https://github.com/iconify/iconify",
-      "license": "MIT",
       "free": true
     },
     {
