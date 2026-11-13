@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-13T12:59:45.917Z",
+  "updatedAt": "2026-11-13T13:14:46.016Z",
   "sites": [
     {
       "id": "arxiv",
@@ -5836,6 +5836,92 @@
         "httpStatus": 200,
         "finalUrl": "https://zoomquilt.org/",
         "checkedAt": "2026-11-13T12:59:46.459Z",
+        "attempts": 1
+      },
+      "availability": "online",
+      "icon": null,
+      "featured": false,
+      "consecutiveFailures": 0
+    },
+    {
+      "id": "merview",
+      "name": "Merview",
+      "url": "https://merview.com",
+      "domain": "merview.com",
+      "description": "Merview Markdown editor with live preview and Mermaid diagram support. Drag and drop files, export to PDF, 37 themes. Use it Source by mickdarling….",
+      "category": "writing",
+      "tags": [
+        "merview",
+        "mickdarling",
+        "markdown"
+      ],
+      "free": true,
+      "accountRequired": false,
+      "apiKeyRequired": false,
+      "openSource": false,
+      "sourceRepo": null,
+      "license": null,
+      "discoverySource": "toolcommons",
+      "dateDiscovered": "2026-11-12T23:44:45.263Z",
+      "addedAt": "2026-11-13T13:14:46.583Z",
+      "lastVerifiedAt": "2026-11-13T13:14:46.583Z",
+      "verification": {
+        "status": "verified",
+        "method": "reader",
+        "checks": {
+          "http": true,
+          "browser": false,
+          "noLoginWall": true,
+          "noApiKey": true,
+          "coreUiReachable": true
+        },
+        "evidence": "Server-side document review (HTTP 200); final URL https://merview.com/; 2 tool signals; no login wall detected; no API key required.",
+        "httpStatus": 200,
+        "finalUrl": "https://merview.com/",
+        "checkedAt": "2026-11-13T13:14:46.583Z",
+        "attempts": 1
+      },
+      "availability": "online",
+      "icon": null,
+      "featured": false,
+      "consecutiveFailures": 0
+    },
+    {
+      "id": "aptabase",
+      "name": "Aptabase",
+      "url": "https://aptabase.com",
+      "domain": "aptabase.com",
+      "description": "Privacy first and simple analytics for mobile and desktop apps. ().",
+      "category": "browser-apps",
+      "tags": [
+        "analytics",
+        "aptabase",
+        "privacy"
+      ],
+      "free": true,
+      "accountRequired": false,
+      "apiKeyRequired": false,
+      "openSource": false,
+      "sourceRepo": null,
+      "license": null,
+      "discoverySource": "awesome-selfhosted",
+      "dateDiscovered": "2026-11-13T00:14:46.130Z",
+      "addedAt": "2026-11-13T13:14:46.725Z",
+      "lastVerifiedAt": "2026-11-13T13:14:46.725Z",
+      "verification": {
+        "status": "verified",
+        "method": "reader",
+        "checks": {
+          "http": true,
+          "browser": false,
+          "noLoginWall": true,
+          "noApiKey": true,
+          "coreUiReachable": true
+        },
+        "evidence": "Server-side document review (HTTP 200); final URL https://aptabase.com/; 0 tool signals; no login wall detected; no API key required.",
+        "httpStatus": 200,
+        "finalUrl": "https://aptabase.com/",
+        "checkedAt": "2026-11-13T13:14:46.725Z",
         "attempts": 1
       },
       "availability": "online",
