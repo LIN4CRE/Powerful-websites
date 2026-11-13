@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-13T03:44:46.120Z",
+  "updatedAt": "2026-11-13T03:59:46.111Z",
   "sites": [
     {
       "id": "arxiv",
@@ -2783,6 +2783,135 @@
         "httpStatus": 200,
         "finalUrl": "https://123apps.com/",
         "checkedAt": "2026-11-13T03:44:47.059Z",
+        "attempts": 1
+      },
+      "availability": "online",
+      "icon": null,
+      "featured": false,
+      "consecutiveFailures": 0
+    },
+    {
+      "id": "mp3cut",
+      "name": "MP3Cut",
+      "url": "https://mp3cut.net",
+      "domain": "mp3cut.net",
+      "description": "Trims MP3 and other audio files visually, with fade effects and format conversion.",
+      "category": "video-audio",
+      "tags": [
+        "trim",
+        "mp3",
+        "audio"
+      ],
+      "free": true,
+      "accountRequired": false,
+      "apiKeyRequired": false,
+      "openSource": false,
+      "sourceRepo": null,
+      "license": null,
+      "discoverySource": "editorial-research",
+      "dateDiscovered": "2026-11-12T20:09:58.316Z",
+      "addedAt": "2026-11-13T03:59:46.963Z",
+      "lastVerifiedAt": "2026-11-13T03:59:46.962Z",
+      "verification": {
+        "status": "verified",
+        "method": "reader",
+        "checks": {
+          "http": true,
+          "browser": false,
+          "noLoginWall": true,
+          "noApiKey": true,
+          "coreUiReachable": true
+        },
+        "evidence": "Server-side document review (HTTP 200); final URL https://mp3cut.net/; 3 tool signals; no login wall detected; no API key required.",
+        "httpStatus": 200,
+        "finalUrl": "https://mp3cut.net/",
+        "checkedAt": "2026-11-13T03:59:46.962Z",
+        "attempts": 1
+      },
+      "availability": "online",
+      "icon": null,
+      "featured": false,
+      "consecutiveFailures": 0
+    },
+    {
+      "id": "vocal-remover",
+      "name": "Vocal Remover",
+      "url": "https://vocalremover.org",
+      "domain": "vocalremover.org",
+      "description": "Splits a song into vocals and instrumental, and includes key, tempo and pitch tools.",
+      "category": "video-audio",
+      "tags": [
+        "karaoke",
+        "stems",
+        "audio"
+      ],
+      "free": true,
+      "accountRequired": false,
+      "apiKeyRequired": false,
+      "openSource": false,
+      "sourceRepo": null,
+      "license": null,
+      "discoverySource": "editorial-research",
+      "dateDiscovered": "2026-11-12T20:09:58.316Z",
+      "addedAt": "2026-11-13T03:59:47.068Z",
+      "lastVerifiedAt": "2026-11-13T03:59:47.068Z",
+      "verification": {
+        "status": "verified",
+        "method": "reader",
+        "checks": {
+          "http": true,
+          "browser": false,
+          "noLoginWall": true,
+          "noApiKey": true,
+          "coreUiReachable": true
+        },
+        "evidence": "Server-side document review (HTTP 200); final URL https://vocalremover.org/; 1 tool signal; no login wall detected; no API key required.",
+        "httpStatus": 200,
+        "finalUrl": "https://vocalremover.org/",
+        "checkedAt": "2026-11-13T03:59:47.068Z",
+        "attempts": 1
+      },
+      "availability": "online",
+      "icon": null,
+      "featured": false,
+      "consecutiveFailures": 0
+    },
+    {
+      "id": "ttsmaker",
+      "name": "TTSMaker",
+      "url": "https://ttsmaker.com",
+      "domain": "ttsmaker.com",
+      "description": "Converts text to speech in many languages with a choice of voices and downloadable MP3 output.",
+      "category": "video-audio",
+      "tags": [
+        "text-to-speech",
+        "mp3",
+        "voices"
+      ],
+      "free": true,
+      "accountRequired": false,
+      "apiKeyRequired": false,
+      "openSource": false,
+      "sourceRepo": null,
+      "license": null,
+      "discoverySource": "editorial-research",
+      "dateDiscovered": "2026-11-12T20:09:58.316Z",
+      "addedAt": "2026-11-13T03:59:47.865Z",
+      "lastVerifiedAt": "2026-11-13T03:59:47.865Z",
+      "verification": {
+        "status": "verified",
+        "method": "reader",
+        "checks": {
+          "http": true,
+          "browser": false,
+          "noLoginWall": true,
+          "noApiKey": true,
+          "coreUiReachable": true
+        },
+        "evidence": "Server-side document review (HTTP 200); final URL https://ttsmaker.com/; 3 tool signals; no login wall detected; no API key required.",
+        "httpStatus": 200,
+        "finalUrl": "https://ttsmaker.com/",
+        "checkedAt": "2026-11-13T03:59:47.865Z",
         "attempts": 1
       },
       "availability": "online",
