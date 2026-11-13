@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-13T09:14:46.301Z",
+  "updatedAt": "2026-11-13T09:29:45.904Z",
   "sites": [
     {
       "id": "arxiv",
@@ -4589,6 +4589,92 @@
         "httpStatus": 200,
         "finalUrl": "https://data.worldbank.org/",
         "checkedAt": "2026-11-13T09:14:47.789Z",
+        "attempts": 1
+      },
+      "availability": "online",
+      "icon": null,
+      "featured": false,
+      "consecutiveFailures": 0
+    },
+    {
+      "id": "overpass-turbo",
+      "name": "Overpass Turbo",
+      "url": "https://overpass-turbo.eu",
+      "domain": "overpass-turbo.eu",
+      "description": "Queries OpenStreetMap data with the Overpass API and shows results on a map or as exportable data.",
+      "category": "maps",
+      "tags": [
+        "openstreetmap",
+        "query",
+        "geodata"
+      ],
+      "free": true,
+      "accountRequired": false,
+      "apiKeyRequired": false,
+      "openSource": true,
+      "sourceRepo": "https://github.com/tyrasd/overpass-turbo",
+      "license": "MIT",
+      "discoverySource": "github-topics",
+      "dateDiscovered": "2026-11-12T20:09:58.316Z",
+      "addedAt": "2026-11-13T09:29:46.822Z",
+      "lastVerifiedAt": "2026-11-13T09:29:46.822Z",
+      "verification": {
+        "status": "verified",
+        "method": "reader",
+        "checks": {
+          "http": true,
+          "browser": false,
+          "noLoginWall": true,
+          "noApiKey": true,
+          "coreUiReachable": true
+        },
+        "evidence": "Server-side document review (HTTP 200); final URL https://overpass-turbo.eu/; 3 tool signals; no login wall detected; no API key required.",
+        "httpStatus": 200,
+        "finalUrl": "https://overpass-turbo.eu/",
+        "checkedAt": "2026-11-13T09:29:46.822Z",
+        "attempts": 1
+      },
+      "availability": "online",
+      "icon": null,
+      "featured": false,
+      "consecutiveFailures": 0
+    },
+    {
+      "id": "suncalc",
+      "name": "SunCalc",
+      "url": "https://www.suncalc.org",
+      "domain": "suncalc.org",
+      "description": "Shows the sun’s path, sunrise, sunset and shadow direction for any place and date.",
+      "category": "maps",
+      "tags": [
+        "sun",
+        "astronomy",
+        "planning"
+      ],
+      "free": true,
+      "accountRequired": false,
+      "apiKeyRequired": false,
+      "openSource": false,
+      "sourceRepo": null,
+      "license": null,
+      "discoverySource": "editorial-research",
+      "dateDiscovered": "2026-11-12T20:09:58.316Z",
+      "addedAt": "2026-11-13T09:29:47.640Z",
+      "lastVerifiedAt": "2026-11-13T09:29:47.640Z",
+      "verification": {
+        "status": "verified",
+        "method": "reader",
+        "checks": {
+          "http": true,
+          "browser": false,
+          "noLoginWall": true,
+          "noApiKey": true,
+          "coreUiReachable": true
+        },
+        "evidence": "Server-side document review (HTTP 200); final URL https://www.suncalc.org/; 3 tool signals; no login wall detected; no API key required.",
+        "httpStatus": 200,
+        "finalUrl": "https://www.suncalc.org/",
+        "checkedAt": "2026-11-13T09:29:47.640Z",
         "attempts": 1
       },
       "availability": "online",
