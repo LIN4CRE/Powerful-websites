@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-13T10:14:46.120Z",
+  "updatedAt": "2026-11-13T10:29:46.016Z",
   "sites": [
     {
       "id": "arxiv",
@@ -4976,6 +4976,49 @@
         "httpStatus": 200,
         "finalUrl": "https://ipinfo.io/",
         "checkedAt": "2026-11-13T10:14:47.461Z",
+        "attempts": 1
+      },
+      "availability": "online",
+      "icon": null,
+      "featured": false,
+      "consecutiveFailures": 0
+    },
+    {
+      "id": "security-headers",
+      "name": "Security Headers",
+      "url": "https://securityheaders.com",
+      "domain": "securityheaders.com",
+      "description": "Grades a website’s HTTP security headers and explains what each missing header exposes.",
+      "category": "internet",
+      "tags": [
+        "security",
+        "headers",
+        "audit"
+      ],
+      "free": true,
+      "accountRequired": false,
+      "apiKeyRequired": false,
+      "openSource": false,
+      "sourceRepo": null,
+      "license": null,
+      "discoverySource": "editorial-research",
+      "dateDiscovered": "2026-11-12T20:09:58.316Z",
+      "addedAt": "2026-11-13T10:29:46.490Z",
+      "lastVerifiedAt": "2026-11-13T10:29:46.489Z",
+      "verification": {
+        "status": "verified",
+        "method": "reader",
+        "checks": {
+          "http": true,
+          "browser": false,
+          "noLoginWall": true,
+          "noApiKey": true,
+          "coreUiReachable": true
+        },
+        "evidence": "Server-side document review (HTTP 200); final URL https://securityheaders.com/; 0 tool signals; no login wall detected; no API key required.",
+        "httpStatus": 200,
+        "finalUrl": "https://securityheaders.com/",
+        "checkedAt": "2026-11-13T10:29:46.489Z",
         "attempts": 1
       },
       "availability": "online",
