@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-13T16:29:46.126Z",
+  "updatedAt": "2026-11-13T16:44:46.044Z",
   "sites": [
     {
       "id": "arxiv",
@@ -7044,6 +7044,133 @@
         "httpStatus": 200,
         "finalUrl": "https://survivedinner.com/",
         "checkedAt": "2026-11-13T16:29:46.941Z",
+        "attempts": 1
+      },
+      "availability": "online",
+      "icon": null,
+      "featured": false,
+      "consecutiveFailures": 0
+    },
+    {
+      "id": "adapting-cpython-for-yk",
+      "name": "Adapting CPython for yk",
+      "url": "https://tratt.net/laurie/blog/2026/adapting_cpython_for_yk.html",
+      "domain": "tratt.net",
+      "description": "Adapting CPython for yk.",
+      "category": "unusual",
+      "tags": [
+        "adapting",
+        "cpython"
+      ],
+      "free": true,
+      "accountRequired": false,
+      "apiKeyRequired": false,
+      "openSource": false,
+      "sourceRepo": null,
+      "license": null,
+      "discoverySource": "lobsters",
+      "dateDiscovered": "2026-11-13T04:29:46.090Z",
+      "addedAt": "2026-11-13T16:44:46.828Z",
+      "lastVerifiedAt": "2026-11-13T16:44:46.828Z",
+      "verification": {
+        "status": "verified",
+        "method": "reader",
+        "checks": {
+          "http": true,
+          "browser": false,
+          "noLoginWall": true,
+          "noApiKey": true,
+          "coreUiReachable": true
+        },
+        "evidence": "Server-side document review (HTTP 200); final URL https://tratt.net/laurie/blog/2026/adapting_cpython_for_yk.html; 2 tool signals; no login wall detected; no API key required.",
+        "httpStatus": 200,
+        "finalUrl": "https://tratt.net/laurie/blog/2026/adapting_cpython_for_yk.html",
+        "checkedAt": "2026-11-13T16:44:46.828Z",
+        "attempts": 1
+      },
+      "availability": "online",
+      "icon": null,
+      "featured": false,
+      "consecutiveFailures": 0
+    },
+    {
+      "id": "paths-in-pieces",
+      "name": "Paths in pieces",
+      "url": "https://stoppels.ch/2026/11/12/paths-in-pieces.html",
+      "domain": "stoppels.ch",
+      "description": "Paths in pieces.",
+      "category": "unusual",
+      "tags": [
+        "pieces",
+        "paths"
+      ],
+      "free": true,
+      "accountRequired": false,
+      "apiKeyRequired": false,
+      "openSource": false,
+      "sourceRepo": null,
+      "license": null,
+      "discoverySource": "lobsters",
+      "dateDiscovered": "2026-11-13T04:29:46.090Z",
+      "addedAt": "2026-11-13T16:44:47.328Z",
+      "lastVerifiedAt": "2026-11-13T16:44:47.328Z",
+      "verification": {
+        "status": "verified",
+        "method": "reader",
+        "checks": {
+          "http": true,
+          "browser": false,
+          "noLoginWall": true,
+          "noApiKey": true,
+          "coreUiReachable": true
+        },
+        "evidence": "Server-side document review (HTTP 200); final URL https://stoppels.ch/2026/11/12/paths-in-pieces.html; 0 tool signals; no login wall detected; no API key required.",
+        "httpStatus": 200,
+        "finalUrl": "https://stoppels.ch/2026/11/12/paths-in-pieces.html",
+        "checkedAt": "2026-11-13T16:44:47.328Z",
+        "attempts": 1
+      },
+      "availability": "online",
+      "icon": null,
+      "featured": false,
+      "consecutiveFailures": 0
+    },
+    {
+      "id": "the-secret-of-monkey-island-all-13-versions-side",
+      "name": "The Secret of Monkey Island: all 13 versions side by side",
+      "url": "https://monkeyisland.pages.dev",
+      "domain": "monkeyisland.pages.dev",
+      "description": "The Secret of Monkey Island: all 13 versions side by side.",
+      "category": "unusual",
+      "tags": [
+        "side",
+        "versions",
+        "secret"
+      ],
+      "free": true,
+      "accountRequired": false,
+      "apiKeyRequired": false,
+      "openSource": false,
+      "sourceRepo": null,
+      "license": null,
+      "discoverySource": "lobsters",
+      "dateDiscovered": "2026-11-13T04:29:46.090Z",
+      "addedAt": "2026-11-13T16:44:47.484Z",
+      "lastVerifiedAt": "2026-11-13T16:44:47.484Z",
+      "verification": {
+        "status": "verified",
+        "method": "reader",
+        "checks": {
+          "http": true,
+          "browser": false,
+          "noLoginWall": true,
+          "noApiKey": true,
+          "coreUiReachable": true
+        },
+        "evidence": "Server-side document review (HTTP 200); final URL https://monkeyisland.pages.dev/; 1 tool signal; no login wall detected; no API key required.",
+        "httpStatus": 200,
+        "finalUrl": "https://monkeyisland.pages.dev/",
+        "checkedAt": "2026-11-13T16:44:47.484Z",
         "attempts": 1
       },
       "availability": "online",
