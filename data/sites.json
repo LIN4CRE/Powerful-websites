@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-13T11:14:46.102Z",
+  "updatedAt": "2026-11-13T11:29:46.033Z",
   "sites": [
     {
       "id": "arxiv",
@@ -5363,6 +5363,92 @@
         "httpStatus": 200,
         "finalUrl": "https://musiclab.chromeexperiments.com/",
         "checkedAt": "2026-11-13T11:14:46.599Z",
+        "attempts": 1
+      },
+      "availability": "online",
+      "icon": null,
+      "featured": false,
+      "consecutiveFailures": 0
+    },
+    {
+      "id": "riseup-pad",
+      "name": "Riseup Pad",
+      "url": "https://pad.riseup.net",
+      "domain": "pad.riseup.net",
+      "description": "An anonymous collaborative Etherpad for real-time shared notes with no account required.",
+      "category": "browser-apps",
+      "tags": [
+        "collaboration",
+        "notes",
+        "anonymous"
+      ],
+      "free": true,
+      "accountRequired": false,
+      "apiKeyRequired": false,
+      "openSource": true,
+      "sourceRepo": "https://github.com/ether/etherpad-lite",
+      "license": "Apache-2.0",
+      "discoverySource": "editorial-research",
+      "dateDiscovered": "2026-11-12T20:09:58.316Z",
+      "addedAt": "2026-11-13T11:29:47.187Z",
+      "lastVerifiedAt": "2026-11-13T11:29:47.182Z",
+      "verification": {
+        "status": "verified",
+        "method": "reader",
+        "checks": {
+          "http": true,
+          "browser": false,
+          "noLoginWall": true,
+          "noApiKey": true,
+          "coreUiReachable": true
+        },
+        "evidence": "Server-side document review (HTTP 200); final URL https://pad.riseup.net/; 2 tool signals; no login wall detected; no API key required.",
+        "httpStatus": 200,
+        "finalUrl": "https://pad.riseup.net/",
+        "checkedAt": "2026-11-13T11:29:47.182Z",
+        "attempts": 1
+      },
+      "availability": "online",
+      "icon": null,
+      "featured": false,
+      "consecutiveFailures": 0
+    },
+    {
+      "id": "lichess-analysis",
+      "name": "Lichess Analysis",
+      "url": "https://lichess.org/analysis",
+      "domain": "lichess.org",
+      "description": "A free, open-source chess analysis board with engine evaluation and move databases.",
+      "category": "browser-apps",
+      "tags": [
+        "chess",
+        "analysis",
+        "open-source"
+      ],
+      "free": true,
+      "accountRequired": false,
+      "apiKeyRequired": false,
+      "openSource": true,
+      "sourceRepo": "https://github.com/lichess-org/lila",
+      "license": "AGPL-3.0",
+      "discoverySource": "github-topics",
+      "dateDiscovered": "2026-11-12T20:09:58.316Z",
+      "addedAt": "2026-11-13T11:29:47.319Z",
+      "lastVerifiedAt": "2026-11-13T11:29:47.319Z",
+      "verification": {
+        "status": "verified",
+        "method": "reader",
+        "checks": {
+          "http": true,
+          "browser": false,
+          "noLoginWall": true,
+          "noApiKey": true,
+          "coreUiReachable": true
+        },
+        "evidence": "Server-side document review (HTTP 200); final URL https://lichess.org/analysis; 1 tool signal; no login wall detected; no API key required.",
+        "httpStatus": 200,
+        "finalUrl": "https://lichess.org/analysis",
+        "checkedAt": "2026-11-13T11:29:47.319Z",
         "attempts": 1
       },
       "availability": "online",
