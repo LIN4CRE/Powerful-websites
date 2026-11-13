@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-13T18:44:46.176Z",
+  "updatedAt": "2026-11-13T18:59:46.066Z",
   "candidates": [
     {
       "id": "pollinations",
@@ -3029,80 +3029,6 @@
         "checkedAt": "2026-11-13T17:59:57.226Z",
         "attempts": 1
       },
-      "rejectionReason": null,
-      "openSource": false,
-      "sourceRepo": null,
-      "license": null,
-      "free": true
-    },
-    {
-      "id": "for-the-first-time-a-c-standard-failed-to-pass-t",
-      "name": "For the first time, a C++ standard failed to pass the nation",
-      "url": "https://herecomesthemoon.net/2026/11/cpp26-failed-the-national-bodies/",
-      "domain": "herecomesthemoon.net",
-      "description": "For the first time, a C++ standard failed to pass the national bodies.",
-      "category": "unusual",
-      "tags": [
-        "standard",
-        "failed",
-        "first"
-      ],
-      "suggestedBy": "Lobsters",
-      "discoverySource": "lobsters",
-      "dateDiscovered": "2026-11-13T06:59:46.164Z",
-      "status": "pending",
-      "attempts": 0,
-      "lastAttemptAt": null,
-      "verification": null,
-      "rejectionReason": null,
-      "openSource": false,
-      "sourceRepo": null,
-      "license": null,
-      "free": true
-    },
-    {
-      "id": "how-do-you-actually-self",
-      "name": "How do you actually self",
-      "url": "https://lobste.rs/s/m43bas/how_do_you_actually_self_host_securely",
-      "domain": "lobste.rs",
-      "description": "host securely?",
-      "category": "unusual",
-      "tags": [
-        "actually",
-        "securely",
-        "self"
-      ],
-      "suggestedBy": "Lobsters",
-      "discoverySource": "lobsters",
-      "dateDiscovered": "2026-11-13T06:59:46.164Z",
-      "status": "pending",
-      "attempts": 0,
-      "lastAttemptAt": null,
-      "verification": null,
-      "rejectionReason": null,
-      "openSource": false,
-      "sourceRepo": null,
-      "license": null,
-      "free": true
-    },
-    {
-      "id": "dyalog-version-21-0",
-      "name": "Dyalog Version 21.0",
-      "url": "https://dyalog.com/dyalog/dyalog-versions/210.htm",
-      "domain": "dyalog.com",
-      "description": "Dyalog Version 21.0.",
-      "category": "unusual",
-      "tags": [
-        "version",
-        "dyalog"
-      ],
-      "suggestedBy": "Lobsters",
-      "discoverySource": "lobsters",
-      "dateDiscovered": "2026-11-13T06:59:46.164Z",
-      "status": "pending",
-      "attempts": 0,
-      "lastAttemptAt": null,
-      "verification": null,
       "rejectionReason": null,
       "openSource": false,
       "sourceRepo": null,
