@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-13T05:29:46.211Z",
+  "updatedAt": "2026-11-13T05:44:46.111Z",
   "sites": [
     {
       "id": "arxiv",
@@ -3514,6 +3514,92 @@
         "httpStatus": 200,
         "finalUrl": "https://www.file.io/",
         "checkedAt": "2026-11-13T05:29:47.280Z",
+        "attempts": 1
+      },
+      "availability": "online",
+      "icon": null,
+      "featured": false,
+      "consecutiveFailures": 0
+    },
+    {
+      "id": "cover-your-tracks",
+      "name": "Cover Your Tracks",
+      "url": "https://coveryourtracks.eff.org",
+      "domain": "coveryourtracks.eff.org",
+      "description": "Tests how unique and trackable your browser fingerprint is, with practical hardening advice.",
+      "category": "privacy",
+      "tags": [
+        "fingerprinting",
+        "eff",
+        "tracking"
+      ],
+      "free": true,
+      "accountRequired": false,
+      "apiKeyRequired": false,
+      "openSource": false,
+      "sourceRepo": null,
+      "license": null,
+      "discoverySource": "editorial-research",
+      "dateDiscovered": "2026-11-12T20:09:58.316Z",
+      "addedAt": "2026-11-13T05:44:46.931Z",
+      "lastVerifiedAt": "2026-11-13T05:44:46.931Z",
+      "verification": {
+        "status": "verified",
+        "method": "reader",
+        "checks": {
+          "http": true,
+          "browser": false,
+          "noLoginWall": true,
+          "noApiKey": true,
+          "coreUiReachable": true
+        },
+        "evidence": "Server-side document review (HTTP 200); final URL https://coveryourtracks.eff.org/; 1 tool signal; no login wall detected; no API key required.",
+        "httpStatus": 200,
+        "finalUrl": "https://coveryourtracks.eff.org/",
+        "checkedAt": "2026-11-13T05:44:46.931Z",
+        "attempts": 1
+      },
+      "availability": "online",
+      "icon": null,
+      "featured": false,
+      "consecutiveFailures": 0
+    },
+    {
+      "id": "privacy-guides",
+      "name": "Privacy Guides",
+      "url": "https://www.privacyguides.org",
+      "domain": "privacyguides.org",
+      "description": "Community-maintained, vendor-independent recommendations for privacy-respecting software and services.",
+      "category": "privacy",
+      "tags": [
+        "guides",
+        "recommendations",
+        "security"
+      ],
+      "free": true,
+      "accountRequired": false,
+      "apiKeyRequired": false,
+      "openSource": false,
+      "sourceRepo": null,
+      "license": null,
+      "discoverySource": "editorial-research",
+      "dateDiscovered": "2026-11-12T20:09:58.316Z",
+      "addedAt": "2026-11-13T05:44:47.360Z",
+      "lastVerifiedAt": "2026-11-13T05:44:47.360Z",
+      "verification": {
+        "status": "verified",
+        "method": "reader",
+        "checks": {
+          "http": true,
+          "browser": false,
+          "noLoginWall": true,
+          "noApiKey": true,
+          "coreUiReachable": true
+        },
+        "evidence": "Server-side document review (HTTP 200); final URL https://www.privacyguides.org/; 0 tool signals; no login wall detected; no API key required.",
+        "httpStatus": 200,
+        "finalUrl": "https://www.privacyguides.org/",
+        "checkedAt": "2026-11-13T05:44:47.360Z",
         "attempts": 1
       },
       "availability": "online",
