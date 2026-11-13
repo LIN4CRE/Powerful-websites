@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-13T07:14:46.125Z",
+  "updatedAt": "2026-11-13T07:29:45.994Z",
   "sites": [
     {
       "id": "arxiv",
@@ -4073,6 +4073,49 @@
         "httpStatus": 200,
         "finalUrl": "https://ocw.mit.edu/",
         "checkedAt": "2026-11-13T07:14:46.970Z",
+        "attempts": 1
+      },
+      "availability": "online",
+      "icon": null,
+      "featured": false,
+      "consecutiveFailures": 0
+    },
+    {
+      "id": "standard-ebooks",
+      "name": "Standard Ebooks",
+      "url": "https://standardebooks.org",
+      "domain": "standardebooks.org",
+      "description": "Carefully edited, beautifully typeset public-domain ebooks free to download.",
+      "category": "education",
+      "tags": [
+        "ebooks",
+        "typography",
+        "public-domain"
+      ],
+      "free": true,
+      "accountRequired": false,
+      "apiKeyRequired": false,
+      "openSource": false,
+      "sourceRepo": null,
+      "license": null,
+      "discoverySource": "editorial-research",
+      "dateDiscovered": "2026-11-12T20:09:58.316Z",
+      "addedAt": "2026-11-13T07:29:46.432Z",
+      "lastVerifiedAt": "2026-11-13T07:29:46.432Z",
+      "verification": {
+        "status": "verified",
+        "method": "reader",
+        "checks": {
+          "http": true,
+          "browser": false,
+          "noLoginWall": true,
+          "noApiKey": true,
+          "coreUiReachable": true
+        },
+        "evidence": "Server-side document review (HTTP 200); final URL https://standardebooks.org/; 0 tool signals; no login wall detected; no API key required.",
+        "httpStatus": 200,
+        "finalUrl": "https://standardebooks.org/",
+        "checkedAt": "2026-11-13T07:29:46.432Z",
         "attempts": 1
       },
       "availability": "online",
