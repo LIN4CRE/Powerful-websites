@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-13T03:14:46.038Z",
+  "updatedAt": "2026-11-13T03:29:45.987Z",
   "candidates": [
     {
       "id": "pollinations",
@@ -683,9 +683,24 @@
       "discoverySource": "editorial-research",
       "dateDiscovered": "2026-11-12T20:09:58.316Z",
       "status": "pending",
-      "attempts": 0,
-      "lastAttemptAt": null,
-      "verification": null,
+      "attempts": 1,
+      "lastAttemptAt": "2026-11-13T03:29:46.288Z",
+      "verification": {
+        "status": "pending",
+        "method": "reader",
+        "checks": {
+          "http": false,
+          "browser": false,
+          "noLoginWall": true,
+          "noApiKey": true,
+          "coreUiReachable": false
+        },
+        "evidence": "Server-side document review (HTTP 403); final URL https://pixabay.com/; 0 tool signals; no login wall detected; no API key required.",
+        "httpStatus": 403,
+        "finalUrl": "https://pixabay.com/",
+        "checkedAt": "2026-11-13T03:29:46.288Z",
+        "attempts": 1
+      },
       "rejectionReason": null,
       "openSource": false,
       "sourceRepo": null,
@@ -708,38 +723,28 @@
       "discoverySource": "github-topics",
       "dateDiscovered": "2026-11-12T20:09:58.316Z",
       "status": "pending",
-      "attempts": 0,
-      "lastAttemptAt": null,
-      "verification": null,
+      "attempts": 1,
+      "lastAttemptAt": "2026-11-13T03:29:46.374Z",
+      "verification": {
+        "status": "pending",
+        "method": "reader",
+        "checks": {
+          "http": false,
+          "browser": false,
+          "noLoginWall": true,
+          "noApiKey": true,
+          "coreUiReachable": false
+        },
+        "evidence": "Server-side document review (HTTP 403); final URL https://openverse.org/; 0 tool signals; no login wall detected; no API key required.",
+        "httpStatus": 403,
+        "finalUrl": "https://openverse.org/",
+        "checkedAt": "2026-11-13T03:29:46.374Z",
+        "attempts": 1
+      },
       "rejectionReason": null,
       "openSource": true,
       "sourceRepo": "https://github.com/WordPress/openverse",
       "license": "MIT",
-      "free": true
-    },
-    {
-      "id": "wikimedia-commons",
-      "name": "Wikimedia Commons",
-      "url": "https://commons.wikimedia.org",
-      "domain": "commons.wikimedia.org",
-      "description": "A vast media repository of freely licensed photographs, diagrams, audio and video.",
-      "category": "image",
-      "tags": [
-        "creative-commons",
-        "media",
-        "archive"
-      ],
-      "suggestedBy": "Editorial research",
-      "discoverySource": "editorial-research",
-      "dateDiscovered": "2026-11-12T20:09:58.316Z",
-      "status": "pending",
-      "attempts": 0,
-      "lastAttemptAt": null,
-      "verification": null,
-      "rejectionReason": null,
-      "openSource": false,
-      "sourceRepo": null,
-      "license": null,
       "free": true
     },
     {
