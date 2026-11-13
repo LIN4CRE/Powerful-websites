@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-13T19:59:46.052Z",
+  "updatedAt": "2026-11-13T20:14:46.084Z",
   "sites": [
     {
       "id": "arxiv",
@@ -8683,6 +8683,135 @@
         "httpStatus": 200,
         "finalUrl": "https://www.flickr.com/photos/spacex",
         "checkedAt": "2026-11-13T19:59:48.074Z",
+        "attempts": 1
+      },
+      "availability": "online",
+      "icon": null,
+      "featured": false,
+      "consecutiveFailures": 0
+    },
+    {
+      "id": "show-hn-ctrl",
+      "name": "Show HN: CTRL",
+      "url": "https://ctr-l.studio/app",
+      "domain": "ctr-l.studio",
+      "description": "realistic work simulations for engineering interviews.",
+      "category": "unusual",
+      "tags": [
+        "simulations",
+        "engineering",
+        "interviews"
+      ],
+      "free": true,
+      "accountRequired": false,
+      "apiKeyRequired": false,
+      "openSource": false,
+      "sourceRepo": null,
+      "license": null,
+      "discoverySource": "hn-show",
+      "dateDiscovered": "2026-11-13T09:14:46.301Z",
+      "addedAt": "2026-11-13T20:14:46.819Z",
+      "lastVerifiedAt": "2026-11-13T20:14:46.819Z",
+      "verification": {
+        "status": "verified",
+        "method": "reader",
+        "checks": {
+          "http": true,
+          "browser": false,
+          "noLoginWall": true,
+          "noApiKey": true,
+          "coreUiReachable": true
+        },
+        "evidence": "Server-side document review (HTTP 200); final URL https://ctr-l.studio/app; 0 tool signals; no login wall detected; no API key required.",
+        "httpStatus": 200,
+        "finalUrl": "https://ctr-l.studio/app",
+        "checkedAt": "2026-11-13T20:14:46.819Z",
+        "attempts": 1
+      },
+      "availability": "online",
+      "icon": null,
+      "featured": false,
+      "consecutiveFailures": 0
+    },
+    {
+      "id": "show-hn-your-coucou-a-daily-check",
+      "name": "Show HN: Your Coucou, a daily check",
+      "url": "https://www.yourcoucou.com",
+      "domain": "yourcoucou.com",
+      "description": "in app for people living or traveling alone.",
+      "category": "unusual",
+      "tags": [
+        "traveling",
+        "coucou",
+        "people"
+      ],
+      "free": true,
+      "accountRequired": false,
+      "apiKeyRequired": false,
+      "openSource": false,
+      "sourceRepo": null,
+      "license": null,
+      "discoverySource": "hn-show",
+      "dateDiscovered": "2026-11-13T09:14:46.301Z",
+      "addedAt": "2026-11-13T20:14:47.138Z",
+      "lastVerifiedAt": "2026-11-13T20:14:47.137Z",
+      "verification": {
+        "status": "verified",
+        "method": "reader",
+        "checks": {
+          "http": true,
+          "browser": false,
+          "noLoginWall": true,
+          "noApiKey": true,
+          "coreUiReachable": true
+        },
+        "evidence": "Server-side document review (HTTP 200); final URL https://www.yourcoucou.com/; 1 tool signal; no login wall detected; no API key required.",
+        "httpStatus": 200,
+        "finalUrl": "https://www.yourcoucou.com/",
+        "checkedAt": "2026-11-13T20:14:47.137Z",
+        "attempts": 1
+      },
+      "availability": "online",
+      "icon": null,
+      "featured": false,
+      "consecutiveFailures": 0
+    },
+    {
+      "id": "show-hn-receipts",
+      "name": "Show HN: Receipts",
+      "url": "https://apps.apple.com/us/app/receipts-fact-check/id6794138947",
+      "domain": "apps.apple.com",
+      "description": "fact check a post, article or screenshot right in your feed.",
+      "category": "unusual",
+      "tags": [
+        "screenshot",
+        "receipts",
+        "article"
+      ],
+      "free": true,
+      "accountRequired": false,
+      "apiKeyRequired": false,
+      "openSource": false,
+      "sourceRepo": null,
+      "license": null,
+      "discoverySource": "hn-show",
+      "dateDiscovered": "2026-11-13T09:14:46.301Z",
+      "addedAt": "2026-11-13T20:14:47.433Z",
+      "lastVerifiedAt": "2026-11-13T20:14:47.432Z",
+      "verification": {
+        "status": "verified",
+        "method": "reader",
+        "checks": {
+          "http": true,
+          "browser": false,
+          "noLoginWall": true,
+          "noApiKey": true,
+          "coreUiReachable": true
+        },
+        "evidence": "Server-side document review (HTTP 200); final URL https://apps.apple.com/us/app/receipts-fact-check/id6794138947; 1 tool signal; no login wall detected; no API key required.",
+        "httpStatus": 200,
+        "finalUrl": "https://apps.apple.com/us/app/receipts-fact-check/id6794138947",
+        "checkedAt": "2026-11-13T20:14:47.432Z",
         "attempts": 1
       },
       "availability": "online",
