@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-13T11:44:46.106Z",
+  "updatedAt": "2026-11-13T11:59:45.942Z",
   "sites": [
     {
       "id": "arxiv",
@@ -5535,6 +5535,135 @@
         "httpStatus": 200,
         "finalUrl": "https://www.tradingview.com/",
         "checkedAt": "2026-11-13T11:45:01.041Z",
+        "attempts": 1
+      },
+      "availability": "online",
+      "icon": null,
+      "featured": false,
+      "consecutiveFailures": 0
+    },
+    {
+      "id": "companies-house",
+      "name": "Companies House",
+      "url": "https://find-and-update.company-information.service.gov.uk",
+      "domain": "find-and-update.company-information.service.gov.uk",
+      "description": "Looks up UK company records, accounts, officers and filing history from the official register.",
+      "category": "business",
+      "tags": [
+        "uk",
+        "company-data",
+        "official"
+      ],
+      "free": true,
+      "accountRequired": false,
+      "apiKeyRequired": false,
+      "openSource": false,
+      "sourceRepo": null,
+      "license": null,
+      "discoverySource": "editorial-research",
+      "dateDiscovered": "2026-11-12T20:09:58.316Z",
+      "addedAt": "2026-11-13T11:59:46.964Z",
+      "lastVerifiedAt": "2026-11-13T11:59:46.964Z",
+      "verification": {
+        "status": "verified",
+        "method": "reader",
+        "checks": {
+          "http": true,
+          "browser": false,
+          "noLoginWall": true,
+          "noApiKey": true,
+          "coreUiReachable": true
+        },
+        "evidence": "Server-side document review (HTTP 200); final URL https://find-and-update.company-information.service.gov.uk/; 1 tool signal; no login wall detected; no API key required.",
+        "httpStatus": 200,
+        "finalUrl": "https://find-and-update.company-information.service.gov.uk/",
+        "checkedAt": "2026-11-13T11:59:46.964Z",
+        "attempts": 1
+      },
+      "availability": "online",
+      "icon": null,
+      "featured": false,
+      "consecutiveFailures": 0
+    },
+    {
+      "id": "numbeo",
+      "name": "Numbeo",
+      "url": "https://www.numbeo.com",
+      "domain": "numbeo.com",
+      "description": "Compares cost of living, rent, crime and quality of life between cities and countries.",
+      "category": "business",
+      "tags": [
+        "cost-of-living",
+        "cities",
+        "statistics"
+      ],
+      "free": true,
+      "accountRequired": false,
+      "apiKeyRequired": false,
+      "openSource": false,
+      "sourceRepo": null,
+      "license": null,
+      "discoverySource": "editorial-research",
+      "dateDiscovered": "2026-11-12T20:09:58.316Z",
+      "addedAt": "2026-11-13T11:59:47.738Z",
+      "lastVerifiedAt": "2026-11-13T11:59:47.738Z",
+      "verification": {
+        "status": "verified",
+        "method": "reader",
+        "checks": {
+          "http": true,
+          "browser": false,
+          "noLoginWall": true,
+          "noApiKey": true,
+          "coreUiReachable": true
+        },
+        "evidence": "Server-side document review (HTTP 200); final URL https://www.numbeo.com/cost-of-living/; 2 tool signals; no login wall detected; no API key required.",
+        "httpStatus": 200,
+        "finalUrl": "https://www.numbeo.com/cost-of-living/",
+        "checkedAt": "2026-11-13T11:59:47.738Z",
+        "attempts": 1
+      },
+      "availability": "online",
+      "icon": null,
+      "featured": false,
+      "consecutiveFailures": 0
+    },
+    {
+      "id": "coingecko",
+      "name": "CoinGecko",
+      "url": "https://www.coingecko.com",
+      "domain": "coingecko.com",
+      "description": "Tracks cryptocurrency prices, market caps and volumes across thousands of coins and exchanges.",
+      "category": "business",
+      "tags": [
+        "crypto",
+        "markets",
+        "prices"
+      ],
+      "free": true,
+      "accountRequired": false,
+      "apiKeyRequired": false,
+      "openSource": false,
+      "sourceRepo": null,
+      "license": null,
+      "discoverySource": "editorial-research",
+      "dateDiscovered": "2026-11-12T20:09:58.316Z",
+      "addedAt": "2026-11-13T11:59:48.710Z",
+      "lastVerifiedAt": "2026-11-13T11:59:48.710Z",
+      "verification": {
+        "status": "verified",
+        "method": "reader",
+        "checks": {
+          "http": true,
+          "browser": false,
+          "noLoginWall": true,
+          "noApiKey": true,
+          "coreUiReachable": true
+        },
+        "evidence": "Server-side document review (HTTP 200); final URL https://www.coingecko.com/; 3 tool signals; no login wall detected; no API key required.",
+        "httpStatus": 200,
+        "finalUrl": "https://www.coingecko.com/",
+        "checkedAt": "2026-11-13T11:59:48.710Z",
         "attempts": 1
       },
       "availability": "online",
