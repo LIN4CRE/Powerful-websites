@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-13T10:59:46.624Z",
+  "updatedAt": "2026-11-13T11:14:46.102Z",
   "candidates": [
     {
       "id": "pollinations",
@@ -1962,64 +1962,29 @@
       "suggestedBy": "Editorial research",
       "discoverySource": "github-topics",
       "dateDiscovered": "2026-11-12T20:09:58.316Z",
-      "status": "pending",
-      "attempts": 0,
-      "lastAttemptAt": null,
-      "verification": null,
-      "rejectionReason": null,
+      "status": "rejected",
+      "attempts": 1,
+      "lastAttemptAt": "2026-11-13T11:14:46.410Z",
+      "verification": {
+        "status": "rejected",
+        "method": "reader",
+        "checks": {
+          "http": true,
+          "browser": false,
+          "noLoginWall": true,
+          "noApiKey": true,
+          "coreUiReachable": false
+        },
+        "evidence": "Server-side document review (HTTP 200); final URL https://app.diagrams.net/; 0 tool signals; no login wall detected; no API key required.",
+        "httpStatus": 200,
+        "finalUrl": "https://app.diagrams.net/",
+        "checkedAt": "2026-11-13T11:14:46.410Z",
+        "attempts": 1
+      },
+      "rejectionReason": "No usable interface or substantial content was reachable without an account; the page looks like a marketing shell.",
       "openSource": true,
       "sourceRepo": "https://github.com/jgraph/drawio",
       "license": "Apache-2.0",
-      "free": true
-    },
-    {
-      "id": "beepbox",
-      "name": "BeepBox",
-      "url": "https://www.beepbox.co",
-      "domain": "beepbox.co",
-      "description": "A tiny browser synthesizer for sketching chiptune melodies and exporting them as WAV or links.",
-      "category": "browser-apps",
-      "tags": [
-        "music",
-        "chiptune",
-        "synth"
-      ],
-      "suggestedBy": "Editorial research",
-      "discoverySource": "github-topics",
-      "dateDiscovered": "2026-11-12T20:09:58.316Z",
-      "status": "pending",
-      "attempts": 0,
-      "lastAttemptAt": null,
-      "verification": null,
-      "rejectionReason": null,
-      "openSource": true,
-      "sourceRepo": "https://github.com/johnnesky/beepbox",
-      "license": "MIT",
-      "free": true
-    },
-    {
-      "id": "chrome-music-lab",
-      "name": "Chrome Music Lab",
-      "url": "https://musiclab.chromeexperiments.com",
-      "domain": "musiclab.chromeexperiments.com",
-      "description": "Hands-on musical experiments for exploring rhythm, harmony, pitch and sound waves.",
-      "category": "browser-apps",
-      "tags": [
-        "music",
-        "education",
-        "experiments"
-      ],
-      "suggestedBy": "Editorial research",
-      "discoverySource": "editorial-research",
-      "dateDiscovered": "2026-11-12T20:09:58.316Z",
-      "status": "pending",
-      "attempts": 0,
-      "lastAttemptAt": null,
-      "verification": null,
-      "rejectionReason": null,
-      "openSource": false,
-      "sourceRepo": null,
-      "license": null,
       "free": true
     },
     {
