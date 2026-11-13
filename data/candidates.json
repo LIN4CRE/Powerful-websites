@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-13T19:14:46.048Z",
+  "updatedAt": "2026-11-13T19:29:46.047Z",
   "candidates": [
     {
       "id": "pollinations",
@@ -3036,81 +3036,6 @@
       "free": true
     },
     {
-      "id": "redash",
-      "name": "Redash",
-      "url": "https://redash.io",
-      "domain": "redash.io",
-      "description": "Connect and query your data sources, build dashboards to visualize data and share them with your company. ()….",
-      "category": "browser-apps",
-      "tags": [
-        "data",
-        "dashboards",
-        "visualize"
-      ],
-      "suggestedBy": "Awesome Selfhosted",
-      "discoverySource": "awesome-selfhosted",
-      "dateDiscovered": "2026-11-13T07:44:46.101Z",
-      "status": "pending",
-      "attempts": 0,
-      "lastAttemptAt": null,
-      "verification": null,
-      "rejectionReason": null,
-      "openSource": false,
-      "sourceRepo": null,
-      "license": null,
-      "free": true
-    },
-    {
-      "id": "rybbit",
-      "name": "Rybbit",
-      "url": "https://rybbit.com",
-      "domain": "rybbit.com",
-      "description": "Web and products analytics that is easy to setup and more intuitive (alternative to Google Analytics). (, [Source….",
-      "category": "browser-apps",
-      "tags": [
-        "analytics",
-        "alternative",
-        "intuitive"
-      ],
-      "suggestedBy": "Awesome Selfhosted",
-      "discoverySource": "awesome-selfhosted",
-      "dateDiscovered": "2026-11-13T07:44:46.101Z",
-      "status": "pending",
-      "attempts": 0,
-      "lastAttemptAt": null,
-      "verification": null,
-      "rejectionReason": null,
-      "openSource": false,
-      "sourceRepo": null,
-      "license": null,
-      "free": true
-    },
-    {
-      "id": "shaper",
-      "name": "Shaper",
-      "url": "https://taleshape.com/shaper/docs",
-      "domain": "taleshape.com",
-      "description": "Build Data Dashboards all in SQL. Powered by DuckDB. (, [Source….",
-      "category": "browser-apps",
-      "tags": [
-        "dashboards",
-        "powered",
-        "shaper"
-      ],
-      "suggestedBy": "Awesome Selfhosted",
-      "discoverySource": "awesome-selfhosted",
-      "dateDiscovered": "2026-11-13T07:44:46.101Z",
-      "status": "pending",
-      "attempts": 0,
-      "lastAttemptAt": null,
-      "verification": null,
-      "rejectionReason": null,
-      "openSource": false,
-      "sourceRepo": null,
-      "license": null,
-      "free": true
-    },
-    {
       "id": "pickupimage",
       "name": "Pickupimage",
       "url": "https://pickupimage.com",
@@ -5528,6 +5453,31 @@
       "suggestedBy": "Hacker News · Show HN",
       "discoverySource": "hn-show",
       "dateDiscovered": "2026-11-13T19:14:46.048Z",
+      "status": "pending",
+      "attempts": 0,
+      "lastAttemptAt": null,
+      "verification": null,
+      "rejectionReason": null,
+      "openSource": false,
+      "sourceRepo": null,
+      "license": null,
+      "free": true
+    },
+    {
+      "id": "pointer-provenance-in-rust-vs-c",
+      "name": "Pointer Provenance in Rust vs C++",
+      "url": "https://sofiabelen.github.io/projects/pointer-provenance-in-rust-vs-cpp/",
+      "domain": "sofiabelen.github.io",
+      "description": "Pointer Provenance in Rust vs C++.",
+      "category": "unusual",
+      "tags": [
+        "provenance",
+        "pointer",
+        "rust"
+      ],
+      "suggestedBy": "Lobsters",
+      "discoverySource": "lobsters",
+      "dateDiscovered": "2026-11-13T19:29:46.047Z",
       "status": "pending",
       "attempts": 0,
       "lastAttemptAt": null,
