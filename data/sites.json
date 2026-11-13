@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-13T02:44:46.197Z",
+  "updatedAt": "2026-11-13T02:59:45.929Z",
   "sites": [
     {
       "id": "arxiv",
@@ -2482,6 +2482,135 @@
         "httpStatus": 200,
         "finalUrl": "https://www.blobmaker.app/",
         "checkedAt": "2026-11-13T02:44:46.837Z",
+        "attempts": 1
+      },
+      "availability": "online",
+      "icon": null,
+      "featured": false,
+      "consecutiveFailures": 0
+    },
+    {
+      "id": "color-hunt",
+      "name": "Color Hunt",
+      "url": "https://colorhunt.co",
+      "domain": "colorhunt.co",
+      "description": "A curated feed of four-colour palettes you can browse, save or copy hex codes from.",
+      "category": "design",
+      "tags": [
+        "colours",
+        "palettes",
+        "inspiration"
+      ],
+      "free": true,
+      "accountRequired": false,
+      "apiKeyRequired": false,
+      "openSource": false,
+      "sourceRepo": null,
+      "license": null,
+      "discoverySource": "editorial-research",
+      "dateDiscovered": "2026-11-12T20:09:58.316Z",
+      "addedAt": "2026-11-13T02:59:46.383Z",
+      "lastVerifiedAt": "2026-11-13T02:59:46.382Z",
+      "verification": {
+        "status": "verified",
+        "method": "reader",
+        "checks": {
+          "http": true,
+          "browser": false,
+          "noLoginWall": true,
+          "noApiKey": true,
+          "coreUiReachable": true
+        },
+        "evidence": "Server-side document review (HTTP 200); final URL https://colorhunt.co/; 1 tool signal; no login wall detected; no API key required.",
+        "httpStatus": 200,
+        "finalUrl": "https://colorhunt.co/",
+        "checkedAt": "2026-11-13T02:59:46.382Z",
+        "attempts": 1
+      },
+      "availability": "online",
+      "icon": null,
+      "featured": false,
+      "consecutiveFailures": 0
+    },
+    {
+      "id": "photopea",
+      "name": "Photopea",
+      "url": "https://www.photopea.com",
+      "domain": "photopea.com",
+      "description": "A full Photoshop-style image editor in the browser that opens PSD, XCF, Sketch and RAW files.",
+      "category": "image",
+      "tags": [
+        "editor",
+        "psd",
+        "layers"
+      ],
+      "free": true,
+      "accountRequired": false,
+      "apiKeyRequired": false,
+      "openSource": false,
+      "sourceRepo": null,
+      "license": null,
+      "discoverySource": "editorial-research",
+      "dateDiscovered": "2026-11-12T20:09:58.316Z",
+      "addedAt": "2026-11-13T02:59:46.471Z",
+      "lastVerifiedAt": "2026-11-13T02:59:46.471Z",
+      "verification": {
+        "status": "verified",
+        "method": "reader",
+        "checks": {
+          "http": true,
+          "browser": false,
+          "noLoginWall": true,
+          "noApiKey": true,
+          "coreUiReachable": true
+        },
+        "evidence": "Server-side document review (HTTP 200); final URL https://www.photopea.com/; 0 tool signals; no login wall detected; no API key required.",
+        "httpStatus": 200,
+        "finalUrl": "https://www.photopea.com/",
+        "checkedAt": "2026-11-13T02:59:46.471Z",
+        "attempts": 1
+      },
+      "availability": "online",
+      "icon": null,
+      "featured": false,
+      "consecutiveFailures": 0
+    },
+    {
+      "id": "iloveimg",
+      "name": "iLoveIMG",
+      "url": "https://www.iloveimg.com",
+      "domain": "iloveimg.com",
+      "description": "Resizes, crops, compresses and converts batches of images without an account.",
+      "category": "image",
+      "tags": [
+        "resize",
+        "crop",
+        "convert"
+      ],
+      "free": true,
+      "accountRequired": false,
+      "apiKeyRequired": false,
+      "openSource": false,
+      "sourceRepo": null,
+      "license": null,
+      "discoverySource": "editorial-research",
+      "dateDiscovered": "2026-11-12T20:09:58.316Z",
+      "addedAt": "2026-11-13T02:59:46.569Z",
+      "lastVerifiedAt": "2026-11-13T02:59:46.569Z",
+      "verification": {
+        "status": "verified",
+        "method": "reader",
+        "checks": {
+          "http": true,
+          "browser": false,
+          "noLoginWall": true,
+          "noApiKey": true,
+          "coreUiReachable": true
+        },
+        "evidence": "Server-side document review (HTTP 200); final URL https://www.iloveimg.com/; 0 tool signals; no login wall detected; no API key required.",
+        "httpStatus": 200,
+        "finalUrl": "https://www.iloveimg.com/",
+        "checkedAt": "2026-11-13T02:59:46.569Z",
         "attempts": 1
       },
       "availability": "online",
