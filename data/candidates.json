@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-13T17:59:46.056Z",
+  "updatedAt": "2026-11-13T18:14:46.051Z",
   "candidates": [
     {
       "id": "pollinations",
@@ -3029,81 +3029,6 @@
         "checkedAt": "2026-11-13T17:59:57.226Z",
         "attempts": 1
       },
-      "rejectionReason": null,
-      "openSource": false,
-      "sourceRepo": null,
-      "license": null,
-      "free": true
-    },
-    {
-      "id": "show-hn-mind-blobs",
-      "name": "Show HN: Mind Blobs",
-      "url": "https://neojex.itch.io/mind-blobs",
-      "domain": "neojex.itch.io",
-      "description": "a browser RTS where you win by befriending, not fighting.",
-      "category": "browser-apps",
-      "tags": [
-        "befriending",
-        "fighting",
-        "browser"
-      ],
-      "suggestedBy": "Hacker News · Show HN",
-      "discoverySource": "hn-show",
-      "dateDiscovered": "2026-11-13T06:44:46.394Z",
-      "status": "pending",
-      "attempts": 0,
-      "lastAttemptAt": null,
-      "verification": null,
-      "rejectionReason": null,
-      "openSource": false,
-      "sourceRepo": null,
-      "license": null,
-      "free": true
-    },
-    {
-      "id": "show-hn-i-built-a-tool-to-check-website-access-f",
-      "name": "Show HN: I built a tool to check website access for 14 AI cr",
-      "url": "https://floxolab.com/ai-crawler-checker",
-      "domain": "floxolab.com",
-      "description": "Show HN: I built a tool to check website access for 14 AI crawlers.",
-      "category": "ai",
-      "tags": [
-        "access",
-        "built",
-        "check"
-      ],
-      "suggestedBy": "Hacker News · Show HN",
-      "discoverySource": "hn-show",
-      "dateDiscovered": "2026-11-13T06:44:46.394Z",
-      "status": "pending",
-      "attempts": 0,
-      "lastAttemptAt": null,
-      "verification": null,
-      "rejectionReason": null,
-      "openSource": false,
-      "sourceRepo": null,
-      "license": null,
-      "free": true
-    },
-    {
-      "id": "show-hn-my-script-to-diff-iterm-configs",
-      "name": "Show HN: My Script to Diff iTerm Configs",
-      "url": "https://gist.github.com/hagemt121/14caecfd23dc14b97e0d2eaec01ab3a4",
-      "domain": "gist.github.com",
-      "description": "Show HN: My Script to Diff iTerm Configs.",
-      "category": "unusual",
-      "tags": [
-        "configs",
-        "script",
-        "iterm"
-      ],
-      "suggestedBy": "Hacker News · Show HN",
-      "discoverySource": "hn-show",
-      "dateDiscovered": "2026-11-13T06:44:46.394Z",
-      "status": "pending",
-      "attempts": 0,
-      "lastAttemptAt": null,
-      "verification": null,
       "rejectionReason": null,
       "openSource": false,
       "sourceRepo": null,
