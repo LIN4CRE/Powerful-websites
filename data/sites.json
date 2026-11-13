@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-13T03:14:46.038Z",
+  "updatedAt": "2026-11-13T03:29:45.987Z",
   "sites": [
     {
       "id": "arxiv",
@@ -2654,6 +2654,49 @@
         "httpStatus": 200,
         "finalUrl": "https://imageresizer.com/",
         "checkedAt": "2026-11-13T03:14:46.420Z",
+        "attempts": 1
+      },
+      "availability": "online",
+      "icon": null,
+      "featured": false,
+      "consecutiveFailures": 0
+    },
+    {
+      "id": "wikimedia-commons",
+      "name": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org",
+      "domain": "commons.wikimedia.org",
+      "description": "A vast media repository of freely licensed photographs, diagrams, audio and video.",
+      "category": "image",
+      "tags": [
+        "creative-commons",
+        "media",
+        "archive"
+      ],
+      "free": true,
+      "accountRequired": false,
+      "apiKeyRequired": false,
+      "openSource": false,
+      "sourceRepo": null,
+      "license": null,
+      "discoverySource": "editorial-research",
+      "dateDiscovered": "2026-11-12T20:09:58.316Z",
+      "addedAt": "2026-11-13T03:29:46.615Z",
+      "lastVerifiedAt": "2026-11-13T03:29:46.615Z",
+      "verification": {
+        "status": "verified",
+        "method": "reader",
+        "checks": {
+          "http": true,
+          "browser": false,
+          "noLoginWall": true,
+          "noApiKey": true,
+          "coreUiReachable": true
+        },
+        "evidence": "Server-side document review (HTTP 200); final URL https://commons.wikimedia.org/wiki/Main_Page; 1 tool signal; no login wall detected; no API key required.",
+        "httpStatus": 200,
+        "finalUrl": "https://commons.wikimedia.org/wiki/Main_Page",
+        "checkedAt": "2026-11-13T03:29:46.615Z",
         "attempts": 1
       },
       "availability": "online",
