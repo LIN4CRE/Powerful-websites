@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-13T10:29:46.016Z",
+  "updatedAt": "2026-11-13T10:44:45.969Z",
   "sites": [
     {
       "id": "arxiv",
@@ -5019,6 +5019,135 @@
         "httpStatus": 200,
         "finalUrl": "https://securityheaders.com/",
         "checkedAt": "2026-11-13T10:29:46.489Z",
+        "attempts": 1
+      },
+      "availability": "online",
+      "icon": null,
+      "featured": false,
+      "consecutiveFailures": 0
+    },
+    {
+      "id": "wolfram-alpha",
+      "name": "Wolfram Alpha",
+      "url": "https://www.wolframalpha.com",
+      "domain": "wolframalpha.com",
+      "description": "Answers computational questions with worked steps, plots and curated facts.",
+      "category": "calculators",
+      "tags": [
+        "maths",
+        "computation",
+        "knowledge"
+      ],
+      "free": true,
+      "accountRequired": false,
+      "apiKeyRequired": false,
+      "openSource": false,
+      "sourceRepo": null,
+      "license": null,
+      "discoverySource": "editorial-research",
+      "dateDiscovered": "2026-11-12T20:09:58.316Z",
+      "addedAt": "2026-11-13T10:44:46.528Z",
+      "lastVerifiedAt": "2026-11-13T10:44:46.528Z",
+      "verification": {
+        "status": "verified",
+        "method": "reader",
+        "checks": {
+          "http": true,
+          "browser": false,
+          "noLoginWall": true,
+          "noApiKey": true,
+          "coreUiReachable": true
+        },
+        "evidence": "Server-side document review (HTTP 200); final URL https://www.wolframalpha.com/; 1 tool signal; no login wall detected; no API key required.",
+        "httpStatus": 200,
+        "finalUrl": "https://www.wolframalpha.com/",
+        "checkedAt": "2026-11-13T10:44:46.528Z",
+        "attempts": 1
+      },
+      "availability": "online",
+      "icon": null,
+      "featured": false,
+      "consecutiveFailures": 0
+    },
+    {
+      "id": "time-and-date",
+      "name": "Time and Date",
+      "url": "https://www.timeanddate.com",
+      "domain": "timeanddate.com",
+      "description": "World clocks, timezone conversion, calendars, countdowns and sunrise tables for any city.",
+      "category": "calculators",
+      "tags": [
+        "timezones",
+        "calendar",
+        "world-clock"
+      ],
+      "free": true,
+      "accountRequired": false,
+      "apiKeyRequired": false,
+      "openSource": false,
+      "sourceRepo": null,
+      "license": null,
+      "discoverySource": "editorial-research",
+      "dateDiscovered": "2026-11-12T20:09:58.316Z",
+      "addedAt": "2026-11-13T10:44:46.668Z",
+      "lastVerifiedAt": "2026-11-13T10:44:46.668Z",
+      "verification": {
+        "status": "verified",
+        "method": "reader",
+        "checks": {
+          "http": true,
+          "browser": false,
+          "noLoginWall": true,
+          "noApiKey": true,
+          "coreUiReachable": true
+        },
+        "evidence": "Server-side document review (HTTP 200); final URL https://www.timeanddate.com/; 2 tool signals; no login wall detected; no API key required.",
+        "httpStatus": 200,
+        "finalUrl": "https://www.timeanddate.com/",
+        "checkedAt": "2026-11-13T10:44:46.668Z",
+        "attempts": 1
+      },
+      "availability": "online",
+      "icon": null,
+      "featured": false,
+      "consecutiveFailures": 0
+    },
+    {
+      "id": "xe-currency-converter",
+      "name": "XE Currency Converter",
+      "url": "https://www.xe.com/currencyconverter",
+      "domain": "xe.com",
+      "description": "Converts between 130+ currencies using live mid-market exchange rates.",
+      "category": "calculators",
+      "tags": [
+        "currency",
+        "exchange-rates",
+        "finance"
+      ],
+      "free": true,
+      "accountRequired": false,
+      "apiKeyRequired": false,
+      "openSource": false,
+      "sourceRepo": null,
+      "license": null,
+      "discoverySource": "editorial-research",
+      "dateDiscovered": "2026-11-12T20:09:58.316Z",
+      "addedAt": "2026-11-13T10:44:47.026Z",
+      "lastVerifiedAt": "2026-11-13T10:44:47.026Z",
+      "verification": {
+        "status": "verified",
+        "method": "reader",
+        "checks": {
+          "http": true,
+          "browser": false,
+          "noLoginWall": true,
+          "noApiKey": true,
+          "coreUiReachable": true
+        },
+        "evidence": "Server-side document review (HTTP 200); final URL https://www.xe.com/currencyconverter/; 1 tool signal; no login wall detected; no API key required.",
+        "httpStatus": 200,
+        "finalUrl": "https://www.xe.com/currencyconverter/",
+        "checkedAt": "2026-11-13T10:44:47.026Z",
         "attempts": 1
       },
       "availability": "online",
