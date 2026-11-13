@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-13T18:14:46.051Z",
+  "updatedAt": "2026-11-13T18:29:46.047Z",
   "sites": [
     {
       "id": "arxiv",
@@ -7863,6 +7863,135 @@
         "httpStatus": 200,
         "finalUrl": "https://gist.github.com/hagemt121/14caecfd23dc14b97e0d2eaec01ab3a4",
         "checkedAt": "2026-11-13T18:14:47.425Z",
+        "attempts": 1
+      },
+      "availability": "online",
+      "icon": null,
+      "featured": false,
+      "consecutiveFailures": 0
+    },
+    {
+      "id": "show-hn-vending-machine-uses-words-not-money",
+      "name": "Show HN: Vending machine uses words, not money",
+      "url": "https://cultivatedcorpora.com",
+      "domain": "cultivatedcorpora.com",
+      "description": "Show HN: Vending machine uses words, not money.",
+      "category": "unusual",
+      "tags": [
+        "vending",
+        "machine",
+        "words"
+      ],
+      "free": true,
+      "accountRequired": false,
+      "apiKeyRequired": false,
+      "openSource": false,
+      "sourceRepo": null,
+      "license": null,
+      "discoverySource": "hn-show",
+      "dateDiscovered": "2026-11-13T06:44:46.394Z",
+      "addedAt": "2026-11-13T18:29:46.586Z",
+      "lastVerifiedAt": "2026-11-13T18:29:46.586Z",
+      "verification": {
+        "status": "verified",
+        "method": "reader",
+        "checks": {
+          "http": true,
+          "browser": false,
+          "noLoginWall": true,
+          "noApiKey": true,
+          "coreUiReachable": true
+        },
+        "evidence": "Server-side document review (HTTP 200); final URL https://cultivatedcorpora.com/; 2 tool signals; no login wall detected; no API key required.",
+        "httpStatus": 200,
+        "finalUrl": "https://cultivatedcorpora.com/",
+        "checkedAt": "2026-11-13T18:29:46.586Z",
+        "attempts": 1
+      },
+      "availability": "online",
+      "icon": null,
+      "featured": false,
+      "consecutiveFailures": 0
+    },
+    {
+      "id": "show-hn-i-built-a-numbers-game-for-my-kids-with-",
+      "name": "Show HN: I built a numbers game for my kids, with no trackin",
+      "url": "https://playhellobeam.com/beta",
+      "domain": "playhellobeam.com",
+      "description": "Show HN: I built a numbers game for my kids, with no tracking in the app.",
+      "category": "unusual",
+      "tags": [
+        "numbers",
+        "built",
+        "show"
+      ],
+      "free": true,
+      "accountRequired": false,
+      "apiKeyRequired": false,
+      "openSource": false,
+      "sourceRepo": null,
+      "license": null,
+      "discoverySource": "hn-show",
+      "dateDiscovered": "2026-11-13T06:44:46.394Z",
+      "addedAt": "2026-11-13T18:29:47.017Z",
+      "lastVerifiedAt": "2026-11-13T18:29:47.017Z",
+      "verification": {
+        "status": "verified",
+        "method": "reader",
+        "checks": {
+          "http": true,
+          "browser": false,
+          "noLoginWall": true,
+          "noApiKey": true,
+          "coreUiReachable": true
+        },
+        "evidence": "Server-side document review (HTTP 200); final URL https://playhellobeam.com/beta; 1 tool signal; no login wall detected; no API key required.",
+        "httpStatus": 200,
+        "finalUrl": "https://playhellobeam.com/beta",
+        "checkedAt": "2026-11-13T18:29:47.017Z",
+        "attempts": 1
+      },
+      "availability": "online",
+      "icon": null,
+      "featured": false,
+      "consecutiveFailures": 0
+    },
+    {
+      "id": "show-hn-real",
+      "name": "Show HN: Real",
+      "url": "https://slabby.org",
+      "domain": "slabby.org",
+      "description": "time inventory of natural stone slabs in US.",
+      "category": "unusual",
+      "tags": [
+        "inventory",
+        "natural",
+        "stone"
+      ],
+      "free": true,
+      "accountRequired": false,
+      "apiKeyRequired": false,
+      "openSource": false,
+      "sourceRepo": null,
+      "license": null,
+      "discoverySource": "hn-show",
+      "dateDiscovered": "2026-11-13T06:44:46.394Z",
+      "addedAt": "2026-11-13T18:29:47.130Z",
+      "lastVerifiedAt": "2026-11-13T18:29:47.130Z",
+      "verification": {
+        "status": "verified",
+        "method": "reader",
+        "checks": {
+          "http": true,
+          "browser": false,
+          "noLoginWall": true,
+          "noApiKey": true,
+          "coreUiReachable": true
+        },
+        "evidence": "Server-side document review (HTTP 200); final URL https://slabby.org/; 1 tool signal; no login wall detected; no API key required.",
+        "httpStatus": 200,
+        "finalUrl": "https://slabby.org/",
+        "checkedAt": "2026-11-13T18:29:47.130Z",
         "attempts": 1
       },
       "availability": "online",
