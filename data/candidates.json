@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-13T19:29:46.047Z",
+  "updatedAt": "2026-11-13T19:44:46.089Z",
   "candidates": [
     {
       "id": "pollinations",
@@ -3052,9 +3052,24 @@
       "discoverySource": "awesome-stock-resources",
       "dateDiscovered": "2026-11-13T07:59:46.051Z",
       "status": "pending",
-      "attempts": 0,
-      "lastAttemptAt": null,
-      "verification": null,
+      "attempts": 1,
+      "lastAttemptAt": "2026-11-13T19:44:46.556Z",
+      "verification": {
+        "status": "pending",
+        "method": "reader",
+        "checks": {
+          "http": false,
+          "browser": false,
+          "noLoginWall": true,
+          "noApiKey": true,
+          "coreUiReachable": false
+        },
+        "evidence": "Server-side document review (HTTP 403); final URL https://pickupimage.com/; 0 tool signals; no login wall detected; no API key required.",
+        "httpStatus": 403,
+        "finalUrl": "https://pickupimage.com/",
+        "checkedAt": "2026-11-13T19:44:46.556Z",
+        "attempts": 1
+      },
       "rejectionReason": null,
       "openSource": false,
       "sourceRepo": null,
@@ -3078,35 +3093,24 @@
       "discoverySource": "awesome-stock-resources",
       "dateDiscovered": "2026-11-13T07:59:46.051Z",
       "status": "pending",
-      "attempts": 0,
-      "lastAttemptAt": null,
-      "verification": null,
-      "rejectionReason": null,
-      "openSource": false,
-      "sourceRepo": null,
-      "license": null,
-      "free": true
-    },
-    {
-      "id": "realistic-shots",
-      "name": "Realistic Shots",
-      "url": "https://realisticshots.com",
-      "domain": "realisticshots.com",
-      "description": "7 new photos added every week.",
-      "category": "image",
-      "tags": [
-        "free-assets",
-        "realistic",
-        "photos",
-        "shots"
-      ],
-      "suggestedBy": "Awesome Stock Resources",
-      "discoverySource": "awesome-stock-resources",
-      "dateDiscovered": "2026-11-13T07:59:46.051Z",
-      "status": "pending",
-      "attempts": 0,
-      "lastAttemptAt": null,
-      "verification": null,
+      "attempts": 1,
+      "lastAttemptAt": "2026-11-13T19:44:47.195Z",
+      "verification": {
+        "status": "pending",
+        "method": "reader",
+        "checks": {
+          "http": false,
+          "browser": false,
+          "noLoginWall": true,
+          "noApiKey": true,
+          "coreUiReachable": false
+        },
+        "evidence": "Server-side document review (HTTP 500); final URL https://realgraphy.org/; 0 tool signals; no login wall detected; no API key required.",
+        "httpStatus": 500,
+        "finalUrl": "https://realgraphy.org/",
+        "checkedAt": "2026-11-13T19:44:47.195Z",
+        "attempts": 1
+      },
       "rejectionReason": null,
       "openSource": false,
       "sourceRepo": null,
