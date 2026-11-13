@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-13T04:29:46.090Z",
+  "updatedAt": "2026-11-13T04:44:46.149Z",
   "candidates": [
     {
       "id": "pollinations",
@@ -803,34 +803,24 @@
       "discoverySource": "editorial-research",
       "dateDiscovered": "2026-11-12T20:09:58.316Z",
       "status": "pending",
-      "attempts": 0,
-      "lastAttemptAt": null,
-      "verification": null,
-      "rejectionReason": null,
-      "openSource": false,
-      "sourceRepo": null,
-      "license": null,
-      "free": true
-    },
-    {
-      "id": "linguee",
-      "name": "Linguee",
-      "url": "https://www.linguee.com",
-      "domain": "linguee.com",
-      "description": "Shows how words and phrases are actually used in bilingual example sentences from the web.",
-      "category": "writing",
-      "tags": [
-        "dictionary",
-        "translation",
-        "examples"
-      ],
-      "suggestedBy": "Editorial research",
-      "discoverySource": "editorial-research",
-      "dateDiscovered": "2026-11-12T20:09:58.316Z",
-      "status": "pending",
-      "attempts": 0,
-      "lastAttemptAt": null,
-      "verification": null,
+      "attempts": 1,
+      "lastAttemptAt": "2026-11-13T04:44:46.833Z",
+      "verification": {
+        "status": "pending",
+        "method": "reader",
+        "checks": {
+          "http": false,
+          "browser": false,
+          "noLoginWall": true,
+          "noApiKey": true,
+          "coreUiReachable": false
+        },
+        "evidence": "Server-side document review (HTTP no response); final URL https://translate.google.com/; 0 tool signals; no login wall detected; no API key required; error: Network request failed.",
+        "httpStatus": 0,
+        "finalUrl": "https://translate.google.com/",
+        "checkedAt": "2026-11-13T04:44:46.833Z",
+        "attempts": 1
+      },
       "rejectionReason": null,
       "openSource": false,
       "sourceRepo": null,
@@ -853,9 +843,24 @@
       "discoverySource": "editorial-research",
       "dateDiscovered": "2026-11-12T20:09:58.316Z",
       "status": "pending",
-      "attempts": 0,
-      "lastAttemptAt": null,
-      "verification": null,
+      "attempts": 1,
+      "lastAttemptAt": "2026-11-13T04:44:47.337Z",
+      "verification": {
+        "status": "pending",
+        "method": "reader",
+        "checks": {
+          "http": false,
+          "browser": false,
+          "noLoginWall": true,
+          "noApiKey": true,
+          "coreUiReachable": false
+        },
+        "evidence": "Server-side document review (HTTP 403); final URL https://context.reverso.net/; 0 tool signals; no login wall detected; no API key required.",
+        "httpStatus": 403,
+        "finalUrl": "https://context.reverso.net/",
+        "checkedAt": "2026-11-13T04:44:47.337Z",
+        "attempts": 1
+      },
       "rejectionReason": null,
       "openSource": false,
       "sourceRepo": null,
