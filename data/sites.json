@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-13T20:29:46.055Z",
+  "updatedAt": "2026-11-13T20:44:46.054Z",
   "sites": [
     {
       "id": "arxiv",
@@ -8897,6 +8897,135 @@
         "httpStatus": 200,
         "finalUrl": "https://garritfra.github.io/pac-hunt/",
         "checkedAt": "2026-11-13T20:29:46.984Z",
+        "attempts": 1
+      },
+      "availability": "online",
+      "icon": null,
+      "featured": false,
+      "consecutiveFailures": 0
+    },
+    {
+      "id": "ssa-from-bytecode-imperative-pearl",
+      "name": "SSA from bytecode: imperative pearl",
+      "url": "https://bernsteinbear.com/blog/ssa-bytecode/",
+      "domain": "bernsteinbear.com",
+      "description": "SSA from bytecode: imperative pearl.",
+      "category": "unusual",
+      "tags": [
+        "imperative",
+        "bytecode",
+        "pearl"
+      ],
+      "free": true,
+      "accountRequired": false,
+      "apiKeyRequired": false,
+      "openSource": false,
+      "sourceRepo": null,
+      "license": null,
+      "discoverySource": "lobsters",
+      "dateDiscovered": "2026-11-13T09:29:45.904Z",
+      "addedAt": "2026-11-13T20:44:46.393Z",
+      "lastVerifiedAt": "2026-11-13T20:44:46.392Z",
+      "verification": {
+        "status": "verified",
+        "method": "reader",
+        "checks": {
+          "http": true,
+          "browser": false,
+          "noLoginWall": true,
+          "noApiKey": true,
+          "coreUiReachable": true
+        },
+        "evidence": "Server-side document review (HTTP 200); final URL https://bernsteinbear.com/blog/ssa-bytecode/; 0 tool signals; no login wall detected; no API key required.",
+        "httpStatus": 200,
+        "finalUrl": "https://bernsteinbear.com/blog/ssa-bytecode/",
+        "checkedAt": "2026-11-13T20:44:46.392Z",
+        "attempts": 1
+      },
+      "availability": "online",
+      "icon": null,
+      "featured": false,
+      "consecutiveFailures": 0
+    },
+    {
+      "id": "how-not-to-build-a-music-player",
+      "name": "How Not to Build a Music Player",
+      "url": "https://alichraghi.github.io/blog/how-not-to-build-a-music-player",
+      "domain": "alichraghi.github.io",
+      "description": "How Not to Build a Music Player.",
+      "category": "video-audio",
+      "tags": [
+        "player",
+        "build",
+        "music"
+      ],
+      "free": true,
+      "accountRequired": false,
+      "apiKeyRequired": false,
+      "openSource": false,
+      "sourceRepo": null,
+      "license": null,
+      "discoverySource": "lobsters",
+      "dateDiscovered": "2026-11-13T09:29:45.904Z",
+      "addedAt": "2026-11-13T20:44:46.435Z",
+      "lastVerifiedAt": "2026-11-13T20:44:46.435Z",
+      "verification": {
+        "status": "verified",
+        "method": "reader",
+        "checks": {
+          "http": true,
+          "browser": false,
+          "noLoginWall": true,
+          "noApiKey": true,
+          "coreUiReachable": true
+        },
+        "evidence": "Server-side document review (HTTP 200); final URL https://alichraghi.github.io/blog/how-not-to-build-a-music-player/; 0 tool signals; no login wall detected; no API key required.",
+        "httpStatus": 200,
+        "finalUrl": "https://alichraghi.github.io/blog/how-not-to-build-a-music-player/",
+        "checkedAt": "2026-11-13T20:44:46.435Z",
+        "attempts": 1
+      },
+      "availability": "online",
+      "icon": null,
+      "featured": false,
+      "consecutiveFailures": 0
+    },
+    {
+      "id": "steadfast-update-i",
+      "name": "Steadfast Update I",
+      "url": "https://noteflakes.com/articles/2026-11-13-steadfast-update-1",
+      "domain": "noteflakes.com",
+      "description": "The Baseline.",
+      "category": "unusual",
+      "tags": [
+        "steadfast",
+        "baseline",
+        "update"
+      ],
+      "free": true,
+      "accountRequired": false,
+      "apiKeyRequired": false,
+      "openSource": false,
+      "sourceRepo": null,
+      "license": null,
+      "discoverySource": "lobsters",
+      "dateDiscovered": "2026-11-13T09:29:45.904Z",
+      "addedAt": "2026-11-13T20:44:46.798Z",
+      "lastVerifiedAt": "2026-11-13T20:44:46.798Z",
+      "verification": {
+        "status": "verified",
+        "method": "reader",
+        "checks": {
+          "http": true,
+          "browser": false,
+          "noLoginWall": true,
+          "noApiKey": true,
+          "coreUiReachable": true
+        },
+        "evidence": "Server-side document review (HTTP 200); final URL https://noteflakes.com/articles/2026-11-13-steadfast-update-1; 0 tool signals; no login wall detected; no API key required.",
+        "httpStatus": 200,
+        "finalUrl": "https://noteflakes.com/articles/2026-11-13-steadfast-update-1",
+        "checkedAt": "2026-11-13T20:44:46.798Z",
         "attempts": 1
       },
       "availability": "online",
