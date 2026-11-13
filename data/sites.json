@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-13T06:44:46.394Z",
+  "updatedAt": "2026-11-13T06:59:46.164Z",
   "sites": [
     {
       "id": "arxiv",
@@ -3901,6 +3901,135 @@
         "httpStatus": 200,
         "finalUrl": "https://scholar.google.com/",
         "checkedAt": "2026-11-13T06:44:57.341Z",
+        "attempts": 1
+      },
+      "availability": "online",
+      "icon": null,
+      "featured": false,
+      "consecutiveFailures": 0
+    },
+    {
+      "id": "opensanctions",
+      "name": "OpenSanctions",
+      "url": "https://www.opensanctions.org",
+      "domain": "opensanctions.org",
+      "description": "Searches sanctions lists, politically exposed persons and watchlists from around the world.",
+      "category": "research",
+      "tags": [
+        "sanctions",
+        "osint",
+        "watchlists"
+      ],
+      "free": true,
+      "accountRequired": false,
+      "apiKeyRequired": false,
+      "openSource": false,
+      "sourceRepo": null,
+      "license": null,
+      "discoverySource": "editorial-research",
+      "dateDiscovered": "2026-11-12T20:09:58.316Z",
+      "addedAt": "2026-11-13T06:59:46.806Z",
+      "lastVerifiedAt": "2026-11-13T06:59:46.806Z",
+      "verification": {
+        "status": "verified",
+        "method": "reader",
+        "checks": {
+          "http": true,
+          "browser": false,
+          "noLoginWall": true,
+          "noApiKey": true,
+          "coreUiReachable": true
+        },
+        "evidence": "Server-side document review (HTTP 200); final URL https://www.opensanctions.org/; 1 tool signal; no login wall detected; no API key required.",
+        "httpStatus": 200,
+        "finalUrl": "https://www.opensanctions.org/",
+        "checkedAt": "2026-11-13T06:59:46.806Z",
+        "attempts": 1
+      },
+      "availability": "online",
+      "icon": null,
+      "featured": false,
+      "consecutiveFailures": 0
+    },
+    {
+      "id": "opencorporates",
+      "name": "OpenCorporates",
+      "url": "https://opencorporates.com",
+      "domain": "opencorporates.com",
+      "description": "Searches company records and directors across official registries in many jurisdictions.",
+      "category": "research",
+      "tags": [
+        "companies",
+        "registries",
+        "osint"
+      ],
+      "free": true,
+      "accountRequired": false,
+      "apiKeyRequired": false,
+      "openSource": false,
+      "sourceRepo": null,
+      "license": null,
+      "discoverySource": "editorial-research",
+      "dateDiscovered": "2026-11-12T20:09:58.316Z",
+      "addedAt": "2026-11-13T06:59:46.965Z",
+      "lastVerifiedAt": "2026-11-13T06:59:46.965Z",
+      "verification": {
+        "status": "verified",
+        "method": "reader",
+        "checks": {
+          "http": true,
+          "browser": false,
+          "noLoginWall": true,
+          "noApiKey": true,
+          "coreUiReachable": true
+        },
+        "evidence": "Server-side document review (HTTP 200); final URL https://opencorporates.com/; 2 tool signals; no login wall detected; no API key required.",
+        "httpStatus": 200,
+        "finalUrl": "https://opencorporates.com/",
+        "checkedAt": "2026-11-13T06:59:46.965Z",
+        "attempts": 1
+      },
+      "availability": "online",
+      "icon": null,
+      "featured": false,
+      "consecutiveFailures": 0
+    },
+    {
+      "id": "osint-framework",
+      "name": "OSINT Framework",
+      "url": "https://osintframework.com",
+      "domain": "osintframework.com",
+      "description": "A browsable map of open-source intelligence resources organised by investigation type.",
+      "category": "research",
+      "tags": [
+        "osint",
+        "directory",
+        "investigation"
+      ],
+      "free": true,
+      "accountRequired": false,
+      "apiKeyRequired": false,
+      "openSource": false,
+      "sourceRepo": null,
+      "license": null,
+      "discoverySource": "editorial-research",
+      "dateDiscovered": "2026-11-12T20:09:58.316Z",
+      "addedAt": "2026-11-13T06:59:47.110Z",
+      "lastVerifiedAt": "2026-11-13T06:59:47.110Z",
+      "verification": {
+        "status": "verified",
+        "method": "reader",
+        "checks": {
+          "http": true,
+          "browser": false,
+          "noLoginWall": true,
+          "noApiKey": true,
+          "coreUiReachable": true
+        },
+        "evidence": "Server-side document review (HTTP 200); final URL https://osintframework.com/; 1 tool signal; no login wall detected; no API key required.",
+        "httpStatus": 200,
+        "finalUrl": "https://osintframework.com/",
+        "checkedAt": "2026-11-13T06:59:47.110Z",
         "attempts": 1
       },
       "availability": "online",
