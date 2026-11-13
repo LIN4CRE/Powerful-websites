@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-13T21:14:45.939Z",
+  "updatedAt": "2026-11-13T21:29:46.056Z",
   "candidates": [
     {
       "id": "pollinations",
@@ -3151,82 +3151,6 @@
         "checkedAt": "2026-11-13T20:29:46.516Z",
         "attempts": 1
       },
-      "rejectionReason": null,
-      "openSource": false,
-      "sourceRepo": null,
-      "license": null,
-      "free": true
-    },
-    {
-      "id": "archivesspace",
-      "name": "ArchivesSpace",
-      "url": "https://archivesspace.org",
-      "domain": "archivesspace.org",
-      "description": "Archives information management application for managing and providing Web access to archives, manuscripts and digital objects.….",
-      "category": "browser-apps",
-      "tags": [
-        "archives",
-        "archivesspace",
-        "information"
-      ],
-      "suggestedBy": "Awesome Selfhosted",
-      "discoverySource": "awesome-selfhosted",
-      "dateDiscovered": "2026-11-13T10:14:46.120Z",
-      "status": "pending",
-      "attempts": 0,
-      "lastAttemptAt": null,
-      "verification": null,
-      "rejectionReason": null,
-      "openSource": false,
-      "sourceRepo": null,
-      "license": null,
-      "free": true
-    },
-    {
-      "id": "bitmagnet",
-      "name": "bitmagnet",
-      "url": "https://bitmagnet.io",
-      "domain": "bitmagnet.io",
-      "description": "BitTorrent indexer, DHT crawler, content classifier and torrent search engine with web UI, GraphQL API and Servarr stack integration. ([Source….",
-      "category": "browser-apps",
-      "tags": [
-        "integration",
-        "bittorrent",
-        "classifier"
-      ],
-      "suggestedBy": "Awesome Selfhosted",
-      "discoverySource": "awesome-selfhosted",
-      "dateDiscovered": "2026-11-13T10:14:46.120Z",
-      "status": "pending",
-      "attempts": 0,
-      "lastAttemptAt": null,
-      "verification": null,
-      "rejectionReason": null,
-      "openSource": false,
-      "sourceRepo": null,
-      "license": null,
-      "free": true
-    },
-    {
-      "id": "splashbase",
-      "name": "Splashbase",
-      "url": "https://www.splashbase.co",
-      "domain": "splashbase.co",
-      "description": "Search & discover free, hi-resolution photos & videos.",
-      "category": "image",
-      "tags": [
-        "free-assets",
-        "hi-resolution",
-        "splashbase",
-        "discover"
-      ],
-      "suggestedBy": "Awesome Stock Resources",
-      "discoverySource": "awesome-stock-resources",
-      "dateDiscovered": "2026-11-13T10:29:46.016Z",
-      "status": "pending",
-      "attempts": 0,
-      "lastAttemptAt": null,
-      "verification": null,
       "rejectionReason": null,
       "openSource": false,
       "sourceRepo": null,
