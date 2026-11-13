@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-13T11:14:46.102Z",
+  "updatedAt": "2026-11-13T11:29:46.033Z",
   "candidates": [
     {
       "id": "pollinations",
@@ -2002,64 +2002,29 @@
       "suggestedBy": "Editorial research",
       "discoverySource": "github-topics",
       "dateDiscovered": "2026-11-12T20:09:58.316Z",
-      "status": "pending",
-      "attempts": 0,
-      "lastAttemptAt": null,
-      "verification": null,
-      "rejectionReason": null,
+      "status": "rejected",
+      "attempts": 1,
+      "lastAttemptAt": "2026-11-13T11:29:46.414Z",
+      "verification": {
+        "status": "rejected",
+        "method": "reader",
+        "checks": {
+          "http": true,
+          "browser": false,
+          "noLoginWall": true,
+          "noApiKey": true,
+          "coreUiReachable": false
+        },
+        "evidence": "Server-side document review (HTTP 200); final URL https://vscode.dev/; 0 tool signals; no login wall detected; no API key required.",
+        "httpStatus": 200,
+        "finalUrl": "https://vscode.dev/",
+        "checkedAt": "2026-11-13T11:29:46.414Z",
+        "attempts": 1
+      },
+      "rejectionReason": "No usable interface or substantial content was reachable without an account; the page looks like a marketing shell.",
       "openSource": true,
       "sourceRepo": "https://github.com/microsoft/vscode",
       "license": "MIT",
-      "free": true
-    },
-    {
-      "id": "riseup-pad",
-      "name": "Riseup Pad",
-      "url": "https://pad.riseup.net",
-      "domain": "pad.riseup.net",
-      "description": "An anonymous collaborative Etherpad for real-time shared notes with no account required.",
-      "category": "browser-apps",
-      "tags": [
-        "collaboration",
-        "notes",
-        "anonymous"
-      ],
-      "suggestedBy": "Editorial research",
-      "discoverySource": "editorial-research",
-      "dateDiscovered": "2026-11-12T20:09:58.316Z",
-      "status": "pending",
-      "attempts": 0,
-      "lastAttemptAt": null,
-      "verification": null,
-      "rejectionReason": null,
-      "openSource": true,
-      "sourceRepo": "https://github.com/ether/etherpad-lite",
-      "license": "Apache-2.0",
-      "free": true
-    },
-    {
-      "id": "lichess-analysis",
-      "name": "Lichess Analysis",
-      "url": "https://lichess.org/analysis",
-      "domain": "lichess.org",
-      "description": "A free, open-source chess analysis board with engine evaluation and move databases.",
-      "category": "browser-apps",
-      "tags": [
-        "chess",
-        "analysis",
-        "open-source"
-      ],
-      "suggestedBy": "Editorial research",
-      "discoverySource": "github-topics",
-      "dateDiscovered": "2026-11-12T20:09:58.316Z",
-      "status": "pending",
-      "attempts": 0,
-      "lastAttemptAt": null,
-      "verification": null,
-      "rejectionReason": null,
-      "openSource": true,
-      "sourceRepo": "https://github.com/lichess-org/lila",
-      "license": "AGPL-3.0",
       "free": true
     },
     {
