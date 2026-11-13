@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-13T18:29:46.047Z",
+  "updatedAt": "2026-11-13T18:44:46.176Z",
   "candidates": [
     {
       "id": "pollinations",
@@ -3029,81 +3029,6 @@
         "checkedAt": "2026-11-13T17:59:57.226Z",
         "attempts": 1
       },
-      "rejectionReason": null,
-      "openSource": false,
-      "sourceRepo": null,
-      "license": null,
-      "free": true
-    },
-    {
-      "id": "contra-glue-work-considered-harmful",
-      "name": "Contra \"Glue work considered harmful\"",
-      "url": "https://sunshowers.io/posts/glue-work/",
-      "domain": "sunshowers.io",
-      "description": "Contra \"Glue work considered harmful\".",
-      "category": "unusual",
-      "tags": [
-        "considered",
-        "harmful",
-        "contra"
-      ],
-      "suggestedBy": "Lobsters",
-      "discoverySource": "lobsters",
-      "dateDiscovered": "2026-11-13T06:59:46.164Z",
-      "status": "pending",
-      "attempts": 0,
-      "lastAttemptAt": null,
-      "verification": null,
-      "rejectionReason": null,
-      "openSource": false,
-      "sourceRepo": null,
-      "license": null,
-      "free": true
-    },
-    {
-      "id": "jit-bitmap-text-rendering-for-microcontrollers",
-      "name": "JIT bitmap text rendering for microcontrollers",
-      "url": "https://linebender.org/blog/jit-bitmap-text/",
-      "domain": "linebender.org",
-      "description": "JIT bitmap text rendering for microcontrollers.",
-      "category": "writing",
-      "tags": [
-        "microcontrollers",
-        "rendering",
-        "bitmap"
-      ],
-      "suggestedBy": "Lobsters",
-      "discoverySource": "lobsters",
-      "dateDiscovered": "2026-11-13T06:59:46.164Z",
-      "status": "pending",
-      "attempts": 0,
-      "lastAttemptAt": null,
-      "verification": null,
-      "rejectionReason": null,
-      "openSource": false,
-      "sourceRepo": null,
-      "license": null,
-      "free": true
-    },
-    {
-      "id": "how-a-false-smoke-alarm-almost-drowned-jane-stre",
-      "name": "How a false smoke alarm almost drowned Jane Street's only NY",
-      "url": "https://michael.bacarella.com/2026/11/10/false-smoke-alarm-jane-street-datacenter/",
-      "domain": "michael.bacarella.com",
-      "description": "How a false smoke alarm almost drowned Jane Street's only NYC datacenter.",
-      "category": "unusual",
-      "tags": [
-        "drowned",
-        "almost",
-        "street"
-      ],
-      "suggestedBy": "Lobsters",
-      "discoverySource": "lobsters",
-      "dateDiscovered": "2026-11-13T06:59:46.164Z",
-      "status": "pending",
-      "attempts": 0,
-      "lastAttemptAt": null,
-      "verification": null,
       "rejectionReason": null,
       "openSource": false,
       "sourceRepo": null,
