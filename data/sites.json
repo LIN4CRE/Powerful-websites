@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-13T19:44:46.089Z",
+  "updatedAt": "2026-11-13T19:59:46.052Z",
   "sites": [
     {
       "id": "arxiv",
@@ -8551,6 +8551,138 @@
         "httpStatus": 200,
         "finalUrl": "https://realisticshots.com/",
         "checkedAt": "2026-11-13T19:44:48.143Z",
+        "attempts": 1
+      },
+      "availability": "online",
+      "icon": null,
+      "featured": false,
+      "consecutiveFailures": 0
+    },
+    {
+      "id": "skitter-photo",
+      "name": "Skitter Photo",
+      "url": "https://skitterphoto.com",
+      "domain": "skitterphoto.com",
+      "description": "Public domain pictures and stock photos for commercial use.",
+      "category": "image",
+      "tags": [
+        "free-assets",
+        "commercial",
+        "pictures",
+        "skitter"
+      ],
+      "free": true,
+      "accountRequired": false,
+      "apiKeyRequired": false,
+      "openSource": false,
+      "sourceRepo": null,
+      "license": null,
+      "discoverySource": "awesome-stock-resources",
+      "dateDiscovered": "2026-11-13T07:59:46.051Z",
+      "addedAt": "2026-11-13T19:59:46.999Z",
+      "lastVerifiedAt": "2026-11-13T19:59:46.999Z",
+      "verification": {
+        "status": "verified",
+        "method": "reader",
+        "checks": {
+          "http": true,
+          "browser": false,
+          "noLoginWall": true,
+          "noApiKey": true,
+          "coreUiReachable": true
+        },
+        "evidence": "Server-side document review (HTTP 200); final URL https://skitterphoto.com/; 1 tool signal; no login wall detected; no API key required.",
+        "httpStatus": 200,
+        "finalUrl": "https://skitterphoto.com/",
+        "checkedAt": "2026-11-13T19:59:46.999Z",
+        "attempts": 1
+      },
+      "availability": "online",
+      "icon": null,
+      "featured": false,
+      "consecutiveFailures": 0
+    },
+    {
+      "id": "snappy-goat",
+      "name": "Snappy Goat",
+      "url": "https://snappygoat.com",
+      "domain": "snappygoat.com",
+      "description": "Over 12 million public domain & CC0 licensed images.",
+      "category": "image",
+      "tags": [
+        "free-assets",
+        "licensed",
+        "million",
+        "snappy"
+      ],
+      "free": true,
+      "accountRequired": false,
+      "apiKeyRequired": false,
+      "openSource": false,
+      "sourceRepo": null,
+      "license": null,
+      "discoverySource": "awesome-stock-resources",
+      "dateDiscovered": "2026-11-13T07:59:46.051Z",
+      "addedAt": "2026-11-13T19:59:47.498Z",
+      "lastVerifiedAt": "2026-11-13T19:59:47.498Z",
+      "verification": {
+        "status": "verified",
+        "method": "reader",
+        "checks": {
+          "http": true,
+          "browser": false,
+          "noLoginWall": true,
+          "noApiKey": true,
+          "coreUiReachable": true
+        },
+        "evidence": "Server-side document review (HTTP 200); final URL https://snappygoat.com/; 1 tool signal; no login wall detected; no API key required.",
+        "httpStatus": 200,
+        "finalUrl": "https://snappygoat.com/",
+        "checkedAt": "2026-11-13T19:59:47.498Z",
+        "attempts": 1
+      },
+      "availability": "online",
+      "icon": null,
+      "featured": false,
+      "consecutiveFailures": 0
+    },
+    {
+      "id": "spacex-photos",
+      "name": "SpaceX Photos",
+      "url": "https://www.flickr.com/photos/spacex",
+      "domain": "flickr.com",
+      "description": "Promotional SpaceX stock photography.",
+      "category": "image",
+      "tags": [
+        "free-assets",
+        "spacex",
+        "promotional",
+        "photography"
+      ],
+      "free": true,
+      "accountRequired": false,
+      "apiKeyRequired": false,
+      "openSource": false,
+      "sourceRepo": null,
+      "license": null,
+      "discoverySource": "awesome-stock-resources",
+      "dateDiscovered": "2026-11-13T07:59:46.051Z",
+      "addedAt": "2026-11-13T19:59:48.074Z",
+      "lastVerifiedAt": "2026-11-13T19:59:48.074Z",
+      "verification": {
+        "status": "verified",
+        "method": "reader",
+        "checks": {
+          "http": true,
+          "browser": false,
+          "noLoginWall": true,
+          "noApiKey": true,
+          "coreUiReachable": true
+        },
+        "evidence": "Server-side document review (HTTP 200); final URL https://www.flickr.com/photos/spacex; 1 tool signal; no login wall detected; no API key required.",
+        "httpStatus": 200,
+        "finalUrl": "https://www.flickr.com/photos/spacex",
+        "checkedAt": "2026-11-13T19:59:48.074Z",
         "attempts": 1
       },
       "availability": "online",
