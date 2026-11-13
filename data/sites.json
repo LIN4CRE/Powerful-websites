@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-13T20:14:46.084Z",
+  "updatedAt": "2026-11-13T20:29:46.055Z",
   "sites": [
     {
       "id": "arxiv",
@@ -8812,6 +8812,91 @@
         "httpStatus": 200,
         "finalUrl": "https://apps.apple.com/us/app/receipts-fact-check/id6794138947",
         "checkedAt": "2026-11-13T20:14:47.432Z",
+        "attempts": 1
+      },
+      "availability": "online",
+      "icon": null,
+      "featured": false,
+      "consecutiveFailures": 0
+    },
+    {
+      "id": "show-hn-ai",
+      "name": "Show HN: AI",
+      "url": "https://rocketgit.com/user/catalinux/ai-drop",
+      "domain": "rocketgit.com",
+      "description": "drop project – drop traffic fast from misbehaving crawlers (AGPL).",
+      "category": "ai",
+      "tags": [
+        "drop",
+        "misbehaving",
+        "crawlers"
+      ],
+      "free": true,
+      "accountRequired": false,
+      "apiKeyRequired": false,
+      "openSource": false,
+      "sourceRepo": null,
+      "license": null,
+      "discoverySource": "hn-show",
+      "dateDiscovered": "2026-11-13T09:14:46.301Z",
+      "addedAt": "2026-11-13T20:29:46.897Z",
+      "lastVerifiedAt": "2026-11-13T20:29:46.897Z",
+      "verification": {
+        "status": "verified",
+        "method": "reader",
+        "checks": {
+          "http": true,
+          "browser": false,
+          "noLoginWall": true,
+          "noApiKey": true,
+          "coreUiReachable": true
+        },
+        "evidence": "Server-side document review (HTTP 200); final URL https://rocketgit.com/user/catalinux/ai-drop; 0 tool signals; no login wall detected; no API key required.",
+        "httpStatus": 200,
+        "finalUrl": "https://rocketgit.com/user/catalinux/ai-drop",
+        "checkedAt": "2026-11-13T20:29:46.897Z",
+        "attempts": 1
+      },
+      "availability": "online",
+      "icon": null,
+      "featured": false,
+      "consecutiveFailures": 0
+    },
+    {
+      "id": "show-hn-pac",
+      "name": "Show HN: Pac",
+      "url": "https://garritfra.github.io/pac-hunt/",
+      "domain": "garritfra.github.io",
+      "description": "Man, but You're the Ghost.",
+      "category": "unusual",
+      "tags": [
+        "ghost",
+        "show"
+      ],
+      "free": true,
+      "accountRequired": false,
+      "apiKeyRequired": false,
+      "openSource": false,
+      "sourceRepo": null,
+      "license": null,
+      "discoverySource": "hn-show",
+      "dateDiscovered": "2026-11-13T09:14:46.301Z",
+      "addedAt": "2026-11-13T20:29:46.984Z",
+      "lastVerifiedAt": "2026-11-13T20:29:46.984Z",
+      "verification": {
+        "status": "verified",
+        "method": "reader",
+        "checks": {
+          "http": true,
+          "browser": false,
+          "noLoginWall": true,
+          "noApiKey": true,
+          "coreUiReachable": true
+        },
+        "evidence": "Server-side document review (HTTP 200); final URL https://garritfra.github.io/pac-hunt/; 1 tool signal; no login wall detected; no API key required.",
+        "httpStatus": 200,
+        "finalUrl": "https://garritfra.github.io/pac-hunt/",
+        "checkedAt": "2026-11-13T20:29:46.984Z",
         "attempts": 1
       },
       "availability": "online",
