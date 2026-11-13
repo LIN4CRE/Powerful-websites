@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-13T01:59:46.009Z",
+  "updatedAt": "2026-11-13T02:14:46.005Z",
   "sites": [
     {
       "id": "arxiv",
@@ -2224,6 +2224,135 @@
         "httpStatus": 200,
         "finalUrl": "https://pythontutor.com/",
         "checkedAt": "2026-11-13T01:59:47.410Z",
+        "attempts": 1
+      },
+      "availability": "online",
+      "icon": null,
+      "featured": false,
+      "consecutiveFailures": 0
+    },
+    {
+      "id": "onlinegdb",
+      "name": "OnlineGDB",
+      "url": "https://www.onlinegdb.com",
+      "domain": "onlinegdb.com",
+      "description": "Compiles and debugs C, C++, Python, Java and more in the browser with breakpoints.",
+      "category": "programming",
+      "tags": [
+        "compiler",
+        "debugger",
+        "ide"
+      ],
+      "free": true,
+      "accountRequired": false,
+      "apiKeyRequired": false,
+      "openSource": false,
+      "sourceRepo": null,
+      "license": null,
+      "discoverySource": "editorial-research",
+      "dateDiscovered": "2026-11-12T20:09:58.316Z",
+      "addedAt": "2026-11-13T02:14:46.627Z",
+      "lastVerifiedAt": "2026-11-13T02:14:46.626Z",
+      "verification": {
+        "status": "verified",
+        "method": "reader",
+        "checks": {
+          "http": true,
+          "browser": false,
+          "noLoginWall": true,
+          "noApiKey": true,
+          "coreUiReachable": true
+        },
+        "evidence": "Server-side document review (HTTP 200); final URL https://www.onlinegdb.com/; 4 tool signals; no login wall detected; no API key required.",
+        "httpStatus": 200,
+        "finalUrl": "https://www.onlinegdb.com/",
+        "checkedAt": "2026-11-13T02:14:46.626Z",
+        "attempts": 1
+      },
+      "availability": "online",
+      "icon": null,
+      "featured": false,
+      "consecutiveFailures": 0
+    },
+    {
+      "id": "css-gradient",
+      "name": "CSS Gradient",
+      "url": "https://cssgradient.io",
+      "domain": "cssgradient.io",
+      "description": "Builds linear, radial and conic CSS gradients visually and copies the generated code.",
+      "category": "design",
+      "tags": [
+        "css",
+        "gradients",
+        "code"
+      ],
+      "free": true,
+      "accountRequired": false,
+      "apiKeyRequired": false,
+      "openSource": false,
+      "sourceRepo": null,
+      "license": null,
+      "discoverySource": "editorial-research",
+      "dateDiscovered": "2026-11-12T20:09:58.316Z",
+      "addedAt": "2026-11-13T02:14:46.770Z",
+      "lastVerifiedAt": "2026-11-13T02:14:46.770Z",
+      "verification": {
+        "status": "verified",
+        "method": "reader",
+        "checks": {
+          "http": true,
+          "browser": false,
+          "noLoginWall": true,
+          "noApiKey": true,
+          "coreUiReachable": true
+        },
+        "evidence": "Server-side document review (HTTP 200); final URL https://cssgradient.io/; 1 tool signal; no login wall detected; no API key required.",
+        "httpStatus": 200,
+        "finalUrl": "https://cssgradient.io/",
+        "checkedAt": "2026-11-13T02:14:46.770Z",
+        "attempts": 1
+      },
+      "availability": "online",
+      "icon": null,
+      "featured": false,
+      "consecutiveFailures": 0
+    },
+    {
+      "id": "haikei",
+      "name": "Haikei",
+      "url": "https://haikei.app",
+      "domain": "haikei.app",
+      "description": "Generates SVG backgrounds such as waves, blobs and mesh gradients ready to download.",
+      "category": "design",
+      "tags": [
+        "svg",
+        "backgrounds",
+        "generator"
+      ],
+      "free": true,
+      "accountRequired": false,
+      "apiKeyRequired": false,
+      "openSource": false,
+      "sourceRepo": null,
+      "license": null,
+      "discoverySource": "editorial-research",
+      "dateDiscovered": "2026-11-12T20:09:58.316Z",
+      "addedAt": "2026-11-13T02:14:46.848Z",
+      "lastVerifiedAt": "2026-11-13T02:14:46.848Z",
+      "verification": {
+        "status": "verified",
+        "method": "reader",
+        "checks": {
+          "http": true,
+          "browser": false,
+          "noLoginWall": true,
+          "noApiKey": true,
+          "coreUiReachable": true
+        },
+        "evidence": "Server-side document review (HTTP 200); final URL https://haikei.app/; 1 tool signal; no login wall detected; no API key required.",
+        "httpStatus": 200,
+        "finalUrl": "https://haikei.app/",
+        "checkedAt": "2026-11-13T02:14:46.848Z",
         "attempts": 1
       },
       "availability": "online",
