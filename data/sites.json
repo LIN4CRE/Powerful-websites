@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-13T04:44:46.149Z",
+  "updatedAt": "2026-11-13T04:59:46.122Z",
   "sites": [
     {
       "id": "arxiv",
@@ -3213,6 +3213,92 @@
         "httpStatus": 200,
         "finalUrl": "https://www.linguee.com/",
         "checkedAt": "2026-11-13T04:44:47.310Z",
+        "attempts": 1
+      },
+      "availability": "online",
+      "icon": null,
+      "featured": false,
+      "consecutiveFailures": 0
+    },
+    {
+      "id": "textfixer",
+      "name": "TextFixer",
+      "url": "https://www.textfixer.com",
+      "domain": "textfixer.com",
+      "description": "A set of plain text tools for case conversion, sorting, cleaning and word counting.",
+      "category": "writing",
+      "tags": [
+        "text-tools",
+        "convert",
+        "clean"
+      ],
+      "free": true,
+      "accountRequired": false,
+      "apiKeyRequired": false,
+      "openSource": false,
+      "sourceRepo": null,
+      "license": null,
+      "discoverySource": "editorial-research",
+      "dateDiscovered": "2026-11-12T20:09:58.316Z",
+      "addedAt": "2026-11-13T04:59:46.746Z",
+      "lastVerifiedAt": "2026-11-13T04:59:46.746Z",
+      "verification": {
+        "status": "verified",
+        "method": "reader",
+        "checks": {
+          "http": true,
+          "browser": false,
+          "noLoginWall": true,
+          "noApiKey": true,
+          "coreUiReachable": true
+        },
+        "evidence": "Server-side document review (HTTP 200); final URL https://www.textfixer.com/; 0 tool signals; no login wall detected; no API key required.",
+        "httpStatus": 200,
+        "finalUrl": "https://www.textfixer.com/",
+        "checkedAt": "2026-11-13T04:59:46.746Z",
+        "attempts": 1
+      },
+      "availability": "online",
+      "icon": null,
+      "featured": false,
+      "consecutiveFailures": 0
+    },
+    {
+      "id": "smallpdf",
+      "name": "Smallpdf",
+      "url": "https://smallpdf.com",
+      "domain": "smallpdf.com",
+      "description": "A set of PDF tools for conversion, compression, editing and e-signing in the browser.",
+      "category": "pdf-files",
+      "tags": [
+        "pdf",
+        "convert",
+        "sign"
+      ],
+      "free": true,
+      "accountRequired": false,
+      "apiKeyRequired": false,
+      "openSource": false,
+      "sourceRepo": null,
+      "license": null,
+      "discoverySource": "editorial-research",
+      "dateDiscovered": "2026-11-12T20:09:58.316Z",
+      "addedAt": "2026-11-13T04:59:46.926Z",
+      "lastVerifiedAt": "2026-11-13T04:59:46.926Z",
+      "verification": {
+        "status": "verified",
+        "method": "reader",
+        "checks": {
+          "http": true,
+          "browser": false,
+          "noLoginWall": true,
+          "noApiKey": true,
+          "coreUiReachable": true
+        },
+        "evidence": "Server-side document review (HTTP 200); final URL https://smallpdf.com/; 0 tool signals; no login wall detected; no API key required.",
+        "httpStatus": 200,
+        "finalUrl": "https://smallpdf.com/",
+        "checkedAt": "2026-11-13T04:59:46.926Z",
         "attempts": 1
       },
       "availability": "online",
