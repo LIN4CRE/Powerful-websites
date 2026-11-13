@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-12T23:59:45.929Z",
+  "updatedAt": "2026-11-13T00:14:46.130Z",
   "sites": [
     {
       "id": "arxiv",
@@ -1536,6 +1536,49 @@
         "httpStatus": 200,
         "finalUrl": "https://huggingface.co/spaces",
         "checkedAt": "2026-11-12T23:59:46.716Z",
+        "attempts": 1
+      },
+      "availability": "online",
+      "icon": null,
+      "featured": false,
+      "consecutiveFailures": 0
+    },
+    {
+      "id": "online-stopwatch",
+      "name": "Online Stopwatch",
+      "url": "https://www.online-stopwatch.com",
+      "domain": "online-stopwatch.com",
+      "description": "Stopwatches, countdown timers and classroom timers that start with a single click.",
+      "category": "productivity",
+      "tags": [
+        "timer",
+        "stopwatch",
+        "countdown"
+      ],
+      "free": true,
+      "accountRequired": false,
+      "apiKeyRequired": false,
+      "openSource": false,
+      "sourceRepo": null,
+      "license": null,
+      "discoverySource": "editorial-research",
+      "dateDiscovered": "2026-11-12T20:09:58.316Z",
+      "addedAt": "2026-11-13T00:14:53.790Z",
+      "lastVerifiedAt": "2026-11-13T00:14:53.790Z",
+      "verification": {
+        "status": "verified",
+        "method": "reader",
+        "checks": {
+          "http": true,
+          "browser": false,
+          "noLoginWall": true,
+          "noApiKey": true,
+          "coreUiReachable": true
+        },
+        "evidence": "Server-side document review (HTTP 200); final URL https://www.online-stopwatch.com/; 1 tool signal; no login wall detected; no API key required.",
+        "httpStatus": 200,
+        "finalUrl": "https://www.online-stopwatch.com/",
+        "checkedAt": "2026-11-13T00:14:53.790Z",
         "attempts": 1
       },
       "availability": "online",
