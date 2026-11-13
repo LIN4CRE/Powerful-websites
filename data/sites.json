@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-13T15:59:46.130Z",
+  "updatedAt": "2026-11-13T16:14:46.107Z",
   "sites": [
     {
       "id": "arxiv",
@@ -6828,6 +6828,93 @@
         "httpStatus": 200,
         "finalUrl": "https://gratisography.com/",
         "checkedAt": "2026-11-13T15:59:47.093Z",
+        "attempts": 1
+      },
+      "availability": "online",
+      "icon": null,
+      "featured": false,
+      "consecutiveFailures": 0
+    },
+    {
+      "id": "libreshot",
+      "name": "LibreShot",
+      "url": "https://libreshot.com",
+      "domain": "libreshot.com",
+      "description": "A collection of hundreds of high quality free stock images for personal or commercial use.",
+      "category": "image",
+      "tags": [
+        "free-assets",
+        "collection",
+        "commercial",
+        "libreshot"
+      ],
+      "free": true,
+      "accountRequired": false,
+      "apiKeyRequired": false,
+      "openSource": false,
+      "sourceRepo": null,
+      "license": null,
+      "discoverySource": "awesome-stock-resources",
+      "dateDiscovered": "2026-11-13T02:59:45.929Z",
+      "addedAt": "2026-11-13T16:14:46.695Z",
+      "lastVerifiedAt": "2026-11-13T16:14:46.694Z",
+      "verification": {
+        "status": "verified",
+        "method": "reader",
+        "checks": {
+          "http": true,
+          "browser": false,
+          "noLoginWall": true,
+          "noApiKey": true,
+          "coreUiReachable": true
+        },
+        "evidence": "Server-side document review (HTTP 200); final URL https://libreshot.com/; 1 tool signal; no login wall detected; no API key required.",
+        "httpStatus": 200,
+        "finalUrl": "https://libreshot.com/",
+        "checkedAt": "2026-11-13T16:14:46.694Z",
+        "attempts": 1
+      },
+      "availability": "online",
+      "icon": null,
+      "featured": false,
+      "consecutiveFailures": 0
+    },
+    {
+      "id": "show-hn-umsfuse-fuse-driver-and-tools-for-umsdos",
+      "name": "Show HN: Umsfuse: FUSE driver and tools for UMSDOS",
+      "url": "https://fossil.chungy.name/umsfuse/doc/trunk/README.md",
+      "domain": "fossil.chungy.name",
+      "description": "Show HN: Umsfuse: FUSE driver and tools for UMSDOS.",
+      "category": "unusual",
+      "tags": [
+        "umsfuse",
+        "driver",
+        "umsdos"
+      ],
+      "free": true,
+      "accountRequired": false,
+      "apiKeyRequired": false,
+      "openSource": false,
+      "sourceRepo": null,
+      "license": null,
+      "discoverySource": "hn-show",
+      "dateDiscovered": "2026-11-13T04:14:46.070Z",
+      "addedAt": "2026-11-13T16:14:47.327Z",
+      "lastVerifiedAt": "2026-11-13T16:14:47.327Z",
+      "verification": {
+        "status": "verified",
+        "method": "reader",
+        "checks": {
+          "http": true,
+          "browser": false,
+          "noLoginWall": true,
+          "noApiKey": true,
+          "coreUiReachable": true
+        },
+        "evidence": "Server-side document review (HTTP 200); final URL https://fossil.chungy.name/umsfuse/doc/trunk/README.md; 0 tool signals; no login wall detected; no API key required.",
+        "httpStatus": 200,
+        "finalUrl": "https://fossil.chungy.name/umsfuse/doc/trunk/README.md",
+        "checkedAt": "2026-11-13T16:14:47.327Z",
         "attempts": 1
       },
       "availability": "online",
