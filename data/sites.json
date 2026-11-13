@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-13T17:44:46.156Z",
+  "updatedAt": "2026-11-13T17:59:46.056Z",
   "sites": [
     {
       "id": "arxiv",
@@ -7646,6 +7646,94 @@
         "httpStatus": 200,
         "finalUrl": "https://moveast.me/",
         "checkedAt": "2026-11-13T17:44:47.882Z",
+        "attempts": 1
+      },
+      "availability": "online",
+      "icon": null,
+      "featured": false,
+      "consecutiveFailures": 0
+    },
+    {
+      "id": "negative-space",
+      "name": "Negative Space",
+      "url": "https://negativespace.co",
+      "domain": "negativespace.co",
+      "description": "Stock photos added every week.",
+      "category": "image",
+      "tags": [
+        "free-assets",
+        "negative",
+        "photos",
+        "space"
+      ],
+      "free": true,
+      "accountRequired": false,
+      "apiKeyRequired": false,
+      "openSource": false,
+      "sourceRepo": null,
+      "license": null,
+      "discoverySource": "awesome-stock-resources",
+      "dateDiscovered": "2026-11-13T05:29:46.211Z",
+      "addedAt": "2026-11-13T17:59:46.544Z",
+      "lastVerifiedAt": "2026-11-13T17:59:46.544Z",
+      "verification": {
+        "status": "verified",
+        "method": "reader",
+        "checks": {
+          "http": true,
+          "browser": false,
+          "noLoginWall": true,
+          "noApiKey": true,
+          "coreUiReachable": true
+        },
+        "evidence": "Server-side document review (HTTP 200); final URL https://negativespace.co/; 1 tool signal; no login wall detected; no API key required.",
+        "httpStatus": 200,
+        "finalUrl": "https://negativespace.co/",
+        "checkedAt": "2026-11-13T17:59:46.544Z",
+        "attempts": 1
+      },
+      "availability": "online",
+      "icon": null,
+      "featured": false,
+      "consecutiveFailures": 0
+    },
+    {
+      "id": "photo-crops",
+      "name": "Photo Crops",
+      "url": "https://www.photocrops.com",
+      "domain": "photocrops.com",
+      "description": "Five high resolution photos added every week, sometimes more.",
+      "category": "image",
+      "tags": [
+        "free-assets",
+        "resolution",
+        "sometimes",
+        "photos"
+      ],
+      "free": true,
+      "accountRequired": false,
+      "apiKeyRequired": false,
+      "openSource": false,
+      "sourceRepo": null,
+      "license": null,
+      "discoverySource": "awesome-stock-resources",
+      "dateDiscovered": "2026-11-13T05:29:46.211Z",
+      "addedAt": "2026-11-13T17:59:46.690Z",
+      "lastVerifiedAt": "2026-11-13T17:59:46.690Z",
+      "verification": {
+        "status": "verified",
+        "method": "reader",
+        "checks": {
+          "http": true,
+          "browser": false,
+          "noLoginWall": true,
+          "noApiKey": true,
+          "coreUiReachable": true
+        },
+        "evidence": "Server-side document review (HTTP 200); final URL https://www.photocrops.com/; 1 tool signal; no login wall detected; no API key required.",
+        "httpStatus": 200,
+        "finalUrl": "https://www.photocrops.com/",
+        "checkedAt": "2026-11-13T17:59:46.690Z",
         "attempts": 1
       },
       "availability": "online",
