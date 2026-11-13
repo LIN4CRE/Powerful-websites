@@ -4,41 +4,41 @@
   "schedule": "7,22,37,52 * * * *",
   "scheduleIntervalMinutes": 15,
   "scheduleNote": "Vercel Schedules runs the job at minutes 7, 22, 37 and 52 — about 2,880 invocations a month, within the Hobby allowance of 5,000 schedule runs.",
-  "lastScanAttemptAt": "2026-11-13T00:44:46.058Z",
-  "lastSuccessfulScanAt": "2026-11-13T00:44:46.058Z",
-  "lastCompletedScanAt": "2026-11-13T00:44:46.058Z",
-  "lastVerificationRunAt": "2026-11-13T00:44:46.058Z",
-  "lastAdditionAt": "2026-11-13T00:44:46.058Z",
+  "lastScanAttemptAt": "2026-11-13T00:59:46.016Z",
+  "lastSuccessfulScanAt": "2026-11-13T00:59:46.016Z",
+  "lastCompletedScanAt": "2026-11-13T00:59:46.016Z",
+  "lastVerificationRunAt": "2026-11-13T00:59:46.016Z",
+  "lastAdditionAt": "2026-11-13T00:59:46.016Z",
   "durationMs": null,
   "counts": {
     "sourcesChecked": 1,
     "sourcesFailed": 1,
     "discovered": 0,
-    "pending": 161,
-    "verified": 41,
-    "rejected": 7,
+    "pending": 158,
+    "verified": 43,
+    "rejected": 8,
     "rechecked": 3,
     "removed": 0,
     "duplicatesRemoved": 0,
-    "totalSites": 41,
+    "totalSites": 43,
     "addedThisRun": 2
   },
   "robots": {
     "scout": {
       "state": "degraded",
-      "summary": "Read Awesome Dataviz; 0 new candidates.",
-      "lastRunAt": "2026-11-13T00:44:46.058Z",
+      "summary": "Read Awesome Public Datasets; 0 new candidates.",
+      "lastRunAt": "2026-11-13T00:59:46.016Z",
       "metrics": {
         "sources": 1,
         "failures": 1,
         "discovered": 0,
-        "cursor": 5
+        "cursor": 6
       }
     },
     "verifier": {
       "state": "ok",
       "summary": "Reviewed 3 candidates with a server-side document check (HTTP + DOM, no browser).",
-      "lastRunAt": "2026-11-13T00:44:46.058Z",
+      "lastRunAt": "2026-11-13T00:59:46.016Z",
       "metrics": {
         "total": 3,
         "verified": 2,
@@ -49,10 +49,10 @@
     },
     "curator": {
       "state": "ok",
-      "summary": "Published 41 listings; removed 0 duplicates.",
-      "lastRunAt": "2026-11-13T00:44:46.058Z",
+      "summary": "Published 43 listings; removed 0 duplicates.",
+      "lastRunAt": "2026-11-13T00:59:46.016Z",
       "metrics": {
-        "published": 41,
+        "published": 43,
         "duplicatesRemoved": 0,
         "stale": 0
       }
@@ -60,12 +60,12 @@
   },
   "sourceHealth": [
     {
-      "id": "awesome-dataviz",
-      "name": "Awesome Dataviz",
+      "id": "awesome-public-datasets",
+      "name": "Awesome Public Datasets",
       "type": "github-awesome",
       "status": "failed",
       "items": 0,
-      "durationMs": 34,
+      "durationMs": 60,
       "error": "README fetch failed (404)"
     }
   ],
@@ -79,7 +79,7 @@
     "commit": "de6e41e19cf8649f292e4efe2d9c0a6f0b8a14bd"
   },
   "notes": [
-    "Source awesome-dataviz: README fetch failed (404)"
+    "Source awesome-public-datasets: README fetch failed (404)"
   ],
   "scheduleProvider": "vercel-schedules",
   "nextScheduledRunAt": null,
