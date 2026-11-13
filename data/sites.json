@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-13T11:59:45.942Z",
+  "updatedAt": "2026-11-13T12:14:46.269Z",
   "sites": [
     {
       "id": "arxiv",
@@ -5664,6 +5664,92 @@
         "httpStatus": 200,
         "finalUrl": "https://www.coingecko.com/",
         "checkedAt": "2026-11-13T11:59:48.710Z",
+        "attempts": 1
+      },
+      "availability": "online",
+      "icon": null,
+      "featured": false,
+      "consecutiveFailures": 0
+    },
+    {
+      "id": "wise-currency-converter",
+      "name": "Wise Currency Converter",
+      "url": "https://wise.com/gb/currency-converter",
+      "domain": "wise.com",
+      "description": "Converts currencies using the mid-market rate and shows the real cost of transfers.",
+      "category": "business",
+      "tags": [
+        "currency",
+        "exchange-rates",
+        "transfers"
+      ],
+      "free": true,
+      "accountRequired": false,
+      "apiKeyRequired": false,
+      "openSource": false,
+      "sourceRepo": null,
+      "license": null,
+      "discoverySource": "editorial-research",
+      "dateDiscovered": "2026-11-12T20:09:58.316Z",
+      "addedAt": "2026-11-13T12:14:47.126Z",
+      "lastVerifiedAt": "2026-11-13T12:14:47.125Z",
+      "verification": {
+        "status": "verified",
+        "method": "reader",
+        "checks": {
+          "http": true,
+          "browser": false,
+          "noLoginWall": true,
+          "noApiKey": true,
+          "coreUiReachable": true
+        },
+        "evidence": "Server-side document review (HTTP 200); final URL https://wise.com/gb/currency-converter/; 2 tool signals; no login wall detected; no API key required.",
+        "httpStatus": 200,
+        "finalUrl": "https://wise.com/gb/currency-converter/",
+        "checkedAt": "2026-11-13T12:14:47.125Z",
+        "attempts": 1
+      },
+      "availability": "online",
+      "icon": null,
+      "featured": false,
+      "consecutiveFailures": 0
+    },
+    {
+      "id": "portfolio-visualizer",
+      "name": "Portfolio Visualizer",
+      "url": "https://www.portfoliovisualizer.com",
+      "domain": "portfoliovisualizer.com",
+      "description": "Backtests portfolios and analyses asset allocation and risk with historical market data.",
+      "category": "business",
+      "tags": [
+        "investing",
+        "backtesting",
+        "portfolio"
+      ],
+      "free": true,
+      "accountRequired": false,
+      "apiKeyRequired": false,
+      "openSource": false,
+      "sourceRepo": null,
+      "license": null,
+      "discoverySource": "editorial-research",
+      "dateDiscovered": "2026-11-12T20:09:58.316Z",
+      "addedAt": "2026-11-13T12:14:47.471Z",
+      "lastVerifiedAt": "2026-11-13T12:14:47.471Z",
+      "verification": {
+        "status": "verified",
+        "method": "reader",
+        "checks": {
+          "http": true,
+          "browser": false,
+          "noLoginWall": true,
+          "noApiKey": true,
+          "coreUiReachable": true
+        },
+        "evidence": "Server-side document review (HTTP 200); final URL https://www.portfoliovisualizer.com/; 0 tool signals; no login wall detected; no API key required.",
+        "httpStatus": 200,
+        "finalUrl": "https://www.portfoliovisualizer.com/",
+        "checkedAt": "2026-11-13T12:14:47.471Z",
         "attempts": 1
       },
       "availability": "online",
