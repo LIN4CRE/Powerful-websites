@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-13T08:44:46.107Z",
+  "updatedAt": "2026-11-13T08:59:46.115Z",
   "sites": [
     {
       "id": "arxiv",
@@ -4460,6 +4460,92 @@
         "httpStatus": 200,
         "finalUrl": "https://ourworldindata.org/",
         "checkedAt": "2026-11-13T08:44:47.020Z",
+        "attempts": 1
+      },
+      "availability": "online",
+      "icon": null,
+      "featured": false,
+      "consecutiveFailures": 0
+    },
+    {
+      "id": "google-trends",
+      "name": "Google Trends",
+      "url": "https://trends.google.com",
+      "domain": "trends.google.com",
+      "description": "Explores how often terms are searched over time and by region, with comparison charts.",
+      "category": "data",
+      "tags": [
+        "trends",
+        "search",
+        "analysis"
+      ],
+      "free": true,
+      "accountRequired": false,
+      "apiKeyRequired": false,
+      "openSource": false,
+      "sourceRepo": null,
+      "license": null,
+      "discoverySource": "editorial-research",
+      "dateDiscovered": "2026-11-12T20:09:58.316Z",
+      "addedAt": "2026-11-13T08:59:46.762Z",
+      "lastVerifiedAt": "2026-11-13T08:59:46.762Z",
+      "verification": {
+        "status": "verified",
+        "method": "reader",
+        "checks": {
+          "http": true,
+          "browser": false,
+          "noLoginWall": true,
+          "noApiKey": true,
+          "coreUiReachable": true
+        },
+        "evidence": "Server-side document review (HTTP 200); final URL https://trends.google.com/trends/; 1 tool signal; no login wall detected; no API key required.",
+        "httpStatus": 200,
+        "finalUrl": "https://trends.google.com/trends/",
+        "checkedAt": "2026-11-13T08:59:46.762Z",
+        "attempts": 1
+      },
+      "availability": "online",
+      "icon": null,
+      "featured": false,
+      "consecutiveFailures": 0
+    },
+    {
+      "id": "rawgraphs",
+      "name": "RawGraphs",
+      "url": "https://www.rawgraphs.io",
+      "domain": "rawgraphs.io",
+      "description": "Creates unusual data visualisations from spreadsheets and exports them as SVG or images.",
+      "category": "data",
+      "tags": [
+        "charts",
+        "visualisation",
+        "csv"
+      ],
+      "free": true,
+      "accountRequired": false,
+      "apiKeyRequired": false,
+      "openSource": true,
+      "sourceRepo": "https://github.com/rawgraphs/rawgraphs-app",
+      "license": "Apache-2.0",
+      "discoverySource": "github-topics",
+      "dateDiscovered": "2026-11-12T20:09:58.316Z",
+      "addedAt": "2026-11-13T08:59:47.169Z",
+      "lastVerifiedAt": "2026-11-13T08:59:47.169Z",
+      "verification": {
+        "status": "verified",
+        "method": "reader",
+        "checks": {
+          "http": true,
+          "browser": false,
+          "noLoginWall": true,
+          "noApiKey": true,
+          "coreUiReachable": true
+        },
+        "evidence": "Server-side document review (HTTP 200); final URL https://rawgraphs.io/; 0 tool signals; no login wall detected; no API key required.",
+        "httpStatus": 200,
+        "finalUrl": "https://rawgraphs.io/",
+        "checkedAt": "2026-11-13T08:59:47.169Z",
         "attempts": 1
       },
       "availability": "online",
