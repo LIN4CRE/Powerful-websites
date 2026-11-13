@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-13T14:14:46.047Z",
+  "updatedAt": "2026-11-13T14:29:46.072Z",
   "sites": [
     {
       "id": "arxiv",
@@ -6183,6 +6183,49 @@
         "httpStatus": 200,
         "finalUrl": "https://cupcake.nilssonlee.se/",
         "checkedAt": "2026-11-13T14:14:46.767Z",
+        "attempts": 1
+      },
+      "availability": "online",
+      "icon": null,
+      "featured": false,
+      "consecutiveFailures": 0
+    },
+    {
+      "id": "show-hn-ai-math-kit",
+      "name": "Show HN: AI Math Kit",
+      "url": "https://chromewebstore.google.com/detail/ai-math-kit/acdddhokifmffbmnelpfcnhbpdedadkj",
+      "domain": "chromewebstore.google.com",
+      "description": "Open Problems. Explore Honestly.",
+      "category": "ai",
+      "tags": [
+        "problems",
+        "honestly",
+        "explore"
+      ],
+      "free": true,
+      "accountRequired": false,
+      "apiKeyRequired": false,
+      "openSource": false,
+      "sourceRepo": null,
+      "license": null,
+      "discoverySource": "hn-show",
+      "dateDiscovered": "2026-11-13T01:44:46.048Z",
+      "addedAt": "2026-11-13T14:29:47.278Z",
+      "lastVerifiedAt": "2026-11-13T14:29:47.277Z",
+      "verification": {
+        "status": "verified",
+        "method": "reader",
+        "checks": {
+          "http": true,
+          "browser": false,
+          "noLoginWall": true,
+          "noApiKey": true,
+          "coreUiReachable": true
+        },
+        "evidence": "Server-side document review (HTTP 200); final URL https://chromewebstore.google.com/detail/ai-math-kit/acdddhokifmffbmnelpfcnhbpdedadkj; 1 tool signal; no login wall detected; no API key required.",
+        "httpStatus": 200,
+        "finalUrl": "https://chromewebstore.google.com/detail/ai-math-kit/acdddhokifmffbmnelpfcnhbpdedadkj",
+        "checkedAt": "2026-11-13T14:29:47.277Z",
         "attempts": 1
       },
       "availability": "online",
