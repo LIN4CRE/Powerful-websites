@@ -4,55 +4,55 @@
   "schedule": "7,22,37,52 * * * *",
   "scheduleIntervalMinutes": 15,
   "scheduleNote": "Vercel Schedules runs the job at minutes 7, 22, 37 and 52 — about 2,880 invocations a month, within the Hobby allowance of 5,000 schedule runs.",
-  "lastScanAttemptAt": "2026-11-13T00:14:46.130Z",
-  "lastSuccessfulScanAt": "2026-11-13T00:14:46.130Z",
-  "lastCompletedScanAt": "2026-11-13T00:14:46.130Z",
-  "lastVerificationRunAt": "2026-11-13T00:14:46.130Z",
-  "lastAdditionAt": "2026-11-13T00:14:46.130Z",
+  "lastScanAttemptAt": "2026-11-13T00:29:46.041Z",
+  "lastSuccessfulScanAt": "2026-11-13T00:29:46.041Z",
+  "lastCompletedScanAt": "2026-11-13T00:29:46.041Z",
+  "lastVerificationRunAt": "2026-11-13T00:29:46.041Z",
+  "lastAdditionAt": "2026-11-13T00:29:46.041Z",
   "durationMs": null,
   "counts": {
     "sourcesChecked": 1,
     "sourcesFailed": 0,
     "discovered": 6,
-    "pending": 161,
-    "verified": 36,
+    "pending": 164,
+    "verified": 39,
     "rejected": 6,
     "rechecked": 3,
     "removed": 0,
     "duplicatesRemoved": 0,
-    "totalSites": 36,
-    "addedThisRun": 1
+    "totalSites": 39,
+    "addedThisRun": 3
   },
   "robots": {
     "scout": {
       "state": "ok",
-      "summary": "Read Awesome Selfhosted; 6 new candidates.",
-      "lastRunAt": "2026-11-13T00:14:46.130Z",
+      "summary": "Read Awesome Stock Resources; 6 new candidates.",
+      "lastRunAt": "2026-11-13T00:29:46.041Z",
       "metrics": {
         "sources": 1,
         "failures": 0,
         "discovered": 6,
-        "cursor": 3
+        "cursor": 4
       }
     },
     "verifier": {
       "state": "ok",
       "summary": "Reviewed 3 candidates with a server-side document check (HTTP + DOM, no browser).",
-      "lastRunAt": "2026-11-13T00:14:46.130Z",
+      "lastRunAt": "2026-11-13T00:29:46.041Z",
       "metrics": {
         "total": 3,
-        "verified": 1,
-        "rejected": 2,
+        "verified": 3,
+        "rejected": 0,
         "pending": 0,
         "browserChecks": 0
       }
     },
     "curator": {
       "state": "ok",
-      "summary": "Published 36 listings; removed 0 duplicates.",
-      "lastRunAt": "2026-11-13T00:14:46.130Z",
+      "summary": "Published 39 listings; removed 0 duplicates.",
+      "lastRunAt": "2026-11-13T00:29:46.041Z",
       "metrics": {
-        "published": 36,
+        "published": 39,
         "duplicatesRemoved": 0,
         "stale": 0
       }
@@ -60,12 +60,12 @@
   },
   "sourceHealth": [
     {
-      "id": "awesome-selfhosted",
-      "name": "Awesome Selfhosted",
+      "id": "awesome-stock-resources",
+      "name": "Awesome Stock Resources",
       "type": "github-awesome",
       "status": "ok",
       "items": 6,
-      "durationMs": 197
+      "durationMs": 108
     }
   ],
   "workflow": {
