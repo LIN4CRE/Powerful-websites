@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-13T03:29:45.987Z",
+  "updatedAt": "2026-11-13T03:44:46.120Z",
   "candidates": [
     {
       "id": "pollinations",
@@ -748,56 +748,6 @@
       "free": true
     },
     {
-      "id": "imgops",
-      "name": "ImgOps",
-      "url": "https://imgops.com",
-      "domain": "imgops.com",
-      "description": "Sends any image URL to dozens of analysis and editing services from one page.",
-      "category": "image",
-      "tags": [
-        "metadata",
-        "analysis",
-        "utilities"
-      ],
-      "suggestedBy": "Editorial research",
-      "discoverySource": "editorial-research",
-      "dateDiscovered": "2026-11-12T20:09:58.316Z",
-      "status": "pending",
-      "attempts": 0,
-      "lastAttemptAt": null,
-      "verification": null,
-      "rejectionReason": null,
-      "openSource": false,
-      "sourceRepo": null,
-      "license": null,
-      "free": true
-    },
-    {
-      "id": "123apps",
-      "name": "123apps",
-      "url": "https://123apps.com",
-      "domain": "123apps.com",
-      "description": "A suite of audio, video and PDF converters and editors that run in the browser.",
-      "category": "video-audio",
-      "tags": [
-        "converters",
-        "video",
-        "audio"
-      ],
-      "suggestedBy": "Editorial research",
-      "discoverySource": "editorial-research",
-      "dateDiscovered": "2026-11-12T20:09:58.316Z",
-      "status": "pending",
-      "attempts": 0,
-      "lastAttemptAt": null,
-      "verification": null,
-      "rejectionReason": null,
-      "openSource": false,
-      "sourceRepo": null,
-      "license": null,
-      "free": true
-    },
-    {
       "id": "wavacity",
       "name": "Wavacity",
       "url": "https://wavacity.com",
@@ -812,11 +762,26 @@
       "suggestedBy": "Editorial research",
       "discoverySource": "github-topics",
       "dateDiscovered": "2026-11-12T20:09:58.316Z",
-      "status": "pending",
-      "attempts": 0,
-      "lastAttemptAt": null,
-      "verification": null,
-      "rejectionReason": null,
+      "status": "rejected",
+      "attempts": 1,
+      "lastAttemptAt": "2026-11-13T03:44:47.176Z",
+      "verification": {
+        "status": "rejected",
+        "method": "reader",
+        "checks": {
+          "http": true,
+          "browser": false,
+          "noLoginWall": true,
+          "noApiKey": true,
+          "coreUiReachable": false
+        },
+        "evidence": "Server-side document review (HTTP 200); final URL https://wavacity.com/; 0 tool signals; no login wall detected; no API key required.",
+        "httpStatus": 200,
+        "finalUrl": "https://wavacity.com/",
+        "checkedAt": "2026-11-13T03:44:47.176Z",
+        "attempts": 1
+      },
+      "rejectionReason": "No usable interface or substantial content was reachable without an account; the page looks like a marketing shell.",
       "openSource": true,
       "sourceRepo": "https://github.com/tjoen/wavacity",
       "license": "GPL-2.0",
