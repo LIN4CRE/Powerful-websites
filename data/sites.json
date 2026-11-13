@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-13T01:14:46.118Z",
+  "updatedAt": "2026-11-13T01:29:45.991Z",
   "sites": [
     {
       "id": "arxiv",
@@ -1966,6 +1966,92 @@
         "httpStatus": 200,
         "finalUrl": "https://caniuse.com/",
         "checkedAt": "2026-11-13T01:14:47.559Z",
+        "attempts": 1
+      },
+      "availability": "online",
+      "icon": null,
+      "featured": false,
+      "consecutiveFailures": 0
+    },
+    {
+      "id": "bundlephobia",
+      "name": "Bundlephobia",
+      "url": "https://bundlephobia.com",
+      "domain": "bundlephobia.com",
+      "description": "Checks the install size and download cost of any npm package before you add it.",
+      "category": "developer",
+      "tags": [
+        "npm",
+        "performance",
+        "javascript"
+      ],
+      "free": true,
+      "accountRequired": false,
+      "apiKeyRequired": false,
+      "openSource": false,
+      "sourceRepo": null,
+      "license": null,
+      "discoverySource": "editorial-research",
+      "dateDiscovered": "2026-11-12T20:09:58.316Z",
+      "addedAt": "2026-11-13T01:29:46.292Z",
+      "lastVerifiedAt": "2026-11-13T01:29:46.292Z",
+      "verification": {
+        "status": "verified",
+        "method": "reader",
+        "checks": {
+          "http": true,
+          "browser": false,
+          "noLoginWall": true,
+          "noApiKey": true,
+          "coreUiReachable": true
+        },
+        "evidence": "Server-side document review (HTTP 200); final URL https://bundlephobia.com/; 1 tool signal; no login wall detected; no API key required.",
+        "httpStatus": 200,
+        "finalUrl": "https://bundlephobia.com/",
+        "checkedAt": "2026-11-13T01:29:46.292Z",
+        "attempts": 1
+      },
+      "availability": "online",
+      "icon": null,
+      "featured": false,
+      "consecutiveFailures": 0
+    },
+    {
+      "id": "mockaroo",
+      "name": "Mockaroo",
+      "url": "https://www.mockaroo.com",
+      "domain": "mockaroo.com",
+      "description": "Generates realistic mock data and test datasets in CSV, JSON, SQL and Excel formats.",
+      "category": "developer",
+      "tags": [
+        "mock-data",
+        "csv",
+        "testing"
+      ],
+      "free": true,
+      "accountRequired": false,
+      "apiKeyRequired": false,
+      "openSource": false,
+      "sourceRepo": null,
+      "license": null,
+      "discoverySource": "editorial-research",
+      "dateDiscovered": "2026-11-12T20:09:58.316Z",
+      "addedAt": "2026-11-13T01:29:46.635Z",
+      "lastVerifiedAt": "2026-11-13T01:29:46.635Z",
+      "verification": {
+        "status": "verified",
+        "method": "reader",
+        "checks": {
+          "http": true,
+          "browser": false,
+          "noLoginWall": true,
+          "noApiKey": true,
+          "coreUiReachable": true
+        },
+        "evidence": "Server-side document review (HTTP 200); final URL https://www.mockaroo.com/; 2 tool signals; no login wall detected; no API key required.",
+        "httpStatus": 200,
+        "finalUrl": "https://www.mockaroo.com/",
+        "checkedAt": "2026-11-13T01:29:46.635Z",
         "attempts": 1
       },
       "availability": "online",
