@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-13T16:14:46.107Z",
+  "updatedAt": "2026-11-13T16:29:46.126Z",
   "sites": [
     {
       "id": "arxiv",
@@ -6915,6 +6915,135 @@
         "httpStatus": 200,
         "finalUrl": "https://fossil.chungy.name/umsfuse/doc/trunk/README.md",
         "checkedAt": "2026-11-13T16:14:47.327Z",
+        "attempts": 1
+      },
+      "availability": "online",
+      "icon": null,
+      "featured": false,
+      "consecutiveFailures": 0
+    },
+    {
+      "id": "show-hn-grow-any-hobby-skills-for-humans-not-ai",
+      "name": "Show HN: Grow any hobby (skills for humans not AI)",
+      "url": "https://grow-bonsai.app",
+      "domain": "grow-bonsai.app",
+      "description": "Show HN: Grow any hobby (skills for humans not AI).",
+      "category": "ai",
+      "tags": [
+        "skills",
+        "humans",
+        "hobby"
+      ],
+      "free": true,
+      "accountRequired": false,
+      "apiKeyRequired": false,
+      "openSource": false,
+      "sourceRepo": null,
+      "license": null,
+      "discoverySource": "hn-show",
+      "dateDiscovered": "2026-11-13T04:14:46.070Z",
+      "addedAt": "2026-11-13T16:29:46.668Z",
+      "lastVerifiedAt": "2026-11-13T16:29:46.668Z",
+      "verification": {
+        "status": "verified",
+        "method": "reader",
+        "checks": {
+          "http": true,
+          "browser": false,
+          "noLoginWall": true,
+          "noApiKey": true,
+          "coreUiReachable": true
+        },
+        "evidence": "Server-side document review (HTTP 200); final URL https://grow-bonsai.app/; 1 tool signal; no login wall detected; no API key required.",
+        "httpStatus": 200,
+        "finalUrl": "https://grow-bonsai.app/",
+        "checkedAt": "2026-11-13T16:29:46.668Z",
+        "attempts": 1
+      },
+      "availability": "online",
+      "icon": null,
+      "featured": false,
+      "consecutiveFailures": 0
+    },
+    {
+      "id": "show-hn-axiomstory",
+      "name": "Show HN: AxiomStory",
+      "url": "https://axiomstory.com",
+      "domain": "axiomstory.com",
+      "description": "Keep stories consistent across AI text, images, video.",
+      "category": "ai",
+      "tags": [
+        "axiomstory",
+        "consistent",
+        "stories"
+      ],
+      "free": true,
+      "accountRequired": false,
+      "apiKeyRequired": false,
+      "openSource": false,
+      "sourceRepo": null,
+      "license": null,
+      "discoverySource": "hn-show",
+      "dateDiscovered": "2026-11-13T04:14:46.070Z",
+      "addedAt": "2026-11-13T16:29:46.809Z",
+      "lastVerifiedAt": "2026-11-13T16:29:46.809Z",
+      "verification": {
+        "status": "verified",
+        "method": "reader",
+        "checks": {
+          "http": true,
+          "browser": false,
+          "noLoginWall": true,
+          "noApiKey": true,
+          "coreUiReachable": true
+        },
+        "evidence": "Server-side document review (HTTP 200); final URL https://axiomstory.com/; 1 tool signal; no login wall detected; no API key required.",
+        "httpStatus": 200,
+        "finalUrl": "https://axiomstory.com/",
+        "checkedAt": "2026-11-13T16:29:46.809Z",
+        "attempts": 1
+      },
+      "availability": "online",
+      "icon": null,
+      "featured": false,
+      "consecutiveFailures": 0
+    },
+    {
+      "id": "show-hn-survive-thanksgiving-dinner",
+      "name": "Show HN: Survive Thanksgiving dinner",
+      "url": "https://survivedinner.com",
+      "domain": "survivedinner.com",
+      "description": "a voice game against nosy relatives.",
+      "category": "video-audio",
+      "tags": [
+        "thanksgiving",
+        "relatives",
+        "survive"
+      ],
+      "free": true,
+      "accountRequired": false,
+      "apiKeyRequired": false,
+      "openSource": false,
+      "sourceRepo": null,
+      "license": null,
+      "discoverySource": "hn-show",
+      "dateDiscovered": "2026-11-13T04:14:46.070Z",
+      "addedAt": "2026-11-13T16:29:46.941Z",
+      "lastVerifiedAt": "2026-11-13T16:29:46.941Z",
+      "verification": {
+        "status": "verified",
+        "method": "reader",
+        "checks": {
+          "http": true,
+          "browser": false,
+          "noLoginWall": true,
+          "noApiKey": true,
+          "coreUiReachable": true
+        },
+        "evidence": "Server-side document review (HTTP 200); final URL https://survivedinner.com/; 1 tool signal; no login wall detected; no API key required.",
+        "httpStatus": 200,
+        "finalUrl": "https://survivedinner.com/",
+        "checkedAt": "2026-11-13T16:29:46.941Z",
         "attempts": 1
       },
       "availability": "online",
