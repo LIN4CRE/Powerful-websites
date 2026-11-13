@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-13T00:44:46.058Z",
+  "updatedAt": "2026-11-13T00:59:46.016Z",
   "sites": [
     {
       "id": "arxiv",
@@ -1794,6 +1794,92 @@
         "httpStatus": 200,
         "finalUrl": "https://carbon.now.sh/",
         "checkedAt": "2026-11-13T00:44:46.562Z",
+        "attempts": 1
+      },
+      "availability": "online",
+      "icon": null,
+      "featured": false,
+      "consecutiveFailures": 0
+    },
+    {
+      "id": "devdocs",
+      "name": "DevDocs",
+      "url": "https://devdocs.io",
+      "domain": "devdocs.io",
+      "description": "A single fast interface for hundreds of API documentations that also works offline.",
+      "category": "developer",
+      "tags": [
+        "documentation",
+        "offline",
+        "reference"
+      ],
+      "free": true,
+      "accountRequired": false,
+      "apiKeyRequired": false,
+      "openSource": true,
+      "sourceRepo": "https://github.com/freeCodeCamp/devdocs",
+      "license": "MPL-2.0",
+      "discoverySource": "github-topics",
+      "dateDiscovered": "2026-11-12T20:09:58.316Z",
+      "addedAt": "2026-11-13T00:59:46.481Z",
+      "lastVerifiedAt": "2026-11-13T00:59:46.481Z",
+      "verification": {
+        "status": "verified",
+        "method": "reader",
+        "checks": {
+          "http": true,
+          "browser": false,
+          "noLoginWall": true,
+          "noApiKey": true,
+          "coreUiReachable": true
+        },
+        "evidence": "Server-side document review (HTTP 200); final URL https://devdocs.io/; 1 tool signal; no login wall detected; no API key required.",
+        "httpStatus": 200,
+        "finalUrl": "https://devdocs.io/",
+        "checkedAt": "2026-11-13T00:59:46.481Z",
+        "attempts": 1
+      },
+      "availability": "online",
+      "icon": null,
+      "featured": false,
+      "consecutiveFailures": 0
+    },
+    {
+      "id": "explainshell",
+      "name": "ExplainShell",
+      "url": "https://explainshell.com",
+      "domain": "explainshell.com",
+      "description": "Breaks a shell command into its parts and shows the help text for each option.",
+      "category": "developer",
+      "tags": [
+        "shell",
+        "linux",
+        "learning"
+      ],
+      "free": true,
+      "accountRequired": false,
+      "apiKeyRequired": false,
+      "openSource": false,
+      "sourceRepo": null,
+      "license": null,
+      "discoverySource": "editorial-research",
+      "dateDiscovered": "2026-11-12T20:09:58.316Z",
+      "addedAt": "2026-11-13T00:59:46.584Z",
+      "lastVerifiedAt": "2026-11-13T00:59:46.584Z",
+      "verification": {
+        "status": "verified",
+        "method": "reader",
+        "checks": {
+          "http": true,
+          "browser": false,
+          "noLoginWall": true,
+          "noApiKey": true,
+          "coreUiReachable": true
+        },
+        "evidence": "Server-side document review (HTTP 200); final URL https://explainshell.com/; 1 tool signal; no login wall detected; no API key required.",
+        "httpStatus": 200,
+        "finalUrl": "https://explainshell.com/",
+        "checkedAt": "2026-11-13T00:59:46.584Z",
         "attempts": 1
       },
       "availability": "online",
