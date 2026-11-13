@@ -4,55 +4,55 @@
   "schedule": "7,22,37,52 * * * *",
   "scheduleIntervalMinutes": 15,
   "scheduleNote": "Vercel Schedules runs the job at minutes 7, 22, 37 and 52 — about 2,880 invocations a month, within the Hobby allowance of 5,000 schedule runs.",
-  "lastScanAttemptAt": "2026-11-13T13:29:46.024Z",
-  "lastSuccessfulScanAt": "2026-11-13T13:29:46.024Z",
-  "lastCompletedScanAt": "2026-11-13T13:29:46.024Z",
-  "lastVerificationRunAt": "2026-11-13T13:29:46.024Z",
-  "lastAdditionAt": "2026-11-13T13:29:46.024Z",
+  "lastScanAttemptAt": "2026-11-13T13:44:45.932Z",
+  "lastSuccessfulScanAt": "2026-11-13T13:44:45.932Z",
+  "lastCompletedScanAt": "2026-11-13T13:44:45.932Z",
+  "lastVerificationRunAt": "2026-11-13T13:44:45.932Z",
+  "lastAdditionAt": "2026-11-13T13:44:45.932Z",
   "durationMs": null,
   "counts": {
     "sourcesChecked": 1,
     "sourcesFailed": 1,
     "discovered": 0,
-    "pending": 139,
-    "verified": 139,
-    "rejected": 44,
+    "pending": 136,
+    "verified": 141,
+    "rejected": 45,
     "rechecked": 3,
     "removed": 0,
     "duplicatesRemoved": 0,
-    "totalSites": 139,
+    "totalSites": 141,
     "addedThisRun": 2
   },
   "robots": {
     "scout": {
       "state": "degraded",
-      "summary": "Read Awesome Public Datasets; 0 new candidates.",
-      "lastRunAt": "2026-11-13T13:29:46.024Z",
+      "summary": "Read GitHub search · browser tools; 0 new candidates.",
+      "lastRunAt": "2026-11-13T13:44:45.932Z",
       "metrics": {
         "sources": 1,
         "failures": 1,
         "discovered": 0,
-        "cursor": 6
+        "cursor": 7
       }
     },
     "verifier": {
       "state": "ok",
       "summary": "Reviewed 3 candidates with a server-side document check (HTTP + DOM, no browser).",
-      "lastRunAt": "2026-11-13T13:29:46.024Z",
+      "lastRunAt": "2026-11-13T13:44:45.932Z",
       "metrics": {
         "total": 3,
         "verified": 2,
-        "rejected": 0,
-        "pending": 1,
+        "rejected": 1,
+        "pending": 0,
         "browserChecks": 0
       }
     },
     "curator": {
       "state": "ok",
-      "summary": "Published 139 listings; removed 0 duplicates.",
-      "lastRunAt": "2026-11-13T13:29:46.024Z",
+      "summary": "Published 141 listings; removed 0 duplicates.",
+      "lastRunAt": "2026-11-13T13:44:45.932Z",
       "metrics": {
-        "published": 139,
+        "published": 141,
         "duplicatesRemoved": 0,
         "stale": 0
       }
@@ -60,12 +60,12 @@
   },
   "sourceHealth": [
     {
-      "id": "awesome-public-datasets",
-      "name": "Awesome Public Datasets",
-      "type": "github-awesome",
+      "id": "github-web-tools",
+      "name": "GitHub search · browser tools",
+      "type": "github-search",
       "status": "failed",
       "items": 0,
-      "durationMs": 115,
+      "durationMs": 35,
       "error": "README fetch failed (404)"
     }
   ],
@@ -79,7 +79,7 @@
     "commit": "de6e41e19cf8649f292e4efe2d9c0a6f0b8a14bd"
   },
   "notes": [
-    "Source awesome-public-datasets: README fetch failed (404)"
+    "Source github-web-tools: README fetch failed (404)"
   ],
   "scheduleProvider": "vercel-schedules",
   "nextScheduledRunAt": null,
