@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-13T16:59:46.186Z",
+  "updatedAt": "2026-11-13T17:14:45.993Z",
   "sites": [
     {
       "id": "arxiv",
@@ -7300,6 +7300,135 @@
         "httpStatus": 200,
         "finalUrl": "https://beyondloom.com/blog/postscript.html",
         "checkedAt": "2026-11-13T16:59:47.675Z",
+        "attempts": 1
+      },
+      "availability": "online",
+      "icon": null,
+      "featured": false,
+      "consecutiveFailures": 0
+    },
+    {
+      "id": "matomo",
+      "name": "Matomo",
+      "url": "https://matomo.org",
+      "domain": "matomo.org",
+      "description": "Web analytics that protects your data and your customers' privacy (alternative to Google Analytics). ()….",
+      "category": "browser-apps",
+      "tags": [
+        "analytics",
+        "alternative",
+        "customers"
+      ],
+      "free": true,
+      "accountRequired": false,
+      "apiKeyRequired": false,
+      "openSource": false,
+      "sourceRepo": null,
+      "license": null,
+      "discoverySource": "awesome-selfhosted",
+      "dateDiscovered": "2026-11-13T05:14:46.105Z",
+      "addedAt": "2026-11-13T17:14:46.607Z",
+      "lastVerifiedAt": "2026-11-13T17:14:46.606Z",
+      "verification": {
+        "status": "verified",
+        "method": "reader",
+        "checks": {
+          "http": true,
+          "browser": false,
+          "noLoginWall": true,
+          "noApiKey": true,
+          "coreUiReachable": true
+        },
+        "evidence": "Server-side document review (HTTP 200); final URL https://matomo.org/; 3 tool signals; no login wall detected; no API key required.",
+        "httpStatus": 200,
+        "finalUrl": "https://matomo.org/",
+        "checkedAt": "2026-11-13T17:14:46.606Z",
+        "attempts": 1
+      },
+      "availability": "online",
+      "icon": null,
+      "featured": false,
+      "consecutiveFailures": 0
+    },
+    {
+      "id": "metabase",
+      "name": "Metabase",
+      "url": "https://metabase.com",
+      "domain": "metabase.com",
+      "description": "Easy way for everyone in your company to ask questions and learn from data. ().",
+      "category": "browser-apps",
+      "tags": [
+        "questions",
+        "metabase",
+        "everyone"
+      ],
+      "free": true,
+      "accountRequired": false,
+      "apiKeyRequired": false,
+      "openSource": false,
+      "sourceRepo": null,
+      "license": null,
+      "discoverySource": "awesome-selfhosted",
+      "dateDiscovered": "2026-11-13T05:14:46.105Z",
+      "addedAt": "2026-11-13T17:14:46.821Z",
+      "lastVerifiedAt": "2026-11-13T17:14:46.821Z",
+      "verification": {
+        "status": "verified",
+        "method": "reader",
+        "checks": {
+          "http": true,
+          "browser": false,
+          "noLoginWall": true,
+          "noApiKey": true,
+          "coreUiReachable": true
+        },
+        "evidence": "Server-side document review (HTTP 200); final URL https://www.metabase.com/; 1 tool signal; no login wall detected; no API key required.",
+        "httpStatus": 200,
+        "finalUrl": "https://www.metabase.com/",
+        "checkedAt": "2026-11-13T17:14:46.821Z",
+        "attempts": 1
+      },
+      "availability": "online",
+      "icon": null,
+      "featured": false,
+      "consecutiveFailures": 0
+    },
+    {
+      "id": "middleware",
+      "name": "Middleware",
+      "url": "https://middlewarehq.com",
+      "domain": "middlewarehq.com",
+      "description": "Tool designed to help engineering leaders measure and analyze the effectiveness of their teams using the DORA metrics. ([Source….",
+      "category": "browser-apps",
+      "tags": [
+        "effectiveness",
+        "engineering",
+        "middleware"
+      ],
+      "free": true,
+      "accountRequired": false,
+      "apiKeyRequired": false,
+      "openSource": false,
+      "sourceRepo": null,
+      "license": null,
+      "discoverySource": "awesome-selfhosted",
+      "dateDiscovered": "2026-11-13T05:14:46.105Z",
+      "addedAt": "2026-11-13T17:14:48.736Z",
+      "lastVerifiedAt": "2026-11-13T17:14:48.736Z",
+      "verification": {
+        "status": "verified",
+        "method": "reader",
+        "checks": {
+          "http": true,
+          "browser": false,
+          "noLoginWall": true,
+          "noApiKey": true,
+          "coreUiReachable": true
+        },
+        "evidence": "Server-side document review (HTTP 200); final URL https://middlewarehq.com/; 1 tool signal; no login wall detected; no API key required.",
+        "httpStatus": 200,
+        "finalUrl": "https://middlewarehq.com/",
+        "checkedAt": "2026-11-13T17:14:48.736Z",
         "attempts": 1
       },
       "availability": "online",
