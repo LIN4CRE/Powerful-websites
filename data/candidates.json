@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-13T18:14:46.051Z",
+  "updatedAt": "2026-11-13T18:29:46.047Z",
   "candidates": [
     {
       "id": "pollinations",
@@ -3029,81 +3029,6 @@
         "checkedAt": "2026-11-13T17:59:57.226Z",
         "attempts": 1
       },
-      "rejectionReason": null,
-      "openSource": false,
-      "sourceRepo": null,
-      "license": null,
-      "free": true
-    },
-    {
-      "id": "show-hn-vending-machine-uses-words-not-money",
-      "name": "Show HN: Vending machine uses words, not money",
-      "url": "https://cultivatedcorpora.com",
-      "domain": "cultivatedcorpora.com",
-      "description": "Show HN: Vending machine uses words, not money.",
-      "category": "unusual",
-      "tags": [
-        "vending",
-        "machine",
-        "words"
-      ],
-      "suggestedBy": "Hacker News · Show HN",
-      "discoverySource": "hn-show",
-      "dateDiscovered": "2026-11-13T06:44:46.394Z",
-      "status": "pending",
-      "attempts": 0,
-      "lastAttemptAt": null,
-      "verification": null,
-      "rejectionReason": null,
-      "openSource": false,
-      "sourceRepo": null,
-      "license": null,
-      "free": true
-    },
-    {
-      "id": "show-hn-i-built-a-numbers-game-for-my-kids-with-",
-      "name": "Show HN: I built a numbers game for my kids, with no trackin",
-      "url": "https://playhellobeam.com/beta",
-      "domain": "playhellobeam.com",
-      "description": "Show HN: I built a numbers game for my kids, with no tracking in the app.",
-      "category": "unusual",
-      "tags": [
-        "numbers",
-        "built",
-        "show"
-      ],
-      "suggestedBy": "Hacker News · Show HN",
-      "discoverySource": "hn-show",
-      "dateDiscovered": "2026-11-13T06:44:46.394Z",
-      "status": "pending",
-      "attempts": 0,
-      "lastAttemptAt": null,
-      "verification": null,
-      "rejectionReason": null,
-      "openSource": false,
-      "sourceRepo": null,
-      "license": null,
-      "free": true
-    },
-    {
-      "id": "show-hn-real",
-      "name": "Show HN: Real",
-      "url": "https://slabby.org",
-      "domain": "slabby.org",
-      "description": "time inventory of natural stone slabs in US.",
-      "category": "unusual",
-      "tags": [
-        "inventory",
-        "natural",
-        "stone"
-      ],
-      "suggestedBy": "Hacker News · Show HN",
-      "discoverySource": "hn-show",
-      "dateDiscovered": "2026-11-13T06:44:46.394Z",
-      "status": "pending",
-      "attempts": 0,
-      "lastAttemptAt": null,
-      "verification": null,
       "rejectionReason": null,
       "openSource": false,
       "sourceRepo": null,
