@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-13T16:44:46.044Z",
+  "updatedAt": "2026-11-13T16:59:46.186Z",
   "sites": [
     {
       "id": "arxiv",
@@ -7171,6 +7171,135 @@
         "httpStatus": 200,
         "finalUrl": "https://monkeyisland.pages.dev/",
         "checkedAt": "2026-11-13T16:44:47.484Z",
+        "attempts": 1
+      },
+      "availability": "online",
+      "icon": null,
+      "featured": false,
+      "consecutiveFailures": 0
+    },
+    {
+      "id": "hijacking-samsung-tv-smart-hub-ads",
+      "name": "Hijacking Samsung TV Smart Hub Ads",
+      "url": "https://dvratil.cz/2026/11/hijacking-samsung-tv-smart-hub-ads/",
+      "domain": "dvratil.cz",
+      "description": "Hijacking Samsung TV Smart Hub Ads.",
+      "category": "unusual",
+      "tags": [
+        "hijacking",
+        "samsung",
+        "smart"
+      ],
+      "free": true,
+      "accountRequired": false,
+      "apiKeyRequired": false,
+      "openSource": false,
+      "sourceRepo": null,
+      "license": null,
+      "discoverySource": "lobsters",
+      "dateDiscovered": "2026-11-13T04:29:46.090Z",
+      "addedAt": "2026-11-13T16:59:47.058Z",
+      "lastVerifiedAt": "2026-11-13T16:59:47.058Z",
+      "verification": {
+        "status": "verified",
+        "method": "reader",
+        "checks": {
+          "http": true,
+          "browser": false,
+          "noLoginWall": true,
+          "noApiKey": true,
+          "coreUiReachable": true
+        },
+        "evidence": "Server-side document review (HTTP 200); final URL https://dvratil.cz/2026/11/hijacking-samsung-tv-smart-hub-ads/; 0 tool signals; no login wall detected; no API key required.",
+        "httpStatus": 200,
+        "finalUrl": "https://dvratil.cz/2026/11/hijacking-samsung-tv-smart-hub-ads/",
+        "checkedAt": "2026-11-13T16:59:47.058Z",
+        "attempts": 1
+      },
+      "availability": "online",
+      "icon": null,
+      "featured": false,
+      "consecutiveFailures": 0
+    },
+    {
+      "id": "freebsd-status-report-third-quarter-2026",
+      "name": "FreeBSD Status Report Third Quarter 2026",
+      "url": "https://www.freebsd.org/status/report-2026-07-2026-09/",
+      "domain": "freebsd.org",
+      "description": "FreeBSD Status Report Third Quarter 2026.",
+      "category": "unusual",
+      "tags": [
+        "freebsd",
+        "quarter",
+        "status"
+      ],
+      "free": true,
+      "accountRequired": false,
+      "apiKeyRequired": false,
+      "openSource": false,
+      "sourceRepo": null,
+      "license": null,
+      "discoverySource": "lobsters",
+      "dateDiscovered": "2026-11-13T04:29:46.090Z",
+      "addedAt": "2026-11-13T16:59:47.495Z",
+      "lastVerifiedAt": "2026-11-13T16:59:47.495Z",
+      "verification": {
+        "status": "verified",
+        "method": "reader",
+        "checks": {
+          "http": true,
+          "browser": false,
+          "noLoginWall": true,
+          "noApiKey": true,
+          "coreUiReachable": true
+        },
+        "evidence": "Server-side document review (HTTP 200); final URL https://www.freebsd.org/status/report-2026-07-2026-09/; 1 tool signal; no login wall detected; no API key required.",
+        "httpStatus": 200,
+        "finalUrl": "https://www.freebsd.org/status/report-2026-07-2026-09/",
+        "checkedAt": "2026-11-13T16:59:47.495Z",
+        "attempts": 1
+      },
+      "availability": "online",
+      "icon": null,
+      "featured": false,
+      "consecutiveFailures": 0
+    },
+    {
+      "id": "lets-write-a-postscript-interpreter",
+      "name": "Let’s Write a PostScript Interpreter",
+      "url": "https://beyondloom.com/blog/postscript.html",
+      "domain": "beyondloom.com",
+      "description": "Let’s Write a PostScript Interpreter.",
+      "category": "writing",
+      "tags": [
+        "interpreter",
+        "postscript",
+        "write"
+      ],
+      "free": true,
+      "accountRequired": false,
+      "apiKeyRequired": false,
+      "openSource": false,
+      "sourceRepo": null,
+      "license": null,
+      "discoverySource": "lobsters",
+      "dateDiscovered": "2026-11-13T04:29:46.090Z",
+      "addedAt": "2026-11-13T16:59:47.675Z",
+      "lastVerifiedAt": "2026-11-13T16:59:47.675Z",
+      "verification": {
+        "status": "verified",
+        "method": "reader",
+        "checks": {
+          "http": true,
+          "browser": false,
+          "noLoginWall": true,
+          "noApiKey": true,
+          "coreUiReachable": true
+        },
+        "evidence": "Server-side document review (HTTP 200); final URL https://beyondloom.com/blog/postscript.html; 0 tool signals; no login wall detected; no API key required.",
+        "httpStatus": 200,
+        "finalUrl": "https://beyondloom.com/blog/postscript.html",
+        "checkedAt": "2026-11-13T16:59:47.675Z",
         "attempts": 1
       },
       "availability": "online",
