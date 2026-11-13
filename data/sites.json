@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-13T02:14:46.005Z",
+  "updatedAt": "2026-11-13T02:29:46.032Z",
   "sites": [
     {
       "id": "arxiv",
@@ -2353,6 +2353,92 @@
         "httpStatus": 200,
         "finalUrl": "https://haikei.app/",
         "checkedAt": "2026-11-13T02:14:46.848Z",
+        "attempts": 1
+      },
+      "availability": "online",
+      "icon": null,
+      "featured": false,
+      "consecutiveFailures": 0
+    },
+    {
+      "id": "lucide",
+      "name": "Lucide",
+      "url": "https://lucide.dev",
+      "domain": "lucide.dev",
+      "description": "A consistent open-source icon set you can customise and copy as SVG or framework components.",
+      "category": "design",
+      "tags": [
+        "icons",
+        "svg",
+        "open-source"
+      ],
+      "free": true,
+      "accountRequired": false,
+      "apiKeyRequired": false,
+      "openSource": true,
+      "sourceRepo": "https://github.com/lucide-icons/lucide",
+      "license": "ISC",
+      "discoverySource": "github-topics",
+      "dateDiscovered": "2026-11-12T20:09:58.316Z",
+      "addedAt": "2026-11-13T02:29:46.844Z",
+      "lastVerifiedAt": "2026-11-13T02:29:46.843Z",
+      "verification": {
+        "status": "verified",
+        "method": "reader",
+        "checks": {
+          "http": true,
+          "browser": false,
+          "noLoginWall": true,
+          "noApiKey": true,
+          "coreUiReachable": true
+        },
+        "evidence": "Server-side document review (HTTP 200); final URL https://lucide.dev/; 1 tool signal; no login wall detected; no API key required.",
+        "httpStatus": 200,
+        "finalUrl": "https://lucide.dev/",
+        "checkedAt": "2026-11-13T02:29:46.843Z",
+        "attempts": 1
+      },
+      "availability": "online",
+      "icon": null,
+      "featured": false,
+      "consecutiveFailures": 0
+    },
+    {
+      "id": "iconify",
+      "name": "Iconify",
+      "url": "https://icon-sets.iconify.design",
+      "domain": "icon-sets.iconify.design",
+      "description": "Searches more than 200,000 open-source icons across icon sets and exports them as SVG.",
+      "category": "design",
+      "tags": [
+        "icons",
+        "search",
+        "svg"
+      ],
+      "free": true,
+      "accountRequired": false,
+      "apiKeyRequired": false,
+      "openSource": true,
+      "sourceRepo": "https://github.com/iconify/iconify",
+      "license": "MIT",
+      "discoverySource": "github-topics",
+      "dateDiscovered": "2026-11-12T20:09:58.316Z",
+      "addedAt": "2026-11-13T02:29:47.380Z",
+      "lastVerifiedAt": "2026-11-13T02:29:47.380Z",
+      "verification": {
+        "status": "verified",
+        "method": "reader",
+        "checks": {
+          "http": true,
+          "browser": false,
+          "noLoginWall": true,
+          "noApiKey": true,
+          "coreUiReachable": true
+        },
+        "evidence": "Server-side document review (HTTP 200); final URL https://icon-sets.iconify.design/; 1 tool signal; no login wall detected; no API key required.",
+        "httpStatus": 200,
+        "finalUrl": "https://icon-sets.iconify.design/",
+        "checkedAt": "2026-11-13T02:29:47.380Z",
         "attempts": 1
       },
       "availability": "online",
