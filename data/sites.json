@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-13T15:14:46.257Z",
+  "updatedAt": "2026-11-13T15:29:46.116Z",
   "sites": [
     {
       "id": "arxiv",
@@ -6568,6 +6568,92 @@
         "httpStatus": 200,
         "finalUrl": "https://druid.apache.org/",
         "checkedAt": "2026-11-13T15:14:48.098Z",
+        "attempts": 1
+      },
+      "availability": "online",
+      "icon": null,
+      "featured": false,
+      "consecutiveFailures": 0
+    },
+    {
+      "id": "goatcounter",
+      "name": "GoatCounter",
+      "url": "https://www.goatcounter.com",
+      "domain": "goatcounter.com",
+      "description": "Easy web statistics without tracking of personal data. ().",
+      "category": "browser-apps",
+      "tags": [
+        "goatcounter",
+        "statistics",
+        "tracking"
+      ],
+      "free": true,
+      "accountRequired": false,
+      "apiKeyRequired": false,
+      "openSource": false,
+      "sourceRepo": null,
+      "license": null,
+      "discoverySource": "awesome-selfhosted",
+      "dateDiscovered": "2026-11-13T02:44:46.197Z",
+      "addedAt": "2026-11-13T15:29:47.217Z",
+      "lastVerifiedAt": "2026-11-13T15:29:47.216Z",
+      "verification": {
+        "status": "verified",
+        "method": "reader",
+        "checks": {
+          "http": true,
+          "browser": false,
+          "noLoginWall": true,
+          "noApiKey": true,
+          "coreUiReachable": true
+        },
+        "evidence": "Server-side document review (HTTP 200); final URL https://www.goatcounter.com/; 0 tool signals; no login wall detected; no API key required.",
+        "httpStatus": 200,
+        "finalUrl": "https://www.goatcounter.com/",
+        "checkedAt": "2026-11-13T15:29:47.216Z",
+        "attempts": 1
+      },
+      "availability": "online",
+      "icon": null,
+      "featured": false,
+      "consecutiveFailures": 0
+    },
+    {
+      "id": "hitkeep",
+      "name": "HitKeep",
+      "url": "https://hitkeep.com",
+      "domain": "hitkeep.com",
+      "description": "Privacy-first web analytics with goals, funnels, ecommerce tracking, and team management in a single binary with embedded DuckDB (alternative to….",
+      "category": "browser-apps",
+      "tags": [
+        "privacy-first",
+        "alternative",
+        "management"
+      ],
+      "free": true,
+      "accountRequired": false,
+      "apiKeyRequired": false,
+      "openSource": false,
+      "sourceRepo": null,
+      "license": null,
+      "discoverySource": "awesome-selfhosted",
+      "dateDiscovered": "2026-11-13T02:44:46.197Z",
+      "addedAt": "2026-11-13T15:29:47.308Z",
+      "lastVerifiedAt": "2026-11-13T15:29:47.308Z",
+      "verification": {
+        "status": "verified",
+        "method": "reader",
+        "checks": {
+          "http": true,
+          "browser": false,
+          "noLoginWall": true,
+          "noApiKey": true,
+          "coreUiReachable": true
+        },
+        "evidence": "Server-side document review (HTTP 200); final URL https://hitkeep.com/; 1 tool signal; no login wall detected; no API key required.",
+        "httpStatus": 200,
+        "finalUrl": "https://hitkeep.com/",
+        "checkedAt": "2026-11-13T15:29:47.308Z",
         "attempts": 1
       },
       "availability": "online",
