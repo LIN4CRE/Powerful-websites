@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-13T14:29:46.072Z",
+  "updatedAt": "2026-11-13T14:44:46.398Z",
   "sites": [
     {
       "id": "arxiv",
@@ -6226,6 +6226,91 @@
         "httpStatus": 200,
         "finalUrl": "https://chromewebstore.google.com/detail/ai-math-kit/acdddhokifmffbmnelpfcnhbpdedadkj",
         "checkedAt": "2026-11-13T14:29:47.277Z",
+        "attempts": 1
+      },
+      "availability": "online",
+      "icon": null,
+      "featured": false,
+      "consecutiveFailures": 0
+    },
+    {
+      "id": "show-hn-frankaa",
+      "name": "Show HN: Frankaa",
+      "url": "https://jabclari.github.io/frankaa/",
+      "domain": "jabclari.github.io",
+      "description": "zero-dependency gallery where a swipe drives a WebGL shader.",
+      "category": "unusual",
+      "tags": [
+        "zero-dependency",
+        "frankaa",
+        "gallery"
+      ],
+      "free": true,
+      "accountRequired": false,
+      "apiKeyRequired": false,
+      "openSource": false,
+      "sourceRepo": null,
+      "license": null,
+      "discoverySource": "hn-show",
+      "dateDiscovered": "2026-11-13T01:44:46.048Z",
+      "addedAt": "2026-11-13T14:44:46.900Z",
+      "lastVerifiedAt": "2026-11-13T14:44:46.899Z",
+      "verification": {
+        "status": "verified",
+        "method": "reader",
+        "checks": {
+          "http": true,
+          "browser": false,
+          "noLoginWall": true,
+          "noApiKey": true,
+          "coreUiReachable": true
+        },
+        "evidence": "Server-side document review (HTTP 200); final URL https://jabclari.github.io/frankaa/; 2 tool signals; no login wall detected; no API key required.",
+        "httpStatus": 200,
+        "finalUrl": "https://jabclari.github.io/frankaa/",
+        "checkedAt": "2026-11-13T14:44:46.899Z",
+        "attempts": 1
+      },
+      "availability": "online",
+      "icon": null,
+      "featured": false,
+      "consecutiveFailures": 0
+    },
+    {
+      "id": "announcing-rust-1-100-0",
+      "name": "Announcing Rust 1.100.0",
+      "url": "https://blog.rust-lang.org/2026/11/12/Rust-1.100.0/",
+      "domain": "blog.rust-lang.org",
+      "description": "Announcing Rust 1.100.0.",
+      "category": "unusual",
+      "tags": [
+        "announcing",
+        "rust"
+      ],
+      "free": true,
+      "accountRequired": false,
+      "apiKeyRequired": false,
+      "openSource": false,
+      "sourceRepo": null,
+      "license": null,
+      "discoverySource": "lobsters",
+      "dateDiscovered": "2026-11-13T01:59:46.009Z",
+      "addedAt": "2026-11-13T14:44:47.256Z",
+      "lastVerifiedAt": "2026-11-13T14:44:47.256Z",
+      "verification": {
+        "status": "verified",
+        "method": "reader",
+        "checks": {
+          "http": true,
+          "browser": false,
+          "noLoginWall": true,
+          "noApiKey": true,
+          "coreUiReachable": true
+        },
+        "evidence": "Server-side document review (HTTP 200); final URL https://blog.rust-lang.org/2026/11/12/Rust-1.100.0/; 0 tool signals; no login wall detected; no API key required.",
+        "httpStatus": 200,
+        "finalUrl": "https://blog.rust-lang.org/2026/11/12/Rust-1.100.0/",
+        "checkedAt": "2026-11-13T14:44:47.256Z",
         "attempts": 1
       },
       "availability": "online",
