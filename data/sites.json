@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-13T07:44:46.101Z",
+  "updatedAt": "2026-11-13T07:59:46.051Z",
   "sites": [
     {
       "id": "arxiv",
@@ -4245,6 +4245,92 @@
         "httpStatus": 200,
         "finalUrl": "https://www.openculture.com/",
         "checkedAt": "2026-11-13T07:44:47.214Z",
+        "attempts": 1
+      },
+      "availability": "online",
+      "icon": null,
+      "featured": false,
+      "consecutiveFailures": 0
+    },
+    {
+      "id": "earth-nullschool",
+      "name": "Earth Nullschool",
+      "url": "https://earth.nullschool.net",
+      "domain": "earth.nullschool.net",
+      "description": "Visualises global wind, weather, ocean and pollution currents on an animated 3D globe.",
+      "category": "science",
+      "tags": [
+        "weather",
+        "visualisation",
+        "globe"
+      ],
+      "free": true,
+      "accountRequired": false,
+      "apiKeyRequired": false,
+      "openSource": false,
+      "sourceRepo": null,
+      "license": null,
+      "discoverySource": "editorial-research",
+      "dateDiscovered": "2026-11-12T20:09:58.316Z",
+      "addedAt": "2026-11-13T07:59:46.529Z",
+      "lastVerifiedAt": "2026-11-13T07:59:46.528Z",
+      "verification": {
+        "status": "verified",
+        "method": "reader",
+        "checks": {
+          "http": true,
+          "browser": false,
+          "noLoginWall": true,
+          "noApiKey": true,
+          "coreUiReachable": true
+        },
+        "evidence": "Server-side document review (HTTP 200); final URL https://earth.nullschool.net/; 1 tool signal; no login wall detected; no API key required.",
+        "httpStatus": 200,
+        "finalUrl": "https://earth.nullschool.net/",
+        "checkedAt": "2026-11-13T07:59:46.528Z",
+        "attempts": 1
+      },
+      "availability": "online",
+      "icon": null,
+      "featured": false,
+      "consecutiveFailures": 0
+    },
+    {
+      "id": "ventusky",
+      "name": "Ventusky",
+      "url": "https://www.ventusky.com",
+      "domain": "ventusky.com",
+      "description": "Animated weather maps showing wind, precipitation, temperature and pressure across the globe.",
+      "category": "science",
+      "tags": [
+        "weather",
+        "radar",
+        "maps"
+      ],
+      "free": true,
+      "accountRequired": false,
+      "apiKeyRequired": false,
+      "openSource": false,
+      "sourceRepo": null,
+      "license": null,
+      "discoverySource": "editorial-research",
+      "dateDiscovered": "2026-11-12T20:09:58.316Z",
+      "addedAt": "2026-11-13T07:59:46.639Z",
+      "lastVerifiedAt": "2026-11-13T07:59:46.639Z",
+      "verification": {
+        "status": "verified",
+        "method": "reader",
+        "checks": {
+          "http": true,
+          "browser": false,
+          "noLoginWall": true,
+          "noApiKey": true,
+          "coreUiReachable": true
+        },
+        "evidence": "Server-side document review (HTTP 200); final URL https://www.ventusky.com/; 1 tool signal; no login wall detected; no API key required.",
+        "httpStatus": 200,
+        "finalUrl": "https://www.ventusky.com/",
+        "checkedAt": "2026-11-13T07:59:46.639Z",
         "attempts": 1
       },
       "availability": "online",
