@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-13T13:14:46.016Z",
+  "updatedAt": "2026-11-13T13:29:46.024Z",
   "candidates": [
     {
       "id": "pollinations",
@@ -2428,31 +2428,6 @@
       "free": true
     },
     {
-      "id": "awstats",
-      "name": "AWStats",
-      "url": "https://www.awstats.org",
-      "domain": "awstats.org",
-      "description": "Generate statistics from web, streaming, ftp or mail server logfiles. (, )….",
-      "category": "browser-apps",
-      "tags": [
-        "statistics",
-        "streaming",
-        "generate"
-      ],
-      "suggestedBy": "Awesome Selfhosted",
-      "discoverySource": "awesome-selfhosted",
-      "dateDiscovered": "2026-11-13T00:14:46.130Z",
-      "status": "pending",
-      "attempts": 0,
-      "lastAttemptAt": null,
-      "verification": null,
-      "rejectionReason": null,
-      "openSource": false,
-      "sourceRepo": null,
-      "license": null,
-      "free": true
-    },
-    {
       "id": "countly-community-edition",
       "name": "Countly Community Edition",
       "url": "https://count.ly",
@@ -2468,34 +2443,24 @@
       "discoverySource": "awesome-selfhosted",
       "dateDiscovered": "2026-11-13T00:14:46.130Z",
       "status": "pending",
-      "attempts": 0,
-      "lastAttemptAt": null,
-      "verification": null,
-      "rejectionReason": null,
-      "openSource": false,
-      "sourceRepo": null,
-      "license": null,
-      "free": true
-    },
-    {
-      "id": "d8a-tech",
-      "name": "d8a.tech",
-      "url": "https://d8a.tech",
-      "domain": "d8a.tech",
-      "description": "Data collection service that works with your existing Google Analytics setup to capture user activity and send it straight to your own private….",
-      "category": "browser-apps",
-      "tags": [
-        "collection",
-        "analytics",
-        "existing"
-      ],
-      "suggestedBy": "Awesome Selfhosted",
-      "discoverySource": "awesome-selfhosted",
-      "dateDiscovered": "2026-11-13T00:14:46.130Z",
-      "status": "pending",
-      "attempts": 0,
-      "lastAttemptAt": null,
-      "verification": null,
+      "attempts": 1,
+      "lastAttemptAt": "2026-11-13T13:29:47.129Z",
+      "verification": {
+        "status": "pending",
+        "method": "reader",
+        "checks": {
+          "http": true,
+          "browser": false,
+          "noLoginWall": true,
+          "noApiKey": true,
+          "coreUiReachable": false
+        },
+        "evidence": "Document review followed https://count.ly to https://countly.com/ (HTTP 200); destination differs from count.ly.",
+        "httpStatus": 200,
+        "finalUrl": "https://countly.com/",
+        "checkedAt": "2026-11-13T13:29:47.129Z",
+        "attempts": 1
+      },
       "rejectionReason": null,
       "openSource": false,
       "sourceRepo": null,
