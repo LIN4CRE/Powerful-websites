@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-13T10:44:45.969Z",
+  "updatedAt": "2026-11-13T10:59:46.624Z",
   "candidates": [
     {
       "id": "pollinations",
@@ -1942,81 +1942,6 @@
         "attempts": 1
       },
       "rejectionReason": "A mandatory access barrier was detected (registration required).",
-      "openSource": false,
-      "sourceRepo": null,
-      "license": null,
-      "free": true
-    },
-    {
-      "id": "world-time-buddy",
-      "name": "World Time Buddy",
-      "url": "https://www.worldtimebuddy.com",
-      "domain": "worldtimebuddy.com",
-      "description": "Compares several timezones side by side to find a meeting slot that works everywhere.",
-      "category": "calculators",
-      "tags": [
-        "timezones",
-        "meetings",
-        "scheduling"
-      ],
-      "suggestedBy": "Editorial research",
-      "discoverySource": "editorial-research",
-      "dateDiscovered": "2026-11-12T20:09:58.316Z",
-      "status": "pending",
-      "attempts": 0,
-      "lastAttemptAt": null,
-      "verification": null,
-      "rejectionReason": null,
-      "openSource": false,
-      "sourceRepo": null,
-      "license": null,
-      "free": true
-    },
-    {
-      "id": "rapidtables",
-      "name": "RapidTables",
-      "url": "https://www.rapidtables.com",
-      "domain": "rapidtables.com",
-      "description": "Reference tables and converters for units, number bases, electrical values and colour codes.",
-      "category": "calculators",
-      "tags": [
-        "conversion",
-        "tables",
-        "reference"
-      ],
-      "suggestedBy": "Editorial research",
-      "discoverySource": "editorial-research",
-      "dateDiscovered": "2026-11-12T20:09:58.316Z",
-      "status": "pending",
-      "attempts": 0,
-      "lastAttemptAt": null,
-      "verification": null,
-      "rejectionReason": null,
-      "openSource": false,
-      "sourceRepo": null,
-      "license": null,
-      "free": true
-    },
-    {
-      "id": "dof-simulator",
-      "name": "DOF Simulator",
-      "url": "https://dofsimulator.net/en",
-      "domain": "dofsimulator.net",
-      "description": "Previews depth of field and background blur for a given camera, lens, aperture and distance.",
-      "category": "calculators",
-      "tags": [
-        "photography",
-        "depth-of-field",
-        "visualisation"
-      ],
-      "suggestedBy": "Editorial research",
-      "discoverySource": "editorial-research",
-      "dateDiscovered": "2026-11-12T20:09:58.316Z",
-      "status": "pending",
-      "attempts": 0,
-      "lastAttemptAt": null,
-      "verification": null,
-      "rejectionReason": null,
       "openSource": false,
       "sourceRepo": null,
       "license": null,
