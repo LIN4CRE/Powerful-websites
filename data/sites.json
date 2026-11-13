@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-13T05:44:46.111Z",
+  "updatedAt": "2026-11-13T05:59:46.228Z",
   "sites": [
     {
       "id": "arxiv",
@@ -3600,6 +3600,49 @@
         "httpStatus": 200,
         "finalUrl": "https://www.privacyguides.org/",
         "checkedAt": "2026-11-13T05:44:47.360Z",
+        "attempts": 1
+      },
+      "availability": "online",
+      "icon": null,
+      "featured": false,
+      "consecutiveFailures": 0
+    },
+    {
+      "id": "ssl-labs",
+      "name": "SSL Labs",
+      "url": "https://www.ssllabs.com/ssltest",
+      "domain": "ssllabs.com",
+      "description": "Deeply analyses a site’s TLS configuration and grades its certificate and protocol setup.",
+      "category": "privacy",
+      "tags": [
+        "tls",
+        "certificates",
+        "audit"
+      ],
+      "free": true,
+      "accountRequired": false,
+      "apiKeyRequired": false,
+      "openSource": false,
+      "sourceRepo": null,
+      "license": null,
+      "discoverySource": "editorial-research",
+      "dateDiscovered": "2026-11-12T20:09:58.316Z",
+      "addedAt": "2026-11-13T05:59:46.691Z",
+      "lastVerifiedAt": "2026-11-13T05:59:46.690Z",
+      "verification": {
+        "status": "verified",
+        "method": "reader",
+        "checks": {
+          "http": true,
+          "browser": false,
+          "noLoginWall": true,
+          "noApiKey": true,
+          "coreUiReachable": true
+        },
+        "evidence": "Server-side document review (HTTP 200); final URL https://www.ssllabs.com/ssltest; 1 tool signal; no login wall detected; no API key required.",
+        "httpStatus": 200,
+        "finalUrl": "https://www.ssllabs.com/ssltest",
+        "checkedAt": "2026-11-13T05:59:46.690Z",
         "attempts": 1
       },
       "availability": "online",
