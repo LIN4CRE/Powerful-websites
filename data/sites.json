@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-13T05:14:46.105Z",
+  "updatedAt": "2026-11-13T05:29:46.211Z",
   "sites": [
     {
       "id": "arxiv",
@@ -3385,6 +3385,135 @@
         "httpStatus": 200,
         "finalUrl": "https://convertio.co/",
         "checkedAt": "2026-11-13T05:14:47.447Z",
+        "attempts": 1
+      },
+      "availability": "online",
+      "icon": null,
+      "featured": false,
+      "consecutiveFailures": 0
+    },
+    {
+      "id": "sejda",
+      "name": "Sejda",
+      "url": "https://www.sejda.com",
+      "domain": "sejda.com",
+      "description": "Edits, merges, splits and fills PDF forms online with desktop-level page controls.",
+      "category": "pdf-files",
+      "tags": [
+        "pdf",
+        "editor",
+        "forms"
+      ],
+      "free": true,
+      "accountRequired": false,
+      "apiKeyRequired": false,
+      "openSource": false,
+      "sourceRepo": null,
+      "license": null,
+      "discoverySource": "editorial-research",
+      "dateDiscovered": "2026-11-12T20:09:58.316Z",
+      "addedAt": "2026-11-13T05:29:46.785Z",
+      "lastVerifiedAt": "2026-11-13T05:29:46.785Z",
+      "verification": {
+        "status": "verified",
+        "method": "reader",
+        "checks": {
+          "http": true,
+          "browser": false,
+          "noLoginWall": true,
+          "noApiKey": true,
+          "coreUiReachable": true
+        },
+        "evidence": "Server-side document review (HTTP 200); final URL https://www.sejda.com/; 3 tool signals; no login wall detected; no API key required.",
+        "httpStatus": 200,
+        "finalUrl": "https://www.sejda.com/",
+        "checkedAt": "2026-11-13T05:29:46.785Z",
+        "attempts": 1
+      },
+      "availability": "online",
+      "icon": null,
+      "featured": false,
+      "consecutiveFailures": 0
+    },
+    {
+      "id": "pdf2go",
+      "name": "PDF2Go",
+      "url": "https://www.pdf2go.com",
+      "domain": "pdf2go.com",
+      "description": "Converts, compresses and edits PDFs and other documents in the browser.",
+      "category": "pdf-files",
+      "tags": [
+        "pdf",
+        "convert",
+        "compress"
+      ],
+      "free": true,
+      "accountRequired": false,
+      "apiKeyRequired": false,
+      "openSource": false,
+      "sourceRepo": null,
+      "license": null,
+      "discoverySource": "editorial-research",
+      "dateDiscovered": "2026-11-12T20:09:58.316Z",
+      "addedAt": "2026-11-13T05:29:47.155Z",
+      "lastVerifiedAt": "2026-11-13T05:29:47.155Z",
+      "verification": {
+        "status": "verified",
+        "method": "reader",
+        "checks": {
+          "http": true,
+          "browser": false,
+          "noLoginWall": true,
+          "noApiKey": true,
+          "coreUiReachable": true
+        },
+        "evidence": "Server-side document review (HTTP 200); final URL https://www.pdf2go.com/; 0 tool signals; no login wall detected; no API key required.",
+        "httpStatus": 200,
+        "finalUrl": "https://www.pdf2go.com/",
+        "checkedAt": "2026-11-13T05:29:47.155Z",
+        "attempts": 1
+      },
+      "availability": "online",
+      "icon": null,
+      "featured": false,
+      "consecutiveFailures": 0
+    },
+    {
+      "id": "file-io",
+      "name": "file.io",
+      "url": "https://www.file.io",
+      "domain": "file.io",
+      "description": "Uploads a file and returns a single-use download link that expires after it is fetched.",
+      "category": "pdf-files",
+      "tags": [
+        "file-sharing",
+        "temporary",
+        "links"
+      ],
+      "free": true,
+      "accountRequired": false,
+      "apiKeyRequired": false,
+      "openSource": false,
+      "sourceRepo": null,
+      "license": null,
+      "discoverySource": "editorial-research",
+      "dateDiscovered": "2026-11-12T20:09:58.316Z",
+      "addedAt": "2026-11-13T05:29:47.280Z",
+      "lastVerifiedAt": "2026-11-13T05:29:47.280Z",
+      "verification": {
+        "status": "verified",
+        "method": "reader",
+        "checks": {
+          "http": true,
+          "browser": false,
+          "noLoginWall": true,
+          "noApiKey": true,
+          "coreUiReachable": true
+        },
+        "evidence": "Server-side document review (HTTP 200); final URL https://www.file.io/; 1 tool signal; no login wall detected; no API key required.",
+        "httpStatus": 200,
+        "finalUrl": "https://www.file.io/",
+        "checkedAt": "2026-11-13T05:29:47.280Z",
         "attempts": 1
       },
       "availability": "online",
