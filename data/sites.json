@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-13T03:29:45.987Z",
+  "updatedAt": "2026-11-13T03:44:46.120Z",
   "sites": [
     {
       "id": "arxiv",
@@ -2697,6 +2697,92 @@
         "httpStatus": 200,
         "finalUrl": "https://commons.wikimedia.org/wiki/Main_Page",
         "checkedAt": "2026-11-13T03:29:46.615Z",
+        "attempts": 1
+      },
+      "availability": "online",
+      "icon": null,
+      "featured": false,
+      "consecutiveFailures": 0
+    },
+    {
+      "id": "imgops",
+      "name": "ImgOps",
+      "url": "https://imgops.com",
+      "domain": "imgops.com",
+      "description": "Sends any image URL to dozens of analysis and editing services from one page.",
+      "category": "image",
+      "tags": [
+        "metadata",
+        "analysis",
+        "utilities"
+      ],
+      "free": true,
+      "accountRequired": false,
+      "apiKeyRequired": false,
+      "openSource": false,
+      "sourceRepo": null,
+      "license": null,
+      "discoverySource": "editorial-research",
+      "dateDiscovered": "2026-11-12T20:09:58.316Z",
+      "addedAt": "2026-11-13T03:44:46.472Z",
+      "lastVerifiedAt": "2026-11-13T03:44:46.467Z",
+      "verification": {
+        "status": "verified",
+        "method": "reader",
+        "checks": {
+          "http": true,
+          "browser": false,
+          "noLoginWall": true,
+          "noApiKey": true,
+          "coreUiReachable": true
+        },
+        "evidence": "Server-side document review (HTTP 200); final URL https://imgops.com/; 1 tool signal; no login wall detected; no API key required.",
+        "httpStatus": 200,
+        "finalUrl": "https://imgops.com/",
+        "checkedAt": "2026-11-13T03:44:46.467Z",
+        "attempts": 1
+      },
+      "availability": "online",
+      "icon": null,
+      "featured": false,
+      "consecutiveFailures": 0
+    },
+    {
+      "id": "123apps",
+      "name": "123apps",
+      "url": "https://123apps.com",
+      "domain": "123apps.com",
+      "description": "A suite of audio, video and PDF converters and editors that run in the browser.",
+      "category": "video-audio",
+      "tags": [
+        "converters",
+        "video",
+        "audio"
+      ],
+      "free": true,
+      "accountRequired": false,
+      "apiKeyRequired": false,
+      "openSource": false,
+      "sourceRepo": null,
+      "license": null,
+      "discoverySource": "editorial-research",
+      "dateDiscovered": "2026-11-12T20:09:58.316Z",
+      "addedAt": "2026-11-13T03:44:47.059Z",
+      "lastVerifiedAt": "2026-11-13T03:44:47.059Z",
+      "verification": {
+        "status": "verified",
+        "method": "reader",
+        "checks": {
+          "http": true,
+          "browser": false,
+          "noLoginWall": true,
+          "noApiKey": true,
+          "coreUiReachable": true
+        },
+        "evidence": "Server-side document review (HTTP 200); final URL https://123apps.com/; 3 tool signals; no login wall detected; no API key required.",
+        "httpStatus": 200,
+        "finalUrl": "https://123apps.com/",
+        "checkedAt": "2026-11-13T03:44:47.059Z",
         "attempts": 1
       },
       "availability": "online",
