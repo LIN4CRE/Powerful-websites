@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-13T20:44:46.054Z",
+  "updatedAt": "2026-11-13T20:59:46.024Z",
   "sites": [
     {
       "id": "arxiv",
@@ -9026,6 +9026,134 @@
         "httpStatus": 200,
         "finalUrl": "https://noteflakes.com/articles/2026-11-13-steadfast-update-1",
         "checkedAt": "2026-11-13T20:44:46.798Z",
+        "attempts": 1
+      },
+      "availability": "online",
+      "icon": null,
+      "featured": false,
+      "consecutiveFailures": 0
+    },
+    {
+      "id": "building-my-own-ads",
+      "name": "Building my own ADS",
+      "url": "https://kew.edbn.me/blog/adsb-receiver/",
+      "domain": "kew.edbn.me",
+      "description": "B receiver.",
+      "category": "unusual",
+      "tags": [
+        "building",
+        "receiver"
+      ],
+      "free": true,
+      "accountRequired": false,
+      "apiKeyRequired": false,
+      "openSource": false,
+      "sourceRepo": null,
+      "license": null,
+      "discoverySource": "lobsters",
+      "dateDiscovered": "2026-11-13T09:29:45.904Z",
+      "addedAt": "2026-11-13T20:59:46.511Z",
+      "lastVerifiedAt": "2026-11-13T20:59:46.511Z",
+      "verification": {
+        "status": "verified",
+        "method": "reader",
+        "checks": {
+          "http": true,
+          "browser": false,
+          "noLoginWall": true,
+          "noApiKey": true,
+          "coreUiReachable": true
+        },
+        "evidence": "Server-side document review (HTTP 200); final URL https://kew.edbn.me/blog/adsb-receiver/; 0 tool signals; no login wall detected; no API key required.",
+        "httpStatus": 200,
+        "finalUrl": "https://kew.edbn.me/blog/adsb-receiver/",
+        "checkedAt": "2026-11-13T20:59:46.511Z",
+        "attempts": 1
+      },
+      "availability": "online",
+      "icon": null,
+      "featured": false,
+      "consecutiveFailures": 0
+    },
+    {
+      "id": "announcing-the-graphql-over-http-specification",
+      "name": "Announcing the GraphQL over HTTP specification",
+      "url": "https://graphql.org/blog/2026-11-12-announcing-the-graphql-over-http-spec/",
+      "domain": "graphql.org",
+      "description": "Announcing the GraphQL over HTTP specification.",
+      "category": "internet",
+      "tags": [
+        "specification",
+        "announcing",
+        "graphql"
+      ],
+      "free": true,
+      "accountRequired": false,
+      "apiKeyRequired": false,
+      "openSource": false,
+      "sourceRepo": null,
+      "license": null,
+      "discoverySource": "lobsters",
+      "dateDiscovered": "2026-11-13T09:29:45.904Z",
+      "addedAt": "2026-11-13T20:59:46.666Z",
+      "lastVerifiedAt": "2026-11-13T20:59:46.666Z",
+      "verification": {
+        "status": "verified",
+        "method": "reader",
+        "checks": {
+          "http": true,
+          "browser": false,
+          "noLoginWall": true,
+          "noApiKey": true,
+          "coreUiReachable": true
+        },
+        "evidence": "Server-side document review (HTTP 200); final URL https://graphql.org/blog/2026-11-12-announcing-the-graphql-over-http-spec/; 2 tool signals; no login wall detected; no API key required.",
+        "httpStatus": 200,
+        "finalUrl": "https://graphql.org/blog/2026-11-12-announcing-the-graphql-over-http-spec/",
+        "checkedAt": "2026-11-13T20:59:46.666Z",
+        "attempts": 1
+      },
+      "availability": "online",
+      "icon": null,
+      "featured": false,
+      "consecutiveFailures": 0
+    },
+    {
+      "id": "superset",
+      "name": "Superset",
+      "url": "https://superset.apache.org",
+      "domain": "superset.apache.org",
+      "description": "Modern data exploration and visualization platform. ().",
+      "category": "browser-apps",
+      "tags": [
+        "visualization",
+        "exploration",
+        "superset"
+      ],
+      "free": true,
+      "accountRequired": false,
+      "apiKeyRequired": false,
+      "openSource": false,
+      "sourceRepo": null,
+      "license": null,
+      "discoverySource": "awesome-selfhosted",
+      "dateDiscovered": "2026-11-13T10:14:46.120Z",
+      "addedAt": "2026-11-13T20:59:46.790Z",
+      "lastVerifiedAt": "2026-11-13T20:59:46.790Z",
+      "verification": {
+        "status": "verified",
+        "method": "reader",
+        "checks": {
+          "http": true,
+          "browser": false,
+          "noLoginWall": true,
+          "noApiKey": true,
+          "coreUiReachable": true
+        },
+        "evidence": "Server-side document review (HTTP 200); final URL https://superset.apache.org/; 0 tool signals; no login wall detected; no API key required.",
+        "httpStatus": 200,
+        "finalUrl": "https://superset.apache.org/",
+        "checkedAt": "2026-11-13T20:59:46.790Z",
         "attempts": 1
       },
       "availability": "online",
