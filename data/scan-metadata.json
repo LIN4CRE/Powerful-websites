@@ -4,55 +4,55 @@
   "schedule": "7,22,37,52 * * * *",
   "scheduleIntervalMinutes": 15,
   "scheduleNote": "Vercel Schedules runs the job at minutes 7, 22, 37 and 52 — about 2,880 invocations a month, within the Hobby allowance of 5,000 schedule runs.",
-  "lastScanAttemptAt": "2026-11-13T16:14:46.107Z",
-  "lastSuccessfulScanAt": "2026-11-13T16:14:46.107Z",
-  "lastCompletedScanAt": "2026-11-13T16:14:46.107Z",
-  "lastVerificationRunAt": "2026-11-13T16:14:46.107Z",
-  "lastAdditionAt": "2026-11-13T16:14:46.107Z",
+  "lastScanAttemptAt": "2026-11-13T16:29:46.126Z",
+  "lastSuccessfulScanAt": "2026-11-13T16:29:46.126Z",
+  "lastCompletedScanAt": "2026-11-13T16:29:46.126Z",
+  "lastVerificationRunAt": "2026-11-13T16:29:46.126Z",
+  "lastAdditionAt": "2026-11-13T16:29:46.126Z",
   "durationMs": null,
   "counts": {
     "sourcesChecked": 1,
     "sourcesFailed": 1,
     "discovered": 0,
-    "pending": 130,
-    "verified": 160,
+    "pending": 127,
+    "verified": 163,
     "rejected": 52,
     "rechecked": 3,
     "removed": 0,
     "duplicatesRemoved": 0,
-    "totalSites": 160,
-    "addedThisRun": 2
+    "totalSites": 163,
+    "addedThisRun": 3
   },
   "robots": {
     "scout": {
       "state": "degraded",
-      "summary": "Read GitHub search · browser tools; 0 new candidates.",
-      "lastRunAt": "2026-11-13T16:14:46.107Z",
+      "summary": "Read GitHub search · awesome tool lists; 0 new candidates.",
+      "lastRunAt": "2026-11-13T16:29:46.126Z",
       "metrics": {
         "sources": 1,
         "failures": 1,
         "discovered": 0,
-        "cursor": 7
+        "cursor": 8
       }
     },
     "verifier": {
       "state": "ok",
       "summary": "Reviewed 3 candidates with a server-side document check (HTTP + DOM, no browser).",
-      "lastRunAt": "2026-11-13T16:14:46.107Z",
+      "lastRunAt": "2026-11-13T16:29:46.126Z",
       "metrics": {
         "total": 3,
-        "verified": 2,
-        "rejected": 1,
+        "verified": 3,
+        "rejected": 0,
         "pending": 0,
         "browserChecks": 0
       }
     },
     "curator": {
       "state": "ok",
-      "summary": "Published 160 listings; removed 0 duplicates.",
-      "lastRunAt": "2026-11-13T16:14:46.107Z",
+      "summary": "Published 163 listings; removed 0 duplicates.",
+      "lastRunAt": "2026-11-13T16:29:46.126Z",
       "metrics": {
-        "published": 160,
+        "published": 163,
         "duplicatesRemoved": 0,
         "stale": 0
       }
@@ -60,12 +60,12 @@
   },
   "sourceHealth": [
     {
-      "id": "github-web-tools",
-      "name": "GitHub search · browser tools",
+      "id": "github-awesome-tools",
+      "name": "GitHub search · awesome tool lists",
       "type": "github-search",
       "status": "failed",
       "items": 0,
-      "durationMs": 35,
+      "durationMs": 30,
       "error": "README fetch failed (404)"
     }
   ],
@@ -79,7 +79,7 @@
     "commit": "de6e41e19cf8649f292e4efe2d9c0a6f0b8a14bd"
   },
   "notes": [
-    "Source github-web-tools: README fetch failed (404)"
+    "Source github-awesome-tools: README fetch failed (404)"
   ],
   "scheduleProvider": "vercel-schedules",
   "nextScheduledRunAt": null,
