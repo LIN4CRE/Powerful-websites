@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-13T04:59:46.122Z",
+  "updatedAt": "2026-11-13T05:14:46.105Z",
   "sites": [
     {
       "id": "arxiv",
@@ -3299,6 +3299,92 @@
         "httpStatus": 200,
         "finalUrl": "https://smallpdf.com/",
         "checkedAt": "2026-11-13T04:59:46.926Z",
+        "attempts": 1
+      },
+      "availability": "online",
+      "icon": null,
+      "featured": false,
+      "consecutiveFailures": 0
+    },
+    {
+      "id": "tinywow",
+      "name": "TinyWow",
+      "url": "https://tinywow.com",
+      "domain": "tinywow.com",
+      "description": "Hundreds of free file tools for PDF, video, image and text problems, all without sign-up.",
+      "category": "pdf-files",
+      "tags": [
+        "files",
+        "convert",
+        "tools"
+      ],
+      "free": true,
+      "accountRequired": false,
+      "apiKeyRequired": false,
+      "openSource": false,
+      "sourceRepo": null,
+      "license": null,
+      "discoverySource": "editorial-research",
+      "dateDiscovered": "2026-11-12T20:09:58.316Z",
+      "addedAt": "2026-11-13T05:14:47.285Z",
+      "lastVerifiedAt": "2026-11-13T05:14:47.285Z",
+      "verification": {
+        "status": "verified",
+        "method": "reader",
+        "checks": {
+          "http": true,
+          "browser": false,
+          "noLoginWall": true,
+          "noApiKey": true,
+          "coreUiReachable": true
+        },
+        "evidence": "Server-side document review (HTTP 200); final URL https://tinywow.com/; 2 tool signals; no login wall detected; no API key required.",
+        "httpStatus": 200,
+        "finalUrl": "https://tinywow.com/",
+        "checkedAt": "2026-11-13T05:14:47.285Z",
+        "attempts": 1
+      },
+      "availability": "online",
+      "icon": null,
+      "featured": false,
+      "consecutiveFailures": 0
+    },
+    {
+      "id": "convertio",
+      "name": "Convertio",
+      "url": "https://convertio.co",
+      "domain": "convertio.co",
+      "description": "An online file converter covering documents, images, audio, video and archives.",
+      "category": "pdf-files",
+      "tags": [
+        "converter",
+        "formats",
+        "files"
+      ],
+      "free": true,
+      "accountRequired": false,
+      "apiKeyRequired": false,
+      "openSource": false,
+      "sourceRepo": null,
+      "license": null,
+      "discoverySource": "editorial-research",
+      "dateDiscovered": "2026-11-12T20:09:58.316Z",
+      "addedAt": "2026-11-13T05:14:47.447Z",
+      "lastVerifiedAt": "2026-11-13T05:14:47.447Z",
+      "verification": {
+        "status": "verified",
+        "method": "reader",
+        "checks": {
+          "http": true,
+          "browser": false,
+          "noLoginWall": true,
+          "noApiKey": true,
+          "coreUiReachable": true
+        },
+        "evidence": "Server-side document review (HTTP 200); final URL https://convertio.co/; 2 tool signals; no login wall detected; no API key required.",
+        "httpStatus": 200,
+        "finalUrl": "https://convertio.co/",
+        "checkedAt": "2026-11-13T05:14:47.447Z",
         "attempts": 1
       },
       "availability": "online",
