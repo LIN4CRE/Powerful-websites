@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-13T17:14:45.993Z",
+  "updatedAt": "2026-11-13T17:29:46.346Z",
   "candidates": [
     {
       "id": "pollinations",
@@ -2948,81 +2948,6 @@
         "attempts": 1
       },
       "rejectionReason": "No usable interface or substantial content was reachable without an account; the page looks like a marketing shell.",
-      "openSource": false,
-      "sourceRepo": null,
-      "license": null,
-      "free": true
-    },
-    {
-      "id": "netron",
-      "name": "Netron",
-      "url": "https://netron.app",
-      "domain": "netron.app",
-      "description": "Visualizer for neural network and machine learning models. ().",
-      "category": "browser-apps",
-      "tags": [
-        "visualizer",
-        "learning",
-        "network"
-      ],
-      "suggestedBy": "Awesome Selfhosted",
-      "discoverySource": "awesome-selfhosted",
-      "dateDiscovered": "2026-11-13T05:14:46.105Z",
-      "status": "pending",
-      "attempts": 0,
-      "lastAttemptAt": null,
-      "verification": null,
-      "rejectionReason": null,
-      "openSource": false,
-      "sourceRepo": null,
-      "license": null,
-      "free": true
-    },
-    {
-      "id": "offen",
-      "name": "Offen",
-      "url": "https://www.offen.dev",
-      "domain": "offen.dev",
-      "description": "Fair, lightweight and open web analytics tool. Gain insights while your users have full access to their data. (,….",
-      "category": "browser-apps",
-      "tags": [
-        "lightweight",
-        "analytics",
-        "insights"
-      ],
-      "suggestedBy": "Awesome Selfhosted",
-      "discoverySource": "awesome-selfhosted",
-      "dateDiscovered": "2026-11-13T05:14:46.105Z",
-      "status": "pending",
-      "attempts": 0,
-      "lastAttemptAt": null,
-      "verification": null,
-      "rejectionReason": null,
-      "openSource": false,
-      "sourceRepo": null,
-      "license": null,
-      "free": true
-    },
-    {
-      "id": "plausible-analytics",
-      "name": "Plausible Analytics",
-      "url": "https://plausible.io",
-      "domain": "plausible.io",
-      "description": "Simple, lightweight (< 1 KB) and privacy-friendly web analytics. ().",
-      "category": "browser-apps",
-      "tags": [
-        "analytics",
-        "privacy-friendly",
-        "lightweight"
-      ],
-      "suggestedBy": "Awesome Selfhosted",
-      "discoverySource": "awesome-selfhosted",
-      "dateDiscovered": "2026-11-13T05:14:46.105Z",
-      "status": "pending",
-      "attempts": 0,
-      "lastAttemptAt": null,
-      "verification": null,
-      "rejectionReason": null,
       "openSource": false,
       "sourceRepo": null,
       "license": null,
