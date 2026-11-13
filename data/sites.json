@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-13T10:44:45.969Z",
+  "updatedAt": "2026-11-13T10:59:46.624Z",
   "sites": [
     {
       "id": "arxiv",
@@ -5148,6 +5148,135 @@
         "httpStatus": 200,
         "finalUrl": "https://www.xe.com/currencyconverter/",
         "checkedAt": "2026-11-13T10:44:47.026Z",
+        "attempts": 1
+      },
+      "availability": "online",
+      "icon": null,
+      "featured": false,
+      "consecutiveFailures": 0
+    },
+    {
+      "id": "world-time-buddy",
+      "name": "World Time Buddy",
+      "url": "https://www.worldtimebuddy.com",
+      "domain": "worldtimebuddy.com",
+      "description": "Compares several timezones side by side to find a meeting slot that works everywhere.",
+      "category": "calculators",
+      "tags": [
+        "timezones",
+        "meetings",
+        "scheduling"
+      ],
+      "free": true,
+      "accountRequired": false,
+      "apiKeyRequired": false,
+      "openSource": false,
+      "sourceRepo": null,
+      "license": null,
+      "discoverySource": "editorial-research",
+      "dateDiscovered": "2026-11-12T20:09:58.316Z",
+      "addedAt": "2026-11-13T10:59:47.259Z",
+      "lastVerifiedAt": "2026-11-13T10:59:47.258Z",
+      "verification": {
+        "status": "verified",
+        "method": "reader",
+        "checks": {
+          "http": true,
+          "browser": false,
+          "noLoginWall": true,
+          "noApiKey": true,
+          "coreUiReachable": true
+        },
+        "evidence": "Server-side document review (HTTP 200); final URL https://www.worldtimebuddy.com/; 1 tool signal; no login wall detected; no API key required.",
+        "httpStatus": 200,
+        "finalUrl": "https://www.worldtimebuddy.com/",
+        "checkedAt": "2026-11-13T10:59:47.258Z",
+        "attempts": 1
+      },
+      "availability": "online",
+      "icon": null,
+      "featured": false,
+      "consecutiveFailures": 0
+    },
+    {
+      "id": "rapidtables",
+      "name": "RapidTables",
+      "url": "https://www.rapidtables.com",
+      "domain": "rapidtables.com",
+      "description": "Reference tables and converters for units, number bases, electrical values and colour codes.",
+      "category": "calculators",
+      "tags": [
+        "conversion",
+        "tables",
+        "reference"
+      ],
+      "free": true,
+      "accountRequired": false,
+      "apiKeyRequired": false,
+      "openSource": false,
+      "sourceRepo": null,
+      "license": null,
+      "discoverySource": "editorial-research",
+      "dateDiscovered": "2026-11-12T20:09:58.316Z",
+      "addedAt": "2026-11-13T10:59:47.321Z",
+      "lastVerifiedAt": "2026-11-13T10:59:47.321Z",
+      "verification": {
+        "status": "verified",
+        "method": "reader",
+        "checks": {
+          "http": true,
+          "browser": false,
+          "noLoginWall": true,
+          "noApiKey": true,
+          "coreUiReachable": true
+        },
+        "evidence": "Server-side document review (HTTP 200); final URL https://www.rapidtables.com/; 1 tool signal; no login wall detected; no API key required.",
+        "httpStatus": 200,
+        "finalUrl": "https://www.rapidtables.com/",
+        "checkedAt": "2026-11-13T10:59:47.321Z",
+        "attempts": 1
+      },
+      "availability": "online",
+      "icon": null,
+      "featured": false,
+      "consecutiveFailures": 0
+    },
+    {
+      "id": "dof-simulator",
+      "name": "DOF Simulator",
+      "url": "https://dofsimulator.net/en",
+      "domain": "dofsimulator.net",
+      "description": "Previews depth of field and background blur for a given camera, lens, aperture and distance.",
+      "category": "calculators",
+      "tags": [
+        "photography",
+        "depth-of-field",
+        "visualisation"
+      ],
+      "free": true,
+      "accountRequired": false,
+      "apiKeyRequired": false,
+      "openSource": false,
+      "sourceRepo": null,
+      "license": null,
+      "discoverySource": "editorial-research",
+      "dateDiscovered": "2026-11-12T20:09:58.316Z",
+      "addedAt": "2026-11-13T10:59:48.022Z",
+      "lastVerifiedAt": "2026-11-13T10:59:48.022Z",
+      "verification": {
+        "status": "verified",
+        "method": "reader",
+        "checks": {
+          "http": true,
+          "browser": false,
+          "noLoginWall": true,
+          "noApiKey": true,
+          "coreUiReachable": true
+        },
+        "evidence": "Server-side document review (HTTP 200); final URL https://dofsimulator.net/en/; 3 tool signals; no login wall detected; no API key required.",
+        "httpStatus": 200,
+        "finalUrl": "https://dofsimulator.net/en/",
+        "checkedAt": "2026-11-13T10:59:48.022Z",
         "attempts": 1
       },
       "availability": "online",
