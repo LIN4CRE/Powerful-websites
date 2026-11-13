@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-13T14:59:46.016Z",
+  "updatedAt": "2026-11-13T15:14:46.257Z",
   "sites": [
     {
       "id": "arxiv",
@@ -6440,6 +6440,134 @@
         "httpStatus": 200,
         "finalUrl": "https://ploum.net/2026-11-12-anti-marketing-gemini.html",
         "checkedAt": "2026-11-13T14:59:47.443Z",
+        "attempts": 1
+      },
+      "availability": "online",
+      "icon": null,
+      "featured": false,
+      "consecutiveFailures": 0
+    },
+    {
+      "id": "hello-baochip",
+      "name": "Hello Baochip",
+      "url": "https://ratfactor.com/cards/hello-baochip",
+      "domain": "ratfactor.com",
+      "description": "Hello Baochip.",
+      "category": "unusual",
+      "tags": [
+        "baochip",
+        "hello"
+      ],
+      "free": true,
+      "accountRequired": false,
+      "apiKeyRequired": false,
+      "openSource": false,
+      "sourceRepo": null,
+      "license": null,
+      "discoverySource": "lobsters",
+      "dateDiscovered": "2026-11-13T01:59:46.009Z",
+      "addedAt": "2026-11-13T15:14:47.190Z",
+      "lastVerifiedAt": "2026-11-13T15:14:47.189Z",
+      "verification": {
+        "status": "verified",
+        "method": "reader",
+        "checks": {
+          "http": true,
+          "browser": false,
+          "noLoginWall": true,
+          "noApiKey": true,
+          "coreUiReachable": true
+        },
+        "evidence": "Server-side document review (HTTP 200); final URL https://ratfactor.com/cards/hello-baochip; 0 tool signals; no login wall detected; no API key required.",
+        "httpStatus": 200,
+        "finalUrl": "https://ratfactor.com/cards/hello-baochip",
+        "checkedAt": "2026-11-13T15:14:47.189Z",
+        "attempts": 1
+      },
+      "availability": "online",
+      "icon": null,
+      "featured": false,
+      "consecutiveFailures": 0
+    },
+    {
+      "id": "libreagi",
+      "name": "libreagi",
+      "url": "https://libreagi.com",
+      "domain": "libreagi.com",
+      "description": "save OS models.",
+      "category": "unusual",
+      "tags": [
+        "libreagi",
+        "models",
+        "save"
+      ],
+      "free": true,
+      "accountRequired": false,
+      "apiKeyRequired": false,
+      "openSource": false,
+      "sourceRepo": null,
+      "license": null,
+      "discoverySource": "lobsters",
+      "dateDiscovered": "2026-11-13T01:59:46.009Z",
+      "addedAt": "2026-11-13T15:14:48.062Z",
+      "lastVerifiedAt": "2026-11-13T15:14:48.062Z",
+      "verification": {
+        "status": "verified",
+        "method": "reader",
+        "checks": {
+          "http": true,
+          "browser": false,
+          "noLoginWall": true,
+          "noApiKey": true,
+          "coreUiReachable": true
+        },
+        "evidence": "Server-side document review (HTTP 200); final URL https://libreagi.com/; 0 tool signals; no login wall detected; no API key required.",
+        "httpStatus": 200,
+        "finalUrl": "https://libreagi.com/",
+        "checkedAt": "2026-11-13T15:14:48.062Z",
+        "attempts": 1
+      },
+      "availability": "online",
+      "icon": null,
+      "featured": false,
+      "consecutiveFailures": 0
+    },
+    {
+      "id": "druid",
+      "name": "Druid",
+      "url": "https://druid.apache.org",
+      "domain": "druid.apache.org",
+      "description": "Distributed, column-oriented, real-time analytics data store. ().",
+      "category": "browser-apps",
+      "tags": [
+        "column-oriented",
+        "distributed",
+        "real-time"
+      ],
+      "free": true,
+      "accountRequired": false,
+      "apiKeyRequired": false,
+      "openSource": false,
+      "sourceRepo": null,
+      "license": null,
+      "discoverySource": "awesome-selfhosted",
+      "dateDiscovered": "2026-11-13T02:44:46.197Z",
+      "addedAt": "2026-11-13T15:14:48.098Z",
+      "lastVerifiedAt": "2026-11-13T15:14:48.098Z",
+      "verification": {
+        "status": "verified",
+        "method": "reader",
+        "checks": {
+          "http": true,
+          "browser": false,
+          "noLoginWall": true,
+          "noApiKey": true,
+          "coreUiReachable": true
+        },
+        "evidence": "Server-side document review (HTTP 200); final URL https://druid.apache.org/; 1 tool signal; no login wall detected; no API key required.",
+        "httpStatus": 200,
+        "finalUrl": "https://druid.apache.org/",
+        "checkedAt": "2026-11-13T15:14:48.098Z",
         "attempts": 1
       },
       "availability": "online",
