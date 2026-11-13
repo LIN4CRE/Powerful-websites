@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-13T13:14:46.016Z",
+  "updatedAt": "2026-11-13T13:29:46.024Z",
   "sites": [
     {
       "id": "arxiv",
@@ -5922,6 +5922,92 @@
         "httpStatus": 200,
         "finalUrl": "https://aptabase.com/",
         "checkedAt": "2026-11-13T13:14:46.725Z",
+        "attempts": 1
+      },
+      "availability": "online",
+      "icon": null,
+      "featured": false,
+      "consecutiveFailures": 0
+    },
+    {
+      "id": "awstats",
+      "name": "AWStats",
+      "url": "https://www.awstats.org",
+      "domain": "awstats.org",
+      "description": "Generate statistics from web, streaming, ftp or mail server logfiles. (, )….",
+      "category": "browser-apps",
+      "tags": [
+        "statistics",
+        "streaming",
+        "generate"
+      ],
+      "free": true,
+      "accountRequired": false,
+      "apiKeyRequired": false,
+      "openSource": false,
+      "sourceRepo": null,
+      "license": null,
+      "discoverySource": "awesome-selfhosted",
+      "dateDiscovered": "2026-11-13T00:14:46.130Z",
+      "addedAt": "2026-11-13T13:29:46.804Z",
+      "lastVerifiedAt": "2026-11-13T13:29:46.796Z",
+      "verification": {
+        "status": "verified",
+        "method": "reader",
+        "checks": {
+          "http": true,
+          "browser": false,
+          "noLoginWall": true,
+          "noApiKey": true,
+          "coreUiReachable": true
+        },
+        "evidence": "Server-side document review (HTTP 200); final URL https://www.awstats.org/; 1 tool signal; no login wall detected; no API key required.",
+        "httpStatus": 200,
+        "finalUrl": "https://www.awstats.org/",
+        "checkedAt": "2026-11-13T13:29:46.796Z",
+        "attempts": 1
+      },
+      "availability": "online",
+      "icon": null,
+      "featured": false,
+      "consecutiveFailures": 0
+    },
+    {
+      "id": "d8a-tech",
+      "name": "d8a.tech",
+      "url": "https://d8a.tech",
+      "domain": "d8a.tech",
+      "description": "Data collection service that works with your existing Google Analytics setup to capture user activity and send it straight to your own private….",
+      "category": "browser-apps",
+      "tags": [
+        "collection",
+        "analytics",
+        "existing"
+      ],
+      "free": true,
+      "accountRequired": false,
+      "apiKeyRequired": false,
+      "openSource": false,
+      "sourceRepo": null,
+      "license": null,
+      "discoverySource": "awesome-selfhosted",
+      "dateDiscovered": "2026-11-13T00:14:46.130Z",
+      "addedAt": "2026-11-13T13:29:47.442Z",
+      "lastVerifiedAt": "2026-11-13T13:29:47.442Z",
+      "verification": {
+        "status": "verified",
+        "method": "reader",
+        "checks": {
+          "http": true,
+          "browser": false,
+          "noLoginWall": true,
+          "noApiKey": true,
+          "coreUiReachable": true
+        },
+        "evidence": "Server-side document review (HTTP 200); final URL https://d8a.tech/; 0 tool signals; no login wall detected; no API key required.",
+        "httpStatus": 200,
+        "finalUrl": "https://d8a.tech/",
+        "checkedAt": "2026-11-13T13:29:47.442Z",
         "attempts": 1
       },
       "availability": "online",
