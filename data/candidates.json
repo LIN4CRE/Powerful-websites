@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-13T16:59:46.186Z",
+  "updatedAt": "2026-11-13T17:14:45.993Z",
   "candidates": [
     {
       "id": "pollinations",
@@ -2948,81 +2948,6 @@
         "attempts": 1
       },
       "rejectionReason": "No usable interface or substantial content was reachable without an account; the page looks like a marketing shell.",
-      "openSource": false,
-      "sourceRepo": null,
-      "license": null,
-      "free": true
-    },
-    {
-      "id": "matomo",
-      "name": "Matomo",
-      "url": "https://matomo.org",
-      "domain": "matomo.org",
-      "description": "Web analytics that protects your data and your customers' privacy (alternative to Google Analytics). ()….",
-      "category": "browser-apps",
-      "tags": [
-        "analytics",
-        "alternative",
-        "customers"
-      ],
-      "suggestedBy": "Awesome Selfhosted",
-      "discoverySource": "awesome-selfhosted",
-      "dateDiscovered": "2026-11-13T05:14:46.105Z",
-      "status": "pending",
-      "attempts": 0,
-      "lastAttemptAt": null,
-      "verification": null,
-      "rejectionReason": null,
-      "openSource": false,
-      "sourceRepo": null,
-      "license": null,
-      "free": true
-    },
-    {
-      "id": "metabase",
-      "name": "Metabase",
-      "url": "https://metabase.com",
-      "domain": "metabase.com",
-      "description": "Easy way for everyone in your company to ask questions and learn from data. ().",
-      "category": "browser-apps",
-      "tags": [
-        "questions",
-        "metabase",
-        "everyone"
-      ],
-      "suggestedBy": "Awesome Selfhosted",
-      "discoverySource": "awesome-selfhosted",
-      "dateDiscovered": "2026-11-13T05:14:46.105Z",
-      "status": "pending",
-      "attempts": 0,
-      "lastAttemptAt": null,
-      "verification": null,
-      "rejectionReason": null,
-      "openSource": false,
-      "sourceRepo": null,
-      "license": null,
-      "free": true
-    },
-    {
-      "id": "middleware",
-      "name": "Middleware",
-      "url": "https://middlewarehq.com",
-      "domain": "middlewarehq.com",
-      "description": "Tool designed to help engineering leaders measure and analyze the effectiveness of their teams using the DORA metrics. ([Source….",
-      "category": "browser-apps",
-      "tags": [
-        "effectiveness",
-        "engineering",
-        "middleware"
-      ],
-      "suggestedBy": "Awesome Selfhosted",
-      "discoverySource": "awesome-selfhosted",
-      "dateDiscovered": "2026-11-13T05:14:46.105Z",
-      "status": "pending",
-      "attempts": 0,
-      "lastAttemptAt": null,
-      "verification": null,
-      "rejectionReason": null,
       "openSource": false,
       "sourceRepo": null,
       "license": null,
