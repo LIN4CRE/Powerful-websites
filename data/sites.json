@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-13T02:29:46.032Z",
+  "updatedAt": "2026-11-13T02:44:46.197Z",
   "sites": [
     {
       "id": "arxiv",
@@ -2439,6 +2439,49 @@
         "httpStatus": 200,
         "finalUrl": "https://icon-sets.iconify.design/",
         "checkedAt": "2026-11-13T02:29:47.380Z",
+        "attempts": 1
+      },
+      "availability": "online",
+      "icon": null,
+      "featured": false,
+      "consecutiveFailures": 0
+    },
+    {
+      "id": "blobmaker",
+      "name": "Blobmaker",
+      "url": "https://www.blobmaker.app",
+      "domain": "blobmaker.app",
+      "description": "Generates organic blob shapes as editable SVG you can copy or download.",
+      "category": "design",
+      "tags": [
+        "svg",
+        "shapes",
+        "generator"
+      ],
+      "free": true,
+      "accountRequired": false,
+      "apiKeyRequired": false,
+      "openSource": false,
+      "sourceRepo": null,
+      "license": null,
+      "discoverySource": "editorial-research",
+      "dateDiscovered": "2026-11-12T20:09:58.316Z",
+      "addedAt": "2026-11-13T02:44:46.837Z",
+      "lastVerifiedAt": "2026-11-13T02:44:46.837Z",
+      "verification": {
+        "status": "verified",
+        "method": "reader",
+        "checks": {
+          "http": true,
+          "browser": false,
+          "noLoginWall": true,
+          "noApiKey": true,
+          "coreUiReachable": true
+        },
+        "evidence": "Server-side document review (HTTP 200); final URL https://www.blobmaker.app/; 1 tool signal; no login wall detected; no API key required.",
+        "httpStatus": 200,
+        "finalUrl": "https://www.blobmaker.app/",
+        "checkedAt": "2026-11-13T02:44:46.837Z",
         "attempts": 1
       },
       "availability": "online",
