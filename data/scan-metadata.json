@@ -1,58 +1,58 @@
 {
   "version": 1,
-  "status": "success",
+  "status": "partial",
   "schedule": "7,22,37,52 * * * *",
   "scheduleIntervalMinutes": 15,
   "scheduleNote": "Vercel Schedules runs the job at minutes 7, 22, 37 and 52 — about 2,880 invocations a month, within the Hobby allowance of 5,000 schedule runs.",
-  "lastScanAttemptAt": "2026-11-13T15:29:46.116Z",
-  "lastSuccessfulScanAt": "2026-11-13T15:29:46.116Z",
-  "lastCompletedScanAt": "2026-11-13T15:29:46.116Z",
-  "lastVerificationRunAt": "2026-11-13T15:29:46.116Z",
-  "lastAdditionAt": "2026-11-13T15:29:46.116Z",
+  "lastScanAttemptAt": "2026-11-13T15:44:46.117Z",
+  "lastSuccessfulScanAt": "2026-11-13T15:44:46.117Z",
+  "lastCompletedScanAt": "2026-11-13T15:44:46.117Z",
+  "lastVerificationRunAt": "2026-11-13T15:44:46.117Z",
+  "lastAdditionAt": "2026-11-13T15:44:46.117Z",
   "durationMs": null,
   "counts": {
     "sourcesChecked": 1,
-    "sourcesFailed": 0,
-    "discovered": 6,
-    "pending": 139,
-    "verified": 154,
+    "sourcesFailed": 1,
+    "discovered": 0,
+    "pending": 136,
+    "verified": 157,
     "rejected": 49,
     "rechecked": 3,
     "removed": 0,
     "duplicatesRemoved": 0,
-    "totalSites": 154,
-    "addedThisRun": 2
+    "totalSites": 157,
+    "addedThisRun": 3
   },
   "robots": {
     "scout": {
-      "state": "ok",
-      "summary": "Read Awesome Stock Resources; 6 new candidates.",
-      "lastRunAt": "2026-11-13T15:29:46.116Z",
+      "state": "degraded",
+      "summary": "Read Awesome Dataviz; 0 new candidates.",
+      "lastRunAt": "2026-11-13T15:44:46.117Z",
       "metrics": {
         "sources": 1,
-        "failures": 0,
-        "discovered": 6,
-        "cursor": 4
+        "failures": 1,
+        "discovered": 0,
+        "cursor": 5
       }
     },
     "verifier": {
       "state": "ok",
       "summary": "Reviewed 3 candidates with a server-side document check (HTTP + DOM, no browser).",
-      "lastRunAt": "2026-11-13T15:29:46.116Z",
+      "lastRunAt": "2026-11-13T15:44:46.117Z",
       "metrics": {
         "total": 3,
-        "verified": 2,
+        "verified": 3,
         "rejected": 0,
-        "pending": 1,
+        "pending": 0,
         "browserChecks": 0
       }
     },
     "curator": {
       "state": "ok",
-      "summary": "Published 154 listings; removed 0 duplicates.",
-      "lastRunAt": "2026-11-13T15:29:46.116Z",
+      "summary": "Published 157 listings; removed 0 duplicates.",
+      "lastRunAt": "2026-11-13T15:44:46.117Z",
       "metrics": {
-        "published": 154,
+        "published": 157,
         "duplicatesRemoved": 0,
         "stale": 0
       }
@@ -60,12 +60,13 @@
   },
   "sourceHealth": [
     {
-      "id": "awesome-stock-resources",
-      "name": "Awesome Stock Resources",
+      "id": "awesome-dataviz",
+      "name": "Awesome Dataviz",
       "type": "github-awesome",
-      "status": "ok",
-      "items": 6,
-      "durationMs": 181
+      "status": "failed",
+      "items": 0,
+      "durationMs": 33,
+      "error": "README fetch failed (404)"
     }
   ],
   "workflow": {
@@ -77,7 +78,9 @@
     "event": "schedule/v1beta",
     "commit": "de6e41e19cf8649f292e4efe2d9c0a6f0b8a14bd"
   },
-  "notes": [],
+  "notes": [
+    "Source awesome-dataviz: README fetch failed (404)"
+  ],
   "scheduleProvider": "vercel-schedules",
   "nextScheduledRunAt": null,
   "dashboardUrl": "https://vercel.com/dashboard"
