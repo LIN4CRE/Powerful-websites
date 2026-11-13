@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-13T09:44:46.251Z",
+  "updatedAt": "2026-11-13T09:59:46.261Z",
   "sites": [
     {
       "id": "arxiv",
@@ -4761,6 +4761,92 @@
         "httpStatus": 200,
         "finalUrl": "https://www.peakfinder.com/",
         "checkedAt": "2026-11-13T09:44:47.674Z",
+        "attempts": 1
+      },
+      "availability": "online",
+      "icon": null,
+      "featured": false,
+      "consecutiveFailures": 0
+    },
+    {
+      "id": "gps-visualizer",
+      "name": "GPS Visualizer",
+      "url": "https://www.gpsvisualizer.com",
+      "domain": "gpsvisualizer.com",
+      "description": "Plots GPS tracks and coordinates on maps or elevation profiles and converts between formats.",
+      "category": "maps",
+      "tags": [
+        "gps",
+        "elevation",
+        "conversion"
+      ],
+      "free": true,
+      "accountRequired": false,
+      "apiKeyRequired": false,
+      "openSource": false,
+      "sourceRepo": null,
+      "license": null,
+      "discoverySource": "editorial-research",
+      "dateDiscovered": "2026-11-12T20:09:58.316Z",
+      "addedAt": "2026-11-13T09:59:47.222Z",
+      "lastVerifiedAt": "2026-11-13T09:59:47.221Z",
+      "verification": {
+        "status": "verified",
+        "method": "reader",
+        "checks": {
+          "http": true,
+          "browser": false,
+          "noLoginWall": true,
+          "noApiKey": true,
+          "coreUiReachable": true
+        },
+        "evidence": "Server-side document review (HTTP 200); final URL https://www.gpsvisualizer.com/; 2 tool signals; no login wall detected; no API key required.",
+        "httpStatus": 200,
+        "finalUrl": "https://www.gpsvisualizer.com/",
+        "checkedAt": "2026-11-13T09:59:47.221Z",
+        "attempts": 1
+      },
+      "availability": "online",
+      "icon": null,
+      "featured": false,
+      "consecutiveFailures": 0
+    },
+    {
+      "id": "mxtoolbox",
+      "name": "MXToolbox",
+      "url": "https://mxtoolbox.com",
+      "domain": "mxtoolbox.com",
+      "description": "Diagnoses email and DNS problems, including MX records, blacklists and SMTP tests.",
+      "category": "internet",
+      "tags": [
+        "email",
+        "dns",
+        "diagnostics"
+      ],
+      "free": true,
+      "accountRequired": false,
+      "apiKeyRequired": false,
+      "openSource": false,
+      "sourceRepo": null,
+      "license": null,
+      "discoverySource": "editorial-research",
+      "dateDiscovered": "2026-11-12T20:09:58.316Z",
+      "addedAt": "2026-11-13T09:59:47.281Z",
+      "lastVerifiedAt": "2026-11-13T09:59:47.281Z",
+      "verification": {
+        "status": "verified",
+        "method": "reader",
+        "checks": {
+          "http": true,
+          "browser": false,
+          "noLoginWall": true,
+          "noApiKey": true,
+          "coreUiReachable": true
+        },
+        "evidence": "Server-side document review (HTTP 200); final URL https://mxtoolbox.com/; 1 tool signal; no login wall detected; no API key required.",
+        "httpStatus": 200,
+        "finalUrl": "https://mxtoolbox.com/",
+        "checkedAt": "2026-11-13T09:59:47.281Z",
         "attempts": 1
       },
       "availability": "online",
