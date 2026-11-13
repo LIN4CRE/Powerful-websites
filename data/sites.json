@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-13T03:59:46.111Z",
+  "updatedAt": "2026-11-13T04:14:46.070Z",
   "sites": [
     {
       "id": "arxiv",
@@ -2912,6 +2912,135 @@
         "httpStatus": 200,
         "finalUrl": "https://ttsmaker.com/",
         "checkedAt": "2026-11-13T03:59:47.865Z",
+        "attempts": 1
+      },
+      "availability": "online",
+      "icon": null,
+      "featured": false,
+      "consecutiveFailures": 0
+    },
+    {
+      "id": "online-audio-converter",
+      "name": "Online Audio Converter",
+      "url": "https://online-audio-converter.com",
+      "domain": "online-audio-converter.com",
+      "description": "Converts audio between MP3, WAV, FLAC, OGG and M4A with quality and bitrate controls.",
+      "category": "video-audio",
+      "tags": [
+        "audio-converter",
+        "formats",
+        "quality"
+      ],
+      "free": true,
+      "accountRequired": false,
+      "apiKeyRequired": false,
+      "openSource": false,
+      "sourceRepo": null,
+      "license": null,
+      "discoverySource": "editorial-research",
+      "dateDiscovered": "2026-11-12T20:09:58.316Z",
+      "addedAt": "2026-11-13T04:14:46.938Z",
+      "lastVerifiedAt": "2026-11-13T04:14:46.938Z",
+      "verification": {
+        "status": "verified",
+        "method": "reader",
+        "checks": {
+          "http": true,
+          "browser": false,
+          "noLoginWall": true,
+          "noApiKey": true,
+          "coreUiReachable": true
+        },
+        "evidence": "Server-side document review (HTTP 200); final URL https://online-audio-converter.com/; 4 tool signals; no login wall detected; no API key required.",
+        "httpStatus": 200,
+        "finalUrl": "https://online-audio-converter.com/",
+        "checkedAt": "2026-11-13T04:14:46.938Z",
+        "attempts": 1
+      },
+      "availability": "online",
+      "icon": null,
+      "featured": false,
+      "consecutiveFailures": 0
+    },
+    {
+      "id": "freeconvert",
+      "name": "FreeConvert",
+      "url": "https://www.freeconvert.com",
+      "domain": "freeconvert.com",
+      "description": "Converts video, audio, images and documents between formats with compression options.",
+      "category": "video-audio",
+      "tags": [
+        "converters",
+        "video",
+        "compression"
+      ],
+      "free": true,
+      "accountRequired": false,
+      "apiKeyRequired": false,
+      "openSource": false,
+      "sourceRepo": null,
+      "license": null,
+      "discoverySource": "editorial-research",
+      "dateDiscovered": "2026-11-12T20:09:58.316Z",
+      "addedAt": "2026-11-13T04:14:47.109Z",
+      "lastVerifiedAt": "2026-11-13T04:14:47.109Z",
+      "verification": {
+        "status": "verified",
+        "method": "reader",
+        "checks": {
+          "http": true,
+          "browser": false,
+          "noLoginWall": true,
+          "noApiKey": true,
+          "coreUiReachable": true
+        },
+        "evidence": "Server-side document review (HTTP 200); final URL https://www.freeconvert.com/; 2 tool signals; no login wall detected; no API key required.",
+        "httpStatus": 200,
+        "finalUrl": "https://www.freeconvert.com/",
+        "checkedAt": "2026-11-13T04:14:47.109Z",
+        "attempts": 1
+      },
+      "availability": "online",
+      "icon": null,
+      "featured": false,
+      "consecutiveFailures": 0
+    },
+    {
+      "id": "audio-joiner",
+      "name": "Audio Joiner",
+      "url": "https://audio-joiner.com",
+      "domain": "audio-joiner.com",
+      "description": "Joins multiple audio files into one track with crossfade and trim controls.",
+      "category": "video-audio",
+      "tags": [
+        "audio",
+        "merge",
+        "editing"
+      ],
+      "free": true,
+      "accountRequired": false,
+      "apiKeyRequired": false,
+      "openSource": false,
+      "sourceRepo": null,
+      "license": null,
+      "discoverySource": "editorial-research",
+      "dateDiscovered": "2026-11-12T20:09:58.316Z",
+      "addedAt": "2026-11-13T04:14:47.659Z",
+      "lastVerifiedAt": "2026-11-13T04:14:47.659Z",
+      "verification": {
+        "status": "verified",
+        "method": "reader",
+        "checks": {
+          "http": true,
+          "browser": false,
+          "noLoginWall": true,
+          "noApiKey": true,
+          "coreUiReachable": true
+        },
+        "evidence": "Server-side document review (HTTP 200); final URL https://audio-joiner.com/; 3 tool signals; no login wall detected; no API key required.",
+        "httpStatus": 200,
+        "finalUrl": "https://audio-joiner.com/",
+        "checkedAt": "2026-11-13T04:14:47.659Z",
         "attempts": 1
       },
       "availability": "online",
