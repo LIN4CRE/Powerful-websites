@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-13T10:59:46.624Z",
+  "updatedAt": "2026-11-13T11:14:46.102Z",
   "sites": [
     {
       "id": "arxiv",
@@ -5277,6 +5277,92 @@
         "httpStatus": 200,
         "finalUrl": "https://dofsimulator.net/en/",
         "checkedAt": "2026-11-13T10:59:48.022Z",
+        "attempts": 1
+      },
+      "availability": "online",
+      "icon": null,
+      "featured": false,
+      "consecutiveFailures": 0
+    },
+    {
+      "id": "beepbox",
+      "name": "BeepBox",
+      "url": "https://www.beepbox.co",
+      "domain": "beepbox.co",
+      "description": "A tiny browser synthesizer for sketching chiptune melodies and exporting them as WAV or links.",
+      "category": "browser-apps",
+      "tags": [
+        "music",
+        "chiptune",
+        "synth"
+      ],
+      "free": true,
+      "accountRequired": false,
+      "apiKeyRequired": false,
+      "openSource": true,
+      "sourceRepo": "https://github.com/johnnesky/beepbox",
+      "license": "MIT",
+      "discoverySource": "github-topics",
+      "dateDiscovered": "2026-11-12T20:09:58.316Z",
+      "addedAt": "2026-11-13T11:14:46.486Z",
+      "lastVerifiedAt": "2026-11-13T11:14:46.486Z",
+      "verification": {
+        "status": "verified",
+        "method": "reader",
+        "checks": {
+          "http": true,
+          "browser": false,
+          "noLoginWall": true,
+          "noApiKey": true,
+          "coreUiReachable": true
+        },
+        "evidence": "Server-side document review (HTTP 200); final URL https://www.beepbox.co/; 0 tool signals; no login wall detected; no API key required.",
+        "httpStatus": 200,
+        "finalUrl": "https://www.beepbox.co/",
+        "checkedAt": "2026-11-13T11:14:46.486Z",
+        "attempts": 1
+      },
+      "availability": "online",
+      "icon": null,
+      "featured": false,
+      "consecutiveFailures": 0
+    },
+    {
+      "id": "chrome-music-lab",
+      "name": "Chrome Music Lab",
+      "url": "https://musiclab.chromeexperiments.com",
+      "domain": "musiclab.chromeexperiments.com",
+      "description": "Hands-on musical experiments for exploring rhythm, harmony, pitch and sound waves.",
+      "category": "browser-apps",
+      "tags": [
+        "music",
+        "education",
+        "experiments"
+      ],
+      "free": true,
+      "accountRequired": false,
+      "apiKeyRequired": false,
+      "openSource": false,
+      "sourceRepo": null,
+      "license": null,
+      "discoverySource": "editorial-research",
+      "dateDiscovered": "2026-11-12T20:09:58.316Z",
+      "addedAt": "2026-11-13T11:14:46.599Z",
+      "lastVerifiedAt": "2026-11-13T11:14:46.599Z",
+      "verification": {
+        "status": "verified",
+        "method": "reader",
+        "checks": {
+          "http": true,
+          "browser": false,
+          "noLoginWall": true,
+          "noApiKey": true,
+          "coreUiReachable": true
+        },
+        "evidence": "Server-side document review (HTTP 200); final URL https://musiclab.chromeexperiments.com/; 0 tool signals; no login wall detected; no API key required.",
+        "httpStatus": 200,
+        "finalUrl": "https://musiclab.chromeexperiments.com/",
+        "checkedAt": "2026-11-13T11:14:46.599Z",
         "attempts": 1
       },
       "availability": "online",
