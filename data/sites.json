@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-13T04:29:46.090Z",
+  "updatedAt": "2026-11-13T04:44:46.149Z",
   "sites": [
     {
       "id": "arxiv",
@@ -3170,6 +3170,49 @@
         "httpStatus": 200,
         "finalUrl": "https://www.deepl.com/en/translator",
         "checkedAt": "2026-11-13T04:29:47.586Z",
+        "attempts": 1
+      },
+      "availability": "online",
+      "icon": null,
+      "featured": false,
+      "consecutiveFailures": 0
+    },
+    {
+      "id": "linguee",
+      "name": "Linguee",
+      "url": "https://www.linguee.com",
+      "domain": "linguee.com",
+      "description": "Shows how words and phrases are actually used in bilingual example sentences from the web.",
+      "category": "writing",
+      "tags": [
+        "dictionary",
+        "translation",
+        "examples"
+      ],
+      "free": true,
+      "accountRequired": false,
+      "apiKeyRequired": false,
+      "openSource": false,
+      "sourceRepo": null,
+      "license": null,
+      "discoverySource": "editorial-research",
+      "dateDiscovered": "2026-11-12T20:09:58.316Z",
+      "addedAt": "2026-11-13T04:44:47.310Z",
+      "lastVerifiedAt": "2026-11-13T04:44:47.310Z",
+      "verification": {
+        "status": "verified",
+        "method": "reader",
+        "checks": {
+          "http": true,
+          "browser": false,
+          "noLoginWall": true,
+          "noApiKey": true,
+          "coreUiReachable": true
+        },
+        "evidence": "Server-side document review (HTTP 200); final URL https://www.linguee.com/; 2 tool signals; no login wall detected; no API key required.",
+        "httpStatus": 200,
+        "finalUrl": "https://www.linguee.com/",
+        "checkedAt": "2026-11-13T04:44:47.310Z",
         "attempts": 1
       },
       "availability": "online",
