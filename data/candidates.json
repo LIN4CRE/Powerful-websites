@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-13T07:59:46.051Z",
+  "updatedAt": "2026-11-13T08:14:46.042Z",
   "candidates": [
     {
       "id": "pollinations",
@@ -1388,31 +1388,6 @@
       "free": true
     },
     {
-      "id": "zoom-earth",
-      "name": "Zoom Earth",
-      "url": "https://zoom.earth",
-      "domain": "zoom.earth",
-      "description": "Live satellite imagery, storm tracking and historical weather maps in one interface.",
-      "category": "science",
-      "tags": [
-        "satellite",
-        "storms",
-        "weather"
-      ],
-      "suggestedBy": "Editorial research",
-      "discoverySource": "editorial-research",
-      "dateDiscovered": "2026-11-12T20:09:58.316Z",
-      "status": "pending",
-      "attempts": 0,
-      "lastAttemptAt": null,
-      "verification": null,
-      "rejectionReason": null,
-      "openSource": false,
-      "sourceRepo": null,
-      "license": null,
-      "free": true
-    },
-    {
       "id": "usgs-earthquake-map",
       "name": "USGS Earthquake Map",
       "url": "https://earthquake.usgs.gov/earthquakes/map",
@@ -1427,11 +1402,26 @@
       "suggestedBy": "Editorial research",
       "discoverySource": "editorial-research",
       "dateDiscovered": "2026-11-12T20:09:58.316Z",
-      "status": "pending",
-      "attempts": 0,
-      "lastAttemptAt": null,
-      "verification": null,
-      "rejectionReason": null,
+      "status": "rejected",
+      "attempts": 1,
+      "lastAttemptAt": "2026-11-13T08:14:46.445Z",
+      "verification": {
+        "status": "rejected",
+        "method": "reader",
+        "checks": {
+          "http": true,
+          "browser": false,
+          "noLoginWall": true,
+          "noApiKey": true,
+          "coreUiReachable": false
+        },
+        "evidence": "Server-side document review (HTTP 200); final URL https://earthquake.usgs.gov/earthquakes/map/; 0 tool signals; no login wall detected; no API key required.",
+        "httpStatus": 200,
+        "finalUrl": "https://earthquake.usgs.gov/earthquakes/map/",
+        "checkedAt": "2026-11-13T08:14:46.445Z",
+        "attempts": 1
+      },
+      "rejectionReason": "No usable interface or substantial content was reachable without an account; the page looks like a marketing shell.",
       "openSource": false,
       "sourceRepo": null,
       "license": null,
@@ -1453,9 +1443,24 @@
       "discoverySource": "editorial-research",
       "dateDiscovered": "2026-11-12T20:09:58.316Z",
       "status": "pending",
-      "attempts": 0,
-      "lastAttemptAt": null,
-      "verification": null,
+      "attempts": 1,
+      "lastAttemptAt": "2026-11-13T08:14:46.460Z",
+      "verification": {
+        "status": "pending",
+        "method": "reader",
+        "checks": {
+          "http": false,
+          "browser": false,
+          "noLoginWall": true,
+          "noApiKey": true,
+          "coreUiReachable": false
+        },
+        "evidence": "Server-side document review (HTTP no response); final URL https://apod.nasa.gov/apod/astropix.html; 0 tool signals; no login wall detected; no API key required; error: DNS points at a private address: 192.0.66.161.",
+        "httpStatus": 0,
+        "finalUrl": "https://apod.nasa.gov/apod/astropix.html",
+        "checkedAt": "2026-11-13T08:14:46.460Z",
+        "attempts": 1
+      },
       "rejectionReason": null,
       "openSource": false,
       "sourceRepo": null,
