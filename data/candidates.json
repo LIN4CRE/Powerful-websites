@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-13T06:14:46.100Z",
+  "updatedAt": "2026-11-13T06:29:46.124Z",
   "candidates": [
     {
       "id": "pollinations",
@@ -1108,56 +1108,6 @@
       "free": true
     },
     {
-      "id": "wayback-machine",
-      "name": "Wayback Machine",
-      "url": "https://web.archive.org",
-      "domain": "web.archive.org",
-      "description": "Shows historical snapshots of almost any web page and lets you search what changed.",
-      "category": "research",
-      "tags": [
-        "archive",
-        "history",
-        "web"
-      ],
-      "suggestedBy": "Editorial research",
-      "discoverySource": "editorial-research",
-      "dateDiscovered": "2026-11-12T20:09:58.316Z",
-      "status": "pending",
-      "attempts": 0,
-      "lastAttemptAt": null,
-      "verification": null,
-      "rejectionReason": null,
-      "openSource": false,
-      "sourceRepo": null,
-      "license": null,
-      "free": true
-    },
-    {
-      "id": "semantic-scholar",
-      "name": "Semantic Scholar",
-      "url": "https://www.semanticscholar.org",
-      "domain": "semanticscholar.org",
-      "description": "An AI-powered academic search engine with citation context and paper summaries.",
-      "category": "research",
-      "tags": [
-        "papers",
-        "citations",
-        "academic"
-      ],
-      "suggestedBy": "Editorial research",
-      "discoverySource": "editorial-research",
-      "dateDiscovered": "2026-11-12T20:09:58.316Z",
-      "status": "pending",
-      "attempts": 0,
-      "lastAttemptAt": null,
-      "verification": null,
-      "rejectionReason": null,
-      "openSource": false,
-      "sourceRepo": null,
-      "license": null,
-      "free": true
-    },
-    {
       "id": "openalex",
       "name": "OpenAlex",
       "url": "https://openalex.org",
@@ -1172,11 +1122,26 @@
       "suggestedBy": "Editorial research",
       "discoverySource": "editorial-research",
       "dateDiscovered": "2026-11-12T20:09:58.316Z",
-      "status": "pending",
-      "attempts": 0,
-      "lastAttemptAt": null,
-      "verification": null,
-      "rejectionReason": null,
+      "status": "rejected",
+      "attempts": 1,
+      "lastAttemptAt": "2026-11-13T06:29:47.323Z",
+      "verification": {
+        "status": "rejected",
+        "method": "reader",
+        "checks": {
+          "http": true,
+          "browser": false,
+          "noLoginWall": true,
+          "noApiKey": true,
+          "coreUiReachable": false
+        },
+        "evidence": "Server-side document review (HTTP 200); final URL https://openalex.org/; 0 tool signals; no login wall detected; no API key required.",
+        "httpStatus": 200,
+        "finalUrl": "https://openalex.org/",
+        "checkedAt": "2026-11-13T06:29:47.323Z",
+        "attempts": 1
+      },
+      "rejectionReason": "No usable interface or substantial content was reachable without an account; the page looks like a marketing shell.",
       "openSource": false,
       "sourceRepo": null,
       "license": null,
