@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-13T14:44:46.398Z",
+  "updatedAt": "2026-11-13T14:59:46.016Z",
   "candidates": [
     {
       "id": "pollinations",
@@ -2784,81 +2784,6 @@
         "checkedAt": "2026-11-13T14:44:47.171Z",
         "attempts": 1
       },
-      "rejectionReason": null,
-      "openSource": false,
-      "sourceRepo": null,
-      "license": null,
-      "free": true
-    },
-    {
-      "id": "how-i-accidentally-became-a-millionaire",
-      "name": "How I accidentally became a millionaire",
-      "url": "https://lyra.horse/blog/2026/11/disinformation-machine/",
-      "domain": "lyra.horse",
-      "description": "How I accidentally became a millionaire.",
-      "category": "unusual",
-      "tags": [
-        "accidentally",
-        "millionaire",
-        "became"
-      ],
-      "suggestedBy": "Lobsters",
-      "discoverySource": "lobsters",
-      "dateDiscovered": "2026-11-13T01:59:46.009Z",
-      "status": "pending",
-      "attempts": 0,
-      "lastAttemptAt": null,
-      "verification": null,
-      "rejectionReason": null,
-      "openSource": false,
-      "sourceRepo": null,
-      "license": null,
-      "free": true
-    },
-    {
-      "id": "the-entirety-of-let-over-lambda-is-now-freely-av",
-      "name": "The entirety of \"Let Over Lambda\" is now freely available on",
-      "url": "https://letoverlambda.com",
-      "domain": "letoverlambda.com",
-      "description": "The entirety of \"Let Over Lambda\" is now freely available online.",
-      "category": "unusual",
-      "tags": [
-        "available",
-        "entirety",
-        "lambda"
-      ],
-      "suggestedBy": "Lobsters",
-      "discoverySource": "lobsters",
-      "dateDiscovered": "2026-11-13T01:59:46.009Z",
-      "status": "pending",
-      "attempts": 0,
-      "lastAttemptAt": null,
-      "verification": null,
-      "rejectionReason": null,
-      "openSource": false,
-      "sourceRepo": null,
-      "license": null,
-      "free": true
-    },
-    {
-      "id": "the-anti",
-      "name": "The anti",
-      "url": "https://ploum.net/2026-11-12-anti-marketing-gemini.html",
-      "domain": "ploum.net",
-      "description": "marketing aspect of the Gemini network.",
-      "category": "internet",
-      "tags": [
-        "marketing",
-        "network",
-        "aspect"
-      ],
-      "suggestedBy": "Lobsters",
-      "discoverySource": "lobsters",
-      "dateDiscovered": "2026-11-13T01:59:46.009Z",
-      "status": "pending",
-      "attempts": 0,
-      "lastAttemptAt": null,
-      "verification": null,
       "rejectionReason": null,
       "openSource": false,
       "sourceRepo": null,
