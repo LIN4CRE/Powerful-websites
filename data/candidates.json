@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-13T01:14:46.118Z",
+  "updatedAt": "2026-11-13T01:29:45.991Z",
   "candidates": [
     {
       "id": "pollinations",
@@ -348,31 +348,6 @@
       "free": true
     },
     {
-      "id": "bundlephobia",
-      "name": "Bundlephobia",
-      "url": "https://bundlephobia.com",
-      "domain": "bundlephobia.com",
-      "description": "Checks the install size and download cost of any npm package before you add it.",
-      "category": "developer",
-      "tags": [
-        "npm",
-        "performance",
-        "javascript"
-      ],
-      "suggestedBy": "Editorial research",
-      "discoverySource": "editorial-research",
-      "dateDiscovered": "2026-11-12T20:09:58.316Z",
-      "status": "pending",
-      "attempts": 0,
-      "lastAttemptAt": null,
-      "verification": null,
-      "rejectionReason": null,
-      "openSource": false,
-      "sourceRepo": null,
-      "license": null,
-      "free": true
-    },
-    {
       "id": "quicktype",
       "name": "quicktype",
       "url": "https://app.quicktype.io",
@@ -387,36 +362,26 @@
       "suggestedBy": "Editorial research",
       "discoverySource": "editorial-research",
       "dateDiscovered": "2026-11-12T20:09:58.316Z",
-      "status": "pending",
-      "attempts": 0,
-      "lastAttemptAt": null,
-      "verification": null,
-      "rejectionReason": null,
-      "openSource": false,
-      "sourceRepo": null,
-      "license": null,
-      "free": true
-    },
-    {
-      "id": "mockaroo",
-      "name": "Mockaroo",
-      "url": "https://www.mockaroo.com",
-      "domain": "mockaroo.com",
-      "description": "Generates realistic mock data and test datasets in CSV, JSON, SQL and Excel formats.",
-      "category": "developer",
-      "tags": [
-        "mock-data",
-        "csv",
-        "testing"
-      ],
-      "suggestedBy": "Editorial research",
-      "discoverySource": "editorial-research",
-      "dateDiscovered": "2026-11-12T20:09:58.316Z",
-      "status": "pending",
-      "attempts": 0,
-      "lastAttemptAt": null,
-      "verification": null,
-      "rejectionReason": null,
+      "status": "rejected",
+      "attempts": 1,
+      "lastAttemptAt": "2026-11-13T01:29:46.428Z",
+      "verification": {
+        "status": "rejected",
+        "method": "reader",
+        "checks": {
+          "http": true,
+          "browser": false,
+          "noLoginWall": true,
+          "noApiKey": true,
+          "coreUiReachable": false
+        },
+        "evidence": "Server-side document review (HTTP 200); final URL https://app.quicktype.io/; 0 tool signals; no login wall detected; no API key required.",
+        "httpStatus": 200,
+        "finalUrl": "https://app.quicktype.io/",
+        "checkedAt": "2026-11-13T01:29:46.428Z",
+        "attempts": 1
+      },
+      "rejectionReason": "No usable interface or substantial content was reachable without an account; the page looks like a marketing shell.",
       "openSource": false,
       "sourceRepo": null,
       "license": null,
