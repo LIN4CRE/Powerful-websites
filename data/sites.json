@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-13T08:59:46.115Z",
+  "updatedAt": "2026-11-13T09:14:46.301Z",
   "sites": [
     {
       "id": "arxiv",
@@ -4546,6 +4546,49 @@
         "httpStatus": 200,
         "finalUrl": "https://rawgraphs.io/",
         "checkedAt": "2026-11-13T08:59:47.169Z",
+        "attempts": 1
+      },
+      "availability": "online",
+      "icon": null,
+      "featured": false,
+      "consecutiveFailures": 0
+    },
+    {
+      "id": "world-bank-open-data",
+      "name": "World Bank Open Data",
+      "url": "https://data.worldbank.org",
+      "domain": "data.worldbank.org",
+      "description": "Free access to global development indicators with charts, maps and bulk downloads.",
+      "category": "data",
+      "tags": [
+        "datasets",
+        "economics",
+        "development"
+      ],
+      "free": true,
+      "accountRequired": false,
+      "apiKeyRequired": false,
+      "openSource": false,
+      "sourceRepo": null,
+      "license": null,
+      "discoverySource": "editorial-research",
+      "dateDiscovered": "2026-11-12T20:09:58.316Z",
+      "addedAt": "2026-11-13T09:14:47.789Z",
+      "lastVerifiedAt": "2026-11-13T09:14:47.789Z",
+      "verification": {
+        "status": "verified",
+        "method": "reader",
+        "checks": {
+          "http": true,
+          "browser": false,
+          "noLoginWall": true,
+          "noApiKey": true,
+          "coreUiReachable": true
+        },
+        "evidence": "Server-side document review (HTTP 200); final URL https://data.worldbank.org/; 2 tool signals; no login wall detected; no API key required.",
+        "httpStatus": 200,
+        "finalUrl": "https://data.worldbank.org/",
+        "checkedAt": "2026-11-13T09:14:47.789Z",
         "attempts": 1
       },
       "availability": "online",
