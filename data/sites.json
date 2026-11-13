@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-13T06:14:46.100Z",
+  "updatedAt": "2026-11-13T06:29:46.124Z",
   "sites": [
     {
       "id": "arxiv",
@@ -3729,6 +3729,92 @@
         "httpStatus": 200,
         "finalUrl": "https://10minutemail.com/",
         "checkedAt": "2026-11-13T06:14:46.820Z",
+        "attempts": 1
+      },
+      "availability": "online",
+      "icon": null,
+      "featured": false,
+      "consecutiveFailures": 0
+    },
+    {
+      "id": "wayback-machine",
+      "name": "Wayback Machine",
+      "url": "https://web.archive.org",
+      "domain": "web.archive.org",
+      "description": "Shows historical snapshots of almost any web page and lets you search what changed.",
+      "category": "research",
+      "tags": [
+        "archive",
+        "history",
+        "web"
+      ],
+      "free": true,
+      "accountRequired": false,
+      "apiKeyRequired": false,
+      "openSource": false,
+      "sourceRepo": null,
+      "license": null,
+      "discoverySource": "editorial-research",
+      "dateDiscovered": "2026-11-12T20:09:58.316Z",
+      "addedAt": "2026-11-13T06:29:46.768Z",
+      "lastVerifiedAt": "2026-11-13T06:29:46.767Z",
+      "verification": {
+        "status": "verified",
+        "method": "reader",
+        "checks": {
+          "http": true,
+          "browser": false,
+          "noLoginWall": true,
+          "noApiKey": true,
+          "coreUiReachable": true
+        },
+        "evidence": "Server-side document review (HTTP 200); final URL https://web.archive.org/; 1 tool signal; no login wall detected; no API key required.",
+        "httpStatus": 200,
+        "finalUrl": "https://web.archive.org/",
+        "checkedAt": "2026-11-13T06:29:46.767Z",
+        "attempts": 1
+      },
+      "availability": "online",
+      "icon": null,
+      "featured": false,
+      "consecutiveFailures": 0
+    },
+    {
+      "id": "semantic-scholar",
+      "name": "Semantic Scholar",
+      "url": "https://www.semanticscholar.org",
+      "domain": "semanticscholar.org",
+      "description": "An AI-powered academic search engine with citation context and paper summaries.",
+      "category": "research",
+      "tags": [
+        "papers",
+        "citations",
+        "academic"
+      ],
+      "free": true,
+      "accountRequired": false,
+      "apiKeyRequired": false,
+      "openSource": false,
+      "sourceRepo": null,
+      "license": null,
+      "discoverySource": "editorial-research",
+      "dateDiscovered": "2026-11-12T20:09:58.316Z",
+      "addedAt": "2026-11-13T06:29:47.041Z",
+      "lastVerifiedAt": "2026-11-13T06:29:47.040Z",
+      "verification": {
+        "status": "verified",
+        "method": "reader",
+        "checks": {
+          "http": true,
+          "browser": false,
+          "noLoginWall": true,
+          "noApiKey": true,
+          "coreUiReachable": true
+        },
+        "evidence": "Server-side document review (HTTP 200); final URL https://www.semanticscholar.org/; 2 tool signals; no login wall detected; no API key required.",
+        "httpStatus": 200,
+        "finalUrl": "https://www.semanticscholar.org/",
+        "checkedAt": "2026-11-13T06:29:47.040Z",
         "attempts": 1
       },
       "availability": "online",
