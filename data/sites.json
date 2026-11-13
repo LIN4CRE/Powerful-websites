@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-13T09:29:45.904Z",
+  "updatedAt": "2026-11-13T09:44:46.251Z",
   "sites": [
     {
       "id": "arxiv",
@@ -4675,6 +4675,92 @@
         "httpStatus": 200,
         "finalUrl": "https://www.suncalc.org/",
         "checkedAt": "2026-11-13T09:29:47.640Z",
+        "attempts": 1
+      },
+      "availability": "online",
+      "icon": null,
+      "featured": false,
+      "consecutiveFailures": 0
+    },
+    {
+      "id": "openrailwaymap",
+      "name": "OpenRailwayMap",
+      "url": "https://www.openrailwaymap.org",
+      "domain": "openrailwaymap.org",
+      "description": "A detailed map of railway infrastructure, track types, signals and operating speeds.",
+      "category": "maps",
+      "tags": [
+        "railways",
+        "infrastructure",
+        "map"
+      ],
+      "free": true,
+      "accountRequired": false,
+      "apiKeyRequired": false,
+      "openSource": false,
+      "sourceRepo": null,
+      "license": null,
+      "discoverySource": "editorial-research",
+      "dateDiscovered": "2026-11-12T20:09:58.316Z",
+      "addedAt": "2026-11-13T09:44:47.351Z",
+      "lastVerifiedAt": "2026-11-13T09:44:47.351Z",
+      "verification": {
+        "status": "verified",
+        "method": "reader",
+        "checks": {
+          "http": true,
+          "browser": false,
+          "noLoginWall": true,
+          "noApiKey": true,
+          "coreUiReachable": true
+        },
+        "evidence": "Server-side document review (HTTP 200); final URL https://www.openrailwaymap.org/; 3 tool signals; no login wall detected; no API key required.",
+        "httpStatus": 200,
+        "finalUrl": "https://www.openrailwaymap.org/",
+        "checkedAt": "2026-11-13T09:44:47.351Z",
+        "attempts": 1
+      },
+      "availability": "online",
+      "icon": null,
+      "featured": false,
+      "consecutiveFailures": 0
+    },
+    {
+      "id": "peakfinder",
+      "name": "PeakFinder",
+      "url": "https://www.peakfinder.com",
+      "domain": "peakfinder.com",
+      "description": "Labels every mountain peak visible from any point on Earth with a 360-degree panorama.",
+      "category": "maps",
+      "tags": [
+        "mountains",
+        "panorama",
+        "outdoors"
+      ],
+      "free": true,
+      "accountRequired": false,
+      "apiKeyRequired": false,
+      "openSource": false,
+      "sourceRepo": null,
+      "license": null,
+      "discoverySource": "editorial-research",
+      "dateDiscovered": "2026-11-12T20:09:58.316Z",
+      "addedAt": "2026-11-13T09:44:47.674Z",
+      "lastVerifiedAt": "2026-11-13T09:44:47.674Z",
+      "verification": {
+        "status": "verified",
+        "method": "reader",
+        "checks": {
+          "http": true,
+          "browser": false,
+          "noLoginWall": true,
+          "noApiKey": true,
+          "coreUiReachable": true
+        },
+        "evidence": "Server-side document review (HTTP 200); final URL https://www.peakfinder.com/; 3 tool signals; no login wall detected; no API key required.",
+        "httpStatus": 200,
+        "finalUrl": "https://www.peakfinder.com/",
+        "checkedAt": "2026-11-13T09:44:47.674Z",
         "attempts": 1
       },
       "availability": "online",
