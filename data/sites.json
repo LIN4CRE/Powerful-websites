@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-13T06:29:46.124Z",
+  "updatedAt": "2026-11-13T06:44:46.394Z",
   "sites": [
     {
       "id": "arxiv",
@@ -3815,6 +3815,92 @@
         "httpStatus": 200,
         "finalUrl": "https://www.semanticscholar.org/",
         "checkedAt": "2026-11-13T06:29:47.040Z",
+        "attempts": 1
+      },
+      "availability": "online",
+      "icon": null,
+      "featured": false,
+      "consecutiveFailures": 0
+    },
+    {
+      "id": "pubmed",
+      "name": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov",
+      "domain": "pubmed.ncbi.nlm.nih.gov",
+      "description": "Searches millions of biomedical citations and abstracts from MEDLINE and life-science journals.",
+      "category": "research",
+      "tags": [
+        "biomedical",
+        "papers",
+        "medicine"
+      ],
+      "free": true,
+      "accountRequired": false,
+      "apiKeyRequired": false,
+      "openSource": false,
+      "sourceRepo": null,
+      "license": null,
+      "discoverySource": "editorial-research",
+      "dateDiscovered": "2026-11-12T20:09:58.316Z",
+      "addedAt": "2026-11-13T06:44:57.183Z",
+      "lastVerifiedAt": "2026-11-13T06:44:57.183Z",
+      "verification": {
+        "status": "verified",
+        "method": "reader",
+        "checks": {
+          "http": true,
+          "browser": false,
+          "noLoginWall": true,
+          "noApiKey": true,
+          "coreUiReachable": true
+        },
+        "evidence": "Server-side document review (HTTP 200); final URL https://pubmed.ncbi.nlm.nih.gov/; 1 tool signal; no login wall detected; no API key required.",
+        "httpStatus": 200,
+        "finalUrl": "https://pubmed.ncbi.nlm.nih.gov/",
+        "checkedAt": "2026-11-13T06:44:57.183Z",
+        "attempts": 1
+      },
+      "availability": "online",
+      "icon": null,
+      "featured": false,
+      "consecutiveFailures": 0
+    },
+    {
+      "id": "google-scholar",
+      "name": "Google Scholar",
+      "url": "https://scholar.google.com",
+      "domain": "scholar.google.com",
+      "description": "Searches scholarly literature across disciplines and shows who cited each paper.",
+      "category": "research",
+      "tags": [
+        "academic",
+        "citations",
+        "search"
+      ],
+      "free": true,
+      "accountRequired": false,
+      "apiKeyRequired": false,
+      "openSource": false,
+      "sourceRepo": null,
+      "license": null,
+      "discoverySource": "editorial-research",
+      "dateDiscovered": "2026-11-12T20:09:58.316Z",
+      "addedAt": "2026-11-13T06:44:57.341Z",
+      "lastVerifiedAt": "2026-11-13T06:44:57.341Z",
+      "verification": {
+        "status": "verified",
+        "method": "reader",
+        "checks": {
+          "http": true,
+          "browser": false,
+          "noLoginWall": true,
+          "noApiKey": true,
+          "coreUiReachable": true
+        },
+        "evidence": "Server-side document review (HTTP 200); final URL https://scholar.google.com/; 1 tool signal; no login wall detected; no API key required.",
+        "httpStatus": 200,
+        "finalUrl": "https://scholar.google.com/",
+        "checkedAt": "2026-11-13T06:44:57.341Z",
         "attempts": 1
       },
       "availability": "online",
