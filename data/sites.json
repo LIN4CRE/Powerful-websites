@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-13T17:59:46.056Z",
+  "updatedAt": "2026-11-13T18:14:46.051Z",
   "sites": [
     {
       "id": "arxiv",
@@ -7734,6 +7734,135 @@
         "httpStatus": 200,
         "finalUrl": "https://www.photocrops.com/",
         "checkedAt": "2026-11-13T17:59:46.690Z",
+        "attempts": 1
+      },
+      "availability": "online",
+      "icon": null,
+      "featured": false,
+      "consecutiveFailures": 0
+    },
+    {
+      "id": "show-hn-mind-blobs",
+      "name": "Show HN: Mind Blobs",
+      "url": "https://neojex.itch.io/mind-blobs",
+      "domain": "neojex.itch.io",
+      "description": "a browser RTS where you win by befriending, not fighting.",
+      "category": "browser-apps",
+      "tags": [
+        "befriending",
+        "fighting",
+        "browser"
+      ],
+      "free": true,
+      "accountRequired": false,
+      "apiKeyRequired": false,
+      "openSource": false,
+      "sourceRepo": null,
+      "license": null,
+      "discoverySource": "hn-show",
+      "dateDiscovered": "2026-11-13T06:44:46.394Z",
+      "addedAt": "2026-11-13T18:14:46.528Z",
+      "lastVerifiedAt": "2026-11-13T18:14:46.528Z",
+      "verification": {
+        "status": "verified",
+        "method": "reader",
+        "checks": {
+          "http": true,
+          "browser": false,
+          "noLoginWall": true,
+          "noApiKey": true,
+          "coreUiReachable": true
+        },
+        "evidence": "Server-side document review (HTTP 200); final URL https://neojex.itch.io/mind-blobs; 0 tool signals; no login wall detected; no API key required.",
+        "httpStatus": 200,
+        "finalUrl": "https://neojex.itch.io/mind-blobs",
+        "checkedAt": "2026-11-13T18:14:46.528Z",
+        "attempts": 1
+      },
+      "availability": "online",
+      "icon": null,
+      "featured": false,
+      "consecutiveFailures": 0
+    },
+    {
+      "id": "show-hn-i-built-a-tool-to-check-website-access-f",
+      "name": "Show HN: I built a tool to check website access for 14 AI cr",
+      "url": "https://floxolab.com/ai-crawler-checker",
+      "domain": "floxolab.com",
+      "description": "Show HN: I built a tool to check website access for 14 AI crawlers.",
+      "category": "ai",
+      "tags": [
+        "access",
+        "built",
+        "check"
+      ],
+      "free": true,
+      "accountRequired": false,
+      "apiKeyRequired": false,
+      "openSource": false,
+      "sourceRepo": null,
+      "license": null,
+      "discoverySource": "hn-show",
+      "dateDiscovered": "2026-11-13T06:44:46.394Z",
+      "addedAt": "2026-11-13T18:14:46.940Z",
+      "lastVerifiedAt": "2026-11-13T18:14:46.940Z",
+      "verification": {
+        "status": "verified",
+        "method": "reader",
+        "checks": {
+          "http": true,
+          "browser": false,
+          "noLoginWall": true,
+          "noApiKey": true,
+          "coreUiReachable": true
+        },
+        "evidence": "Server-side document review (HTTP 200); final URL https://floxolab.com/ai-crawler-checker; 0 tool signals; no login wall detected; no API key required.",
+        "httpStatus": 200,
+        "finalUrl": "https://floxolab.com/ai-crawler-checker",
+        "checkedAt": "2026-11-13T18:14:46.940Z",
+        "attempts": 1
+      },
+      "availability": "online",
+      "icon": null,
+      "featured": false,
+      "consecutiveFailures": 0
+    },
+    {
+      "id": "show-hn-my-script-to-diff-iterm-configs",
+      "name": "Show HN: My Script to Diff iTerm Configs",
+      "url": "https://gist.github.com/hagemt121/14caecfd23dc14b97e0d2eaec01ab3a4",
+      "domain": "gist.github.com",
+      "description": "Show HN: My Script to Diff iTerm Configs.",
+      "category": "unusual",
+      "tags": [
+        "configs",
+        "script",
+        "iterm"
+      ],
+      "free": true,
+      "accountRequired": false,
+      "apiKeyRequired": false,
+      "openSource": false,
+      "sourceRepo": null,
+      "license": null,
+      "discoverySource": "hn-show",
+      "dateDiscovered": "2026-11-13T06:44:46.394Z",
+      "addedAt": "2026-11-13T18:14:47.425Z",
+      "lastVerifiedAt": "2026-11-13T18:14:47.425Z",
+      "verification": {
+        "status": "verified",
+        "method": "reader",
+        "checks": {
+          "http": true,
+          "browser": false,
+          "noLoginWall": true,
+          "noApiKey": true,
+          "coreUiReachable": true
+        },
+        "evidence": "Server-side document review (HTTP 200); final URL https://gist.github.com/hagemt121/14caecfd23dc14b97e0d2eaec01ab3a4; 1 tool signal; no login wall detected; no API key required.",
+        "httpStatus": 200,
+        "finalUrl": "https://gist.github.com/hagemt121/14caecfd23dc14b97e0d2eaec01ab3a4",
+        "checkedAt": "2026-11-13T18:14:47.425Z",
         "attempts": 1
       },
       "availability": "online",
