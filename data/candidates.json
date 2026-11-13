@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-13T16:14:46.107Z",
+  "updatedAt": "2026-11-13T16:29:46.126Z",
   "candidates": [
     {
       "id": "pollinations",
@@ -2948,81 +2948,6 @@
         "attempts": 1
       },
       "rejectionReason": "No usable interface or substantial content was reachable without an account; the page looks like a marketing shell.",
-      "openSource": false,
-      "sourceRepo": null,
-      "license": null,
-      "free": true
-    },
-    {
-      "id": "show-hn-grow-any-hobby-skills-for-humans-not-ai",
-      "name": "Show HN: Grow any hobby (skills for humans not AI)",
-      "url": "https://grow-bonsai.app",
-      "domain": "grow-bonsai.app",
-      "description": "Show HN: Grow any hobby (skills for humans not AI).",
-      "category": "ai",
-      "tags": [
-        "skills",
-        "humans",
-        "hobby"
-      ],
-      "suggestedBy": "Hacker News · Show HN",
-      "discoverySource": "hn-show",
-      "dateDiscovered": "2026-11-13T04:14:46.070Z",
-      "status": "pending",
-      "attempts": 0,
-      "lastAttemptAt": null,
-      "verification": null,
-      "rejectionReason": null,
-      "openSource": false,
-      "sourceRepo": null,
-      "license": null,
-      "free": true
-    },
-    {
-      "id": "show-hn-axiomstory",
-      "name": "Show HN: AxiomStory",
-      "url": "https://axiomstory.com",
-      "domain": "axiomstory.com",
-      "description": "Keep stories consistent across AI text, images, video.",
-      "category": "ai",
-      "tags": [
-        "axiomstory",
-        "consistent",
-        "stories"
-      ],
-      "suggestedBy": "Hacker News · Show HN",
-      "discoverySource": "hn-show",
-      "dateDiscovered": "2026-11-13T04:14:46.070Z",
-      "status": "pending",
-      "attempts": 0,
-      "lastAttemptAt": null,
-      "verification": null,
-      "rejectionReason": null,
-      "openSource": false,
-      "sourceRepo": null,
-      "license": null,
-      "free": true
-    },
-    {
-      "id": "show-hn-survive-thanksgiving-dinner",
-      "name": "Show HN: Survive Thanksgiving dinner",
-      "url": "https://survivedinner.com",
-      "domain": "survivedinner.com",
-      "description": "a voice game against nosy relatives.",
-      "category": "video-audio",
-      "tags": [
-        "thanksgiving",
-        "relatives",
-        "survive"
-      ],
-      "suggestedBy": "Hacker News · Show HN",
-      "discoverySource": "hn-show",
-      "dateDiscovered": "2026-11-13T04:14:46.070Z",
-      "status": "pending",
-      "attempts": 0,
-      "lastAttemptAt": null,
-      "verification": null,
-      "rejectionReason": null,
       "openSource": false,
       "sourceRepo": null,
       "license": null,
