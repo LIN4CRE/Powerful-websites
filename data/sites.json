@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-13T11:29:46.033Z",
+  "updatedAt": "2026-11-13T11:44:46.106Z",
   "sites": [
     {
       "id": "arxiv",
@@ -5449,6 +5449,92 @@
         "httpStatus": 200,
         "finalUrl": "https://lichess.org/analysis",
         "checkedAt": "2026-11-13T11:29:47.319Z",
+        "attempts": 1
+      },
+      "availability": "online",
+      "icon": null,
+      "featured": false,
+      "consecutiveFailures": 0
+    },
+    {
+      "id": "yahoo-finance",
+      "name": "Yahoo Finance",
+      "url": "https://finance.yahoo.com",
+      "domain": "finance.yahoo.com",
+      "description": "Live quotes, charts, financial statements and news for stocks, funds, currencies and crypto.",
+      "category": "business",
+      "tags": [
+        "markets",
+        "stocks",
+        "news"
+      ],
+      "free": true,
+      "accountRequired": false,
+      "apiKeyRequired": false,
+      "openSource": false,
+      "sourceRepo": null,
+      "license": null,
+      "discoverySource": "editorial-research",
+      "dateDiscovered": "2026-11-12T20:09:58.316Z",
+      "addedAt": "2026-11-13T11:45:00.649Z",
+      "lastVerifiedAt": "2026-11-13T11:45:00.649Z",
+      "verification": {
+        "status": "verified",
+        "method": "reader",
+        "checks": {
+          "http": true,
+          "browser": false,
+          "noLoginWall": true,
+          "noApiKey": true,
+          "coreUiReachable": true
+        },
+        "evidence": "Server-side document review (HTTP 200); final URL https://finance.yahoo.com/; 1 tool signal; no login wall detected; no API key required.",
+        "httpStatus": 200,
+        "finalUrl": "https://finance.yahoo.com/",
+        "checkedAt": "2026-11-13T11:45:00.649Z",
+        "attempts": 1
+      },
+      "availability": "online",
+      "icon": null,
+      "featured": false,
+      "consecutiveFailures": 0
+    },
+    {
+      "id": "tradingview",
+      "name": "TradingView",
+      "url": "https://www.tradingview.com",
+      "domain": "tradingview.com",
+      "description": "Advanced interactive charts with technical indicators for markets worldwide.",
+      "category": "business",
+      "tags": [
+        "charts",
+        "markets",
+        "technical-analysis"
+      ],
+      "free": true,
+      "accountRequired": false,
+      "apiKeyRequired": false,
+      "openSource": false,
+      "sourceRepo": null,
+      "license": null,
+      "discoverySource": "editorial-research",
+      "dateDiscovered": "2026-11-12T20:09:58.316Z",
+      "addedAt": "2026-11-13T11:45:01.041Z",
+      "lastVerifiedAt": "2026-11-13T11:45:01.041Z",
+      "verification": {
+        "status": "verified",
+        "method": "reader",
+        "checks": {
+          "http": true,
+          "browser": false,
+          "noLoginWall": true,
+          "noApiKey": true,
+          "coreUiReachable": true
+        },
+        "evidence": "Server-side document review (HTTP 200); final URL https://www.tradingview.com/; 0 tool signals; no login wall detected; no API key required.",
+        "httpStatus": 200,
+        "finalUrl": "https://www.tradingview.com/",
+        "checkedAt": "2026-11-13T11:45:01.041Z",
         "attempts": 1
       },
       "availability": "online",
