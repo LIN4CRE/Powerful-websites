@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-13T20:59:46.024Z",
+  "updatedAt": "2026-11-13T21:14:45.939Z",
   "candidates": [
     {
       "id": "pollinations",
@@ -3151,81 +3151,6 @@
         "checkedAt": "2026-11-13T20:29:46.516Z",
         "attempts": 1
       },
-      "rejectionReason": null,
-      "openSource": false,
-      "sourceRepo": null,
-      "license": null,
-      "free": true
-    },
-    {
-      "id": "swetrix",
-      "name": "Swetrix",
-      "url": "https://swetrix.com",
-      "domain": "swetrix.com",
-      "description": "Web analytics which track your site's traffic, monitor your site's speed, analyse user sessions and pageflows, see the user flows and more….",
-      "category": "browser-apps",
-      "tags": [
-        "site",
-        "user",
-        "analytics"
-      ],
-      "suggestedBy": "Awesome Selfhosted",
-      "discoverySource": "awesome-selfhosted",
-      "dateDiscovered": "2026-11-13T10:14:46.120Z",
-      "status": "pending",
-      "attempts": 0,
-      "lastAttemptAt": null,
-      "verification": null,
-      "rejectionReason": null,
-      "openSource": false,
-      "sourceRepo": null,
-      "license": null,
-      "free": true
-    },
-    {
-      "id": "umami",
-      "name": "Umami",
-      "url": "https://umami.is",
-      "domain": "umami.is",
-      "description": "Simple, fast, privacy-focused (alternative to Google Analytics). (, [Source….",
-      "category": "browser-apps",
-      "tags": [
-        "privacy-focused",
-        "alternative",
-        "analytics"
-      ],
-      "suggestedBy": "Awesome Selfhosted",
-      "discoverySource": "awesome-selfhosted",
-      "dateDiscovered": "2026-11-13T10:14:46.120Z",
-      "status": "pending",
-      "attempts": 0,
-      "lastAttemptAt": null,
-      "verification": null,
-      "rejectionReason": null,
-      "openSource": false,
-      "sourceRepo": null,
-      "license": null,
-      "free": true
-    },
-    {
-      "id": "archivebox",
-      "name": "ArchiveBox",
-      "url": "https://archivebox.io",
-      "domain": "archivebox.io",
-      "description": "Create HTML & screenshot archives of sites from your bookmarks, browsing history, RSS feeds, or other sources (alternative to Wayback Machine).….",
-      "category": "browser-apps",
-      "tags": [
-        "alternative",
-        "archivebox",
-        "screenshot"
-      ],
-      "suggestedBy": "Awesome Selfhosted",
-      "discoverySource": "awesome-selfhosted",
-      "dateDiscovered": "2026-11-13T10:14:46.120Z",
-      "status": "pending",
-      "attempts": 0,
-      "lastAttemptAt": null,
-      "verification": null,
       "rejectionReason": null,
       "openSource": false,
       "sourceRepo": null,
